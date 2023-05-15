@@ -64,13 +64,21 @@ Krypton
 
 # Compiling modpack
 
-Required tools in $PATH: `bash`, `git`, `jq`, `packwiz`, `python`, unix-like coreutils
+Required tools in $PATH:
+- `bash`
+- `git`
+- `jq`
+- `packwiz`
+- `python`
+- unix-like coreutils
 
 Required pip libraries: `tomli`, `tomli_w`
 
 ```bash
+# Install python, bash, git, jq, packwiz
 # Modify config.json according to liking
 
+  $ git clone --recursive --depth 1 https://github.com/MenacingPerson/Multiplicative.git
   $ python -m pip install tomli tomli_w
   $ ./setup.sh
   $ ls packs
