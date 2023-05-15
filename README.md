@@ -1,23 +1,13 @@
 # Multiplicative
 
-My custom modpack, meant to be played on:
+My custom modpack, meant to be played on Wynncraft, Hypixel, SMP/Vanilla Servers, and Singleplayer
 
-Wynncraft
-Hypixel
-SMP/Vanilla Servers
-Singleplayer
-
-If you want a base for a modpack you are making, you can simply
-clone this repo and use it as a template to develop your modpack.
-The project config contain extra fields that I don't need to use
-particularly for this purpose. Thus, the only file you would need
-to change would be the config.json file, README.md, and you would
-also need to remove all branding of `Multiplicative` from your pack.
+If you want a base for a modpack you are making, you can clone this repo
+and use it as a template to develop your modpack. The project config contain
+extra fields that I don't use, just for this. Thus, the only file you would need
+to change would be the config.json and README.md, and you would also need to remove
+all branding of `Multiplicative` from your pack.
 Feel free to credit me, though!
-
-# TODO
-
-Add custom config file support
 
 # Mod list
 
@@ -55,12 +45,16 @@ WorldEdit
 
 ## Optional mods
 
+Marked optional because some might not want them
+
 ```
 Voices of Wynn // Not in modpack, add seperately
 Wynntils
 ```
 
 ## Mods removed from Additive
+
+Because I didn't like these/they conflicted with another mod
 
 ```
 Capes
@@ -83,6 +77,10 @@ Required pip libraries: `tomli`, `tomli_w`
 
 # Import preferred pack in launcher
 ```
+
+### TODO
+
+- Add custom config file support
 
 ##### Licensed under MIT
 
