@@ -1,0 +1,3 @@
+[submodule "Additive"]
+	path = Additive
+	url = https://github.com/intergrav/Additive.git
