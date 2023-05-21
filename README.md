@@ -21,17 +21,21 @@ Chat Heads
 CompleteConfig
 Cosmetica
 CreativeCore
-Distant Horizons
 Do a Barrel Roll
+Don't Clear Chat History
 Dynamic FPS
+EMI
 Gamma Utils
 ItemPhysic Lite
+Jade
 Model Gap Fix
+ModernFix
 Mods Command
 MoreChatHistory
 Nicer Skies
 No Chat Reports
 Not Enough Animations
+Presence Footsteps
 Raised
 Remember My Txt
 Server Pack Unlocker
@@ -48,6 +52,7 @@ WorldEdit
 Marked optional because some might not want them
 
 ```
+Distant Horizons
 Voices of Wynn // Not in modpack, add seperately
 Wynntils
 ```
@@ -60,6 +65,7 @@ Because I didn't like these/they conflicted with another mod
 Capes
 Exordium
 Krypton
+LambdaBetterGrass
 ```
 
 # Compiling modpack

@@ -1,10 +1,20 @@
-# Release 1.0.0
+# Release 1.1.0
 
-The initial release!
-Many good things to come.
+Updated:
+- Do a Barrel Roll
+- No Chat Reports
+- Sound Physics Remastered
 
-Instead of making me listing all the changes from Additive here,
-why don't you simply read the README.md file? Great.
+Added:
+- EMI
+- Jade
+- ModernFix
+- Presence Footsteps
+- Don't Clear Chat History
+
+Removed:
+None
+
 
 Multiplicative Contributors:
 - @MenacingPerson (me)
