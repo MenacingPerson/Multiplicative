@@ -24,11 +24,15 @@
         "distanthorizons::1.6.11a-1.19.4",
         "do-a-barrel-roll::2.8.1+1.19.4-fabric",
         "dynamic-fps::v2.2.0",
+        "emi::0.7.3+1.19.4",
         "gamma-utils::1.6.14",
         "itemphysic-lite::1.6.1",
+        "jade::10.3.0",
         "modelfix::1.10",
+        "modernfix::4.1.0",
         "mods-command::1.1.2",
         "morechathistory::mc1.19.1-1.1.1",
+        "nbttooltips::0.1.4-1.19.x",
         "nicer-skies::1.2.0",
         "no-chat-reports::Fabric-1.19.4-v2.1.1",
         "not-enough-animations::1.6.3-1.19.4",
@@ -43,6 +47,7 @@
         "wynntils::v0.0.3-alpha.27"
     ],
     "mods_cf": [
+        "dont-clear-chat-history::4496942",
         "worldedit::4445118"
     ],
     "mods_mr_fabric": [],
