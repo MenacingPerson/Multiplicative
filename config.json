@@ -2,7 +2,7 @@
     "additive_hash": "4f2a9c1879e4aaaa721090dcab6acb01716711af",
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
-    "version": "1.1.0",
+    "pack_version": "1.1.0",
     "unwanted_mc_versions": [
         "fabric/1.16.5",
         "fabric/1.17.1",

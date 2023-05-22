@@ -31,10 +31,12 @@ def writefile(content, file):
 with open(os.environ['MODPACK_CONFIG']) as a:
     config = json.load(a)
 
+pack_edition = os.environ["pack_edition"].replace('/', '+')
+
 x = readfile('pack.toml')
-x["name"] = config["pack_name"]
-x["author"] = config["pack_author"]
-x["version"] = os.environ["pack_ver"]
+x['name'] = config['pack_name']
+x['author'] = config['pack_author']
+x['version'] = f'{config["pack_name"]}-{config["pack_version"]}-{pack_edition}'
 writefile(x, 'pack.toml')
 
 if sys.argv[1].strip() == "":
