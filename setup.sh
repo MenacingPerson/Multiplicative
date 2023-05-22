@@ -151,9 +151,11 @@ run_in_all packwiz refresh
 
 # Turn into pack
 pack_up() {
-    packed_name="${ODIR}/packs/${pack_ver}.mrpack"
-    packwiz mr export -o "${packed_name}"
-    print "Pack name is ${packed_name} for $pack_edition"
+    print "Packing up $pack_edition"
+    packwiz mr export -o "${ODIR}/packs/${pack_ver}.mrpack"
 }
 
 run_in_all pack_up
+
+print "Packed files located in packs folder:"
+ls "$ODIR/packs/"
