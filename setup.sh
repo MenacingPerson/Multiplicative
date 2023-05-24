@@ -137,7 +137,12 @@ run_in_quilt modify_configs mods_optional_quilt
 run_in_all modify_configs mods_optional
 
 # Copy config file over
-run_in_all cp -r "$ODIR/config/" ./
+copy_config_files() {
+    print "Copying config files over for $pack_edition"
+    cp -r "$ODIR/config/" ./
+}
+
+run_in_all copy_config_files
 
 fix_pack_version() {
     sed -i "s|$(getconf pack_name) ver|$(getconf pack_name) $(getconf pack_version)|g" ./config/isxander-main-menu-credits.json

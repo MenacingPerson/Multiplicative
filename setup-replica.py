@@ -13,7 +13,7 @@ os.chdir(ODIR)
 
 
 def echo(text: str):
-    print(f"\n\033[92m======>\033[00m {text}")
+    return print(f"\n\033[92m======>\033[00m {text}")
 
 
 def splitstr(string: str):
@@ -48,7 +48,7 @@ if os.path.exists(f'{ODIR}/packs'):
     shutil.rmtree(f'{ODIR}/packs')
 os.mkdir(f'{ODIR}/packs')
 shutil.copytree(f'{ODIR}/Additive', f'{ODIR}/Modified')
-os.chdir(f'{ODIR}/Modified/versions')
+chodir()
 
 # Remove unwanted versions
 for i in config['unwanted_mc_versions']:
@@ -58,7 +58,7 @@ for i in config['unwanted_mc_versions']:
 
 
 # Function to run in certain packs
-def run_in(modloader: str, func, args: list):
+def run_in(modloader: str, func, args: list = []):
     match modloader:
         case 'fabric':
             for pack_edition in glob.glob('fabric/*'):
@@ -82,6 +82,8 @@ def run_in(modloader: str, func, args: list):
         case _:
             raise Exception('That\'s not a modloader!')
 
+
+# TODO: Fix duplicate logic here
 
 def add_mods(pack_edition: str, pack_name_full: str, platform: str, mod_list_key: str):
     match platform:
@@ -122,5 +124,44 @@ run_in('fabric', rm_mods, ['mods_removed_fabric'])
 run_in('quilt', rm_mods, ['mods_removed_quilt'])
 run_in('all', rm_mods, ['mods_removed'])
 
+# TODO: code to modify pack.toml files here
+
+
+def config_cp(pack_edition, pack_name_full):
+    echo(f'Copying config files over for {pack_edition}')
+    return shutil.copytree(f'{ODIR}/config', './config', dirs_exist_ok=True)
+
+
 # Copy config files over
-run_in('all', shutil.copytree, [f'{ODIR}/config', './config'])
+run_in('all', config_cp)
+
+# TODO: change this so file in the config folder is not needed
+
+
+def fix_mmc_config(pack_edition, pack_name_full):
+    with open('./config/isxander-main-menu-credits.json', 'r') as mmc_config:
+        mmc_conf_json = json.load(mmc_config)
+    mmc_conf_json['main_menu']['bottom_left'][0]['text'] = f'{config["pack_name"]} {config["pack_version"]}'
+    with open('./config/isxander-main-menu-credits.json', 'w') as mmc_config:
+        json.dump(mmc_conf_json, mmc_config, indent=4)
+
+
+run_in('all', fix_mmc_config)
+
+
+def packwiz_refresh(pack_edition, pack_name_full):
+    return runcmd('packwiz refresh')
+
+
+run_in('all', packwiz_refresh)
+
+
+def create_pack(pack_edition, pack_name_full):
+    echo(f'Packing up {pack_edition}')
+    runcmd('packwiz mr export -o', f'{ODIR}/packs/{pack_name_full}.mrpack')
+
+
+run_in('all', create_pack)
+
+echo('Packed files located in packs folder:')
+print('  '.join(os.listdir(f'{ODIR}/packs')))
