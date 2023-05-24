@@ -32,6 +32,7 @@ getconf_arr() {
 )
 
 # Recreate modified pack
+print "Removing previous modified packs"
 rm -rf ./Modified ./packs
 mkdir -p ./Modified ./packs
 cp -r Additive/* ./Modified
@@ -80,7 +81,7 @@ add_mods_mr() {
         mod=( $(echo $mod | tr "::" " ") )
         if [[ ${mod[1]} == "" ]]
         then
-            print "Mod version not specified for mod ${mod}" >&2
+            print "Mod version not specified for mod ${mod}"
             return 1
         fi
         print "Adding modrinth mod ${mod[0]} version ${mod[1]} to ${pack_edition}"
@@ -94,7 +95,7 @@ add_mods_cf() {
         mod=( $(echo $mod | tr "::" " ") )
         if [[ ${mod[1]} == "" ]]
         then
-            print "Mod version not specified for mod ${mod}" >&2
+            print "Mod version not specified for mod ${mod}"
             return 1
         fi
         print "Adding curseforge mod ${mod[0]} version ${mod[1]} to ${pack_edition}"
@@ -115,7 +116,7 @@ run_in_all add_mods_cf $(getconf_arr mods_cf)
 rm_mods() {
     for j in ${@}
     do
-        print "Removing mod '$j' from version ${pack_edition}"
+        print "Removing mod $j from version ${pack_edition}"
         packwiz remove "$j"
     done
 }
