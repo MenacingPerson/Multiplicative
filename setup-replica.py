@@ -89,7 +89,7 @@ def add_mods(pack_edition: str, pack_name_full: str, platform: str, mod_list_key
             for mod in config[mod_list_key]:
                 mod = mod.split('::')
                 if len(mod) != 2:
-                    echo(f"Mod version not specified for mod {mod[0]}")
+                    raise Exception(f"Mod version not specified for mod {mod[0]}")
                 echo(f"Adding modrinth mod {mod[0]} version {mod[1]} to {pack_edition}")
                 runcmd('packwiz mr add', mod[0], '--version-filename', mod[1])
         case 'cf' | 'curseforge':
@@ -105,8 +105,8 @@ def add_mods(pack_edition: str, pack_name_full: str, platform: str, mod_list_key
 
 run_in('fabric', add_mods, ['mr', 'mods_mr_fabric'])
 run_in('fabric', add_mods, ['cf', 'mods_cf_fabric'])
-run_in('quilt', add_mods, ['mr', 'mods_mr_fabric'])
-run_in('quilt', add_mods, ['cf', 'mods_cf_fabric'])
+run_in('quilt', add_mods, ['mr', 'mods_mr_quilt'])
+run_in('quilt', add_mods, ['cf', 'mods_cf_quilt'])
 run_in('all', add_mods, ['mr', 'mods_mr'])
 run_in('all', add_mods, ['cf', 'mods_cf'])
 
