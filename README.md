@@ -94,7 +94,7 @@ Required pip libraries: `tomli`, `tomli_w`
 
 ### TODO
 
-- Add custom config file support
+- Rewrite in python (In progress)
 
 ##### Licensed under MIT
 
