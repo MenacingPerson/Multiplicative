@@ -22,10 +22,8 @@ jobs:
         run: pip install tomli tomli-w
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
-      - name: Install jq
-        uses: dcarbone/install-jq-action@v1.0.1
       - name: Compile modpack
-        run: ./setup.sh
+        run: ./setup-replica.py
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
