@@ -18,7 +18,6 @@ Feel free to credit me, though!
 Blur (Fabric)
 CameraOverhaul
 Chat Heads
-ChestCountMod
 CompleteConfig
 Cosmetica
 CreativeCore
