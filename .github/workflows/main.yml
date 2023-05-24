@@ -25,7 +25,7 @@ jobs:
       - name: Install jq
         uses: dcarbone/install-jq-action@v1.0.1
       - name: Compile modpack
-        run: ./setup.sh
+        run: script -q -c ./setup.sh /dev/null
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
