@@ -45,7 +45,6 @@ Sound Physics Remastered
 Spark
 Wavey Capes
 Who am I?
-WorldEdit
 ```
 
 ## Optional mods
@@ -54,8 +53,6 @@ Marked optional because some might not want them
 
 ```
 Distant Horizons
-Voices of Wynn // Not in modpack, add seperately
-Wynntils
 ```
 
 ## Mods removed from Additive
@@ -65,7 +62,6 @@ Because I didn't like these/they conflicted with another mod
 ```
 Capes
 Exordium
-Krypton
 LambdaBetterGrass
 ```
 
