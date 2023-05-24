@@ -26,11 +26,9 @@ getconf_arr() {
 # Reset to certain hash to avoid unwanted changes
 (
     print "Updating Additive to specified hash"
-    git submodule update --init
+    git submodule update --recursive --init
     cd Additive
-    git pull origin main
     git reset --hard "$(getconf additive_hash)"
-    git submodule update --init
 )
 
 # Recreate modified pack

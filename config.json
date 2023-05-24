@@ -1,8 +1,8 @@
 {
-    "additive_hash": "4f2a9c1879e4aaaa721090dcab6acb01716711af",
+    "additive_hash": "26b6c051bd72a63ef8ab080d4ef55d34d5a1f6b7",
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
-    "pack_version": "1.1.0",
+    "pack_version": "1.2.0",
     "unwanted_mc_versions": [
         "fabric/1.16.5",
         "fabric/1.17.1",
@@ -64,8 +64,7 @@
     "mods_optional_quilt": [],
     "mods_removed": [
         "capes",
-        "exordium",
-        "krypton"
+        "exordium"
     ],
     "mods_removed_fabric": [],
     "mods_removed_quilt": [
