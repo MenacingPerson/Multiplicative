@@ -118,9 +118,9 @@ def rm_mods(pack_edition: str, pack_name_full: str, mods_removed_key: str):
 
 
 # Remove unwanted mods
-run_in('fabric', rm_mods, 'mods_removed_fabric')
-run_in('quilt', rm_mods, 'mods_removed_quilt')
-run_in('all', rm_mods, 'mods_removed')
+run_in('fabric', rm_mods, ['mods_removed_fabric'])
+run_in('quilt', rm_mods, ['mods_removed_quilt'])
+run_in('all', rm_mods, ['mods_removed'])
 
 # Copy config files over
 run_in('all', shutil.copytree, [f'{ODIR}/config', './config'])
