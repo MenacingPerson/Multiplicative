@@ -93,7 +93,7 @@ def add_mods(pack_edition: str, pack_name_full: str, platform: str, mod_list_key
                 echo(f"Adding modrinth mod {mod[0]} version {mod[1]} to {pack_edition}")
                 runcmd('packwiz mr add', mod[0], '--version-filename', mod[1])
         case 'cf' | 'curseforge':
-            for i in config[mod_list_key]:
+            for mod in config[mod_list_key]:
                 mod = mod.split('::')
                 if len(mod) != 2:
                     echo(f"Mod version not specified for mod {mod[0]}")
