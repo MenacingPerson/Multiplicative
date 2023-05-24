@@ -1,20 +1,20 @@
-# Release 1.1.0
+# Release 1.2.0
 
 Updated:
 - Do a Barrel Roll
-- No Chat Reports
-- Sound Physics Remastered
+- Wynntils
 
 Added:
-- EMI
-- Jade
-- ModernFix
-- Presence Footsteps
-- Don't Clear Chat History
+None
 
 Removed:
 None
 
+Additive version updated to 1.16.0
+Added support for custom config files
+Added config file for main menu credits
+Fix updating hash for Additive
+Internal refactors
 
 Multiplicative Contributors:
 - @MenacingPerson (me)
