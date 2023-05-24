@@ -96,9 +96,9 @@ def add_mods(pack_edition: str, pack_name_full: str, platform: str, mod_list_key
             for mod in config[mod_list_key]:
                 mod = mod.split('::')
                 if len(mod) != 2:
-                    echo(f"Mod version not specified for mod {mod[0]}")
+                    raise Exception(f"Mod version not specified for mod {mod[0]}")
                 echo(f"Adding curseforge mod {mod[0]} version {mod[1]} to {pack_edition}")
-                runcmd('packwiz cf add', mod[0], '--file-id', mod[1])
+                runcmd('packwiz cf add --category mc-mods', mod[0], '--file-id', mod[1])
         case _:
             raise Exception(f'Platform name {platform} is invalid! exiting...')
 
