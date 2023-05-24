@@ -13,7 +13,7 @@ os.chdir(ODIR)
 
 
 def echo(text: str):
-    return print(f"\n\033[92m======>\033[00m {text}")
+    return print(f"\n\033[0;32m======>\033[0m {text}")
 
 
 def splitstr(string: str):
