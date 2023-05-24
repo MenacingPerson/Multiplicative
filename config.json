@@ -18,6 +18,7 @@
         "blur-fabric::2.6.1",
         "cameraoverhaul::1.4.0-fabric-universal",
         "chat-heads::0.10.14",
+        "chestcountmod::1.1.1+1.19.4",
         "completeconfig::2.3.1",
         "cosmetica::1.2.4-1.19.4",
         "creativecore::2.10.12",
@@ -58,6 +59,7 @@
     "mods_cf_quilt": [],
     "mods_optional": [
         "distanthorizons",
+        "chestcountmod",
         "wynntils"
     ],
     "mods_optional_fabric": [],
