@@ -4,8 +4,8 @@
             {
                 "text": "Multiplicative ver",
                 "clickEvent": {
-                    "action":"open_url",
-                    "value":"https://github.com/MenacingPerson/Multiplicative"
+                    "action": "open_url",
+                    "value": "https://github.com/MenacingPerson/Multiplicative"
                 }
             }
         ]
