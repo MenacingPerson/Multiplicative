@@ -2,11 +2,11 @@
 
 My custom modpack, meant to be played on Wynncraft, Hypixel, SMP/Vanilla Servers, and Singleplayer
 
-If you want a base for a modpack you are making, you can clone this repo
-and use it as a template to develop your modpack. The project config contain
-extra fields that I don't use, just for this. Thus, the only file you would need
-to change would be the config.json and README.md, and you would also need to remove
-all branding of `Multiplicative` from your pack.
+If you want a base for a modpack you're making, you can clone this repo
+and use it as a template to develop your modpack. The config.json file contain
+extra fields that I don't use exactly for this purpose. Thus, the only file you
+would need to change is the config.json, config folder and README.md. Also, you
+would need to remove all branding of `Multiplicative` from your pack.
 Feel free to credit me, though!
 
 # Mod list
@@ -67,9 +67,7 @@ LambdaBetterGrass
 # Compiling modpack
 
 Required tools in $PATH:
-- `bash`
 - `git`
-- `jq`
 - `packwiz`
 - `python`
 - unix-like coreutils
@@ -77,20 +75,15 @@ Required tools in $PATH:
 Required pip libraries: `tomli`, `tomli_w`
 
 ```bash
-# Install python, bash, git, jq, packwiz
+# Install git, packwiz, python
 # Modify config.json according to liking
 
   $ git clone --recursive --depth 1 https://github.com/MenacingPerson/Multiplicative.git
   $ python -m pip install tomli tomli_w
-  $ ./setup.sh
-  $ ls packs
+  $ python ./setup.py
 
-# Import preferred pack in launcher
+# Import preferred pack in your launcher
 ```
-
-### TODO
-
-- Rewrite in python (In progress)
 
 ##### Licensed under MIT
 

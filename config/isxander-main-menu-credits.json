@@ -1,5 +1,13 @@
 {
-  "main_menu": {
-    "bottom_left": [{"text":"Multiplicative ver","clickEvent":{"action":"open_url","value":"https://github.com/MenacingPerson/Multiplicative"}}]
-  }
+    "main_menu": {
+        "bottom_left": [
+            {
+                "text": "Multiplicative ver",
+                "clickEvent": {
+                    "action":"open_url",
+                    "value":"https://github.com/MenacingPerson/Multiplicative"
+                }
+            }
+        ]
+    }
 }
