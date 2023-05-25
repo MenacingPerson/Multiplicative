@@ -39,8 +39,17 @@ def toml_write(content: dict, filename: str):
         return tomli_w.dump(content, file)
 
 
-with open('./config.json', 'rb') as conffile:
-    config = json.load(conffile)
+def json_read(filename: str) -> dict:
+    with open(filename, 'r') as file:
+        return json.load(file)
+
+
+def json_write(content: dict, filename: str, indent: int = 4):
+    with open(filename, 'w') as file:
+        return json.dump(content, file, indent=indent)
+
+
+config = json_read('./config.json')
 
 
 # Reset to certain hash to avoid unwanted changes
@@ -72,50 +81,39 @@ for i in config['unwanted_mc_versions']:
 def run_in(modloader: str, func, args: list = []):
     match modloader:
         case 'fabric':
-            for pack_edition in glob.glob('fabric/*'):
-                if pack_edition == []:
-                    Exception('No fabric versions found!')
-                pack_name_full = \
-                    f'{config["pack_name"]}-{config["pack_version"]}-{pack_edition.replace("/", "+")}'
-                os.chdir(pack_edition)
-                func(pack_edition, pack_name_full, *args)
-                chodir()
+            pass
         case 'quilt':
-            for pack_edition in glob.glob('quilt/*'):
-                if pack_edition == []:
-                    Exception('No quilt versions found!')
-                pack_name_full = \
-                    f'{config["pack_name"]}-{config["pack_version"]}-{pack_edition.replace("/", "+")}'
-                os.chdir(pack_edition)
-                func(pack_edition, pack_name_full, *args)
-                chodir()
+            pass
         case 'all':
             run_in('fabric', func, args)
             run_in('quilt', func, args)
+            return
         case _:
             raise Exception('That\'s not a modloader!')
+    for pack_edition in glob.glob(f'{modloader}/*'):
+        if pack_edition == []:
+            Exception(f'No {modloader} versions found!')
+        pack_name_full = \
+            f'{config["pack_name"]}-{config["pack_version"]}-{pack_edition.replace("/", "+")}'
+        os.chdir(pack_edition)
+        func(pack_edition, pack_name_full, *args)
+        chodir()
 
-
-# TODO: Fix duplicate logic here
 
 def add_mods(pack_edition: str, pack_name_full: str, platform: str, mod_list_key: str):
-    match platform:
-        case 'mr' | 'modrinth':
-            for mod in config[mod_list_key]:
-                mod = mod.split('::')
-                if len(mod) != 2:
-                    raise Exception(f"Mod version not specified for mod {mod[0]}")
+    for mod in config[mod_list_key]:
+        mod = mod.split('::')
+        if len(mod) != 2:
+            raise Exception(f"Mod version not specified for mod {mod[0]}")
+        match platform:
+            case 'mr' | 'modrinth':
                 echo(f"Adding modrinth mod {mod[0]} version {mod[1]} to {pack_edition}")
                 runcmd('packwiz mr add', mod[0], '--version-filename', mod[1])
-        case 'cf' | 'curseforge':
-            for mod in config[mod_list_key]:
-                mod = mod.split('::')
-                if len(mod) != 2:
-                    raise Exception(f"Mod version not specified for mod {mod[0]}")
+            case 'cf' | 'curseforge':
                 echo(f"Adding curseforge mod {mod[0]} version {mod[1]} to {pack_edition}")
                 runcmd('packwiz cf add --category mc-mods', mod[0], '--file-id', mod[1])
-        case _:
-            raise Exception(f'Platform name {platform} is invalid! exiting...')
+            case _:
+                raise Exception(f'Platform name {platform} is invalid! exiting...')
 
 
 run_in('fabric', add_mods, ['mr', 'mods_mr_fabric'])
@@ -138,7 +136,6 @@ run_in('quilt', rm_mods, ['mods_removed_quilt'])
 run_in('all', rm_mods, ['mods_removed'])
 
 
-# TODO: code to modify pack.toml files here
 def modify_edition_name(pack_edition: str, pack_name_full: str, optional_mods_key: str):
     pack_toml = toml_read('./pack.toml')
     pack_toml['name'] = config['pack_name']
@@ -167,16 +164,23 @@ def config_cp(pack_edition, pack_name_full):
 # Copy config files over
 run_in('all', config_cp)
 
-# TODO: change this so file in the config folder is not needed
-
 
 def fix_mmc_config(pack_edition, pack_name_full):
-    with open('./config/isxander-main-menu-credits.json', 'r') as mmc_config:
-        mmc_conf_json = json.load(mmc_config)
-    mmc_conf_json['main_menu']['bottom_left'][0]['text'] = \
-        f'{config["pack_name"]} {config["pack_version"]}'
-    with open('./config/isxander-main-menu-credits.json', 'w') as mmc_config:
-        json.dump(mmc_conf_json, mmc_config, indent=4)
+    mmc_conf_json = json_read('./config/isxander-main-menu-credits.json')
+    mmc_conf_json = {
+        'main_menu': {
+            'bottom_left': [
+                {
+                    'text': f'{config["pack_name"]} {config["pack_version"]}',
+                    'clickEvent': {
+                        'action': 'open_url',
+                        'value': config['pack_url']
+                    }
+                }
+            ]
+        }
+    }
+    json_write(mmc_conf_json, './config/isxander-main-menu-credits.json')
 
 
 run_in('all', fix_mmc_config)
