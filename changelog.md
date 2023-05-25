@@ -1,9 +1,9 @@
-# Release 1.3.0
+# Release 1.3.1
 
-Initial release on modrinth!
+Initial release on modrinth (trial 2)!
 
 For previous releases, see the Github page.
-Two mods (Wynntils, WorldEdit) were removed to make it suitable for modrinth.
+Three mods (DCCH, Wynntils, WorldEdit) were removed to make it suitable for modrinth.
 
 The current modlist is:
 
@@ -16,7 +16,6 @@ The current modlist is:
 - Cosmetica
 - CreativeCore
 - Do a Barrel Roll
-- Don't Clear Chat History
 - Dynamic FPS
 - EMI
 - Gamma Utils
@@ -42,4 +41,4 @@ The current modlist is:
 Mods removed from Additive are:
 - Capes (Replaced by Cosmetica)
 - Exordium (No thx)
-- LambdaBetterGrass (buggy with some servers)
+- LambdaBetterGrass (buggy with some server resource packs)
