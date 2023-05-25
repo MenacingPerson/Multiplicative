@@ -13,7 +13,6 @@ import tomli_w
 import json
 
 
-print(sys.argv)
 if len(sys.argv) != 2:
     sys.exit(1)
 
