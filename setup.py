@@ -78,15 +78,15 @@ for i in config['unwanted_mc_versions']:
 
 
 # Function to run in certain packs
-def run_in(modloader: str, func, args: list = []):
+def run_in(modloader: str, func, *args):
     match modloader:
         case 'fabric':
             pass
         case 'quilt':
             pass
         case 'all':
-            run_in('fabric', func, args)
-            run_in('quilt', func, args)
+            run_in('fabric', func, *args)
+            run_in('quilt', func, *args)
             return
         case _:
             raise Exception('That\'s not a modloader!')
@@ -116,12 +116,12 @@ def add_mods(pack_edition: str, pack_name_full: str, platform: str, mod_list_key
                 raise Exception(f'Platform name {platform} is invalid! exiting...')
 
 
-run_in('fabric', add_mods, ['mr', 'mods_mr_fabric'])
-run_in('fabric', add_mods, ['cf', 'mods_cf_fabric'])
-run_in('quilt', add_mods, ['mr', 'mods_mr_quilt'])
-run_in('quilt', add_mods, ['cf', 'mods_cf_quilt'])
-run_in('all', add_mods, ['mr', 'mods_mr'])
-run_in('all', add_mods, ['cf', 'mods_cf'])
+run_in('fabric', add_mods, 'mr', 'mods_mr_fabric')
+run_in('fabric', add_mods, 'cf', 'mods_cf_fabric')
+run_in('quilt', add_mods, 'mr', 'mods_mr_quilt')
+run_in('quilt', add_mods, 'cf', 'mods_cf_quilt')
+run_in('all', add_mods, 'mr', 'mods_mr')
+run_in('all', add_mods, 'cf', 'mods_cf')
 
 
 def rm_mods(pack_edition: str, pack_name_full: str, mods_removed_key: str):
@@ -131,9 +131,9 @@ def rm_mods(pack_edition: str, pack_name_full: str, mods_removed_key: str):
 
 
 # Remove unwanted mods
-run_in('fabric', rm_mods, ['mods_removed_fabric'])
-run_in('quilt', rm_mods, ['mods_removed_quilt'])
-run_in('all', rm_mods, ['mods_removed'])
+run_in('fabric', rm_mods, 'mods_removed_fabric')
+run_in('quilt', rm_mods, 'mods_removed_quilt')
+run_in('all', rm_mods, 'mods_removed')
 
 
 def modify_edition_name(pack_edition: str, pack_name_full: str, optional_mods_key: str):
@@ -151,9 +151,9 @@ def modify_edition_name(pack_edition: str, pack_name_full: str, optional_mods_ke
         toml_write(mod_toml, f'mods/{mod}.pw.toml')
 
 
-run_in('all', modify_edition_name, ['mods_optional'])
-run_in('fabric', modify_edition_name, ['mods_optional_fabric'])
-run_in('quilt', modify_edition_name, ['mods_optional_quilt'])
+run_in('all', modify_edition_name, 'mods_optional')
+run_in('fabric', modify_edition_name, 'mods_optional_fabric')
+run_in('quilt', modify_edition_name, 'mods_optional_quilt')
 
 
 def config_cp(pack_edition, pack_name_full):
