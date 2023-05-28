@@ -107,7 +107,7 @@ def add_mods(pack_edition: str, pack_name_full: str, mod_list_key: str):
         match mod[0]:
             case 'mr' | 'modrinth':
                 echo(f"Adding modrinth mod {mod[1]} version {mod[2]} to {pack_edition}")
-                runcmd(f'packwiz mr add {mod[1]} --version-filename {mod[2]}')
+                runcmd(f'packwiz mr add https://modrinth.com/mod/{mod[1]}/version/{mod[2]}')
             case 'cf' | 'curseforge':
                 echo(f"Adding curseforge mod {mod[1]} version {mod[2]} to {pack_edition}")
                 runcmd(f'packwiz cf add --category mc-mods {mod[1]} --file-id {mod[2]}')
