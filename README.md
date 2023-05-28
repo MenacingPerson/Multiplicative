@@ -85,6 +85,9 @@ Required pip libraries: `tomli`, `tomli_w`
 # Import preferred pack in your launcher
 ```
 
+# Bugs
+Currently when compiling the pack, it downloads latest version of mods instead of specified one
+
 ##### Licensed under MIT
 
 ##### Based on [Additive](https://github.com/intergrav/Additive)

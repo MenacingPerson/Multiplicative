@@ -100,28 +100,24 @@ def run_in(modloader: str, func, *args):
         chodir()
 
 
-def add_mods(pack_edition: str, pack_name_full: str, platform: str, mod_list_key: str):
+def add_mods(pack_edition: str, pack_name_full: str, mod_list_key: str):
     for mod in config[mod_list_key]:
-        mod = mod.split('::')
-        if len(mod) != 2:
-            raise Exception(f"Mod version not specified for mod {mod[0]}")
-        match platform:
+        if len(mod) != 3:
+            raise Exception(f"Mod version or platform not specified for mod {mod[1]}")
+        match mod[0]:
             case 'mr' | 'modrinth':
-                echo(f"Adding modrinth mod {mod[0]} version {mod[1]} to {pack_edition}")
-                runcmd('packwiz mr add', mod[0], '--version-filename', mod[1])
+                echo(f"Adding modrinth mod {mod[1]} version {mod[2]} to {pack_edition}")
+                runcmd(f'packwiz mr add {mod[1]} --version-filename {mod[2]}')
             case 'cf' | 'curseforge':
-                echo(f"Adding curseforge mod {mod[0]} version {mod[1]} to {pack_edition}")
-                runcmd('packwiz cf add --category mc-mods', mod[0], '--file-id', mod[1])
+                echo(f"Adding curseforge mod {mod[1]} version {mod[2]} to {pack_edition}")
+                runcmd(f'packwiz cf add --category mc-mods {mod[1]} --file-id {mod[2]}')
             case _:
-                raise Exception(f'Platform name {platform} is invalid! exiting...')
+                raise Exception(f'Platform name {mod[1]} is invalid! exiting...')
 
 
-run_in('fabric', add_mods, 'mr', 'mods_mr_fabric')
-run_in('fabric', add_mods, 'cf', 'mods_cf_fabric')
-run_in('quilt', add_mods, 'mr', 'mods_mr_quilt')
-run_in('quilt', add_mods, 'cf', 'mods_cf_quilt')
-run_in('all', add_mods, 'mr', 'mods_mr')
-run_in('all', add_mods, 'cf', 'mods_cf')
+run_in('fabric', add_mods, 'mods_fabric')
+run_in('quilt', add_mods, 'mods_quilt')
+run_in('all', add_mods, 'mods')
 
 
 def rm_mods(pack_edition: str, pack_name_full: str, mods_removed_key: str):
