@@ -54,8 +54,9 @@ config = json_read('./config.json')
 
 # Reset to certain hash to avoid unwanted changes
 echo('Updating Additive to specified hash')
-runcmd('git submodule update --recursive --init')
+runcmd('git submodule update --recursive --init --remote')
 os.chdir('Additive/')
+runcmd('git pull origin main')
 runcmd('git reset --hard', config["additive_hash"])
 os.chdir(ODIR)
 
