@@ -59,6 +59,7 @@ os.chdir('Additive/')
 runcmd('git pull origin main')
 runcmd('git reset --hard', config["additive_hash"])
 os.chdir(ODIR)
+runcmd('git add Additive/')
 
 
 # Recreate modified pack
