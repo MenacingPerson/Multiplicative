@@ -3,6 +3,7 @@
 Updated Additive version
 Rewrote the build scripts in python
 Fixed modrinth mod version download
+Used version ids for modrinth mods
 
 Updated:
 - Blur
