@@ -1,14 +1,10 @@
-# Release 1.4.0
-
-Updated Additive version
-Rewrote the build scripts in python
-Fixed modrinth mod version download
-Used version ids for modrinth mods
+# Release 1.5.0
 
 Updated:
-- Blur
-- Do a Barrel Roll
 - EMI
+- Jade
+- ModernFix
+- No Chat Reports
 
 Added:
 None
