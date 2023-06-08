@@ -1,10 +1,10 @@
-# Release 1.5.0
+# Release 1.6.0
+
+Add 1.20 (alpha)
 
 Updated:
-- EMI
-- Jade
-- ModernFix
-- No Chat Reports
+- Smooth Swapping
+- Wavey Capes
 
 Added:
 None
