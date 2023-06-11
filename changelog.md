@@ -1,8 +1,10 @@
 # Release 1.6.0
 
-Add 1.20 (alpha)
+Update Additive version
+Not published for 1.20 yet as many mods are missing
 
 Updated:
+- No Chat Reports
 - Smooth Swapping
 - Wavey Capes
 

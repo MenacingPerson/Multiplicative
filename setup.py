@@ -98,13 +98,13 @@ def run_in(modloader: str, func, *args):
 def add_mod_mr(pack_edition: str, mod: list):
     """Add a modrinth mod"""
     echo(f'Adding modrinth mod {mod[1]} version {mod[2]} to {pack_edition}')
-    runcmd(f'packwiz mr add --project-id {mod[1]} --version-id {mod[2]}')
+    runcmd(f'packwiz mr add --project-id {mod[1].strip()} --version-id {mod[2]}')
 
 
 def add_mod_cf(pack_edition: str, mod: list):
     """Add a curseforge mod"""
     echo(f'Adding curseforge mod {mod[1]} version {mod[2]} to {pack_edition}')
-    runcmd(f'packwiz mr add --category mc-mods {mod[1]} --file-id {mod[2]}')
+    runcmd(f'packwiz mr add --category mc-mods {mod[1].strip()} --file-id {mod[2]}')
 
 
 def add_mods(pack_edition: str, _pack_fullver: str, mod_list_key: str):
