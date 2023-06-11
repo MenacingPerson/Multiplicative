@@ -23,7 +23,6 @@ Cosmetica
 CreativeCore
 Do a Barrel Roll
 Don't Clear Chat History
-Dynamic FPS
 EMI
 Gamma Utils
 ItemPhysic Lite
@@ -60,7 +59,6 @@ Because I didn't like these/they conflicted with another mod
 
 ```
 Capes
-Exordium
 LambdaBetterGrass
 ```
 
