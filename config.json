@@ -2,26 +2,22 @@
     "additive_hash": "734c1a5a55bd4c5b56475c788c19a4dcd0bdf196",
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
-    "pack_version": "1.6.0",
+    "pack_version": "1.7.0",
     "pack_url": "https://github.com/MenacingPerson/Multiplicative",
     "unwanted_mc_versions": [
         "fabric/1.16.5",
-        "fabric/1.17.1",
         "fabric/1.18.2",
         "fabric/1.19.2",
-        "fabric/1.19.3",
-        "fabric/1.20",
+        "fabric/1.19.4",
         "quilt/1.18.2",
         "quilt/1.19.2",
-        "quilt/1.19.3",
-        "quilt/1.20"
+        "quilt/1.19.4"
     ],
     "mods": [
         ["mr", "3dskinlayers", "rvtgIO5A"],
         ["mr", "blur-fabric", "u9BWuXwU"],
         ["mr", "cameraoverhaul ", "fzCKxnmb"],
         ["mr", "chat-heads", "AuLKVOJ1"],
-        ["mr", "completeconfig ", "xTRB8xOO"],
         ["mr", "cosmetica ", "EXZ6jehd"],
         ["mr", "creativecore", "xvWt9K90"],
         ["mr", "distanthorizons ", "xBHpiuwg"],
@@ -58,6 +54,12 @@
     "mods_optional_quilt": [],
     "mods_removed": [
         "capes"
+    ],
+    "mods_temp_removed": [
+        "cosmetica",
+        "distanthorizons",
+        "modelfix",
+        "whoami"
     ],
     "mods_removed_fabric": [],
     "mods_removed_quilt": [

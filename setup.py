@@ -215,23 +215,26 @@ shutil.copytree(f'{ODIR}/Additive/', f'{ODIR}/Modified/')
 chodir()
 
 for i in config['unwanted_mc_versions']:
+    echo(f'Removing pack version {i}')
     if os.path.isdir(i):
-        echo(f'Removing pack version {i}')
         shutil.rmtree(i)
+    else:
+        raise ValueError(f'Unwanted pack version {i} does not exist!')
 
 run_in('fabric', add_mods, 'mods_fabric')
 run_in('quilt', add_mods, 'mods_quilt')
 run_in('all', add_mods, 'mods')
 
-run_in('fabric', rm_mods, 'mods_removed_fabric')
-run_in('quilt', rm_mods, 'mods_removed_quilt')
-run_in('all', rm_mods, 'mods_removed')
-
-run_in('all', modify_packtoml)
-
 run_in('all', mark_mods_optional, 'mods_optional')
 run_in('fabric', mark_mods_optional, 'mods_optional_fabric')
 run_in('quilt', mark_mods_optional, 'mods_optional_quilt')
+
+run_in('fabric', rm_mods, 'mods_removed_fabric')
+run_in('quilt', rm_mods, 'mods_removed_quilt')
+# run_in('all', rm_mods, 'mods_removed')
+run_in('all', rm_mods, 'mods_temp_removed')
+
+run_in('all', modify_packtoml)
 
 run_in('all', config_cp)
 

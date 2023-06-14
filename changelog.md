@@ -1,18 +1,21 @@
 # Release 1.6.0
 
-Update Additive version
-Not published for 1.20 yet as many mods are missing
+Updated to 1.20
 
 Updated:
-- No Chat Reports
-- Smooth Swapping
-- Wavey Capes
+None
 
 Added:
 None
 
 Removed:
-None
+- CompleteConfig (unnecessary dependency)
+
+Temporarily Removed:
+- Cosmetica
+- Distant Horizons
+- Model Gap Fix
+- Who Am I?
 
 
 Multiplicative Contributors:

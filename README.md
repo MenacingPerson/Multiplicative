@@ -18,16 +18,14 @@ Feel free to credit me, though!
 Blur (Fabric)
 CameraOverhaul
 Chat Heads
-CompleteConfig
-Cosmetica
+Cosmetica // Temporarily Disabled
 CreativeCore
 Do a Barrel Roll
-Don't Clear Chat History
 EMI
 Gamma Utils
 ItemPhysic Lite
 Jade
-Model Gap Fix
+Model Gap Fix // Temporarily Disabled
 ModernFix
 Mods Command
 MoreChatHistory
@@ -42,7 +40,7 @@ Smooth Swapping
 Sound Physics Remastered
 Spark
 Wavey Capes
-Who am I?
+Who am I? // Temporarily Disabled
 ```
 
 ## Optional mods
@@ -50,7 +48,7 @@ Who am I?
 Marked optional because some might not want them
 
 ```
-Distant Horizons
+Distant Horizons // Temporarily Disabled
 ```
 
 ## Mods removed from Additive
