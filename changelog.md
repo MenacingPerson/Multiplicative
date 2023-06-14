@@ -1,10 +1,13 @@
-# Release 1.6.0
+# Release 1.7.0
 
 Updated to 1.20
 Update modpack creation structure to accomodate multiple version
 
 Updated:
-None
+- Do a Barrel Roll (1.19.4)
+- EMI (1.19.4)
+- ModernFix(1.19.4)
+- Mostly Everything (1.20)
 
 Added:
 None
