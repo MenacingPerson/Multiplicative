@@ -210,7 +210,6 @@ if_exists_rm(f'{ODIR}/Additive/packs')
 # Recreate modified pack
 echo("Removing previous modified packs")
 if_exists_rm(f'{ODIR}/Modified')
-if_exists_recreate(f'{ODIR}/packs')
 shutil.copytree(f'{ODIR}/Additive/', f'{ODIR}/Modified/')
 
 chodir()

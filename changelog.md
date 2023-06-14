@@ -1,6 +1,7 @@
 # Release 1.6.0
 
 Updated to 1.20
+Update modpack creation structure to accomodate multiple version
 
 Updated:
 None
@@ -11,7 +12,7 @@ None
 Removed:
 - CompleteConfig (unnecessary dependency)
 
-Temporarily Removed:
+Temporarily Removed on 1.20:
 - Cosmetica
 - Distant Horizons
 - Model Gap Fix

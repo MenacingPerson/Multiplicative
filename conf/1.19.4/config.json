@@ -55,12 +55,7 @@
     "mods_removed": [
         "capes"
     ],
-    "mods_temp_removed": [
-        "cosmetica",
-        "distanthorizons",
-        "modelfix",
-        "whoami"
-    ],
+    "mods_temp_removed": [],
     "mods_removed_fabric": [],
     "mods_removed_quilt": [
         "fabric-api",
