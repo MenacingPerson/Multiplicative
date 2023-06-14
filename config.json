@@ -1,69 +1,29 @@
 {
     "additive_hash": "734c1a5a55bd4c5b56475c788c19a4dcd0bdf196",
-    "pack_name": "Multiplicative",
-    "pack_author": "Menacing Person",
-    "pack_version": "1.7.0",
-    "pack_url": "https://github.com/MenacingPerson/Multiplicative",
+    "pack_name": "Pack name here",
+    "pack_author": "Your name here",
+    "pack_version": "1.0.0",
+    "pack_url": "Pack url",
     "unwanted_mc_versions": [
         "fabric/1.16.5",
         "fabric/1.18.2",
         "fabric/1.19.2",
-        "fabric/1.20",
         "quilt/1.18.2",
-        "quilt/1.19.2",
-        "quilt/1.20"
+        "quilt/1.19.2"
     ],
     "mods": [
-        ["mr", "3dskinlayers", "rvtgIO5A"],
-        ["mr", "blur-fabric", "u9BWuXwU"],
-        ["mr", "cameraoverhaul ", "fzCKxnmb"],
-        ["mr", "chat-heads", "AuLKVOJ1"],
-        ["mr", "cosmetica ", "EXZ6jehd"],
-        ["mr", "creativecore", "xvWt9K90"],
-        ["mr", "distanthorizons ", "xBHpiuwg"],
-        ["mr", "do-a-barrel-roll", "cXepeLYw"],
-        ["mr", "emi", "OwZJfOuX"],
-        ["mr", "gamma-utils", "7puMNTDK"],
-        ["mr", "itemphysic-lite", "qtc9sPZZ"],
-        ["mr", "jade", "6LbXMvIy"],
-        ["mr", "modelfix ", "i0mERlxq"],
-        ["mr", "modernfix", "uMIQRvh7"],
-        ["mr", "mods-command", "BxXkq7ZA"],
-        ["mr", "morechathistory", "b1apT2G2"],
-        ["mr", "nicer-skies", "ROTwIP94"],
-        ["mr", "no-chat-reports", "RFhAU18Z"],
-        ["mr", "not-enough-animations", "XFJeh7MA"],
-        ["mr", "presence-footsteps", "jxsFtML2"],
-        ["mr", "raised", "ADrMa5Bu"],
-        ["mr", "remember-my-txt", "ReuacrjM"],
-        ["mr", "server-pack-unlocker", "R2CGXkyy"],
-        ["mr", "smooth-swapping", "YwkeVLq0"],
-        ["mr", "sound-physics-remastered", "vCR4KOzC"],
-        ["mr", "spark", "XhFbpH8f"],
-        ["mr", "wavey-capes", "feSBCFVH"],
-        ["mr", "whoami ", "Uyy6A3E3"]
+        ["mr", "mod_name", "mod_ver_id"]
     ],
     "mods_fabric": [],
     "mods_quilt": [
         ["mr", "fabric-api", "B7GygbYq"]
     ],
-    "mods_optional": [
-        "distanthorizons"
-    ],
+    "mods_optional": [],
     "mods_optional_fabric": [],
     "mods_optional_quilt": [],
-    "mods_removed": [
-        "capes"
-    ],
-    "mods_temp_removed": [
-        "cosmetica",
-        "distanthorizons",
-        "modelfix",
-        "whoami"
-    ],
+    "mods_removed": [],
     "mods_removed_fabric": [],
     "mods_removed_quilt": [
-        "fabric-api",
-        "lambdabettergrass"
+        "fabric-api"
     ]
 }

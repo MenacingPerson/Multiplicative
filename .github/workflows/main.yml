@@ -22,8 +22,10 @@ jobs:
         run: pip install tomli tomli-w
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
-      - name: Compile modpack
-        run: script -eq -c ./setup.py /dev/null
+      - name: Compile modpack 1.19.4
+        run: script -eq -c './setup.py 1.19.4' /dev/null
+      - name: Compile modpack 1.20
+        run: script -eq -c './setup.py 1.20' /dev/null
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:

@@ -3,7 +3,7 @@
 
 """
 Main Multiplicative pack creation tool.
-No arguments need to be given.
+$1 = config directory
 Refer to config.json for configuration info.
 """
 
@@ -153,7 +153,8 @@ def mark_mods_optional(pack_edition: str, _pack_fullver: str, optional_mods_key:
 def config_cp(pack_edition: str, _pack_fullver: str):
     """Copy config over to edition"""
     echo(f'Copying config files over for {pack_edition}')
-    return shutil.copytree(f'{ODIR}/config', './config', dirs_exist_ok=True)
+    return shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/config',
+                           './config', dirs_exist_ok=True)
 
 
 def fix_mmc_config(pack_edition: str, _pack_fullver: str):
@@ -188,7 +189,7 @@ def export_pack(pack_edition: str, pack_fullver: str):
     runcmd('packwiz mr export -o', f'{ODIR}/packs/{pack_fullver}.mrpack')
 
 
-config = json_read('./config.json')
+config = json_read(f'{ODIR}/conf/{sys.argv[1]}/config.json')
 pack_name = config['pack_name']
 pack_version = config['pack_version']
 
@@ -232,7 +233,7 @@ run_in('quilt', mark_mods_optional, 'mods_optional_quilt')
 run_in('fabric', rm_mods, 'mods_removed_fabric')
 run_in('quilt', rm_mods, 'mods_removed_quilt')
 run_in('all', rm_mods, 'mods_removed')
-# run_in('all', rm_mods, 'mods_temp_removed')
+run_in('all', rm_mods, 'mods_temp_removed')
 
 run_in('all', modify_packtoml)
 
