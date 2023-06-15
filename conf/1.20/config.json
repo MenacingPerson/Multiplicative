@@ -13,6 +13,8 @@
         "quilt/1.19.2",
         "quilt/1.19.4"
     ],
+    "fabric_version": "0.14.21",
+    "quilt_version": "0.19.1",
     "mods": [
         ["mr", "3dskinlayers", "gEExwPWP"],
         ["mr", "blur-fabric", "dki8Ab2D"],

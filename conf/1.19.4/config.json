@@ -13,20 +13,22 @@
         "quilt/1.19.2",
         "quilt/1.20"
     ],
+    "fabric_version": "0.14.21",
+    "quilt_version": "0.19.1",
     "mods": [
         ["mr", "3dskinlayers", "rvtgIO5A"],
         ["mr", "blur-fabric", "u9BWuXwU"],
-        ["mr", "cameraoverhaul ", "fzCKxnmb"],
+        ["mr", "cameraoverhaul", "fzCKxnmb"],
         ["mr", "chat-heads", "AuLKVOJ1"],
-        ["mr", "cosmetica ", "EXZ6jehd"],
+        ["mr", "cosmetica", "EXZ6jehd"],
         ["mr", "creativecore", "xvWt9K90"],
-        ["mr", "distanthorizons ", "xBHpiuwg"],
+        ["mr", "distanthorizons", "xBHpiuwg"],
         ["mr", "do-a-barrel-roll", "B47f6kqW"],
-        ["mr", "emi", "7DxyV3hH"],
+        ["mr", "emi", "ARMJwZQk"],
         ["mr", "gamma-utils", "7puMNTDK"],
         ["mr", "itemphysic-lite", "qtc9sPZZ"],
         ["mr", "jade", "6LbXMvIy"],
-        ["mr", "modelfix ", "i0mERlxq"],
+        ["mr", "modelfix", "i0mERlxq"],
         ["mr", "modernfix", "tr7cCUCK"],
         ["mr", "mods-command", "BxXkq7ZA"],
         ["mr", "morechathistory", "b1apT2G2"],
@@ -41,7 +43,7 @@
         ["mr", "sound-physics-remastered", "vCR4KOzC"],
         ["mr", "spark", "XhFbpH8f"],
         ["mr", "wavey-capes", "feSBCFVH"],
-        ["mr", "whoami ", "Uyy6A3E3"]
+        ["mr", "whoami", "Uyy6A3E3"]
     ],
     "mods_fabric": [],
     "mods_quilt": [

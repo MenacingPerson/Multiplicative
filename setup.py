@@ -61,6 +61,12 @@ def json_write(content: dict, filename: str, indent: int = 4):
         json.dump(content, file, indent=indent)
 
 
+def if_not_exists_create_dir(path: str):
+    """Create directory if doesn't exist"""
+    if not os.path.exists(path):
+        os.mkdir(path)
+
+
 def if_exists_rm(path: str):
     """Remove path if exists"""
     if os.path.exists(path):
@@ -177,6 +183,13 @@ def fix_mmc_config(pack_edition: str, _pack_fullver: str):
     json_write(mmc_conf_json, './config/isxander-main-menu-credits.json')
 
 
+def change_modloader_ver(pack_edition: str, _pack_fullver: str, modloader):
+    """Change version of specified modloader"""
+    echo(f'Updating {modloader} version to {config[f"{modloader}_version"]} for {pack_edition}')
+    pack_toml = toml_read('./pack.toml')
+    pack_toml['versions'][modloader] = config[f'{modloader}_version']
+
+
 def packwiz_refresh(pack_edition: str, _pack_fullver: str):
     """Refresh packwiz"""
     echo(f'Running packwiz refresh for {pack_edition}')
@@ -210,16 +223,17 @@ if_exists_rm(f'{ODIR}/Additive/packs')
 # Recreate modified pack
 echo("Removing previous modified packs")
 if_exists_rm(f'{ODIR}/Modified')
+if_not_exists_create_dir(f'{ODIR}/packs')
 shutil.copytree(f'{ODIR}/Additive/', f'{ODIR}/Modified/')
 
 chodir()
 
-for i in config['unwanted_mc_versions']:
-    echo(f'Removing pack version {i}')
-    if os.path.isdir(i):
-        shutil.rmtree(i)
+for unwanted_pack_ed in config['unwanted_mc_versions']:
+    echo(f'Removing pack edition {unwanted_pack_ed}')
+    if os.path.isdir(unwanted_pack_ed):
+        shutil.rmtree(unwanted_pack_ed)
     else:
-        raise ValueError(f'Unwanted pack version {i} does not exist!')
+        raise ValueError(f'Unwanted pack version {unwanted_pack_ed} does not exist!')
 
 run_in('fabric', add_mods, 'mods_fabric')
 run_in('quilt', add_mods, 'mods_quilt')
@@ -239,6 +253,9 @@ run_in('all', modify_packtoml)
 run_in('all', config_cp)
 
 run_in('all', fix_mmc_config)
+
+run_in('fabric', change_modloader_ver, 'fabric')
+run_in('quilt', change_modloader_ver, 'quilt')
 
 run_in('all', packwiz_refresh)
 
