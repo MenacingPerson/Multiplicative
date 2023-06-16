@@ -4,8 +4,8 @@ set -e
 
 cd $(realpath $(dirname "$0"))
 
-modpack_name=$(jq -r '.pack_name' < ./conf/1.20/config.json)
-modpack_vers=$(jq -r '.pack_version' < ./conf/1.20/config.json)
+modpack_name=$(jq -r '.pack_name' < ./base_config.json)
+modpack_vers=$(jq -r '.pack_version' < ./base_config.json)
 
 git add .
 git commit -m "Release $modpack_vers" --allow-empty
