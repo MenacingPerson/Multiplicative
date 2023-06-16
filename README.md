@@ -75,14 +75,14 @@ Required pip libraries: `tomli`, `tomli_w`
 # Modify config.json according to liking
 
   $ git clone --recursive --depth 1 https://github.com/MenacingPerson/Multiplicative.git
-  $ python -m pip install tomli tomli_w
-  $ python ./setup.py
+  $ python -m pip install -r requirements.txt
+  $ bash ./runscript.sh
 
 # Import preferred pack in your launcher
 ```
 
 # Bugs
-Currently when compiling the pack, it downloads latest version of mods instead of specified one
+None currently
 
 ##### Licensed under MIT
 

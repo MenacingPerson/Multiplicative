@@ -1,24 +1,25 @@
 # Release 1.7.0
 
-Updated to 1.20
-Update modpack creation structure to accomodate multiple version
+Updated to 1.20.1 instead of 1.20
 
 Updated:
-- Do a Barrel Roll (1.19.4)
-- EMI (1.19.4)
-- ModernFix(1.19.4)
-- Mostly Everything (1.20)
+- Chat Heads (1.19.4)
+- Chat Heads (1.20.1)
+- EMI (1.20.1)
+- Sound Physics Remastered (1.20.1)
+- Spark (1.20.1)
 
 Added:
 None
 
 Removed:
-- CompleteConfig (unnecessary dependency)
+None
 
 Temporarily Removed on 1.20:
 - Cosmetica
 - Distant Horizons
 - Model Gap Fix
+- Nicer skies
 - Who Am I?
 
 
