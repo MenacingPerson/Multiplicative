@@ -1,9 +1,4 @@
 {
-    "additive_hash": "734c1a5a55bd4c5b56475c788c19a4dcd0bdf196",
-    "pack_name": "Multiplicative",
-    "pack_author": "Menacing Person",
-    "pack_version": "1.7.0",
-    "pack_url": "https://github.com/MenacingPerson/Multiplicative",
     "unwanted_mc_versions": [
         "fabric/1.16.5",
         "fabric/1.18.2",
@@ -13,8 +8,6 @@
         "quilt/1.19.2",
         "quilt/1.19.4"
     ],
-    "fabric_version": "0.14.21",
-    "quilt_version": "0.19.1",
     "mods": [
         ["mr", "3dskinlayers", "gEExwPWP"],
         ["mr", "blur-fabric", "dki8Ab2D"],

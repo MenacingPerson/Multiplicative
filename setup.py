@@ -138,8 +138,8 @@ def modify_packtoml(pack_edition: str, pack_fullver: str):
     """Modify the pack.toml to contain modpack branding"""
     echo(f'Modifying pack.toml file for {pack_edition}')
     pack_toml = toml_read('./pack.toml')
-    pack_toml['name'] = config['pack_name']
-    pack_toml['author'] = config['pack_author']
+    pack_toml['name'] = base_conf['pack_name']
+    pack_toml['author'] = base_conf['pack_author']
     pack_toml['version'] = pack_fullver
     toml_write(pack_toml, './pack.toml')
 
@@ -171,10 +171,10 @@ def fix_mmc_config(pack_edition: str, _pack_fullver: str):
         'main_menu': {
             'bottom_left': [
                 {
-                    'text': f'{config["pack_name"]} {config["pack_version"]}',
+                    'text': f'{base_conf["pack_name"]} {base_conf["pack_version"]}',
                     'clickEvent': {
                         'action': 'open_url',
-                        'value': config['pack_url']
+                        'value': base_conf['pack_url']
                     }
                 }
             ]
@@ -185,9 +185,9 @@ def fix_mmc_config(pack_edition: str, _pack_fullver: str):
 
 def change_modloader_ver(pack_edition: str, _pack_fullver: str, modloader):
     """Change version of specified modloader"""
-    echo(f'Updating {modloader} version to {config[f"{modloader}_version"]} for {pack_edition}')
+    echo(f'Updating {modloader} version to {base_conf[f"{modloader}_version"]} for {pack_edition}')
     pack_toml = toml_read('./pack.toml')
-    pack_toml['versions'][modloader] = config[f'{modloader}_version']
+    pack_toml['versions'][modloader] = base_conf[f'{modloader}_version']
 
 
 def packwiz_refresh(pack_edition: str, _pack_fullver: str):
@@ -203,8 +203,9 @@ def export_pack(pack_edition: str, pack_fullver: str):
 
 
 config = json_read(f'{ODIR}/conf/{sys.argv[1]}/config.json')
-pack_name = config['pack_name']
-pack_version = config['pack_version']
+base_conf = json_read(f'{ODIR}/base_config.json')
+pack_name = base_conf['pack_name']
+pack_version = base_conf['pack_version']
 
 
 # Reset to certain hash to avoid unwanted changes
@@ -212,7 +213,7 @@ echo('Updating Additive to specified hash')
 runcmd('git submodule update --recursive --init --remote')
 os.chdir('Additive/')
 runcmd('git pull origin main')
-runcmd('git reset --hard', config["additive_hash"])
+runcmd('git reset --hard', base_conf["additive_hash"])
 os.chdir(ODIR)
 runcmd('git add Additive/')
 

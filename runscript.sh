@@ -1,11 +1,8 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 set -e
 
-if [[ -e ./packs/* ]]
-then
-  rm ./packs/*
-fi
+rm -f ./packs/*.mrpack
 
 script -eq -c './setup.py 1.19.4' /dev/null
 script -eq -c './setup.py 1.20' /dev/null
