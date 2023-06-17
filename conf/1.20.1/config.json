@@ -12,8 +12,9 @@
         ["mr", "3dskinlayers", "gEExwPWP"],
         ["mr", "blur-fabric", "dki8Ab2D"],
         ["mr", "cameraoverhaul ", "fzCKxnmb"],
+        ["mr", "caxton", "XqLPHGms"],
         ["mr", "chat-heads", "5DNklSQc"],
-        ["mr", "cosmetica ", "EXZ6jehd"],
+        ["mr", "cosmetica ", "OCuL8exa"],
         ["mr", "creativecore", "JFyuzapJ"],
         ["mr", "distanthorizons ", "xBHpiuwg"],
         ["mr", "do-a-barrel-roll", "gbxieggJ"],
@@ -48,12 +49,11 @@
     "mods_optional_fabric": [],
     "mods_optional_quilt": [],
     "mods_removed": [
+        "capes"
     ],
     "mods_temp_removed": [
-        "cosmetica",
         "distanthorizons",
         "modelfix",
-        "nicer-skies",
         "whoami"
     ],
     "mods_removed_fabric": [],

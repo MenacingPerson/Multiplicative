@@ -1,25 +1,22 @@
-# Release 1.7.0
+# Release 1.9.0
 
-Updated to 1.20.1 instead of 1.20
+Caxton has been added for better font rendering.
 
 Updated:
-- Chat Heads (1.19.4)
-- Chat Heads (1.20.1)
-- EMI (1.20.1)
-- Sound Physics Remastered (1.20.1)
-- Spark (1.20.1)
+- Cosmetica (1.19.4)
+- Cosmetica (1.20.1)
+- Nicer Skies (1.20.1)
 
 Added:
-None
+- Caxton (1.19.4)
+- Caxton (1.20.1)
 
 Removed:
-None
+- Capes
 
 Temporarily Removed on 1.20:
-- Cosmetica
 - Distant Horizons
 - Model Gap Fix
-- Nicer skies
 - Who Am I?
 
 
