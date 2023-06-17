@@ -12,7 +12,7 @@ Added:
 - Caxton (1.20.1)
 
 Removed:
-- Capes
+- Capes (1.20.1)
 
 Temporarily Removed on 1.20:
 - Distant Horizons
