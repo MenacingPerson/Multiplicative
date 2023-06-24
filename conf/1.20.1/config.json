@@ -11,19 +11,19 @@
     "mods": [
         ["mr", "3dskinlayers", "gEExwPWP"],
         ["mr", "blur-fabric", "dki8Ab2D"],
-        ["mr", "cameraoverhaul ", "fzCKxnmb"],
+        ["mr", "cameraoverhaul", "fzCKxnmb"],
         ["mr", "caxton", "XqLPHGms"],
         ["mr", "chat-heads", "5DNklSQc"],
-        ["mr", "cosmetica ", "OCuL8exa"],
-        ["mr", "creativecore", "JFyuzapJ"],
-        ["mr", "distanthorizons ", "xBHpiuwg"],
+        ["mr", "cosmetica", "gwdKlZZc"],
+        ["mr", "creativecore", "Kwi2M0y8"],
+        ["mr", "distanthorizons", "xBHpiuwg"],
         ["mr", "do-a-barrel-roll", "gbxieggJ"],
-        ["mr", "emi", "99422QOb"],
-        ["mr", "gamma-utils", "GsTM5nP9"],
-        ["mr", "itemphysic-lite", "5AYnlM5E"],
-        ["mr", "jade", "IIpnN0Qf"],
-        ["mr", "modelfix ", "i0mERlxq"],
-        ["mr", "modernfix", "p9S1UnOj"],
+        ["mr", "emi", "ZHJCnRrV"],
+        ["mr", "gamma-utils", "oy7ROzBx"],
+        ["mr", "itemphysic-lite", "mOjFshoi"],
+        ["mr", "jade", "lcQiLHVM"],
+        ["mr", "modelfix", "r6uVoUxU"],
+        ["mr", "modernfix", "9MmJorda"],
         ["mr", "mods-command", "JlWCTVC5"],
         ["mr", "morechathistory", "b1apT2G2"],
         ["mr", "nicer-skies", "Idn769rZ"],
@@ -37,7 +37,7 @@
         ["mr", "sound-physics-remastered", "gAP9590c"],
         ["mr", "spark", "BeIg1bik"],
         ["mr", "wavey-capes", "9ppedk6Z"],
-        ["mr", "whoami ", "Uyy6A3E3"]
+        ["mr", "whoami", "XPNNg2I8"]
     ],
     "mods_fabric": [],
     "mods_quilt": [
@@ -52,9 +52,7 @@
         "capes"
     ],
     "mods_temp_removed": [
-        "distanthorizons",
-        "modelfix",
-        "whoami"
+        "distanthorizons"
     ],
     "mods_removed_fabric": [],
     "mods_removed_quilt": [
