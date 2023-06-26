@@ -50,8 +50,10 @@ Required pip libraries: `tomli`, `tomli_w`
 # Modify config.json according to liking
 
   $ git clone --recursive --depth 1 https://github.com/MenacingPerson/Multiplicative.git
+  $ cd ./Multiplicative
+  # OPTIONALLY setup a python venv here
   $ python -m pip install -r requirements.txt
-  $ bash ./runscript.sh
+  $ bash ./scripts/runscript.sh
 
 # Import preferred pack in your launcher
 ```
