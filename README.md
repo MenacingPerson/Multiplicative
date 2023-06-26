@@ -14,7 +14,7 @@ Feel free to credit me, though!
 To find the mod list, look in [mod-list.md](./mod-list.md).
 Alternatively, run the following script to generate the list (unix-like OSes only):
 ```
-./gen_mod_list.sh
+./scripts/gen_mod_list.sh
 ```
 
 
