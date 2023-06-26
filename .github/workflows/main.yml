@@ -9,6 +9,11 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
+      - name: Restore cache
+        uses: actions/cache/restore@v3
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-cache
       - name: Install golang
         uses: actions/setup-go@v4
         with:
@@ -35,3 +40,8 @@ jobs:
         with:
           files: "packs/*"
           body_path: changelog.md
+      - name: Save cache
+        uses: actions/cache/save@v3
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-cache
