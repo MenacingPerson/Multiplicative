@@ -203,7 +203,7 @@ def export_pack(pack_edition: str, pack_fullver: str):
 
 
 config = json_read(f'{ODIR}/conf/{sys.argv[1]}/config.json')
-base_conf = json_read(f'{ODIR}/base_config.json')
+base_conf = json_read(f'{ODIR}/conf/base_config.json')
 pack_name = base_conf['pack_name']
 pack_version = base_conf['pack_version']
 

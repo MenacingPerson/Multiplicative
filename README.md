@@ -11,44 +11,19 @@ Feel free to credit me, though!
 
 # Mod list
 
+To find the mod list, look in [mod-list.md](./mod-list.md).
+Alternatively, run the following script to generate the list (unix-like OSes only):
 ```
-// In addition to all mods in Additive, minus removed mods
+./gen_mod_list.sh
+```
 
-3D Skin Layers
-Blur (Fabric)
-CameraOverhaul
-Chat Heads
-Cosmetica // Temporarily Disabled
-CreativeCore
-Do a Barrel Roll
-EMI
-Gamma Utils
-ItemPhysic Lite
-Jade
-Model Gap Fix // Temporarily Disabled
-ModernFix
-Mods Command
-MoreChatHistory
-Nicer Skies
-No Chat Reports
-Not Enough Animations
-Presence Footsteps
-Raised
-Remember My Txt
-Server Pack Unlocker
-Smooth Swapping
-Sound Physics Remastered
-Spark
-Wavey Capes
-Who am I? // Temporarily Disabled
-```
 
 ## Optional mods
 
 Marked optional because some might not want them
 
 ```
-Distant Horizons // Temporarily Disabled
+Distant Horizons // Temporarily Disabled in 1.20
 ```
 
 ## Mods removed from Additive

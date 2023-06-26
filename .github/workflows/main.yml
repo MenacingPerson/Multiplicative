@@ -23,7 +23,7 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
       - name: Compile modpack
-        run: ./runscript.sh
+        run: ./scripts/runscript.sh
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
