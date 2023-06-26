@@ -9,12 +9,18 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      - name: Restore cache
+      - name: Restore packwiz file cache
         uses: actions/cache@v3
         with:
           path: ~/.cache/packwiz
           key: packwiz-cache-${{ github.run_id }}
           restore-keys: packwiz-cache
+      - name: Restore golang dependency cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/go-build/
+          key: go-dep-cache-${{ github.run_id }}
+          restore-keys: go-dep-cache
       - name: Install golang
         uses: actions/setup-go@v4
         with:
