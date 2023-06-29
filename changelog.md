@@ -1,9 +1,13 @@
 # Release 2.1.0
 
+Updated Additive hash.
 Some internals were changed.
 
 Updated:
-None
+- Jade (1.20.1)
+- No Chat Reports (1.20.1)
+- Remove Reloading Screen (Additive -> Multiplicative) (1.19.4)
+- Remove Reloading Screen (Additive -> Multiplicative) (1.20.1)
 
 Added:
 - Halo HUD (1.19.4)

@@ -23,6 +23,7 @@
 - presence-footsteps
 - raised
 - remember-my-txt
+- rrls
 - screenshot-to-clipboard
 - server-pack-unlocker
 - smooth-swapping
@@ -55,6 +56,7 @@
 - presence-footsteps
 - raised
 - remember-my-txt
+- rrls
 - screenshot-to-clipboard
 - server-pack-unlocker
 - smooth-swapping
