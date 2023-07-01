@@ -13,6 +13,7 @@ import subprocess
 import shutil
 import sys
 import os
+import time
 import tomli
 import tomli_w
 
@@ -118,6 +119,7 @@ def add_mods(pack_edition: str, _pack_fullver: str, mod_list_key: str):
     for mod in config[mod_list_key]:
         if len(mod) != 3:
             raise ValueError(f"Mod platform/name/version unspecified for {mod[1]}")
+        time.sleep(0.25)
         match mod[0]:
             case 'mr' | 'modrinth':
                 add_mod_mr(pack_edition, mod)
