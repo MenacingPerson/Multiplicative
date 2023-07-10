@@ -22,9 +22,9 @@ ODIR = os.path.dirname(os.path.realpath(sys.argv[0]))
 os.chdir(ODIR)
 
 
-def echo(text: str, i=6):
+def echo(text: str, arrow_len=6):
     """Echo text with attached green arrow at front"""
-    return print('\n\033[0;32m' + '=' * i + f'>\033[0m {text}')
+    return print('\n\033[0;32m' + '=' * arrow_len + f'>\033[0m {text}')
 
 
 def runcmd(cmd: str, *args):
@@ -95,30 +95,42 @@ def run_in(modloader: str, func, *args):
         if pack_edition_path == []:
             raise NameError(f'No {modloader} versions found!')
         os.chdir(pack_edition_path)
-        pack_edition = pack_edition_path.replace('/', '+')
-        pack_fullver = f'{pack_name}-{pack_version}-{pack_edition}'
-        func(pack_edition, pack_fullver, *args)
+        pack = {}
+        pack['modloader'] = modloader
+        pack['edition'] = modloader + '+' + config['game_version']
+        pack['fullver'] = f'{base_conf["pack_name"]}-{base_conf["pack_version"]}-{pack["edition"]}'
+        func(pack, *args)
         chodir()
 
 
 # Adding mods
 
-def add_mod_mr(pack_edition: str, mod: list):
+
+def query_modrinth_project_versions(pack: dict, modid: str) -> list:
+    """Query modrinth API for project versions"""
+    mod_url_path = f'https://api.modrinth.com/v2/project/{modid}/version' + \
+        '?loaders=' + str(modloader_compat[pack['modloader']]) \
+        .replace("'", '"') + '&game_versions=' + \
+        str(config['game_version_compat']).replace("'", '"')
+    return (ver['id'] for ver in requests.request(
+        'GET', mod_url_path, timeout=5).json())
+
+
+def add_mod_mr(pack: dict, mod: list):
     """Add a modrinth mod"""
-    echo(f'Adding modrinth mod {mod[1]} version {mod[2]} to {pack_edition}')
-    mod_vers = requests.request('GET', f'https://api.modrinth.com/v2/project/{mod[1]}').json()['versions']
-    if not mod[2] in mod_vers:
+    echo(f'Adding modrinth mod {mod[1]} version {mod[2]} to {pack["edition"]}')
+    if not mod[2] in query_modrinth_project_versions(pack, mod[1]):
         raise ValueError('File version not in project page')
     runcmd(f'packwiz mr add --project-id {mod[1].strip()} --version-id {mod[2]}')
 
 
-def add_mod_cf(pack_edition: str, mod: list):
+def add_mod_cf(pack: dict, mod: list):
     """Add a curseforge mod"""
-    echo(f'Adding curseforge mod {mod[1]} version {mod[2]} to {pack_edition}')
+    echo(f'Adding curseforge mod {mod[1]} version {mod[2]} to {pack["edition"]}')
     runcmd(f'packwiz mr add --category mc-mods {mod[1].strip()} --file-id {mod[2]}')
 
 
-def add_mods(pack_edition: str, _pack_fullver: str, mod_list_key: str):
+def add_mods(pack: dict, mod_list_key: str):
     """Add mods to an edition using a list in config"""
     for mod in config[mod_list_key]:
         if len(mod) != 3:
@@ -126,33 +138,33 @@ def add_mods(pack_edition: str, _pack_fullver: str, mod_list_key: str):
         time.sleep(0.25)
         match mod[0]:
             case 'mr' | 'modrinth':
-                add_mod_mr(pack_edition, mod)
+                add_mod_mr(pack, mod)
             case 'cf' | 'curseforge':
-                add_mod_cf(pack_edition, mod)
+                add_mod_cf(pack, mod)
             case _:
                 raise ValueError(f'Platform name {mod[1]} is invalid! exiting...')
 
 
-def rm_mods(pack_edition: str, _pack_fullver: str, mods_removed_key: str):
+def rm_mods(pack: dict, mods_removed_key: str):
     """Remove mods from an edition using a list in config"""
     for mod in config[mods_removed_key]:
-        echo(f'Removing mod {mod} from version {pack_edition}')
+        echo(f'Removing mod {mod} from version {pack["edition"]}')
         runcmd('packwiz remove', mod)
 
 
-def modify_packtoml(pack_edition: str, pack_fullver: str):
+def modify_packtoml(pack: dict):
     """Modify the pack.toml to contain modpack branding"""
-    echo(f'Modifying pack.toml file for {pack_edition}')
+    echo(f'Modifying pack.toml file for {pack["edition"]}')
     pack_toml = toml_read('./pack.toml')
     pack_toml['name'] = base_conf['pack_name']
     pack_toml['author'] = base_conf['pack_author']
-    pack_toml['version'] = pack_fullver
+    pack_toml['version'] = pack['fullver']
     toml_write(pack_toml, './pack.toml')
 
 
-def mark_mods_optional(pack_edition: str, _pack_fullver: str, optional_mods_key: str):
+def mark_mods_optional(pack: dict, optional_mods_key: str):
     """Mark mods as optional in pack edition"""
-    echo(f'Marking optional mods using {optional_mods_key} for {pack_edition}')
+    echo(f'Marking optional mods using {optional_mods_key} for {pack["edition"]}')
     for mod in config[optional_mods_key]:
         print(f'Marked {mod} as optional')
         mod_toml = toml_read(f'mods/{mod}.pw.toml')
@@ -162,16 +174,16 @@ def mark_mods_optional(pack_edition: str, _pack_fullver: str, optional_mods_key:
         toml_write(mod_toml, f'mods/{mod}.pw.toml')
 
 
-def config_cp(pack_edition: str, _pack_fullver: str):
+def config_cp(pack: dict):
     """Copy config over to edition"""
-    echo(f'Copying config files over for {pack_edition}')
+    echo(f'Copying config files over for {pack["edition"]}')
     return shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/config',
                            './config', dirs_exist_ok=True)
 
 
-def fix_mmc_config(pack_edition: str, _pack_fullver: str):
+def fix_mmc_config(pack: dict):
     """Fix Main Menu Credit json file to include branding"""
-    echo(f'Fixing Main Menu Credits config for {pack_edition}')
+    echo(f'Fixing Main Menu Credits config for {pack["edition"]}')
     mmc_conf_json = json_read('./config/isxander-main-menu-credits.json')
     mmc_conf_json = {
         'main_menu': {
@@ -189,29 +201,32 @@ def fix_mmc_config(pack_edition: str, _pack_fullver: str):
     json_write(mmc_conf_json, './config/isxander-main-menu-credits.json')
 
 
-def change_modloader_ver(pack_edition: str, _pack_fullver: str, modloader):
+def change_modloader_ver(pack: dict, modloader):
     """Change version of specified modloader"""
-    echo(f'Updating {modloader} version to {base_conf[f"{modloader}_version"]} for {pack_edition}')
+    echo(f'Updating {modloader} version to {base_conf[f"{modloader}_version"]} for {pack["edition"]}')
     pack_toml = toml_read('./pack.toml')
     pack_toml['versions'][modloader] = base_conf[f'{modloader}_version']
 
 
-def packwiz_refresh(pack_edition: str, _pack_fullver: str):
+def packwiz_refresh(pack: dict):
     """Refresh packwiz"""
-    echo(f'Running packwiz refresh for {pack_edition}')
+    echo(f'Running packwiz refresh for {pack["edition"]}')
     return runcmd('packwiz refresh')
 
 
-def export_pack(pack_edition: str, pack_fullver: str):
+def export_pack(pack: dict):
     """Export mrpack file"""
-    echo(f'Packing up {pack_edition}')
-    runcmd('packwiz mr export -o', f'{ODIR}/packs/{pack_fullver}.mrpack')
+    echo(f'Packing up {pack["edition"]}')
+    runcmd('packwiz mr export -o', f'{ODIR}/packs/{pack["fullver"]}.mrpack')
 
+
+modloader_compat = {
+    'fabric': ['fabric'],
+    'quilt': ['fabric', 'quilt']
+}
 
 config = json_read(f'{ODIR}/conf/{sys.argv[1]}/config.json')
 base_conf = json_read(f'{ODIR}/conf/base_config.json')
-pack_name = base_conf['pack_name']
-pack_version = base_conf['pack_version']
 
 
 # Reset to certain hash to avoid unwanted changes
@@ -235,12 +250,14 @@ shutil.copytree(f'{ODIR}/Additive/', f'{ODIR}/Modified/')
 
 chodir()
 
-for unwanted_pack_ed in config['unwanted_mc_versions']:
-    echo(f'Removing pack edition {unwanted_pack_ed}')
-    if os.path.isdir(unwanted_pack_ed):
-        shutil.rmtree(unwanted_pack_ed)
-    else:
-        raise ValueError(f'Unwanted pack version {unwanted_pack_ed} does not exist!')
+unwanted_pack_editions = glob.glob('*/*')
+wanted_pack_editions = [pack_edition + '/' + config['game_version']
+                        for pack_edition in config['pack_editions']]
+for pack_edition in unwanted_pack_editions:
+    if pack_edition in wanted_pack_editions:
+        unwanted_pack_editions.remove(pack_edition)
+for pack_edition in unwanted_pack_editions:
+    shutil.rmtree(pack_edition)
 
 run_in('fabric', add_mods, 'mods_fabric')
 run_in('quilt', add_mods, 'mods_quilt')

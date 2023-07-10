@@ -1,12 +1,9 @@
 {
-    "unwanted_mc_versions": [
-        "fabric/1.16.5",
-        "fabric/1.18.2",
-        "fabric/1.19.2",
-        "fabric/1.19.4",
-        "quilt/1.18.2",
-        "quilt/1.19.2",
-        "quilt/1.19.4"
+    "game_version": "1.20.1",
+    "game_version_compat": ["1.20", "1.20.1"],
+    "pack_editions": [
+        "fabric",
+        "quilt"
     ],
     "mods": [
         ["mr", "3dskinlayers", "M8d2bZuk"],
@@ -17,7 +14,6 @@
         ["mr", "continue", "Jv1HUUmF"],
         ["mr", "cosmetica", "gwdKlZZc"],
         ["mr", "creativecore", "Kwi2M0y8"],
-        ["mr", "distanthorizons", "xBHpiuwg"],
         ["mr", "do-a-barrel-roll", "gbxieggJ"],
         ["mr", "emi", "uWOLRJF1"],
         ["mr", "gamma-utils", "oy7ROzBx"],
@@ -45,23 +41,16 @@
         ["mr", "whoami", "XPNNg2I8"]
     ],
     "mods_fabric": [],
-    "mods_quilt": [
-        ["mr", "fabric-api", "K1pOTt6K"]
-    ],
-    "mods_optional": [
-        "distanthorizons"
-    ],
+    "mods_quilt": [],
+    "mods_optional": [],
     "mods_optional_fabric": [],
     "mods_optional_quilt": [],
     "mods_removed": [
         "capes"
     ],
-    "mods_temp_removed": [
-        "distanthorizons"
-    ],
+    "mods_temp_removed": [],
     "mods_removed_fabric": [],
     "mods_removed_quilt": [
-        "fabric-api",
         "lambdabettergrass"
     ]
 }
