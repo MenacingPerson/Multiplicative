@@ -1,28 +1,23 @@
-# Release 2.1.0
+# Release 2.2.0
 
 Updated Additive hash.
-Some internals were changed.
 
 Updated:
+- 3D Skin Layers (1.20.1)
+- Caxton (1.19.4, 1.20.1)
+- EMI (1.19.4, 1.20.1)
 - Jade (1.20.1)
-- No Chat Reports (1.20.1)
-- Remove Reloading Screen (Additive -> Multiplicative) (1.19.4)
-- Remove Reloading Screen (Additive -> Multiplicative) (1.20.1)
-- ModernFix (1.19.4)
-- ModernFix (1.20.1)
+- ModernFix (1.19.4, 1.20.1)
+- Nicer Skies (1.20.1)
+- Raised (1.19.4, 1.20.1)
+
 
 Added:
-- Halo HUD (1.19.4)
-- Halo HUD (1.20.1)
-- Screenshot to Clipboard (1.19.4)
-- Screenshot to Clipboard (1.20.1)
+- Continue Button (1.19.4, 1.20.1)
+- Recursive Resources (1.19.4, 1.20.1)
 
 Removed:
-None
-
-Temporarily Removed on 1.20:
-- Distant Horizons
-
+- Distant Horizons (1.19.4)
 
 Multiplicative Contributors:
 - @MenacingPerson (me)

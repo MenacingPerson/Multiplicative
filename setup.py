@@ -16,6 +16,7 @@ import os
 import time
 import tomli
 import tomli_w
+import requests
 
 ODIR = os.path.dirname(os.path.realpath(sys.argv[0]))
 os.chdir(ODIR)
@@ -105,6 +106,9 @@ def run_in(modloader: str, func, *args):
 def add_mod_mr(pack_edition: str, mod: list):
     """Add a modrinth mod"""
     echo(f'Adding modrinth mod {mod[1]} version {mod[2]} to {pack_edition}')
+    mod_vers = requests.request('GET', f'https://api.modrinth.com/v2/project/{mod[1]}').json()['versions']
+    if not mod[2] in mod_vers:
+        raise ValueError('File version not in project page')
     runcmd(f'packwiz mr add --project-id {mod[1].strip()} --version-id {mod[2]}')
 
 

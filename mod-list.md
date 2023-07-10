@@ -4,9 +4,9 @@
 - cameraoverhaul
 - caxton
 - chat-heads
+- continue
 - cosmetica
 - creativecore
-- distanthorizons
 - do-a-barrel-roll
 - emi
 - gamma-utils
@@ -22,6 +22,7 @@
 - not-enough-animations
 - presence-footsteps
 - raised
+- recursiveresources
 - remember-my-txt
 - rrls
 - screenshot-to-clipboard
@@ -37,6 +38,7 @@
 - cameraoverhaul
 - caxton
 - chat-heads
+- continue
 - cosmetica
 - creativecore
 - distanthorizons
@@ -55,6 +57,7 @@
 - not-enough-animations
 - presence-footsteps
 - raised
+- recursiveresources
 - remember-my-txt
 - rrls
 - screenshot-to-clipboard
