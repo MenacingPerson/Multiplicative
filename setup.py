@@ -3,6 +3,7 @@
 
 """
 Main Multiplicative pack creation tool.
+Use the stuff in ./scripts/ instead of this.
 $1 = config directory
 Refer to config.json for configuration info.
 """
@@ -14,7 +15,7 @@ import os
 from core.base import (echo, runcmd, toml_read, toml_write, json_read,
                        json_write, if_not_exists_create_dir,
                        if_exists_rm, ODIR, config, base_conf)
-from core.add_mods import add_mods
+from core.packwiz import pw_add_mods, pw_rm_mods, pw_refresh, pw_export_pack
 
 os.chdir(ODIR)
 
@@ -44,13 +45,6 @@ def run_in(modloader: str, func, *args):
         pack['fullver'] = f'{base_conf["pack_name"]}-{base_conf["pack_version"]}-{pack["edition"]}'
         func(pack, *args)
         chodir()
-
-
-def rm_mods(pack: dict, mods_removed_key: str):
-    """Remove mods from an edition using a list in config"""
-    for mod in config[mods_removed_key]:
-        echo(f'Removing mod {mod} from version {pack["edition"]}')
-        runcmd('packwiz remove', mod)
 
 
 def modify_packtoml(pack: dict):
@@ -109,18 +103,6 @@ def change_modloader_ver(pack: dict, modloader) -> None:
     pack_toml['versions'][modloader] = base_conf[f'{modloader}_version']
 
 
-def packwiz_refresh(pack: dict):
-    """Refresh packwiz"""
-    echo(f'Running packwiz refresh for {pack["edition"]}')
-    return runcmd('packwiz refresh')
-
-
-def export_pack(pack: dict):
-    """Export mrpack file"""
-    echo(f'Packing up {pack["edition"]}')
-    runcmd('packwiz mr export -o', f'{ODIR}/packs/{pack["fullver"]}.mrpack')
-
-
 # Reset to certain hash to avoid unwanted changes
 echo('Updating Additive to specified hash')
 runcmd('git submodule update --recursive --init --remote')
@@ -151,19 +133,19 @@ for pack_edition in unwanted_pack_editions:
 for pack_edition in unwanted_pack_editions:
     shutil.rmtree(pack_edition)
 
-run_in('fabric', add_mods, 'mods_fabric')
-run_in('quilt', add_mods, 'mods_quilt')
-run_in('all', add_mods, 'mods')
+run_in('fabric', pw_add_mods, 'mods_fabric')
+run_in('quilt', pw_add_mods, 'mods_quilt')
+run_in('all', pw_add_mods, 'mods')
 
 run_in('all', mark_mods_optional, 'mods_optional')
 run_in('fabric', mark_mods_optional, 'mods_optional_fabric')
 run_in('quilt', mark_mods_optional, 'mods_optional_quilt')
 
-run_in('fabric', rm_mods, 'mods_removed_fabric')
-run_in('quilt', rm_mods, 'mods_removed_quilt')
-run_in('all', rm_mods, 'mods_removed')
+run_in('fabric', pw_rm_mods, 'mods_removed_fabric')
+run_in('quilt', pw_rm_mods, 'mods_removed_quilt')
+run_in('all', pw_rm_mods, 'mods_removed')
 
-run_in('all', rm_mods, 'mods_temp_removed')
+run_in('all', pw_rm_mods, 'mods_temp_removed')
 
 run_in('all', modify_packtoml)
 
@@ -174,9 +156,9 @@ run_in('all', fix_mmc_config)
 run_in('fabric', change_modloader_ver, 'fabric')
 run_in('quilt', change_modloader_ver, 'quilt')
 
-run_in('all', packwiz_refresh)
+run_in('all', pw_refresh)
 
-run_in('all', export_pack)
+run_in('all', pw_export_pack)
 
 echo('Packed files located in packs folder:')
 print('  '.join(os.listdir(f'{ODIR}/packs')))

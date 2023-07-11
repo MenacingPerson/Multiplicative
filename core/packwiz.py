@@ -1,8 +1,8 @@
-"""Functions to add mods"""
+"""Functions for packwiz"""
 
 import time
 import requests
-from core.base import echo, runcmd, config
+from core.base import echo, runcmd, config, ODIR
 
 modloader_compat = {
     'fabric': ['fabric'],
@@ -34,7 +34,7 @@ def add_mod_cf(pack: dict, mod: list) -> None:
     runcmd(f'packwiz mr add --category mc-mods {mod[1].strip()} --file-id {mod[2]}')
 
 
-def add_mods(pack: dict, mod_list_key: str) -> None:
+def pw_add_mods(pack: dict, mod_list_key: str) -> None:
     """Add mods to an edition using a list in config"""
     for mod in config[mod_list_key]:
         if len(mod) != 3:
@@ -46,4 +46,23 @@ def add_mods(pack: dict, mod_list_key: str) -> None:
             case 'cf' | 'curseforge':
                 add_mod_cf(pack, mod)
             case _:
-                raise ValueError(f'Platform name {mod[1]} is invalid! exiting...')
+                raise ValueError(f'Platform name {mod[0]} is invalid! Exiting...')
+
+
+def pw_rm_mods(pack: dict, mods_removed_key: str) -> None:
+    """Remove mods from an edition using a list in config"""
+    for mod in config[mods_removed_key]:
+        echo(f'Removing mod {mod} from version {pack["edition"]}')
+        runcmd('packwiz remove', mod)
+
+
+def pw_refresh(pack: dict):
+    """Refresh packwiz"""
+    echo(f'Running packwiz refresh for {pack["edition"]}')
+    return runcmd('packwiz refresh')
+
+
+def pw_export_pack(pack: dict):
+    """Export mrpack file"""
+    echo(f'Packing up {pack["edition"]}')
+    runcmd('packwiz mr export -o', f'{ODIR}/packs/{pack["fullver"]}.mrpack')
