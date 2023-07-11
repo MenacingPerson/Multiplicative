@@ -35,7 +35,7 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
       - name: Compile modpack
-        run: ./scripts/runscript.sh
+        run: ./scripts/test_commit.sh
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:

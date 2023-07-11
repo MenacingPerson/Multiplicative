@@ -49,9 +49,9 @@ Required pip libraries: `tomli`, `tomli_w`
 # Install git, packwiz, python
 # Modify config.json according to liking
 
-  $ git clone --recursive --depth 1 https://github.com/MenacingPerson/Multiplicative.git
+  $ git clone --recursive https://github.com/MenacingPerson/Multiplicative.git
   $ cd ./Multiplicative
-  # OPTIONALLY setup a python venv here
+# OPTIONALLY setup a python venv here
   $ python -m pip install -r requirements.txt
   $ bash ./scripts/runscript.sh
 
