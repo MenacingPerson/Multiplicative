@@ -8,80 +8,23 @@ Refer to config.json for configuration info.
 """
 
 import glob
-import json
-import subprocess
 import shutil
 import sys
 import os
-import time
-import tomli
-import tomli_w
-import requests
+from core.base import (echo, runcmd, toml_read, toml_write, json_read,
+                       json_write, if_not_exists_create_dir,
+                       if_exists_rm, ODIR, config, base_conf)
+from core.add_mods import add_mods
 
-ODIR = os.path.dirname(os.path.realpath(sys.argv[0]))
 os.chdir(ODIR)
 
 
-def echo(text: str, arrow_len=6):
-    """Echo text with attached green arrow at front"""
-    return print('\n\033[0;32m' + '=' * arrow_len + f'>\033[0m {text}')
-
-
-def runcmd(cmd: str, *args):
-    """Run command with args using subprocess"""
-    return subprocess.run([*cmd.split(' '), *args], check=True)
-
-
-def chodir():
+def chodir() -> None:
     """Change dir to Modified/versions"""
     os.chdir(f'{ODIR}/Modified/versions')
 
+# logic (functions)
 
-# File handling functions
-
-def toml_read(filename: str) -> dict:
-    """Read toml file"""
-    with open(filename, 'rb') as file:
-        return tomli.load(file)
-
-
-def toml_write(content: dict, filename: str):
-    """Write to toml file"""
-    with open(filename, 'wb') as file:
-        tomli_w.dump(content, file)
-
-
-def json_read(filename: str) -> dict:
-    """Read json file"""
-    with open(filename, 'r', encoding='utf_8') as file:
-        return json.load(file)
-
-
-def json_write(content: dict, filename: str, indent: int = 4):
-    """Write to json file"""
-    with open(filename, 'w', encoding='utf_8') as file:
-        json.dump(content, file, indent=indent)
-
-
-def if_not_exists_create_dir(path: str):
-    """Create directory if doesn't exist"""
-    if not os.path.exists(path):
-        os.mkdir(path)
-
-
-def if_exists_rm(path: str):
-    """Remove path if exists"""
-    if os.path.exists(path):
-        shutil.rmtree(path)
-
-
-def if_exists_recreate(path: str):
-    """Recreate path if exists"""
-    if_exists_rm(path)
-    os.mkdir(path)
-
-
-# Actual logic (functions)
 
 def run_in(modloader: str, func, *args):
     """Run function in certain edition of pack"""
@@ -101,48 +44,6 @@ def run_in(modloader: str, func, *args):
         pack['fullver'] = f'{base_conf["pack_name"]}-{base_conf["pack_version"]}-{pack["edition"]}'
         func(pack, *args)
         chodir()
-
-
-# Adding mods
-
-
-def query_modrinth_project_versions(pack: dict, modid: str) -> list:
-    """Query modrinth API for project versions"""
-    mod_url_path = f'https://api.modrinth.com/v2/project/{modid}/version' + \
-        '?loaders=' + str(modloader_compat[pack['modloader']]) \
-        .replace("'", '"') + '&game_versions=' + \
-        str(config['game_version_compat']).replace("'", '"')
-    return (ver['id'] for ver in requests.request(
-        'GET', mod_url_path, timeout=5).json())
-
-
-def add_mod_mr(pack: dict, mod: list):
-    """Add a modrinth mod"""
-    echo(f'Adding modrinth mod {mod[1]} version {mod[2]} to {pack["edition"]}')
-    if not mod[2] in query_modrinth_project_versions(pack, mod[1]):
-        raise ValueError('File version not in project page')
-    runcmd(f'packwiz mr add --project-id {mod[1].strip()} --version-id {mod[2]}')
-
-
-def add_mod_cf(pack: dict, mod: list):
-    """Add a curseforge mod"""
-    echo(f'Adding curseforge mod {mod[1]} version {mod[2]} to {pack["edition"]}')
-    runcmd(f'packwiz mr add --category mc-mods {mod[1].strip()} --file-id {mod[2]}')
-
-
-def add_mods(pack: dict, mod_list_key: str):
-    """Add mods to an edition using a list in config"""
-    for mod in config[mod_list_key]:
-        if len(mod) != 3:
-            raise ValueError(f"Mod platform/name/version unspecified for {mod[1]}")
-        time.sleep(0.25)
-        match mod[0]:
-            case 'mr' | 'modrinth':
-                add_mod_mr(pack, mod)
-            case 'cf' | 'curseforge':
-                add_mod_cf(pack, mod)
-            case _:
-                raise ValueError(f'Platform name {mod[1]} is invalid! exiting...')
 
 
 def rm_mods(pack: dict, mods_removed_key: str):
@@ -201,9 +102,9 @@ def fix_mmc_config(pack: dict):
     json_write(mmc_conf_json, './config/isxander-main-menu-credits.json')
 
 
-def change_modloader_ver(pack: dict, modloader):
+def change_modloader_ver(pack: dict, modloader) -> None:
     """Change version of specified modloader"""
-    echo(f'Updating {modloader} version to {base_conf[f"{modloader}_version"]} for {pack["edition"]}')
+    echo(f'Updating {modloader} to {base_conf[f"{modloader}_version"]} for {pack["edition"]}')
     pack_toml = toml_read('./pack.toml')
     pack_toml['versions'][modloader] = base_conf[f'{modloader}_version']
 
@@ -218,15 +119,6 @@ def export_pack(pack: dict):
     """Export mrpack file"""
     echo(f'Packing up {pack["edition"]}')
     runcmd('packwiz mr export -o', f'{ODIR}/packs/{pack["fullver"]}.mrpack')
-
-
-modloader_compat = {
-    'fabric': ['fabric'],
-    'quilt': ['fabric', 'quilt']
-}
-
-config = json_read(f'{ODIR}/conf/{sys.argv[1]}/config.json')
-base_conf = json_read(f'{ODIR}/conf/base_config.json')
 
 
 # Reset to certain hash to avoid unwanted changes
@@ -270,6 +162,7 @@ run_in('quilt', mark_mods_optional, 'mods_optional_quilt')
 run_in('fabric', rm_mods, 'mods_removed_fabric')
 run_in('quilt', rm_mods, 'mods_removed_quilt')
 run_in('all', rm_mods, 'mods_removed')
+
 run_in('all', rm_mods, 'mods_temp_removed')
 
 run_in('all', modify_packtoml)

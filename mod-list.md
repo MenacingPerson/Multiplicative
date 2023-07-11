@@ -41,7 +41,6 @@
 - continue
 - cosmetica
 - creativecore
-- distanthorizons
 - do-a-barrel-roll
 - emi
 - gamma-utils
