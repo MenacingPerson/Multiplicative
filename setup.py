@@ -31,10 +31,14 @@ def run_in(modloader: str, func, *args):
     """Run function in certain edition of pack"""
     if modloader not in ('fabric', 'quilt', 'all'):
         raise NameError('That\'s not a modloader!')
-    if modloader == 'all':
-        run_in('fabric', func, *args)
-        run_in('quilt', func, *args)
+    elif modloader == 'all':
+        if 'fabric' in config['pack_editions']:
+            run_in('fabric', func, *args)
+        if 'quilt' in config['pack_editions']:
+            run_in('quilt', func, *args)
         return
+    elif modloader != 'all' and modloader not in config['pack_editions']:
+        raise ValueError(f'Modloader {modloader} has not been added to config!')
     for pack_edition_path in glob.glob(f'{modloader}/*'):
         if pack_edition_path == []:
             raise NameError(f'No {modloader} versions found!')
@@ -45,6 +49,17 @@ def run_in(modloader: str, func, *args):
         pack['fullver'] = f'{base_conf["pack_name"]}-{base_conf["pack_version"]}-{pack["edition"]}'
         func(pack, *args)
         chodir()
+
+
+def run_separately_in_all(func, *args):
+    fabric_args = [arg.replace('[ml]', 'fabric') for arg in args]
+    quilt_args = [arg.replace('[ml]', 'quilt') for arg in args]
+    args = [arg.replace('_[ml]', '') for arg in args]
+    if 'fabric' in config['pack_editions']:
+        run_in('fabric', func, *fabric_args)
+    if 'quilt' in config['pack_editions']:
+        run_in('quilt', func, *quilt_args)
+    run_in('all', func, *args)
 
 
 def modify_packtoml(pack: dict):
@@ -133,17 +148,11 @@ for pack_edition in unwanted_pack_editions:
 for pack_edition in unwanted_pack_editions:
     shutil.rmtree(pack_edition)
 
-run_in('fabric', pw_add_mods, 'mods_fabric')
-run_in('quilt', pw_add_mods, 'mods_quilt')
-run_in('all', pw_add_mods, 'mods')
+run_separately_in_all(pw_add_mods, 'mods_[ml]')
 
-run_in('all', mark_mods_optional, 'mods_optional')
-run_in('fabric', mark_mods_optional, 'mods_optional_fabric')
-run_in('quilt', mark_mods_optional, 'mods_optional_quilt')
+run_separately_in_all(mark_mods_optional, 'mods_optional_[ml]')
 
-run_in('fabric', pw_rm_mods, 'mods_removed_fabric')
-run_in('quilt', pw_rm_mods, 'mods_removed_quilt')
-run_in('all', pw_rm_mods, 'mods_removed')
+run_separately_in_all(pw_rm_mods, 'mods_removed_[ml]')
 
 run_in('all', pw_rm_mods, 'mods_temp_removed')
 
@@ -153,8 +162,10 @@ run_in('all', config_cp)
 
 run_in('all', fix_mmc_config)
 
-run_in('fabric', change_modloader_ver, 'fabric')
-run_in('quilt', change_modloader_ver, 'quilt')
+if 'fabric' in config['pack_editions']:
+    run_in('fabric', change_modloader_ver, 'fabric')
+if 'quilt' in config['pack_editions']:
+    run_in('quilt', change_modloader_ver, 'quilt')
 
 run_in('all', pw_refresh)
 
