@@ -9,6 +9,10 @@ modloader_compat = {
     'quilt': ['fabric', 'quilt']
 }
 
+requests_headers = {
+    'User-Agent': 'MenacingPerson/Multiplicative'
+}
+
 
 def query_modrinth_project_versions(pack: dict, modid: str):
     """Query modrinth API for project versions"""
@@ -17,7 +21,7 @@ def query_modrinth_project_versions(pack: dict, modid: str):
         .replace("'", '"') + '&game_versions=' + \
         str(config['game_version_compat']).replace("'", '"')
     return (ver['id'] for ver in requests.request(
-        'GET', mod_url_path, timeout=5).json())
+        'GET', mod_url_path, timeout=5, headers=requests_headers).json())
 
 
 def add_mod_mr(pack: dict, mod: list) -> None:

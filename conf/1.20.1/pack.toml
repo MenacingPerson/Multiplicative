@@ -1,0 +1,13 @@
+name = "Multiplicative testbed (DO NOT USE)"
+author = "Menacing Person"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "978723ef0c78e9ef908c8e3c60cb8b85b2007cac43ebf1b1d55dca2e46fef627"
+
+[versions]
+fabric = "0.14.21"
+minecraft = "1.20.1"

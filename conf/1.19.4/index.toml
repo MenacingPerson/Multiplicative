@@ -1,0 +1,174 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config.json"
+hash = "89c2e7b9a3e4533ce5b6d27840382a23bff3edaf21a402ea9c3e4a32fb0098e4"
+
+[[files]]
+file = "config/.file"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "2905b7be42ac9c7c52eb1a5511ae67ebbff435f0630e93ace70b02ef6097d3d9"
+metafile = true
+
+[[files]]
+file = "mods/blur-fabric.pw.toml"
+hash = "55c14fd0cba0ae4478945420862cfdec970a5ab40b04a34ce9e3f94b9d721e38"
+metafile = true
+
+[[files]]
+file = "mods/cameraoverhaul.pw.toml"
+hash = "b657f098bc6bdf2c7ee67f95bf6cbf7e39cf4db7c6b8fb6fd432b9471c53ec1a"
+metafile = true
+
+[[files]]
+file = "mods/caxton.pw.toml"
+hash = "73249199d2b54720a400eb6685de00c833772457d81f8947c8083c4179e63dc2"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "c959159f77b8996061baa4775681cd2445a1b0691683a4f389d4065c316ef58d"
+metafile = true
+
+[[files]]
+file = "mods/continue.pw.toml"
+hash = "5854a617b8a3a766068211c8b84af3169616a0d902af351cb46b26ea2fb8d3e2"
+metafile = true
+
+[[files]]
+file = "mods/cosmetica.pw.toml"
+hash = "db67fd9448b1e0f1cc881af44f368fa3d36527f79f3c574b8b18e5c50cb1f3d5"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "b2a889278c3b05c9c9d4b8d38f63e1fca1420309b216b574cd9f5d91226fe302"
+metafile = true
+
+[[files]]
+file = "mods/do-a-barrel-roll.pw.toml"
+hash = "20f5e51a26f8abb850b167ea84399bc288ce7388b8b2ac4d9f5782f10419d785"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "f99f98a47d8a031bf842eddd28ee6471bb93482e140bdefa960a000edca5a784"
+metafile = true
+
+[[files]]
+file = "mods/gamma-utils.pw.toml"
+hash = "029737ae46672f650ceb961f135525915d59b1fbf040eb950185e3d7d472512a"
+metafile = true
+
+[[files]]
+file = "mods/halohud.pw.toml"
+hash = "a850d587fecfe462eedc1d45132888426159d59bddc29a0a430a57f17600f542"
+metafile = true
+
+[[files]]
+file = "mods/itemphysic-lite.pw.toml"
+hash = "36c81a604a7f061ee6dd8a3c20c79e069e34e35ca2d241d3c5bac5650f62d5b1"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "bf0c9d701ddb0912de3f57c4fbd08bd0d36b14c0bf12af82d09564e12b34da41"
+metafile = true
+
+[[files]]
+file = "mods/modelfix.pw.toml"
+hash = "47fff2ed63e342e95bf9a0ad086d896148195bbcbc25260300ca1b27d454f7b8"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "fa6421dc349c764afcb2e6ce82002b1cb0fdd7e0e828043889761a30f5012b02"
+metafile = true
+
+[[files]]
+file = "mods/mods-command.pw.toml"
+hash = "06075d1bda329e514c6c41ca7b34c703f1d2be0568d4cc4d6df4c977e2e651f6"
+metafile = true
+
+[[files]]
+file = "mods/morechathistory.pw.toml"
+hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
+metafile = true
+
+[[files]]
+file = "mods/nicer-skies.pw.toml"
+hash = "91bd6556fd9daed94c28cfc4d42b5a9b4919cdce81aa1674d9281ddb60407186"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "bb3f98696004987f53dd9d45af1ac3ab9c902362205bdac9c10f05a789cb87b6"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "68e797f5a5f2d3cc33802148bd4199bc846e6afa9bff3217b19d220ad7518499"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "e34a6d645bcfcb5a677159ac959b19ef3fde39a066f7164b565f8877bc3de525"
+metafile = true
+
+[[files]]
+file = "mods/raised.pw.toml"
+hash = "1f0dbc4ea3d5d8a513b0dbc09657fb2742b16a020460046e66fb442fd4095d2d"
+metafile = true
+
+[[files]]
+file = "mods/recursiveresources.pw.toml"
+hash = "f479ec13d681fea4bf15e702e9dedcbc08d3a5db8faf4a4efb4579d23afcc7c0"
+metafile = true
+
+[[files]]
+file = "mods/remember-my-txt.pw.toml"
+hash = "473681d86fa36c7d2a4f6117d3bf043a9fe7db1787c75c65355923ae831e2d26"
+metafile = true
+
+[[files]]
+file = "mods/rrls.pw.toml"
+hash = "ea726946037adba0558ff0de1011aac5660eb6b4ea8663f5a575f3c61d7a49aa"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-to-clipboard.pw.toml"
+hash = "672f3809a2053eef01aea4015ca4b0d4be6c507622172c091c17833b8d2ffb39"
+metafile = true
+
+[[files]]
+file = "mods/server-pack-unlocker.pw.toml"
+hash = "e053efc45b146cc3d66ec1a723cd1ab03a1de3d1029d550e750f84329e6899c9"
+metafile = true
+
+[[files]]
+file = "mods/smooth-swapping.pw.toml"
+hash = "dcdf9b9adc7bb2b4af3cf0b655264aeec0d18bd5f43b4f0f49b19ef0cf2b893e"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "de88418eec42b74e6f019fef0d69a38fa146af04f76faa5e49616bcef3938ffc"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "245599aeee8c2497af5588bcf1430a2753c9cd4827b7c8891dfbe9c578405038"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "0206ee5316f22e23b319eff6e31eb328908bb0ad8b57463be202175061a4a7dc"
+metafile = true
+
+[[files]]
+file = "mods/whoami.pw.toml"
+hash = "92881f23b9835dd0962a51ffb24f12b8f11e881bd8a5a10c63874223ed60e436"
+metafile = true

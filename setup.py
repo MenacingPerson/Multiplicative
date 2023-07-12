@@ -72,6 +72,10 @@ def modify_packtoml(pack: dict):
     toml_write(pack_toml, './pack.toml')
 
 
+def cp_mods(pack: dict, mods_key: str):
+    shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{mods_key}', './mods/', dirs_exist_ok=True)
+
+
 def mark_mods_optional(pack: dict, optional_mods_key: str):
     """Mark mods as optional in pack edition"""
     echo(f'Marking optional mods using {optional_mods_key} for {pack["edition"]}')
@@ -148,7 +152,7 @@ for pack_edition in unwanted_pack_editions:
 for pack_edition in unwanted_pack_editions:
     shutil.rmtree(pack_edition)
 
-run_separately_in_all(pw_add_mods, 'mods_[ml]')
+run_separately_in_all(cp_mods, 'mods_[ml]')
 
 run_separately_in_all(mark_mods_optional, 'mods_optional_[ml]')
 
