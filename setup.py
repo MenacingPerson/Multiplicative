@@ -15,7 +15,7 @@ import os
 from core.base import (echo, runcmd, toml_read, toml_write, json_read,
                        json_write, if_not_exists_create_dir,
                        if_exists_rm, ODIR, config, base_conf)
-from core.packwiz import pw_add_mods, pw_rm_mods, pw_refresh, pw_export_pack
+from core.packwiz import pw_rm_mods, pw_refresh, pw_export_pack
 
 os.chdir(ODIR)
 
