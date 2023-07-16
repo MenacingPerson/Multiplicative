@@ -7,7 +7,7 @@ cd "$(realpath "$(dirname "$0")"/..)"
 ./scripts/runscript.sh
 ./scripts/gen_mod_list.sh > mod-list.md
 
-if [[ $- == *i* ]] && command -v prismlauncher > /dev/null
+if command -v prismlauncher > /dev/null
 then
     cd ./packs/
     prismlauncher --import *

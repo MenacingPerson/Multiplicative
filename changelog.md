@@ -1,9 +1,13 @@
-# Release 2.3.0
+# Release 2.4.0
+
+Update quilt
 
 Updated:
 - CreativeCore (1.20.1)
 - EMI (1.19.4, 1.20.1)
+- Jade (1.20.1)
 - ModernFix (1.19.4, 1.20.1)
+- Raised (1.19.4, 1.20.1)
 
 
 Added:
