@@ -5,6 +5,7 @@ None
 
 Added:
 - ChestCountMod
+- Distant Horizons
 - ShowMeMyDPS!
 - Wynntils
 
