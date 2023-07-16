@@ -12,4 +12,4 @@ git add .
 git commit -m "Release $modpack_vers" --allow-empty
 
 git tag "$modpack_vers"
-git push origin main "$modpack_vers"
+git push origin $(git branch --show-current) "$modpack_vers"
