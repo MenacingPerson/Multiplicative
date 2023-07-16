@@ -34,6 +34,11 @@ hash = "c959159f77b8996061baa4775681cd2445a1b0691683a4f389d4065c316ef58d"
 metafile = true
 
 [[files]]
+file = "mods/chestcountmod.pw.toml"
+hash = "a3257209870a7ae303775cac7569b5b31720a992c40a3faa05769bda0e856f25"
+metafile = true
+
+[[files]]
 file = "mods/continue.pw.toml"
 hash = "5854a617b8a3a766068211c8b84af3169616a0d902af351cb46b26ea2fb8d3e2"
 metafile = true
@@ -149,6 +154,11 @@ hash = "e053efc45b146cc3d66ec1a723cd1ab03a1de3d1029d550e750f84329e6899c9"
 metafile = true
 
 [[files]]
+file = "mods/showmemydps.pw.toml"
+hash = "e6cde6b0a2bd698f8acdbfcc218291b779975b67cf72cfad7718e05e9f5bd45d"
+metafile = true
+
+[[files]]
 file = "mods/smooth-swapping.pw.toml"
 hash = "dcdf9b9adc7bb2b4af3cf0b655264aeec0d18bd5f43b4f0f49b19ef0cf2b893e"
 metafile = true
@@ -171,4 +181,9 @@ metafile = true
 [[files]]
 file = "mods/whoami.pw.toml"
 hash = "92881f23b9835dd0962a51ffb24f12b8f11e881bd8a5a10c63874223ed60e436"
+metafile = true
+
+[[files]]
+file = "mods/wynntils.pw.toml"
+hash = "1f140caad7a4bd2f18bbebdd177abdeddf3542498fd80956b2209d4baa98ab5f"
 metafile = true

@@ -1,17 +1,12 @@
-# Release 2.4.0
-
-Update quilt
+# Release wynn-1.0.0
 
 Updated:
-- CreativeCore (1.20.1)
-- EMI (1.19.4, 1.20.1)
-- Jade (1.20.1)
-- ModernFix (1.19.4, 1.20.1)
-- Raised (1.19.4, 1.20.1)
-
+None
 
 Added:
-None
+- ChestCountMod
+- ShowMeMyDPS!
+- Wynntils
 
 Removed:
 None
