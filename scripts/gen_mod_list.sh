@@ -17,11 +17,11 @@ do
             sed 's/.pw.toml//g; s/^/- /'
         echo -e "\n### Resource packs:\n"
         ls conf/$i/resourcepacks | sed 's/.pw.toml//g; s/^/- /'
-        echo -e "\n ### Removed from Additive:\n"
+        echo -e "\n### Removed from Additive:\n"
         jq -r '.mods_removed[]' < conf/$i/config.json | sed 's/^/- /'
-        echo -e "\n ### Removed from Additive (fabric):\n"
+        echo -e "\n### Removed from Additive (fabric):\n"
         jq -r '.mods_removed_fabric[]' < conf/$i/config.json | sed 's/^/- /'
-        echo -e "\n ### Removed from Additive (quilt):\n"
+        echo -e "\n### Removed from Additive (quilt):\n"
         jq -r '.mods_removed_quilt[]' < conf/$i/config.json | sed 's/^/- /'
     fi
 done
