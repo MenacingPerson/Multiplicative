@@ -45,6 +45,7 @@
 ### Resource packs:
 
 - faithful-32x
+- fresh-animations
 - geometric-font-edge
 
 ### Removed from Additive:

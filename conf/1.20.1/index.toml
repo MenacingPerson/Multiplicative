@@ -186,6 +186,11 @@ file = "mods_quilt/.file"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "235486ac327f81c801db0973eca9496fd545db9d9f5b3aee306491dcd180fb38"
+metafile = true
+
+[[files]]
 file = "resourcepacks/geometric-font-edge.pw.toml"
 hash = "e87fbe0fb690cb9e9c95052b928e7ce0ec5649d113dd61e4c3fdd639c42e5cd9"
 metafile = true

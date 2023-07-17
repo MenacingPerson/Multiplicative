@@ -1,13 +1,13 @@
-# Release wynn-1.0.0
+<<<<<<< HEAD
+# Release wynn-1.1.0
+
+Sync with pack 2.5.0
 
 Updated:
 None
 
 Added:
-- ChestCountMod
-- Distant Horizons
-- ShowMeMyDPS!
-- Wynntils
+None
 
 Removed:
 None

@@ -76,6 +76,9 @@ def cp_mods(pack: dict, mods_key: str):
     shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{mods_key}', './mods/', dirs_exist_ok=True)
 
 
+def cp_rps(pack: dict, rps_key: str):
+    shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{rps_key}', './resourcepacks/', dirs_exist_ok=True)
+
 def mark_mods_optional(pack: dict, optional_mods_key: str):
     """Mark mods as optional in pack edition"""
     echo(f'Marking optional mods using {optional_mods_key} for {pack["edition"]}')
@@ -157,6 +160,8 @@ run_separately_in_all(cp_mods, 'mods_[ml]')
 run_separately_in_all(mark_mods_optional, 'mods_optional_[ml]')
 
 run_separately_in_all(pw_rm_mods, 'mods_removed_[ml]')
+
+run_in('all', cp_rps, 'resourcepacks')
 
 run_in('all', pw_rm_mods, 'mods_temp_removed')
 
