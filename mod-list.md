@@ -44,14 +44,14 @@
 - faithful-32x
 - geometric-font-edge
 
- ### Removed from Additive:
+### Removed from Additive:
 
 - capes
 
- ### Removed from Additive (fabric):
+### Removed from Additive (fabric):
 
 
- ### Removed from Additive (quilt):
+### Removed from Additive (quilt):
 
 - lambdabettergrass
 
@@ -97,13 +97,13 @@
 
 - geometric-font-edge
 
- ### Removed from Additive:
+### Removed from Additive:
 
 - capes
 
- ### Removed from Additive (fabric):
+### Removed from Additive (fabric):
 
 
- ### Removed from Additive (quilt):
+### Removed from Additive (quilt):
 
 - lambdabettergrass
