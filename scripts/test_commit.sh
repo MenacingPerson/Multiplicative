@@ -5,7 +5,6 @@ set -e
 cd "$(realpath "$(dirname "$0")"/..)"
 
 ./scripts/runscript.sh
-./scripts/gen_mod_list.sh > mod-list.md
 
 if command -v prismlauncher > /dev/null
 then
