@@ -2,10 +2,14 @@ hash-format = "sha256"
 
 [[files]]
 file = "config.json"
-hash = "89c2e7b9a3e4533ce5b6d27840382a23bff3edaf21a402ea9c3e4a32fb0098e4"
+hash = "0fa65b04b1f730ed57553ad1a988ab5d8b3a5d91a6a82b1dcb2b1a634eca06ee"
 
 [[files]]
 file = "config/.file"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods/.file"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
@@ -30,7 +34,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "c959159f77b8996061baa4775681cd2445a1b0691683a4f389d4065c316ef58d"
+hash = "c8e0c810b99c5239bc363fc51d43c45a585e4810a8f0f4597e29239aaf9d05f5"
 metafile = true
 
 [[files]]
@@ -191,4 +195,22 @@ metafile = true
 [[files]]
 file = "mods/wynntils.pw.toml"
 hash = "1f140caad7a4bd2f18bbebdd177abdeddf3542498fd80956b2209d4baa98ab5f"
+metafile = true
+
+[[files]]
+file = "mods_fabric/.file"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods_quilt/.file"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "resourcepacks/faithful-32x.pw.toml"
+hash = "bd9e46ca1daa646b01b630a954c6b3ec811cc8093738eaa4d7c7347fc4d7e3f5"
+metafile = true
+
+[[files]]
+file = "resourcepacks/geometric-font-edge.pw.toml"
+hash = "e87fbe0fb690cb9e9c95052b928e7ce0ec5649d113dd61e4c3fdd639c42e5cd9"
 metafile = true

@@ -3,6 +3,7 @@
 ## Version 1.19.4:
 (excludes all Additive mods)
 
+### Mods:
 - 3dskinlayers
 - blur-fabric
 - cameraoverhaul
@@ -40,3 +41,7 @@
 - wavey-capes
 - whoami
 - wynntils
+
+ ### Resource packs:
+- faithful-32x
+- geometric-font-edge
