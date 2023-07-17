@@ -1,0 +1,13 @@
+name = "Remember My Txt"
+filename = "remember-my-txt-1.0.0+MC1.20.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2GLXmVz9/versions/vLkpyKuq/remember-my-txt-1.0.0%2BMC1.20.jar"
+hash-format = "sha1"
+hash = "236e15bf05bb422a26417ba9381d823962d0c1c9"
+
+[update]
+[update.modrinth]
+mod-id = "2GLXmVz9"
+version = "vLkpyKuq"

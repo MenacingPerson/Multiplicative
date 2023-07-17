@@ -1,0 +1,19 @@
+{
+    "game_version": "1.20.1",
+    "game_version_compat": ["1.20", "1.20.1"],
+    "pack_editions": [
+        "fabric",
+        "quilt"
+    ],
+    "mods_optional": [],
+    "mods_optional_fabric": [],
+    "mods_optional_quilt": [],
+    "mods_removed": [
+        "capes"
+    ],
+    "mods_temp_removed": [],
+    "mods_removed_fabric": [],
+    "mods_removed_quilt": [
+        "lambdabettergrass"
+    ]
+}

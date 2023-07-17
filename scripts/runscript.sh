@@ -6,7 +6,7 @@ cd "$(realpath "$(dirname "$0")"/..)"
 
 rm -f ./packs/*.mrpack
 
-for i in 1.19.4 1.20.1
+for i in 1.19.4
 do
     if [[ -d ./conf/$i ]]
     then
