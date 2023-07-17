@@ -3,6 +3,7 @@
 ## Version 1.19.4:
 (excludes all Additive mods)
 
+### Mods:
 - 3dskinlayers
 - blur-fabric
 - cameraoverhaul
@@ -36,10 +37,15 @@
 - spark
 - wavey-capes
 - whoami
+
+ ### Resource packs:
+- faithful-32x
+- geometric-font-edge
 
 ## Version 1.20.1:
 (excludes all Additive mods)
 
+### Mods:
 - 3dskinlayers
 - blur-fabric
 - cameraoverhaul
@@ -73,3 +79,6 @@
 - spark
 - wavey-capes
 - whoami
+
+ ### Resource packs:
+- geometric-font-edge
