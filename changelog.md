@@ -1,17 +1,12 @@
-# Release 2.4.0
-
-Update quilt
+# Release 2.5.0
 
 Updated:
-- CreativeCore (1.20.1)
-- EMI (1.19.4, 1.20.1)
-- Jade (1.20.1)
-- ModernFix (1.19.4, 1.20.1)
-- Raised (1.19.4, 1.20.1)
-
+- Chat Heads (1.19.4, 1.20.1)
 
 Added:
-None
+- Faithful 32x (1.19.4)
+- Geometric Font Edge (1.19.4, 1.20.1)
+- Fresh Animations (1.19.4, 1.20.1)
 
 Removed:
 None
