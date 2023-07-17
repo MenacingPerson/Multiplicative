@@ -1,9 +1,10 @@
 # Mod list for Multiplicative
+(excluding all Additive mods)
 
 ## Version 1.19.4:
-(excludes all Additive mods)
 
 ### Mods:
+
 - 3dskinlayers
 - blur-fabric
 - cameraoverhaul
@@ -38,14 +39,26 @@
 - wavey-capes
 - whoami
 
- ### Resource packs:
+### Resource packs:
+
 - faithful-32x
 - geometric-font-edge
 
+ ### Removed from Additive:
+
+- capes
+
+ ### Removed from Additive (fabric):
+
+
+ ### Removed from Additive (quilt):
+
+- lambdabettergrass
+
 ## Version 1.20.1:
-(excludes all Additive mods)
 
 ### Mods:
+
 - 3dskinlayers
 - blur-fabric
 - cameraoverhaul
@@ -80,5 +93,17 @@
 - wavey-capes
 - whoami
 
- ### Resource packs:
+### Resource packs:
+
 - geometric-font-edge
+
+ ### Removed from Additive:
+
+- capes
+
+ ### Removed from Additive (fabric):
+
+
+ ### Removed from Additive (quilt):
+
+- lambdabettergrass
