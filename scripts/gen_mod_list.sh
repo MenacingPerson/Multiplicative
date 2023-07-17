@@ -8,7 +8,7 @@ cd conf
 
 echo "# Mod list for Multiplicative"
 
-for i in *
+for i in 1.19.4
 do
     if [[ -d $i ]]
     then
