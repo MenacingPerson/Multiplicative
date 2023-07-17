@@ -29,7 +29,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "73249199d2b54720a400eb6685de00c833772457d81f8947c8083c4179e63dc2"
+hash = "47e5a3e48d5455d0dde2123239baa5d8536472de859eb398813261dfe5dc1bb1"
 metafile = true
 
 [[files]]
@@ -79,7 +79,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "bf0c9d701ddb0912de3f57c4fbd08bd0d36b14c0bf12af82d09564e12b34da41"
+hash = "17e09bf43f8a0acb665dc2bae20c71cdac4658a07e6f1b194ddabc92a6b1330a"
 metafile = true
 
 [[files]]
@@ -89,7 +89,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "eb464eceaa99df5b08c7c944995c82427a42589cb65bb02431c02258786a0dc8"
+hash = "a02121712774b1dd342328a3df9eed6a86a739672974166759055eaa899331a7"
 metafile = true
 
 [[files]]
@@ -192,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "235486ac327f81c801db0973eca9496fd545db9d9f5b3aee306491dcd180fb38"
+hash = "5923c680ba9498fd3025a457ab2c57febc6c9c66bee660175df4d35eb17dc2a4"
 metafile = true
 
 [[files]]

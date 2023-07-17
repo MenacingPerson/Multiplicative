@@ -29,7 +29,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "a352b6ce94ed4fd252bf46ea47440bb2e10e8ebc5cb716db54a3af4bdfe01f98"
+hash = "6648ee613e52e9c2d7a4496d0361f5168606e269ab303d566507f66f9b86b195"
 metafile = true
 
 [[files]]
@@ -79,7 +79,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "7314e54dc8c65e6a6a16da6ddf5b2cd92d5f1c73af0354aa986400484d2b3473"
+hash = "235a2ad50dc38b10c95721ec9998aa8da2dbdc46ec1ad11661160c259bf26d12"
 metafile = true
 
 [[files]]
@@ -89,7 +89,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "50e1457f2dbefe5746e272bdbd1d3b936165f6871f663e39c9705ea3f416f496"
+hash = "fb1dd4d4b360981b8f473e5a5802d134156c785a9c3dfbc9668705a3f2d7d43f"
 metafile = true
 
 [[files]]
@@ -134,7 +134,7 @@ metafile = true
 
 [[files]]
 file = "mods/remember-my-txt.pw.toml"
-hash = "98350f44d12819e719960152d979ddf4e9defba347445c1709b20037c6983e16"
+hash = "b1289a9043802a06b45f0fafa9ec5cbab15f9b543c2e8d6b33b014bf4fe4059c"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "235486ac327f81c801db0973eca9496fd545db9d9f5b3aee306491dcd180fb38"
+hash = "5923c680ba9498fd3025a457ab2c57febc6c9c66bee660175df4d35eb17dc2a4"
 metafile = true
 
 [[files]]
