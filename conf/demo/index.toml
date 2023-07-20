@@ -1,0 +1,25 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config.json"
+hash = "c4a5d67bdd37ec1a80778cfb7c7fd18057f9687ad71932ec8391c1bf43e90793"
+
+[[files]]
+file = "config/.file"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods/.file"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods_fabric/.file"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods_quilt/.file"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "resourcepacks/.file"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"

@@ -155,6 +155,8 @@ for pack_edition in unwanted_pack_editions:
 for pack_edition in unwanted_pack_editions:
     shutil.rmtree(pack_edition)
 
+run_in('all', pw_refresh)
+
 run_separately_in_all(cp_mods, 'mods_[ml]')
 
 run_separately_in_all(mark_mods_optional, 'mods_optional_[ml]')

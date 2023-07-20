@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Release wynn-1.1.0
 
 Sync with pack 2.5.0
