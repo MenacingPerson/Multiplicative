@@ -1,9 +1,9 @@
-# Release wynn-1.1.0
+# Release wynn-1.2.0
 
-Sync with pack 2.5.0
+Sync with pack 2.6.0
 
 Updated:
-None
+- Wynntils
 
 Added:
 None

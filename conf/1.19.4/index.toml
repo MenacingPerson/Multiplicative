@@ -64,7 +64,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "b8d9fea7a687575957bf25707e6c03066167d614f483f89359c580eb1cb63052"
+hash = "701112535ec34a240fc97c308f0d53475b6185b935c63377f05a1384e4830645"
 metafile = true
 
 [[files]]
@@ -94,7 +94,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "a02121712774b1dd342328a3df9eed6a86a739672974166759055eaa899331a7"
+hash = "378c86aa8b2c3daecad5944b28548877948f913641e42976c4dc2b7c7280eee0"
 metafile = true
 
 [[files]]
@@ -189,7 +189,7 @@ metafile = true
 
 [[files]]
 file = "mods/wynntils.pw.toml"
-hash = "1f140caad7a4bd2f18bbebdd177abdeddf3542498fd80956b2209d4baa98ab5f"
+hash = "b68200843338acdb91990a6b01e5ae3f5760203cf906dcb3c06b05aad8ee142a"
 metafile = true
 
 [[files]]
