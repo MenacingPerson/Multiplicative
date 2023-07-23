@@ -18,6 +18,11 @@ hash = "2905b7be42ac9c7c52eb1a5511ae67ebbff435f0630e93ace70b02ef6097d3d9"
 metafile = true
 
 [[files]]
+file = "mods/better-trim-tooltips.pw.toml"
+hash = "c0b4399adb48c2b8d9304d01d621c836b3c0a0faecab519108f62d40a5ee8bef"
+metafile = true
+
+[[files]]
 file = "mods/blur-fabric.pw.toml"
 hash = "55c14fd0cba0ae4478945420862cfdec970a5ab40b04a34ce9e3f94b9d721e38"
 metafile = true
@@ -55,6 +60,16 @@ metafile = true
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
 hash = "20f5e51a26f8abb850b167ea84399bc288ce7388b8b2ac4d9f5782f10419d785"
+metafile = true
+
+[[files]]
+file = "mods/draggable-lists.pw.toml"
+hash = "6d699475c6723e066a6346f6d85b90a5cbc8adc3efe615e0dbcb6cded6ef9a57"
+metafile = true
+
+[[files]]
+file = "mods/durability-tooltip.pw.toml"
+hash = "7f1c330b89a0c9c336ec04d4b7a021ffcfe58a837e0c42e2ce4ac0cbc0697d14"
 metafile = true
 
 [[files]]
@@ -165,6 +180,16 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "245599aeee8c2497af5588bcf1430a2753c9cd4827b7c8891dfbe9c578405038"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "c843b306eb159ceaafb0243d26be9607444da0b59fd787ae5cfb8c8597c90bed"
+metafile = true
+
+[[files]]
+file = "mods/tooltipfix.pw.toml"
+hash = "76262ae83e45259425577a35d7ce8c8d65fa3afe67ab16deaac6cbc67efe494e"
 metafile = true
 
 [[files]]
