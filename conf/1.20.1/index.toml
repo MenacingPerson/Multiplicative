@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config.json"
-hash = "0a4dd3501a737f1fb12a0e259bb98d3d4cc6bc14951fea0b2a704778788f4e99"
-
-[[files]]
-file = "config/.file"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "mods/.file"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "a7c95abc830068cdbd3adf8ec2ee8135b2eb2685f88fa90adda305f2d01205bc"
 metafile = true
@@ -201,18 +189,6 @@ metafile = true
 file = "mods/whoami.pw.toml"
 hash = "8b35ac594bfad2fd2533849ad3f573cc1f036be47302123a3193c9009fbe4691"
 metafile = true
-
-[[files]]
-file = "mods_fabric/.file"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "mods_quilt/.file"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "resourcepacks/.file"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"

@@ -6,6 +6,7 @@
 ### Mods:
 
 - 3dskinlayers
+- better-trim-tooltips
 - blur-fabric
 - cameraoverhaul
 - caxton
@@ -14,6 +15,8 @@
 - cosmetica
 - creativecore
 - do-a-barrel-roll
+- draggable-lists
+- durability-tooltip
 - emi
 - gamma-utils
 - halohud
@@ -36,6 +39,8 @@
 - smooth-swapping
 - sound-physics-remastered
 - spark
+- supermartijn642s-config-lib
+- tooltipfix
 - wavey-capes
 - whoami
 
@@ -61,6 +66,7 @@
 ### Mods:
 
 - 3dskinlayers
+- better-trim-tooltips
 - blur-fabric
 - cameraoverhaul
 - caxton
@@ -69,6 +75,8 @@
 - cosmetica
 - creativecore
 - do-a-barrel-roll
+- draggable-lists
+- durability-tooltip
 - emi
 - gamma-utils
 - halohud
@@ -91,6 +99,8 @@
 - smooth-swapping
 - sound-physics-remastered
 - spark
+- supermartijn642s-config-lib
+- tooltipfix
 - wavey-capes
 - whoami
 
