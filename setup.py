@@ -31,13 +31,13 @@ def run_in(modloader: str, func, *args):
     """Run function in certain edition of pack"""
     if modloader not in ('fabric', 'quilt', 'all'):
         raise NameError('That\'s not a modloader!')
-    elif modloader == 'all':
+    if modloader == 'all':
         if 'fabric' in config['pack_editions']:
             run_in('fabric', func, *args)
         if 'quilt' in config['pack_editions']:
             run_in('quilt', func, *args)
         return
-    elif modloader != 'all' and modloader not in config['pack_editions']:
+    if modloader not in config['pack_editions']:
         raise ValueError(f'Modloader {modloader} has not been added to config!')
     for pack_edition_path in glob.glob(f'{modloader}/*'):
         if pack_edition_path == []:
@@ -52,6 +52,7 @@ def run_in(modloader: str, func, *args):
 
 
 def run_separately_in_all(func, *args):
+    """Run function separately in all editions"""
     fabric_args = [arg.replace('[ml]', 'fabric') for arg in args]
     quilt_args = [arg.replace('[ml]', 'quilt') for arg in args]
     args = [arg.replace('_[ml]', '') for arg in args]
@@ -72,12 +73,16 @@ def modify_packtoml(pack: dict):
     toml_write(pack_toml, './pack.toml')
 
 
-def cp_mods(pack: dict, mods_key: str):
+def cp_mods(_pack: dict, mods_key: str):
+    """Copy packwiz pw.toml mod files over to pack edition"""
     shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{mods_key}', './mods/', dirs_exist_ok=True)
 
 
-def cp_rps(pack: dict, rps_key: str):
-    shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{rps_key}', './resourcepacks/', dirs_exist_ok=True)
+def cp_rps(_pack: dict, rps_key: str):
+    """Copy packwiz pw.toml resourcepack files over to pack edition"""
+    shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{rps_key}',
+                    './resourcepacks', dirs_exist_ok=True)
+
 
 def mark_mods_optional(pack: dict, optional_mods_key: str):
     """Mark mods as optional in pack edition"""

@@ -1,10 +1,11 @@
-# Release 2.5.1
+# Release 2.6.0
 
 Updated:
 - EMI (1.19.4, 1.20.1)
 - ModernFix (1.19.4, 1.20.1)
 
 Added:
+- Architectury API (1.19.4, 1.20.1)
 - Better Trim Tooltips (1.19.4, 1.20.1)
 - Draggable Lists (1.19.4, 1.20.1)
 - Durability Tooltip (1.19.4, 1.20.1)

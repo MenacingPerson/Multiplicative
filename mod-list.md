@@ -6,6 +6,7 @@
 ### Mods:
 
 - 3dskinlayers
+- architectury-api
 - better-trim-tooltips
 - blur-fabric
 - cameraoverhaul
@@ -66,6 +67,7 @@
 ### Mods:
 
 - 3dskinlayers
+- architectury-api
 - better-trim-tooltips
 - blur-fabric
 - cameraoverhaul
