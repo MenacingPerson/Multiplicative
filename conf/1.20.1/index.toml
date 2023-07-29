@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/yosbr/blur.json"
+hash = "7ed37e08b2ec3ec4b36475ceae21ba3b432436181c3ac6f30ef8a7728eef803c"
+
+[[files]]
+file = "config/yosbr/durabilitytooltip-common.toml"
+hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
+
+[[files]]
+file = "config/yosbr/modernfix-mixins.properties"
+hash = "2cd04691e6634ac7371155d23de25812813c5432d015520c4b14a9728ce03f87"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "a7c95abc830068cdbd3adf8ec2ee8135b2eb2685f88fa90adda305f2d01205bc"
 metafile = true
@@ -56,11 +68,6 @@ hash = "f438dc8ebf458a05ebd69a902b0b471adba17576e993ac6305231b615e7fc56a"
 metafile = true
 
 [[files]]
-file = "mods/draggable-lists.pw.toml"
-hash = "6def5f269d3f69656592f78adceb1b4c94047e68f3a332b95a51ac78d35c3e75"
-metafile = true
-
-[[files]]
 file = "mods/durability-tooltip.pw.toml"
 hash = "68b89af2373d74955b72209195d3874d8ab24f25683010d7e61918ba84a5f439"
 metafile = true
@@ -97,7 +104,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "9b06b57f650f8e55241eaf119f3e06fe501db9237ce95cd0c15fa731046be503"
+hash = "9f73d516ece73f6cccda8f03f0c79c21d4259ba6002b794bf17bbbdd505551d2"
 metafile = true
 
 [[files]]
@@ -133,11 +140,6 @@ metafile = true
 [[files]]
 file = "mods/raised.pw.toml"
 hash = "7843c9f45563df3fab3779f6771316b679d32694085d5626b2a060453fbe4e03"
-metafile = true
-
-[[files]]
-file = "mods/recursiveresources.pw.toml"
-hash = "a31bc2e0d4721a7d48388c7e2c2bac5f66fa775aee6d4f2e4b4b4c4b340ca2dd"
 metafile = true
 
 [[files]]
@@ -181,11 +183,6 @@ hash = "a83eaf0e340efd659d6f501ae9799f486719e12f004cc70246f28d52e01173f0"
 metafile = true
 
 [[files]]
-file = "mods/tooltipfix.pw.toml"
-hash = "fe592547ec2aedf1de7add34f747f7845e103de228e2426328e9e60fe93298cc"
-metafile = true
-
-[[files]]
 file = "mods/wavey-capes.pw.toml"
 hash = "9f6d01028472394a8c3120f1e2a0229d09c77069bdca793159fecc6074aae394"
 metafile = true
@@ -193,6 +190,21 @@ metafile = true
 [[files]]
 file = "mods/whoami.pw.toml"
 hash = "8b35ac594bfad2fd2533849ad3f573cc1f036be47302123a3193c9009fbe4691"
+metafile = true
+
+[[files]]
+file = "mods_fabric/libjf.pw.toml"
+hash = "48f5924c167e0c610c7766e547b6e6c824a2af63c267427c623cb7bd8f2f2479"
+metafile = true
+
+[[files]]
+file = "mods_fabric/recursiveresources.pw.toml"
+hash = "a31bc2e0d4721a7d48388c7e2c2bac5f66fa775aee6d4f2e4b4b4c4b340ca2dd"
+metafile = true
+
+[[files]]
+file = "mods_fabric/respackopts.pw.toml"
+hash = "0ed6ef67ff055cc2537b15504a74bc7ff312cd47e35637ee002669eea02f29be"
 metafile = true
 
 [[files]]

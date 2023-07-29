@@ -128,6 +128,7 @@ def change_modloader_ver(pack: dict, modloader) -> None:
     echo(f'Updating {modloader} to {base_conf[f"{modloader}_version"]} for {pack["edition"]}')
     pack_toml = toml_read('./pack.toml')
     pack_toml['versions'][modloader] = base_conf[f'{modloader}_version']
+    toml_write(pack_toml, './pack.toml')
 
 
 # Reset to certain hash to avoid unwanted changes
@@ -180,8 +181,12 @@ run_in('all', fix_mmc_config)
 
 if 'fabric' in config['pack_editions']:
     run_in('fabric', change_modloader_ver, 'fabric')
+else:
+    print("Fabric is not in pack editions!")
 if 'quilt' in config['pack_editions']:
     run_in('quilt', change_modloader_ver, 'quilt')
+else:
+    print("Quilt is not in pack editions!")
 
 run_in('all', pw_refresh)
 

@@ -16,7 +16,6 @@
 - cosmetica
 - creativecore
 - do-a-barrel-roll
-- draggable-lists
 - durability-tooltip
 - emi
 - gamma-utils
@@ -32,7 +31,6 @@
 - not-enough-animations
 - presence-footsteps
 - raised
-- recursiveresources
 - remember-my-txt
 - rrls
 - screenshot-to-clipboard
@@ -41,9 +39,11 @@
 - sound-physics-remastered
 - spark
 - supermartijn642s-config-lib
-- tooltipfix
 - wavey-capes
 - whoami
+- libjf
+- recursiveresources
+- respackopts
 
 ### Resource packs:
 
@@ -77,7 +77,6 @@
 - cosmetica
 - creativecore
 - do-a-barrel-roll
-- draggable-lists
 - durability-tooltip
 - emi
 - gamma-utils
@@ -93,7 +92,6 @@
 - not-enough-animations
 - presence-footsteps
 - raised
-- recursiveresources
 - remember-my-txt
 - rrls
 - screenshot-to-clipboard
@@ -102,9 +100,11 @@
 - sound-physics-remastered
 - spark
 - supermartijn642s-config-lib
-- tooltipfix
 - wavey-capes
 - whoami
+- libjf
+- recursiveresources
+- respackopts
 
 ### Resource packs:
 

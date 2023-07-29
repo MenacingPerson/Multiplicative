@@ -1,9 +1,9 @@
 {
     "build": ["1.19.4", "1.20.1"],
-    "additive_hash": "204e24bd07a089b2e1ac34c801a4a9ea2f1e3bda",
+    "additive_hash": "39a2ea35e9b7c136b18628a7bbb6f3bf19148ec3",
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
-    "pack_version": "2.6.0",
+    "pack_version": "2.7.0",
     "pack_url": "https://github.com/MenacingPerson/Multiplicative",
     "fabric_version": "0.14.21",
     "quilt_version": "0.19.2"

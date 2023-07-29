@@ -1,19 +1,20 @@
-# Release 2.6.0
+# Release 2.7.0
+
+Add Blur, Durability Tooltip, ModernFix configs (1.19.4, 1.20.1)
+Make modloader version change actually work
 
 Updated:
-- EMI (1.19.4, 1.20.1)
+- Additive (base)
+- Quilt loader (quilt instances)
 - ModernFix (1.19.4, 1.20.1)
 
 Added:
-- Architectury API (1.19.4, 1.20.1)
-- Better Trim Tooltips (1.19.4, 1.20.1)
-- Draggable Lists (1.19.4, 1.20.1)
-- Durability Tooltip (1.19.4, 1.20.1)
-- Supermartijn642's Config Lib (1.19.4, 1.20.1)
-- ToolTipFix (1.19.4, 1.20.1)
+- LibJF (1.19.4, 1.20.1) (Fabric only)
+- Respackopts (1.19.4, 1.20.1) (Fabric only)
 
 Removed:
-None
+- Draggable Lists (1.19.4, 1.20.1) (It conflicted with Recursive Resources a bit)
+- ToolTipFix (1.19.4, 1.20.1) (Kinda unnecessary)
 
 Multiplicative Contributors:
 - @MenacingPerson (me)
