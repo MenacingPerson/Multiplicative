@@ -5,7 +5,6 @@ Make modloader version change actually work
 
 Updated:
 - Additive (base)
-- Quilt loader (quilt instances)
 - ModernFix (1.19.4, 1.20.1)
 
 Added:
