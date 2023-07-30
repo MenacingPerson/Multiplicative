@@ -1,10 +1,23 @@
 {
-    "build": ["1.19.4", "1.20.1"],
-    "additive_hash": "39a2ea35e9b7c136b18628a7bbb6f3bf19148ec3",
+    "additive_hash": "d57503949151d4dd5f1432a8de4ac08610d58f71",
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
     "pack_version": "2.7.0",
     "pack_url": "https://github.com/MenacingPerson/Multiplicative",
-    "fabric_version": "0.14.21",
-    "quilt_version": "0.19.2"
+    "build": [
+        {
+            "mc": "1.19.4"
+        },
+        {
+            "mc": "1.20.1"
+        }
+    ],
+    "modloaders": {
+        "fabric": {
+            "version": "0.14.21"
+        },
+        "quilt": {
+            "version": "0.19.2"
+        }
+    }
 }

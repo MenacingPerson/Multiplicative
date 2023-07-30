@@ -7,7 +7,7 @@ cd "$(realpath "$(dirname "$0")"/..)"
 echo "# Mod list for Multiplicative"
 echo "(excluding all Additive mods)"
 
-for i in $(jq -r '.build[]' < conf/base_config.json)
+for i in $(jq -r '.build[].mc' < conf/base_config.json)
 do
     if [[ -d conf/$i ]]
     then
