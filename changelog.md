@@ -1,10 +1,14 @@
 # Release 2.7.0
 
-Add Blur, Durability Tooltip, ModernFix configs (1.19.4, 1.20.1)
+Add Blur, Durability Tooltip configs (1.19.4, 1.20.1)
 Make modloader version change actually work
+Moved Recursive Resources to fabric mods
 
 Updated:
 - Additive (base)
+- Chat Heads (1.19.4, 1.20.1)
+- EMI (1.19.4, 1.20.1)
+- Jade (1.20.1)
 - ModernFix (1.19.4, 1.20.1)
 
 Added:
