@@ -1,16 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/yosbr/blur.json"
+file = "config/yosbr/config/blur.json"
 hash = "7ed37e08b2ec3ec4b36475ceae21ba3b432436181c3ac6f30ef8a7728eef803c"
 
 [[files]]
-file = "config/yosbr/durabilitytooltip-common.toml"
+file = "config/yosbr/config/durabilitytooltip-common.toml"
 hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
-
-[[files]]
-file = "config/yosbr/modernfix-mixins.properties"
-hash = "2cd04691e6634ac7371155d23de25812813c5432d015520c4b14a9728ce03f87"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -44,7 +40,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "c8e0c810b99c5239bc363fc51d43c45a585e4810a8f0f4597e29239aaf9d05f5"
+hash = "3f3000ec3332e3a6160f86dce66c30204c47a68686cf816e61dbb7abaa5b84b8"
 metafile = true
 
 [[files]]
@@ -74,7 +70,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "532583394d34a97194cd50457b855d7061aa7de9a822331298a791d17ab57d23"
+hash = "e56b63bd41759ac0e389a84bab2b08597e31eb2df597bcc5fed81736e2527498"
 metafile = true
 
 [[files]]
