@@ -1,9 +1,12 @@
 # Mod list for Multiplicative
 (excluding all Additive mods)
 
-## Version 1.19.4:
+# Version 1.19.4:
 
-### Mods:
+## Mods
+
+
+### All:
 
 - 3dskinlayers
 - architectury-api
@@ -41,30 +44,41 @@
 - supermartijn642s-config-lib
 - wavey-capes
 - whoami
+
+### Fabric:
+
 - libjf
 - recursiveresources
 - respackopts
 
-### Resource packs:
+### Quilt:
+
+
+## Resource packs:
 
 - faithful-32x
 - fresh-animations
 - geometric-font-edge
 
-### Removed from Additive:
+## Removed from Additive
 
+
+### All:
 - capes
 
-### Removed from Additive (fabric):
+### Fabric:
 
 
-### Removed from Additive (quilt):
+### Quilt:
 
 - lambdabettergrass
 
-## Version 1.20.1:
+# Version 1.20.1:
 
-### Mods:
+## Mods
+
+
+### All:
 
 - 3dskinlayers
 - architectury-api
@@ -102,22 +116,30 @@
 - supermartijn642s-config-lib
 - wavey-capes
 - whoami
+
+### Fabric:
+
 - libjf
 - recursiveresources
 - respackopts
 
-### Resource packs:
+### Quilt:
+
+
+## Resource packs:
 
 - fresh-animations
 - geometric-font-edge
 
-### Removed from Additive:
+## Removed from Additive
 
+
+### All:
 - capes
 
-### Removed from Additive (fabric):
+### Fabric:
 
 
-### Removed from Additive (quilt):
+### Quilt:
 
 - lambdabettergrass
