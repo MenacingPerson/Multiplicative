@@ -2,7 +2,7 @@
 
 Add Blur, Durability Tooltip configs (1.19.4, 1.20.1)
 Make modloader version change actually work
-Moved Recursive Resources to fabric mods
+Moved Recursive Resources to fabric-only
 
 Updated:
 - Additive (base)
