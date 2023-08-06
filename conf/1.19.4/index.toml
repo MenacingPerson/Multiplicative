@@ -70,7 +70,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "e56b63bd41759ac0e389a84bab2b08597e31eb2df597bcc5fed81736e2527498"
+hash = "a0c0033e973ed45f2dae25bd506d80bb34092f0d3fee3c19fafb0abc8826b3db"
 metafile = true
 
 [[files]]
@@ -100,7 +100,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "b638f1036128d53d0d8a42b842c1a06ba6b22fdcec725701bf6229cfd6233b55"
+hash = "6d7cd27a77ee46fce01732624c841e0c2a1a0335d5653df8643b16bb42a01497"
 metafile = true
 
 [[files]]
