@@ -1,6 +1,6 @@
 # Release wynn-1.2.0
 
-Sync with pack 2.6.0
+Sync with pack 2.9.0
 
 Updated:
 - Wynntils
@@ -9,10 +9,7 @@ Added:
 None
 
 Removed:
-None
-
-Multiplicative Contributors:
-- @MenacingPerson (me)
+- ChestCountMod
 
 Upstream Contributors/credits:
 - Additive Contributors

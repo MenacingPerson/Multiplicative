@@ -1,20 +1,26 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config.json"
-hash = "0fa65b04b1f730ed57553ad1a988ab5d8b3a5d91a6a82b1dcb2b1a634eca06ee"
+file = "config/yosbr/config/blur.json"
+hash = "7ed37e08b2ec3ec4b36475ceae21ba3b432436181c3ac6f30ef8a7728eef803c"
 
 [[files]]
-file = "config/.file"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "mods/.file"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "config/yosbr/config/durabilitytooltip-common.toml"
+hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "2905b7be42ac9c7c52eb1a5511ae67ebbff435f0630e93ace70b02ef6097d3d9"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "56c08a19b9257a481269b77cd630c7396a4ce471f0a4f434df41a49a0623a95a"
+metafile = true
+
+[[files]]
+file = "mods/better-trim-tooltips.pw.toml"
+hash = "c0b4399adb48c2b8d9304d01d621c836b3c0a0faecab519108f62d40a5ee8bef"
 metafile = true
 
 [[files]]
@@ -29,17 +35,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "47e5a3e48d5455d0dde2123239baa5d8536472de859eb398813261dfe5dc1bb1"
+hash = "162ab2378fa303f3114326b66347cbe5443f6531b46532ae390cf328db92208f"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "c8e0c810b99c5239bc363fc51d43c45a585e4810a8f0f4597e29239aaf9d05f5"
-metafile = true
-
-[[files]]
-file = "mods/chestcountmod.pw.toml"
-hash = "a3257209870a7ae303775cac7569b5b31720a992c40a3faa05769bda0e856f25"
+hash = "077a65a322a0b38447271b1ae70d59ff82a9f7bdf117e39a409a33a09540ebc3"
 metafile = true
 
 [[files]]
@@ -59,12 +60,17 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "20f5e51a26f8abb850b167ea84399bc288ce7388b8b2ac4d9f5782f10419d785"
+hash = "05f1f50dbdf795a64538a102d4c028a957c082f913c74d779d120a6e2270db06"
+metafile = true
+
+[[files]]
+file = "mods/durability-tooltip.pw.toml"
+hash = "7f1c330b89a0c9c336ec04d4b7a021ffcfe58a837e0c42e2ce4ac0cbc0697d14"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "701112535ec34a240fc97c308f0d53475b6185b935c63377f05a1384e4830645"
+hash = "7a3404eb106965ce2329cacb573fc099b5d0010abfa82fd0c8060960b0295a04"
 metafile = true
 
 [[files]]
@@ -94,7 +100,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "378c86aa8b2c3daecad5944b28548877948f913641e42976c4dc2b7c7280eee0"
+hash = "5ea3d3fdaa7ff8f7f3a9ccedcc863da8f61b3f073a0411e06b112052de8031b0"
 metafile = true
 
 [[files]]
@@ -130,11 +136,6 @@ metafile = true
 [[files]]
 file = "mods/raised.pw.toml"
 hash = "daf895c100f1d256fc1df8bf67e8cf4b11c0972b9082c5fbee8f47c4eacf311f"
-metafile = true
-
-[[files]]
-file = "mods/recursiveresources.pw.toml"
-hash = "f479ec13d681fea4bf15e702e9dedcbc08d3a5db8faf4a4efb4579d23afcc7c0"
 metafile = true
 
 [[files]]
@@ -178,6 +179,11 @@ hash = "245599aeee8c2497af5588bcf1430a2753c9cd4827b7c8891dfbe9c578405038"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "c843b306eb159ceaafb0243d26be9607444da0b59fd787ae5cfb8c8597c90bed"
+metafile = true
+
+[[files]]
 file = "mods/wavey-capes.pw.toml"
 hash = "0206ee5316f22e23b319eff6e31eb328908bb0ad8b57463be202175061a4a7dc"
 metafile = true
@@ -189,20 +195,23 @@ metafile = true
 
 [[files]]
 file = "mods/wynntils.pw.toml"
-hash = "b68200843338acdb91990a6b01e5ae3f5760203cf906dcb3c06b05aad8ee142a"
+hash = "fcb89b2f71e2e25bf0e991cc6e5b06631a383c02fe929ec12a5c25d5480495e1"
 metafile = true
 
 [[files]]
-file = "mods_fabric/.file"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "mods_fabric/libjf.pw.toml"
+hash = "135fd53336c7e4a237e1e8933344b7439173318ae5a504c3f05241ed00468f8c"
+metafile = true
 
 [[files]]
-file = "mods_quilt/.file"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "mods_fabric/recursiveresources.pw.toml"
+hash = "f479ec13d681fea4bf15e702e9dedcbc08d3a5db8faf4a4efb4579d23afcc7c0"
+metafile = true
 
 [[files]]
-file = "resourcepacks/.file"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "mods_fabric/respackopts.pw.toml"
+hash = "553155ad2a1991c319cc934fddb861349fdc5ac790ba2466b56c6cc8f3ae685a"
+metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32x.pw.toml"

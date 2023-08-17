@@ -1,0 +1,1 @@
+"""Declare as module"""

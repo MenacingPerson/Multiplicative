@@ -1,10 +1,24 @@
 {
-    "build": ["1.19.4"],
-    "additive_hash": "856183193f234af846f3c79b2e1eb9e488be06dc",
+    "additive_hash": "eeb21efb7b3a9d5b0adeb9e91a2c168817a78576",
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
     "pack_version": "wynn-1.2.0",
     "pack_url": "https://github.com/MenacingPerson/Multiplicative",
-    "fabric_version": "0.14.21",
-    "quilt_version": "0.19.2"
+    "pack_user_agent": "MenacingPerson/Multiplicative",
+    "build": [
+        {
+            "mc": "1.19.4"
+        },
+        {
+            "mc": "1.20.1"
+        }
+    ],
+    "modloaders": {
+        "fabric": {
+            "version": "0.14.21"
+        },
+        "quilt": {
+            "version": "0.19.2"
+        }
+    }
 }

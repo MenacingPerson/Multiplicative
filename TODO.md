@@ -1,0 +1,1 @@
+- Pretty-print mod names in [the mod list](mod-list.md)

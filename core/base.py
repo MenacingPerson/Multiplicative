@@ -22,6 +22,11 @@ def runcmd(cmd: str, *args) -> subprocess.CompletedProcess:
 # File handling functions
 
 
+def chodir() -> None:
+    """Change dir to Modified/versions"""
+    os.chdir(f'{ODIR}/Modified/versions')
+
+
 def toml_read(filename: str) -> dict:
     """Read toml file"""
     with open(filename, 'rb') as file:

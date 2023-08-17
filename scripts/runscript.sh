@@ -6,7 +6,7 @@ cd "$(realpath "$(dirname "$0")"/..)"
 
 rm -f ./packs/*.mrpack
 
-for i in $(jq -r '.build[]' < conf/base_config.json)
+for i in $(jq -r '.build[].mc' < conf/base_config.json)
 do
     if [[ -d ./conf/$i ]]
     then

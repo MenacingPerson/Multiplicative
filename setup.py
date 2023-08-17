@@ -2,7 +2,7 @@
 
 
 """
-Main Multiplicative pack creation tool.
+Main pack creation tool for the modpack.
 Use the stuff in ./scripts/ instead of this.
 $1 = config directory
 Refer to config.json for configuration info.
@@ -12,54 +12,18 @@ import glob
 import shutil
 import sys
 import os
-from core.base import (echo, runcmd, toml_read, toml_write, json_read,
-                       json_write, if_not_exists_create_dir,
-                       if_exists_rm, ODIR, config, base_conf)
+import core.base
+import core.packwiz
+import core.pack_editions
+from core.base import (echo, ODIR, runcmd, toml_read,
+                       toml_write, json_read, json_write,
+                       config, base_conf)
 from core.packwiz import pw_rm_mods, pw_refresh, pw_export_pack
+from core.pack_editions import run_in, run_separately_in_all
 
-os.chdir(ODIR)
-
-
-def chodir() -> None:
-    """Change dir to Modified/versions"""
-    os.chdir(f'{ODIR}/Modified/versions')
+os.chdir(core.base.ODIR)
 
 # logic (functions)
-
-
-def run_in(modloader: str, func, *args):
-    """Run function in certain edition of pack"""
-    if modloader not in ('fabric', 'quilt', 'all'):
-        raise NameError('That\'s not a modloader!')
-    elif modloader == 'all':
-        if 'fabric' in config['pack_editions']:
-            run_in('fabric', func, *args)
-        if 'quilt' in config['pack_editions']:
-            run_in('quilt', func, *args)
-        return
-    elif modloader != 'all' and modloader not in config['pack_editions']:
-        raise ValueError(f'Modloader {modloader} has not been added to config!')
-    for pack_edition_path in glob.glob(f'{modloader}/*'):
-        if pack_edition_path == []:
-            raise NameError(f'No {modloader} versions found!')
-        os.chdir(pack_edition_path)
-        pack = {}
-        pack['modloader'] = modloader
-        pack['edition'] = modloader + '+' + config['game_version']
-        pack['fullver'] = f'{base_conf["pack_name"]}-{base_conf["pack_version"]}-{pack["edition"]}'
-        func(pack, *args)
-        chodir()
-
-
-def run_separately_in_all(func, *args):
-    fabric_args = [arg.replace('[ml]', 'fabric') for arg in args]
-    quilt_args = [arg.replace('[ml]', 'quilt') for arg in args]
-    args = [arg.replace('_[ml]', '') for arg in args]
-    if 'fabric' in config['pack_editions']:
-        run_in('fabric', func, *fabric_args)
-    if 'quilt' in config['pack_editions']:
-        run_in('quilt', func, *quilt_args)
-    run_in('all', func, *args)
 
 
 def modify_packtoml(pack: dict):
@@ -72,12 +36,16 @@ def modify_packtoml(pack: dict):
     toml_write(pack_toml, './pack.toml')
 
 
-def cp_mods(pack: dict, mods_key: str):
+def cp_mods(_pack: dict, mods_key: str):
+    """Copy packwiz pw.toml mod files over to pack edition"""
     shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{mods_key}', './mods/', dirs_exist_ok=True)
 
 
-def cp_rps(pack: dict, rps_key: str):
-    shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{rps_key}', './resourcepacks/', dirs_exist_ok=True)
+def cp_rps(_pack: dict, rps_key: str):
+    """Copy packwiz pw.toml resourcepack files over to pack edition"""
+    shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{rps_key}',
+                    './resourcepacks', dirs_exist_ok=True)
+
 
 def mark_mods_optional(pack: dict, optional_mods_key: str):
     """Mark mods as optional in pack edition"""
@@ -118,11 +86,16 @@ def fix_mmc_config(pack: dict):
     json_write(mmc_conf_json, './config/isxander-main-menu-credits.json')
 
 
-def change_modloader_ver(pack: dict, modloader) -> None:
+def change_modloader_ver(pack: dict) -> None:
     """Change version of specified modloader"""
-    echo(f'Updating {modloader} to {base_conf[f"{modloader}_version"]} for {pack["edition"]}')
-    pack_toml = toml_read('./pack.toml')
-    pack_toml['versions'][modloader] = base_conf[f'{modloader}_version']
+    modloader = pack['modloader']
+    if core.pack_editions.loader_is_valid(modloader):
+        echo(f"Updating {modloader} to {core.base.base_conf['modloaders'][modloader]['version']} for {pack['edition']}")
+        pack_toml = toml_read('./pack.toml')
+        pack_toml['versions'][modloader] = core.base.base_conf['modloaders'][modloader]['version']
+        toml_write(pack_toml, './pack.toml')
+    else:
+        print(f'{i} is not a valid modloader!')
 
 
 # Reset to certain hash to avoid unwanted changes
@@ -135,20 +108,20 @@ os.chdir(ODIR)
 runcmd('git add Additive/')
 
 # Error handling
-if_exists_rm(f'{ODIR}/Additive/Modified')
-if_exists_rm(f'{ODIR}/Additive/packs')
+core.base.if_exists_rm(f'{ODIR}/Additive/Modified')
+core.base.if_exists_rm(f'{ODIR}/Additive/packs')
 
 # Recreate modified pack
 echo("Removing previous modified packs")
-if_exists_rm(f'{ODIR}/Modified')
-if_not_exists_create_dir(f'{ODIR}/packs')
+core.base.if_exists_rm(f'{ODIR}/Modified')
+core.base.if_not_exists_create_dir(f'{ODIR}/packs')
 shutil.copytree(f'{ODIR}/Additive/', f'{ODIR}/Modified/')
 
-chodir()
+core.base.chodir()
 
 unwanted_pack_editions = glob.glob('*/*')
-wanted_pack_editions = [pack_edition + '/' + config['game_version']
-                        for pack_edition in config['pack_editions']]
+wanted_pack_editions = [modloader + '/' + config['game_version']
+                        for modloader in config['modloaders']]
 for pack_edition in unwanted_pack_editions:
     if pack_edition in wanted_pack_editions:
         unwanted_pack_editions.remove(pack_edition)
@@ -173,10 +146,8 @@ run_in('all', config_cp)
 
 run_in('all', fix_mmc_config)
 
-if 'fabric' in config['pack_editions']:
-    run_in('fabric', change_modloader_ver, 'fabric')
-if 'quilt' in config['pack_editions']:
-    run_in('quilt', change_modloader_ver, 'quilt')
+for i in core.packwiz.modloaders:
+    run_in(i, change_modloader_ver)
 
 run_in('all', pw_refresh)
 
