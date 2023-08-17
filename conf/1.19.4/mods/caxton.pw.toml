@@ -1,13 +1,13 @@
 name = "Caxton"
-filename = "caxton-0.4.9+1.19.4.jar"
+filename = "caxton-0.4.10+1.19.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/k8iIgzXE/versions/Xt47SJsp/caxton-0.4.9%2B1.19.4.jar"
+url = "https://cdn.modrinth.com/data/k8iIgzXE/versions/VovLi3Qn/caxton-0.4.10%2B1.19.4.jar"
 hash-format = "sha1"
-hash = "9881b5bcffaecd0622f5e2370f8f478b0fd64066"
+hash = "3b92b49507ef44179b992bfbadc339ab772dda2d"
 
 [update]
 [update.modrinth]
 mod-id = "k8iIgzXE"
-version = "Xt47SJsp"
+version = "VovLi3Qn"

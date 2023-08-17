@@ -35,12 +35,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "47e5a3e48d5455d0dde2123239baa5d8536472de859eb398813261dfe5dc1bb1"
+hash = "162ab2378fa303f3114326b66347cbe5443f6531b46532ae390cf328db92208f"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "3f3000ec3332e3a6160f86dce66c30204c47a68686cf816e61dbb7abaa5b84b8"
+hash = "077a65a322a0b38447271b1ae70d59ff82a9f7bdf117e39a409a33a09540ebc3"
 metafile = true
 
 [[files]]
@@ -60,7 +60,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "20f5e51a26f8abb850b167ea84399bc288ce7388b8b2ac4d9f5782f10419d785"
+hash = "05f1f50dbdf795a64538a102d4c028a957c082f913c74d779d120a6e2270db06"
 metafile = true
 
 [[files]]
@@ -70,7 +70,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "a0c0033e973ed45f2dae25bd506d80bb34092f0d3fee3c19fafb0abc8826b3db"
+hash = "7a3404eb106965ce2329cacb573fc099b5d0010abfa82fd0c8060960b0295a04"
 metafile = true
 
 [[files]]
@@ -100,7 +100,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "6d7cd27a77ee46fce01732624c841e0c2a1a0335d5653df8643b16bb42a01497"
+hash = "5ea3d3fdaa7ff8f7f3a9ccedcc863da8f61b3f073a0411e06b112052de8031b0"
 metafile = true
 
 [[files]]

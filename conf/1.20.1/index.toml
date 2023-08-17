@@ -35,17 +35,17 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "6648ee613e52e9c2d7a4496d0361f5168606e269ab303d566507f66f9b86b195"
+hash = "7a59ba6ab1b0f2f4bef4ef21a76a5d42b3a3a5befe09a9764da4fb7f3ed5af12"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "8792111bc94d2db611046d7089cf13ca0227165ebaec517e34858c97cc97f6e5"
+hash = "7293ab05ee73400787ba9c31d4c59884d252dcc170880602e8e8da64dcf3f765"
 metafile = true
 
 [[files]]
 file = "mods/continue.pw.toml"
-hash = "773d68eb94f96b5a65ba53f397b6f299798069f2ddb9eef09952b66b1d391164"
+hash = "9b65ce988265594df45f26a71cca523779e97696c579740e8fd6b8c6b0236cb8"
 metafile = true
 
 [[files]]
@@ -60,7 +60,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "f438dc8ebf458a05ebd69a902b0b471adba17576e993ac6305231b615e7fc56a"
+hash = "d889720cd05fdff22ee65632a989ce8052df302b9513df15d9f6c88df7389567"
 metafile = true
 
 [[files]]
@@ -70,7 +70,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "cfa6a711108fa04d3afcc5eb7e52cec5cfc1585d42977c6446e8d63541bda275"
+hash = "4f0afa4e70e830f08266c181c2a0deb207780712db6e7f8961ffb62061afada0"
 metafile = true
 
 [[files]]
@@ -90,7 +90,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "fc62c8ca609288aae3ab5368a40f29bf18f21df923158b8e5a008b45356a33a8"
+hash = "f93392889cca4c2e3f55ee629eb9b8afeb4759ba9afbc976254f8f1fa7059866"
 metafile = true
 
 [[files]]
@@ -100,7 +100,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "3ed4c34774f70f80b5625d154f992a0fd72d8cea7fd0a2287027b9681c662a0b"
+hash = "5f7c27afd4a91b1296dfe4f6edfdf14c88b34af812d8d18db48529874398b84f"
 metafile = true
 
 [[files]]
@@ -145,7 +145,7 @@ metafile = true
 
 [[files]]
 file = "mods/rrls.pw.toml"
-hash = "1b9b1cdbacfeeb97f21981d5859af497bc5db6aebeb7e320f874111787d67c3a"
+hash = "d6df523cc504146a9d96b6bad4e379f364c7bc889d8d17b48ebcda53bdea6d5e"
 metafile = true
 
 [[files]]
@@ -190,7 +190,7 @@ metafile = true
 
 [[files]]
 file = "mods_fabric/libjf.pw.toml"
-hash = "48f5924c167e0c610c7766e547b6e6c824a2af63c267427c623cb7bd8f2f2479"
+hash = "8a5aac1dca775eb897d045f2bca8c3a0074dff82810592d2ae961ee72f4f6a1c"
 metafile = true
 
 [[files]]
@@ -200,7 +200,7 @@ metafile = true
 
 [[files]]
 file = "mods_fabric/respackopts.pw.toml"
-hash = "0ed6ef67ff055cc2537b15504a74bc7ff312cd47e35637ee002669eea02f29be"
+hash = "e10c304c9a82e5af49d3d9753db0545343279279ae4d62ae70781aef8be46ef9"
 metafile = true
 
 [[files]]
