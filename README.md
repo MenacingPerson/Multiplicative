@@ -15,7 +15,7 @@ Alternatively, run the following script to generate the list (unix-like OSes onl
 For this purpose, you can clone this repo and use it as a sort of template to develop your modpack.
 The `config.json` files contains extra fields that I don't use exactly for this purpose.
 All branding is contained within base_config.json.
-Thus, the only file you would need to change is the `base_config.json`,config folder (`conf`) and README.md.
+Thus, the only file you would need to change is the `base_config.json`, the config folder (`conf`) and README.md.
 Also, you would need to remove all branding of `Multiplicative` from this pack.
 Feel free to credit me, though!
 
@@ -25,7 +25,7 @@ Required tools in $PATH:
 - `git`
 - `packwiz`
 - `python`
-- jq
+- `jq`
 - unix-like coreutils
 
 ```bash
@@ -33,7 +33,7 @@ Required tools in $PATH:
 # Modify config.json according to liking
 
   $ git clone --recursive https://github.com/MenacingPerson/Multiplicative.git
-  $ cd ./Multiplicative
+  $ cd Multiplicative
 # OPTIONALLY setup a python venv here
   $ python -m pip install -r requirements.txt
   $ bash ./scripts/runscript.sh
