@@ -2,7 +2,7 @@
 
 
 """
-Main Multiplicative pack creation tool.
+Main pack creation tool for the modpack.
 Use the stuff in ./scripts/ instead of this.
 $1 = config directory
 Refer to config.json for configuration info.

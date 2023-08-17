@@ -4,7 +4,7 @@ set -e
 
 cd "$(realpath "$(dirname "$0")"/..)"
 
-echo "# Mod list for Multiplicative"
+echo "# Mod list for $(jq -r '.pack_name' < conf/base_config.json)"
 echo "(excluding all Additive mods)"
 
 for i in $(jq -r '.build[].mc' < conf/base_config.json)

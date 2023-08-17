@@ -4,6 +4,7 @@
     "pack_author": "Menacing Person",
     "pack_version": "2.9.0",
     "pack_url": "https://github.com/MenacingPerson/Multiplicative",
+    "pack_user_agent": "MenacingPerson/Multiplicative",
     "build": [
         {
             "mc": "1.19.4"

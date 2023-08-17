@@ -20,7 +20,7 @@ modloaders = {
 }
 
 requests_headers = {
-    'User-Agent': 'MenacingPerson/Multiplicative'
+    'User-Agent': core.base.base_conf['pack_user_agent']
 }
 
 
