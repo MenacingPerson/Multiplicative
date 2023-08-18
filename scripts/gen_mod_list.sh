@@ -4,32 +4,50 @@ set -e
 
 cd "$(realpath "$(dirname "$0")"/..)"
 
-echo "# Mod list for $(jq -r '.pack_name' < conf/base_config.json)"
+dump_toml() {
+    cat $@ 2>/dev/null | (grep -iE '^name =' || echo '"(Nothing)"') | awk -F\" '{print $2}'
+}
+
+markdownify() {
+    cat | sed 's/^/- /g'
+}
+
+get_json_or_nothing() {
+    local x="$(cat | jq -r $1)"
+    if [[ -z $x ]]
+    then
+        echo '(Nothing)'
+        return
+    fi
+    echo "$x"
+}
+
+
+echo -e "# Mod list for $(jq -r '.pack_name' < conf/base_config.json)\n"
 echo "(excluding all Additive mods)"
 
 for i in $(jq -r '.build[].mc' < conf/base_config.json)
 do
     if [[ -d conf/$i ]]
     then
-        echo -e "\n# Version $i:"
-
-        echo -e "\n## Mods\n"
-        echo -e "\n### All:\n"
-        ls "conf/$i/mods" | sed 's/.pw.toml//g; s/^/- /'
-        echo -e "\n### Fabric:\n"
-        ls "conf/$i/mods_fabric" | sed 's/.pw.toml//g; s/^/- /'
-        echo -e "\n### Quilt:\n"
-        ls "conf/$i/mods_quilt" | sed 's/.pw.toml//g; s/^/- /'
-
-        echo -e "\n## Resource packs:\n"
-        ls conf/$i/resourcepacks | sed 's/.pw.toml//g; s/^/- /'
-
-        echo -e "\n## Removed from Additive\n"
+        echo -e "\n\n# Version $i:"
+        echo -e "\n## Mods"
         echo -e "\n### All:"
-        jq -r '.mods_removed[]' < conf/$i/config.json | sed 's/^/- /'
-        echo -e "\n### Fabric:\n"
-        jq -r '.mods_removed_fabric[]' < conf/$i/config.json | sed 's/^/- /'
-        echo -e "\n### Quilt:\n"
-        jq -r '.mods_removed_quilt[]' < conf/$i/config.json | sed 's/^/- /'
+        dump_toml "conf/$i/mods/*" | markdownify
+        echo -e "\n### Fabric:"
+        dump_toml "conf/$i/mods_fabric/*" | markdownify
+        echo -e "\n### Quilt:"
+        dump_toml "conf/$i/mods_quilt/*" | markdownify
+
+        echo -e "\n## Resource packs:"
+        dump_toml "conf/$i/resourcepacks/*" | markdownify
+
+        echo -e "\n## Removed from Additive"
+        echo -e "\n### All:"
+        get_json_or_nothing '.mods_removed[]' < conf/$i/config.json | markdownify
+        echo -e "\n### Fabric:"
+        get_json_or_nothing '.mods_removed_fabric[]' < conf/$i/config.json | markdownify
+        echo -e "\n### Quilt:"
+        get_json_or_nothing '.mods_removed_quilt[]' < conf/$i/config.json | markdownify
     fi
 done

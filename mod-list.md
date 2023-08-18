@@ -1,145 +1,136 @@
 # Mod list for Multiplicative
+
 (excluding all Additive mods)
+
 
 # Version 1.19.4:
 
 ## Mods
 
-
 ### All:
-
-- 3dskinlayers
-- architectury-api
-- better-trim-tooltips
-- blur-fabric
-- cameraoverhaul
-- caxton
-- chat-heads
-- continue
-- cosmetica
-- creativecore
-- do-a-barrel-roll
-- durability-tooltip
-- emi
-- gamma-utils
-- halohud
-- itemphysic-lite
-- jade
-- modelfix
-- modernfix
-- mods-command
-- morechathistory
-- nicer-skies
-- no-chat-reports
-- not-enough-animations
-- presence-footsteps
-- raised
-- remember-my-txt
-- rrls
-- screenshot-to-clipboard
-- server-pack-unlocker
-- smooth-swapping
-- sound-physics-remastered
+- 3D Skin Layers
+- Architectury API
+- Better Trim Tooltips
+- Blur (Fabric)
+- CameraOverhaul
+- Caxton
+- Chat Heads
+- Continue Button
+- Cosmetica
+- CreativeCore
+- Do a Barrel Roll
+- Durability Tooltip
+- EMI
+- Gamma Utils (Fullbright)
+- Halo HUD
+- ItemPhysic Lite
+- Jade 🔍
+- Model Gap Fix
+- ModernFix
+- Mods Command
+- MoreChatHistory
+- Nicer Skies
+- No Chat Reports
+- Not Enough Animations
+- Presence Footsteps
+- Raised
+- Remember My Txt
+- Remove Reloading Screen
+- Screenshot to Clipboard
+- Server Pack Unlocker
+- Smooth Swapping
+- Sound Physics Remastered
 - spark
-- supermartijn642s-config-lib
-- wavey-capes
-- whoami
+- SuperMartijn642's Config Lib
+- Wavey Capes
+- Who am I?
 
 ### Fabric:
-
-- libjf
-- recursiveresources
-- respackopts
+- LibJF
+- Recursive Resources
+- Respackopts
 
 ### Quilt:
-
+- (Nothing)
 
 ## Resource packs:
-
-- faithful-32x
-- fresh-animations
-- geometric-font-edge
+- Faithful 32x
+- Fresh Animations
+- Geometric Font Edge
 
 ## Removed from Additive
-
 
 ### All:
 - capes
 
 ### Fabric:
-
+- (Nothing)
 
 ### Quilt:
-
 - lambdabettergrass
+
 
 # Version 1.20.1:
 
 ## Mods
 
-
 ### All:
-
-- 3dskinlayers
-- architectury-api
-- better-trim-tooltips
-- blur-fabric
-- cameraoverhaul
-- caxton
-- chat-heads
-- continue
-- cosmetica
-- creativecore
-- do-a-barrel-roll
-- durability-tooltip
-- emi
-- gamma-utils
-- halohud
-- itemphysic-lite
-- jade
-- modelfix
-- modernfix
-- mods-command
-- morechathistory
-- nicer-skies
-- no-chat-reports
-- not-enough-animations
-- presence-footsteps
-- raised
-- remember-my-txt
-- rrls
-- screenshot-to-clipboard
-- server-pack-unlocker
-- smooth-swapping
-- sound-physics-remastered
+- 3D Skin Layers
+- Architectury API
+- Better Trim Tooltips
+- Blur (Fabric)
+- CameraOverhaul
+- Caxton
+- Chat Heads
+- Continue Button
+- Cosmetica
+- CreativeCore
+- Do a Barrel Roll
+- Durability Tooltip
+- EMI
+- Gamma Utils (Fullbright)
+- Halo HUD
+- ItemPhysic Lite
+- Jade 🔍
+- Model Gap Fix
+- ModernFix
+- Mods Command
+- MoreChatHistory
+- Nicer Skies
+- No Chat Reports
+- Not Enough Animations
+- Presence Footsteps
+- Raised
+- Remember My Txt
+- Remove Reloading Screen
+- Screenshot to Clipboard
+- Server Pack Unlocker
+- Smooth Swapping
+- Sound Physics Remastered
 - spark
-- supermartijn642s-config-lib
-- wavey-capes
-- whoami
+- SuperMartijn642's Config Lib
+- Wavey Capes
+- Who am I?
 
 ### Fabric:
-
-- libjf
-- recursiveresources
-- respackopts
+- LibJF
+- Recursive Resources
+- Respackopts
 
 ### Quilt:
-
+- (Nothing)
 
 ## Resource packs:
-
-- fresh-animations
-- geometric-font-edge
+- Fresh Animations
+- Geometric Font Edge
 
 ## Removed from Additive
-
 
 ### All:
 - capes
 
 ### Fabric:
-
+- (Nothing)
 
 ### Quilt:
-
 - lambdabettergrass
