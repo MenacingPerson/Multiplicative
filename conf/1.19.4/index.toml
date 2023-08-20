@@ -100,7 +100,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "5ea3d3fdaa7ff8f7f3a9ccedcc863da8f61b3f073a0411e06b112052de8031b0"
+hash = "6553b4d9a14a9ec428a27e283f2188151c0e6d09d18a158b24c330c5f90e6bfe"
 metafile = true
 
 [[files]]
@@ -151,6 +151,11 @@ metafile = true
 [[files]]
 file = "mods/screenshot-to-clipboard.pw.toml"
 hash = "672f3809a2053eef01aea4015ca4b0d4be6c507622172c091c17833b8d2ffb39"
+metafile = true
+
+[[files]]
+file = "mods/seamless-loading-screen.pw.toml"
+hash = "f9934cc48ea3fe919b0a94ac8af0782adf80e47947ae5270af3b4fc60f64170c"
 metafile = true
 
 [[files]]

@@ -90,7 +90,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "f93392889cca4c2e3f55ee629eb9b8afeb4759ba9afbc976254f8f1fa7059866"
+hash = "a4ee77a7c1388ad1874cd4d7a174667d0eb2c836e6ff0d4cd1b7f1551c019ef2"
 metafile = true
 
 [[files]]
@@ -100,7 +100,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "5f7c27afd4a91b1296dfe4f6edfdf14c88b34af812d8d18db48529874398b84f"
+hash = "9851ce3c96c4c2e3485aaf94ce9c0d3f60e90c606e1029119e092504987c7fdd"
 metafile = true
 
 [[files]]
@@ -151,6 +151,11 @@ metafile = true
 [[files]]
 file = "mods/screenshot-to-clipboard.pw.toml"
 hash = "672f3809a2053eef01aea4015ca4b0d4be6c507622172c091c17833b8d2ffb39"
+metafile = true
+
+[[files]]
+file = "mods/seamless-loading-screen.pw.toml"
+hash = "cb0501d4466ac36c8794c245b520eaf8c8b0649ef2f045009031dba7498c58a3"
 metafile = true
 
 [[files]]

@@ -37,6 +37,7 @@
 - Remember My Txt
 - Remove Reloading Screen
 - Screenshot to Clipboard
+- Seamless Loading Screen 
 - Server Pack Unlocker
 - Smooth Swapping
 - Sound Physics Remastered
@@ -104,6 +105,7 @@
 - Remember My Txt
 - Remove Reloading Screen
 - Screenshot to Clipboard
+- Seamless Loading Screen 
 - Server Pack Unlocker
 - Smooth Swapping
 - Sound Physics Remastered
