@@ -8,15 +8,13 @@ import core.packwiz
 
 def run_in(modloader: str, func, *args):
     """Run function in certain edition of pack"""
-    if modloader not in ('fabric', 'quilt', 'all'):
+    if modloader not in ('fabric', 'quilt', 'forge', 'all'):
         raise NameError('That\'s not a modloader!')
     if modloader == 'all':
         for i in core.packwiz.modloaders:
             if loader_is_valid(i):
                 run_in(i, func, *args)
         return
-    if modloader not in core.base.config['modloaders']:
-        raise ValueError(f'Modloader {modloader} has not been added to config!')
     for pack_edition_path in glob.glob(f'{modloader}/*'):
         if pack_edition_path == []:
             raise NameError(f'No {modloader} pack editions found!')

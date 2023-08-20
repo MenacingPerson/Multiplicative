@@ -1,5 +1,5 @@
 {
-    "additive_hash": "eeb21efb7b3a9d5b0adeb9e91a2c168817a78576",
+    "additive_hash": "40235715e6dc4458bd130723dd98f653088afa8c",
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
     "pack_version": "2.10.0",
@@ -19,6 +19,9 @@
         },
         "quilt": {
             "version": "0.19.2"
+        },
+        "forge": {
+            "version": "47.1.3"
         }
     }
 }

@@ -101,21 +101,21 @@ def change_modloader_ver(pack: dict) -> None:
 # Reset to certain hash to avoid unwanted changes
 echo('Updating Additive to specified hash')
 runcmd('git submodule update --recursive --init --remote')
-os.chdir('Additive/')
+os.chdir('forgified-Additive/')
 runcmd('git pull origin main')
 runcmd('git reset --hard', base_conf["additive_hash"])
 os.chdir(ODIR)
 runcmd('git add Additive/')
 
 # Error handling
-core.base.if_exists_rm(f'{ODIR}/Additive/Modified')
-core.base.if_exists_rm(f'{ODIR}/Additive/packs')
+core.base.if_exists_rm(f'{ODIR}/forgified-Additive/Modified')
+core.base.if_exists_rm(f'{ODIR}/forgified-Additive/packs')
 
 # Recreate modified pack
 echo("Removing previous modified packs")
 core.base.if_exists_rm(f'{ODIR}/Modified')
 core.base.if_not_exists_create_dir(f'{ODIR}/packs')
-shutil.copytree(f'{ODIR}/Additive/', f'{ODIR}/Modified/')
+shutil.copytree(f'{ODIR}/forgified-Additive/', f'{ODIR}/Modified/')
 
 core.base.chodir()
 
@@ -137,8 +137,6 @@ run_separately_in_all(mark_mods_optional, 'mods_optional_[ml]')
 run_separately_in_all(pw_rm_mods, 'mods_removed_[ml]')
 
 run_in('all', cp_rps, 'resourcepacks')
-
-run_in('all', pw_rm_mods, 'mods_temp_removed')
 
 run_in('all', modify_packtoml)
 
