@@ -17,5 +17,14 @@
     "mods_removed_quilt": [
         "lambdabettergrass"
     ],
-    "mods_removed_forge": []
+    "mods_removed_forge": [
+        "cameraoverhaul",
+        "caxton",
+        "continue",
+        "cosmetica",
+        "creativecore",
+        "itemphysic-lite",
+        "nicer-skies",
+        "remember-my-txt"
+    ]
 }
