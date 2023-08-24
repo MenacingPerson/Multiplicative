@@ -60,7 +60,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "d889720cd05fdff22ee65632a989ce8052df302b9513df15d9f6c88df7389567"
+hash = "8331398401714c839a8d231a5bbb6a3826f2e360e7d9e90b0ea35db177a160cf"
 metafile = true
 
 [[files]]
@@ -100,7 +100,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "9851ce3c96c4c2e3485aaf94ce9c0d3f60e90c606e1029119e092504987c7fdd"
+hash = "8c5609126c7a8d38b68c4df16f9e505c5aacdeda05d7a55cb661872db3831ae4"
 metafile = true
 
 [[files]]
@@ -180,7 +180,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
-hash = "a83eaf0e340efd659d6f501ae9799f486719e12f004cc70246f28d52e01173f0"
+hash = "1b9f8b0039b5fdf0850e6977ee05eb83065bb68d6ac4fed7a5a1609ca8cc5b52"
 metafile = true
 
 [[files]]
@@ -195,7 +195,7 @@ metafile = true
 
 [[files]]
 file = "mods_fabric/libjf.pw.toml"
-hash = "8a5aac1dca775eb897d045f2bca8c3a0074dff82810592d2ae961ee72f4f6a1c"
+hash = "fd1b685219022148a51b5834f9c424a148025ef673ce50c935c2388e08d0040a"
 metafile = true
 
 [[files]]
@@ -205,7 +205,7 @@ metafile = true
 
 [[files]]
 file = "mods_fabric/respackopts.pw.toml"
-hash = "e10c304c9a82e5af49d3d9753db0545343279279ae4d62ae70781aef8be46ef9"
+hash = "6d3b781ddf357e0b6ec58a3d327359a20e99baa5f0c6188f0c3f5ac6f64b5bf2"
 metafile = true
 
 [[files]]
@@ -260,7 +260,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/modernfix.pw.toml"
-hash = "2f6b4b5e651bfe492bc9779c310445f77a8e3a42e4ad1c4eb7111a1c8239784d"
+hash = "10f8e0f570cdd25d708f5f0d34e42b16851ce63849bde496d9fd63c97a032639"
 metafile = true
 
 [[files]]
@@ -305,7 +305,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/supermartijn642s-config-lib.pw.toml"
-hash = "607cfbdc06ac137e32b6b41ac5f481c00e3458096b9fa3b84ef8699845685cf0"
+hash = "fb0ec93bfbee412229b63a9154abc992ee7e274a84fe569e077f250e6c77abbd"
 metafile = true
 
 [[files]]
