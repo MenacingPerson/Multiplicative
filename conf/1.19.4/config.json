@@ -8,6 +8,7 @@
     "mods_optional": [],
     "mods_optional_fabric": [],
     "mods_optional_quilt": [],
+    "mods_optional_forge": [],
     "mods_removed": [
         "capes"
     ],
@@ -15,5 +16,6 @@
     "mods_removed_fabric": [],
     "mods_removed_quilt": [
         "lambdabettergrass"
-    ]
+    ],
+    "mods_removed_forge": []
 }

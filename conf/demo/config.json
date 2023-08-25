@@ -3,13 +3,15 @@
     "game_version_compat": ["1.20", "1.20.1"],
     "pack_editions": [
         "fabric",
-        "quilt"
+        "quilt",
+        "forge"
     ],
     "mods_optional": [],
     "mods_optional_fabric": [],
     "mods_optional_quilt": [],
+    "mods_optional_forge": [],
     "mods_removed": [],
-    "mods_temp_removed": [],
     "mods_removed_fabric": [],
-    "mods_removed_quilt": []
+    "mods_removed_quilt": [],
+    "mods_removed_forge": []
 }

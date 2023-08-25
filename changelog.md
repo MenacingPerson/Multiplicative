@@ -1,5 +1,7 @@
 # Release 2.10.0
 
+Forge support!!! Sinytra connector is awesome
+
 Updated:
 - Jade (1.20.1)
 - SuperMartijn642's Config Lib (1.19.4, 1.20.1)

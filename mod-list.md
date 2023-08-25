@@ -54,6 +54,9 @@
 ### Quilt:
 - (Nothing)
 
+### Forge:
+- (Nothing)
+
 ## Resource packs:
 - Faithful 32x
 - Fresh Animations
@@ -69,6 +72,9 @@
 
 ### Quilt:
 - lambdabettergrass
+
+### Forge:
+- (Nothing)
 
 
 # Version 1.20.1:
@@ -122,6 +128,29 @@
 ### Quilt:
 - (Nothing)
 
+### Forge:
+- 3D Skin Layers
+- Architectury API
+- Chat Heads
+- CreativeCore
+- Durability Tooltip
+- EMI
+- Halo HUD
+- ItemPhysic Lite
+- Jade 🔍
+- Model Gap Fix
+- ModernFix
+- No Chat Reports
+- Not Enough Animations
+- Raised
+- Remove Reloading Screen
+- Screenshot to Clipboard
+- Seamless Loading Screen 
+- Sound Physics Remastered
+- spark
+- SuperMartijn642's Config Lib
+- Wavey Capes
+
 ## Resource packs:
 - Fresh Animations
 - Geometric Font Edge
@@ -136,3 +165,13 @@
 
 ### Quilt:
 - lambdabettergrass
+
+### Forge:
+- cameraoverhaul
+- caxton
+- continue
+- cosmetica
+- creativecore
+- itemphysic-lite
+- nicer-skies
+- remember-my-txt
