@@ -8,6 +8,7 @@ modloaders = {
         'modloader_compat': [
             'fabric',
         ],
+        'additive_loader': 'fabric',
         'version': core.base.base_conf['modloaders']['fabric']['version']
     },
     'quilt': {
@@ -15,8 +16,17 @@ modloaders = {
             'fabric',
             'quilt',
         ],
+        'additive_loader': 'quilt',
         'version': core.base.base_conf['modloaders']['quilt']['version']
-    }
+    },
+    'forge': {
+        'modloader_compat': [
+            'fabric',
+            'forge',
+        ],
+        'additive_loader': 'forge',
+        'version': core.base.base_conf['modloaders']['forge']['version']
+    },
 }
 
 requests_headers = {

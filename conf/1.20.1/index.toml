@@ -209,6 +209,111 @@ hash = "6d3b781ddf357e0b6ec58a3d327359a20e99baa5f0c6188f0c3f5ac6f64b5bf2"
 metafile = true
 
 [[files]]
+file = "mods_forge/3dskinlayers.pw.toml"
+hash = "96f9983d86fa756ca973306fca579288302f26482e2de6b69d4845e24f03ffb6"
+metafile = true
+
+[[files]]
+file = "mods_forge/architectury-api.pw.toml"
+hash = "b7321e670cc58aa8062f7cae470c9806c2ed83680ca598df5fe6e75ab40df452"
+metafile = true
+
+[[files]]
+file = "mods_forge/chat-heads.pw.toml"
+hash = "30c1db7284224a9c6cf2daa854b1ec470a0d4ecb0a64f48efdb17e1110244f1c"
+metafile = true
+
+[[files]]
+file = "mods_forge/creativecore.pw.toml"
+hash = "2aa5700454e77ba458d9b5be31d45237b272fed25b481c19c8ad8eea20a72a79"
+metafile = true
+
+[[files]]
+file = "mods_forge/durability-tooltip.pw.toml"
+hash = "8d314e0af9f0c8ea01895c22c6b611f0ef560d86653b53e5e15ad755a99da7bc"
+metafile = true
+
+[[files]]
+file = "mods_forge/emi.pw.toml"
+hash = "139f48f7adbc846d5b33138e1b823ef3541ceee2c9addd2684f778d6c22dfd2c"
+metafile = true
+
+[[files]]
+file = "mods_forge/halohud.pw.toml"
+hash = "3faf3165882df05cbf97d7971567c5764ed3bea4cf7da86fa365fba4ca63c478"
+metafile = true
+
+[[files]]
+file = "mods_forge/itemphysic-lite.pw.toml"
+hash = "66147b9c339ab8f753681a5b631af12009400650f3a66771583bf61e955b74d5"
+metafile = true
+
+[[files]]
+file = "mods_forge/jade.pw.toml"
+hash = "8de3509044e6f7e8c54a003c6cc3af605e68ff243c169cf489d883e34969b744"
+metafile = true
+
+[[files]]
+file = "mods_forge/modelfix.pw.toml"
+hash = "8370d3602ecb1545b052f81035ff92e3e2cab7dc549fde5a4effb24542bccbc0"
+metafile = true
+
+[[files]]
+file = "mods_forge/modernfix.pw.toml"
+hash = "10f8e0f570cdd25d708f5f0d34e42b16851ce63849bde496d9fd63c97a032639"
+metafile = true
+
+[[files]]
+file = "mods_forge/no-chat-reports.pw.toml"
+hash = "9a3c80bf6eee8234001d2a1602b3e123ac5706af051902e40f24abe317b86e50"
+metafile = true
+
+[[files]]
+file = "mods_forge/not-enough-animations.pw.toml"
+hash = "dae4dd79e8db2daea3ec318b456fc0e30f529b9acca0a444b4ce7d1debfca143"
+metafile = true
+
+[[files]]
+file = "mods_forge/raised.pw.toml"
+hash = "d21089dd7d7b1f4b8018354f36662dddda994d37a76a9fa8ed06d9a9fcd8e1d9"
+metafile = true
+
+[[files]]
+file = "mods_forge/rrls.pw.toml"
+hash = "ea707eb968217e16a095503e72fa6fc12e3689a99995aa7a7d4878b966e106b4"
+metafile = true
+
+[[files]]
+file = "mods_forge/screenshot-to-clipboard.pw.toml"
+hash = "520259c531d1308f821d648e71ff88872fa0cd8d3d7f6e1c78b9a1649420deea"
+metafile = true
+
+[[files]]
+file = "mods_forge/seamless-loading-screen.pw.toml"
+hash = "6cec2eed76af62f0b7be4c69ed816bb58fc57e704e29cab75ad6640a790393d7"
+metafile = true
+
+[[files]]
+file = "mods_forge/sound-physics-remastered.pw.toml"
+hash = "48143429ff8913b334c8e1614932d04d2a801cd8c64c5c3de495f71ef3a9f512"
+metafile = true
+
+[[files]]
+file = "mods_forge/spark.pw.toml"
+hash = "c1ef4ff0e9d3b5ec41d3fbce5a3c60bde2fe5dac9a32a12d57530cdf9f5547ff"
+metafile = true
+
+[[files]]
+file = "mods_forge/supermartijn642s-config-lib.pw.toml"
+hash = "fb0ec93bfbee412229b63a9154abc992ee7e274a84fe569e077f250e6c77abbd"
+metafile = true
+
+[[files]]
+file = "mods_forge/wavey-capes.pw.toml"
+hash = "fddece53bfe6711ea3b1d0c999439a2ebab1d996d53e433b4ecab5ee8e2045cb"
+metafile = true
+
+[[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "5923c680ba9498fd3025a457ab2c57febc6c9c66bee660175df4d35eb17dc2a4"
 metafile = true
