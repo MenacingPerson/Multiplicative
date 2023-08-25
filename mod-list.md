@@ -169,7 +169,6 @@
 ### Forge:
 - cameraoverhaul
 - caxton
-- continue
 - cosmetica
 - creativecore
 - itemphysic-lite

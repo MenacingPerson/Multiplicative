@@ -170,7 +170,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "4bf9b4c8888a01c770878fe183637e0a178bde39109334e0439741126c4df656"
+hash = "3decc297ef37c1ecb820b095d076dfa04e5c2d16a29e165f27c911a80d2e4afd"
 metafile = true
 
 [[files]]
@@ -295,7 +295,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/sound-physics-remastered.pw.toml"
-hash = "48143429ff8913b334c8e1614932d04d2a801cd8c64c5c3de495f71ef3a9f512"
+hash = "028e66cf8b1275e215eadbdffc5ddf203fd8e2e26859549358cda31437429227"
 metafile = true
 
 [[files]]
