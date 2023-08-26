@@ -2,3 +2,5 @@ Modified/
 packs/
 venv/
 *__pycache__*
+**/.cache/
+*.mrpack

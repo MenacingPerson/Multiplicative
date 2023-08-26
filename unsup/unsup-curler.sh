@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+set -e
+
+unsup_ver=0.2.3
+unsup_url="https://git.sleeping.town/attachments/7edb17a2-e43f-4789-8bae-6140cbe98311"
+
+ver=$(echo *1.* | sed 's/ /\n/g' | fzf)
+
+mkdir -p .cache
+
+cd $ver
+
+if [[ ! -f ../.cache/unsup-$unsup_ver.jar ]]
+then
+    curl "$unsup_url" --output ../.cache/unsup-$unsup_ver.jar
+fi
+
+cp ../.cache/unsup-$unsup_ver.jar unsup-$unsup_ver.jar
+packwiz refresh
+packwiz mr export -o ../Multiplicative-$ver-unsup-$unsup_ver.mrpack
+rm unsup-*.jar
+packwiz refresh
