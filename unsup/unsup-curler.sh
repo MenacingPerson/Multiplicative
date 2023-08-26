@@ -2,6 +2,8 @@
 
 set -e
 
+cd "$(realpath "$(dirname "$0")")"
+
 unsup_ver=0.2.3
 unsup_url="https://git.sleeping.town/attachments/7edb17a2-e43f-4789-8bae-6140cbe98311"
 
