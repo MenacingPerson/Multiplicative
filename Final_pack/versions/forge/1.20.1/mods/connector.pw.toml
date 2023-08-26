@@ -1,0 +1,13 @@
+name = "Sinytra Connector"
+filename = "Connector-1.0.0-beta.7+1.20.1-full.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/u58R1TMW/versions/LGcPLVIP/Connector-1.0.0-beta.7%2B1.20.1-full.jar"
+hash-format = "sha1"
+hash = "a3ff5b0de96ba9bb6c0e551cc7905a909db113ad"
+
+[update]
+[update.modrinth]
+mod-id = "u58R1TMW"
+version = "LGcPLVIP"
