@@ -10,6 +10,11 @@ Alternatively, run the following script to generate the list (unix-like OSes onl
 ./scripts/gen_mod_list.sh
 ```
 
+# Installation using unsup
+
+Use the unsup-curler script in the unsup directory, or download the latest github actions artifact.
+Add unsup as a java agent in Prism Launcher directly or use `-javaagent:unsup.jar` as a java argument.
+
 # Usage as a base for another pack
 
 For this purpose, you can clone this repo and use it as a sort of template to develop your modpack.
