@@ -12,7 +12,7 @@ Alternatively, run the following script to generate the list (unix-like OSes onl
 
 # Installation using unsup
 
-Use the unsup-curler script in the unsup directory, or download the latest github actions artifact.
+Use the unsup-curler script in the unsup directory.
 Add unsup as a java agent in Prism Launcher directly or use `-javaagent:unsup.jar` as a java argument.
 
 # Usage as a base for another pack

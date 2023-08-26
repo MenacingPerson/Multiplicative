@@ -2,4 +2,4 @@ hash-format = "sha256"
 
 [[files]]
 file = "unsup.ini"
-hash = "16c2eee9d3e9d952fb1f67ef85eb437e2617ca76ab3bee55b0918d84f665817a"
+hash = "42ac913135e998dcad0e05203c3b71c0950fbc02a03fd08c5e63765862e76cda"
