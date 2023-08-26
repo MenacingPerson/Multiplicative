@@ -66,6 +66,13 @@ def config_cp(pack: dict):
                            './config', dirs_exist_ok=True)
 
 
+def cp_pwignore(pack: dict):
+    """Copy pwignore to the edition"""
+    with open(f'{ODIR}/conf/demo/.packwizignore', 'r') as file:
+        with open('./.packwizignore', 'a') as pwign:
+            pwign.write('\n' + file.read())
+
+
 def fix_mmc_config(pack: dict):
     """Fix Main Menu Credit json file to include branding"""
     echo(f'Fixing Main Menu Credits config for {pack["edition"]}')
@@ -127,6 +134,8 @@ for pack_edition in unwanted_pack_editions:
         unwanted_pack_editions.remove(pack_edition)
 for pack_edition in unwanted_pack_editions:
     shutil.rmtree(pack_edition)
+
+run_in('all', cp_pwignore)
 
 run_in('all', pw_refresh)
 

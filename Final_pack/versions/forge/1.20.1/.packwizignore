@@ -5,3 +5,6 @@
 /README.md
 mods_*
 *.sh
+
+config.json
+**/.file
