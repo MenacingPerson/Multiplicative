@@ -7,4 +7,4 @@ mods_*
 *.sh
 
 config.json
-**/.file
+.file

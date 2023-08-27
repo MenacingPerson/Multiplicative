@@ -4,4 +4,4 @@
 # Exclude README
 /README.md
 config.json
-**/.file
+.file
