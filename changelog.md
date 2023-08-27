@@ -1,7 +1,9 @@
-# Release 3.0.0
+# Release wynn-1.3.0
+
+Sync with pack 3.0.0
 
 Updated:
-- Caxton (1.19.4, 1.20.1)
+- Wynntils
 
 Added:
 None

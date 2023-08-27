@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "ef433160bb5eb7ebdbef2adfddb84bcd3c4665f36a1a8012736306d830a3ae87"
+hash = "b6ac4537935671e4444b0ab2df2f5218be42d30a907c038324a2b767573fa5ea"
 
 [[files]]
 file = "config/puzzle.json"
@@ -429,6 +429,11 @@ hash = "e053efc45b146cc3d66ec1a723cd1ab03a1de3d1029d550e750f84329e6899c9"
 metafile = true
 
 [[files]]
+file = "mods/showmemydps.pw.toml"
+hash = "e6cde6b0a2bd698f8acdbfcc218291b779975b67cf72cfad7718e05e9f5bd45d"
+metafile = true
+
+[[files]]
 file = "mods/smooth-swapping.pw.toml"
 hash = "dcdf9b9adc7bb2b4af3cf0b655264aeec0d18bd5f43b4f0f49b19ef0cf2b893e"
 metafile = true
@@ -486,6 +491,11 @@ metafile = true
 [[files]]
 file = "mods/world-host.pw.toml"
 hash = "39b013f54d6a8c48419a71557e6a3ec0fa9f350438b4ca26285261d66e017b0a"
+metafile = true
+
+[[files]]
+file = "mods/wynntils.pw.toml"
+hash = "ccf0c105eb3b8d6eec62566562d9aabbd6921247900772e23d30125b1d325917"
 metafile = true
 
 [[files]]

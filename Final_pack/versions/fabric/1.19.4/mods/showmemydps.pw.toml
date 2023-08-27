@@ -1,0 +1,13 @@
+name = "ShowMeMyDPS!"
+filename = "showmemydps-1.0.0-1.19.4-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XydXDWwT/versions/leNW9rGy/showmemydps-1.0.0-1.19.4-fabric.jar"
+hash-format = "sha1"
+hash = "0aa992ac6c2f2a611a7d213dc6233495b7ca77e8"
+
+[update]
+[update.modrinth]
+mod-id = "XydXDWwT"
+version = "leNW9rGy"

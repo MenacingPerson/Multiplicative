@@ -2,15 +2,12 @@
     "additive_hash": "389f78bc8484b15371d2af99da2c893bdc816131",
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
-    "pack_version": "3.0.0",
+    "pack_version": "wynn-1.3.0",
     "pack_url": "https://github.com/MenacingPerson/Multiplicative",
     "pack_user_agent": "MenacingPerson/Multiplicative",
     "build": [
         {
             "mc": "1.19.4"
-        },
-        {
-            "mc": "1.20.1"
         }
     ],
     "modloaders": {
