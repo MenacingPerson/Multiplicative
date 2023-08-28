@@ -112,7 +112,7 @@ os.chdir('forgified-Additive/')
 runcmd('git pull origin main')
 runcmd('git reset --hard', base_conf["additive_hash"])
 os.chdir(ODIR)
-runcmd('git add Additive/')
+runcmd('git add Additive/ forgified-Additive/')
 
 # Error handling
 core.base.if_exists_rm(f'{ODIR}/forgified-Additive/Modified')

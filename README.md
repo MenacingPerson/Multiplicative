@@ -46,6 +46,12 @@ Required tools in $PATH:
 # Import preferred pack in your launcher
 ```
 
+# TODO
+
+- Make the copying process of Additive more robust
+  - Instead of copying everything and deleting the unnecessary stuff, don't copy over the unnecessary stuff in the first place
+  - Copy over the Additive editions to the conf's name, not the one it's named as
+
 #### Licensed under MIT
 
 #### Based on [Additive](https://github.com/intergrav/Additive)
