@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "ef433160bb5eb7ebdbef2adfddb84bcd3c4665f36a1a8012736306d830a3ae87"
+hash = "6543adddcd33366d225d68aa3b1d06b211cf7f5352f23eec023bcc6e9c12c08f"
 
 [[files]]
 file = "config/puzzle.json"
@@ -137,6 +137,11 @@ metafile = true
 [[files]]
 file = "mods/canary.pw.toml"
 hash = "1a060877e79455b31a20e165adb356a517c161eacf3ae503de2fa515e79dea0a"
+metafile = true
+
+[[files]]
+file = "mods/caxton.pw.toml"
+hash = "e3d41c78fdb7c5e0df98f0e84c6611355a8a6d8a5facd266349ffb84f60500e6"
 metafile = true
 
 [[files]]
@@ -422,6 +427,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"
 hash = "b216023831fd1e7b385bff7f19fa43fcafe24f50bd573215ae1c0e9d0ddb7634"
+metafile = true
+
+[[files]]
+file = "resourcepacks/faithful-32x.pw.toml"
+hash = "793f8f2437f0d66cc12496e300016bee115e6d74873dbf83008e37b63d533403"
 metafile = true
 
 [[files]]

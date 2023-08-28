@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "ef433160bb5eb7ebdbef2adfddb84bcd3c4665f36a1a8012736306d830a3ae87"
+hash = "6543adddcd33366d225d68aa3b1d06b211cf7f5352f23eec023bcc6e9c12c08f"
 
 [[files]]
 file = "config/puzzle.json"
@@ -141,7 +141,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "9ab05fc622a60589485081620afcf104b641da5ec6f779799b3b0d1299608e05"
+hash = "881c93937c166e8ab32b159c7f9dec7cb2f7cfe842fb5253a25152327ca31a21"
 metafile = true
 
 [[files]]
@@ -492,6 +492,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"
 hash = "b216023831fd1e7b385bff7f19fa43fcafe24f50bd573215ae1c0e9d0ddb7634"
+metafile = true
+
+[[files]]
+file = "resourcepacks/faithful-32x.pw.toml"
+hash = "793f8f2437f0d66cc12496e300016bee115e6d74873dbf83008e37b63d533403"
 metafile = true
 
 [[files]]

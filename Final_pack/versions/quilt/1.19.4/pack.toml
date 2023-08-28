@@ -1,12 +1,12 @@
 name = "Multiplicative"
 author = "Menacing Person"
-version = "Multiplicative-3.0.0-quilt+1.19.4"
+version = "Multiplicative-3.1.0-quilt+1.19.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "59d3cbc88a5aa5e714b3915a14c06090568324e734a05433c1afe79f09d7a736"
+hash = "ad8fb6ee27beaaeb301176281241c7574181e1de7a67226ffb4576fbb41e6a94"
 
 [versions]
 minecraft = "1.19.4"

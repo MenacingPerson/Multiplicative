@@ -131,6 +131,7 @@
 ### Forge:
 - 3D Skin Layers
 - Architectury API
+- Caxton
 - Chat Heads
 - CreativeCore
 - Durability Tooltip
@@ -152,6 +153,7 @@
 - Wavey Capes
 
 ## Resource packs:
+- Faithful 32x
 - Fresh Animations
 - Geometric Font Edge
 
@@ -168,7 +170,6 @@
 
 ### Forge:
 - cameraoverhaul
-- caxton
 - cosmetica
 - creativecore
 - itemphysic-lite

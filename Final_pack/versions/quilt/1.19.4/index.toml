@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "ef433160bb5eb7ebdbef2adfddb84bcd3c4665f36a1a8012736306d830a3ae87"
+hash = "6543adddcd33366d225d68aa3b1d06b211cf7f5352f23eec023bcc6e9c12c08f"
 
 [[files]]
 file = "config/puzzle.json"
@@ -481,7 +481,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32x.pw.toml"
-hash = "bd9e46ca1daa646b01b630a954c6b3ec811cc8093738eaa4d7c7347fc4d7e3f5"
+hash = "56866fa0a8af70c8751e2782a21dd07d60b69166462643bb1fa01d8a368f29b6"
 metafile = true
 
 [[files]]

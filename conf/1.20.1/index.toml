@@ -35,7 +35,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "9ab05fc622a60589485081620afcf104b641da5ec6f779799b3b0d1299608e05"
+hash = "881c93937c166e8ab32b159c7f9dec7cb2f7cfe842fb5253a25152327ca31a21"
 metafile = true
 
 [[files]]
@@ -219,6 +219,11 @@ hash = "b7321e670cc58aa8062f7cae470c9806c2ed83680ca598df5fe6e75ab40df452"
 metafile = true
 
 [[files]]
+file = "mods_forge/caxton.pw.toml"
+hash = "e3d41c78fdb7c5e0df98f0e84c6611355a8a6d8a5facd266349ffb84f60500e6"
+metafile = true
+
+[[files]]
 file = "mods_forge/chat-heads.pw.toml"
 hash = "30c1db7284224a9c6cf2daa854b1ec470a0d4ecb0a64f48efdb17e1110244f1c"
 metafile = true
@@ -311,6 +316,11 @@ metafile = true
 [[files]]
 file = "mods_forge/wavey-capes.pw.toml"
 hash = "fddece53bfe6711ea3b1d0c999439a2ebab1d996d53e433b4ecab5ee8e2045cb"
+metafile = true
+
+[[files]]
+file = "resourcepacks/faithful-32x.pw.toml"
+hash = "793f8f2437f0d66cc12496e300016bee115e6d74873dbf83008e37b63d533403"
 metafile = true
 
 [[files]]
