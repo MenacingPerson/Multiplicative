@@ -1,6 +1,7 @@
 Modified/
 packs/
 venv/
+unsup-*/
 *__pycache__*
 **/.cache/
 *.mrpack
