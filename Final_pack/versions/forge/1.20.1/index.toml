@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fabric_loader_dependencies.json"
+hash = "6f5bbb588fc23d8c873dc5f3cec789b6e96fe46e530e45646dd546dbb1e12e1b"
+
+[[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "6543adddcd33366d225d68aa3b1d06b211cf7f5352f23eec023bcc6e9c12c08f"
+hash = "01e2319fb50030347c1ac60995c382d5a4817ee3485188944bc4b5ae176daa23"
 
 [[files]]
 file = "config/puzzle.json"
@@ -30,7 +34,7 @@ hash = "c7983abfbff136519ffeca3ac75f4db10c81d7ad3adae6f4e1f9ad509a04c817"
 
 [[files]]
 file = "config/yosbr/config/c2me.toml"
-hash = "77663d8f0a7c937e80b3c7a01dab03c99f12ca954148ce4823d96d767ebb8933"
+hash = "e0175393f767dc9d1c61ee6b69db461ea1d6d26b76c6f07503d6724edd009c89"
 
 [[files]]
 file = "config/yosbr/config/capes.json5"
@@ -58,7 +62,7 @@ hash = "219204a2efc6d53ad8b3116db7392e039ba8e0ed5f45bc18562c9697bdf8f5c9"
 
 [[files]]
 file = "config/yosbr/config/entityculling.json"
-hash = "a7c71647841d9f125dc7482bde82450b4d46942ba4fea673246fd956a1b499fd"
+hash = "d8eec905de29447db4b7a8c82c317033104f812190e59a6df1bc80b1bbac94cb"
 
 [[files]]
 file = "config/yosbr/config/fastquit.toml"
@@ -135,18 +139,28 @@ hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
 metafile = true
 
 [[files]]
+file = "mods/cameraoverhaul.pw.toml"
+hash = "b657f098bc6bdf2c7ee67f95bf6cbf7e39cf4db7c6b8fb6fd432b9471c53ec1a"
+metafile = true
+
+[[files]]
 file = "mods/canary.pw.toml"
 hash = "1a060877e79455b31a20e165adb356a517c161eacf3ae503de2fa515e79dea0a"
 metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "e3d41c78fdb7c5e0df98f0e84c6611355a8a6d8a5facd266349ffb84f60500e6"
+hash = "06a7dd69447310d97d6ad98dfedff19f1c863f0ba77f3510a36543449d4e3f29"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "30c1db7284224a9c6cf2daa854b1ec470a0d4ecb0a64f48efdb17e1110244f1c"
+metafile = true
+
+[[files]]
+file = "mods/cit-resewn.pw.toml"
+hash = "44e2cc695c040b7bbca462165099fa3c56a98aa8f01104bb067dc850b65f6d02"
 metafile = true
 
 [[files]]
@@ -156,7 +170,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "9fc6c3a54d0c536a01a45615583806624ffbdb64edc4d940433b0e4ea124f8c4"
+hash = "1d4048164e9a9b551affdd15a2d4f9750d6a9241ed8dcb10062d797234d4f20d"
 metafile = true
 
 [[files]]
@@ -171,7 +185,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "8331398401714c839a8d231a5bbb6a3826f2e360e7d9e90b0ea35db177a160cf"
+hash = "e82ce48190b2b7bc56aba98b91f0d0506c9f2f82c69ef6df9ed1ed6a4299a4fa"
 metafile = true
 
 [[files]]
@@ -192,6 +206,11 @@ metafile = true
 [[files]]
 file = "mods/ebe.pw.toml"
 hash = "b8270928d44781b9e59982d376bb3cc0d24089ceebef3c79d3e1e881ba7ece60"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "d1a0fb6cd065ad6c076919f8748ab7280ac87a2ecde079423f61c6f1b9cf515b"
 metafile = true
 
 [[files]]
@@ -251,7 +270,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "3412adb94869ed227fbdce44827fae15caae3be71a727e557fd8bd47e6115f74"
+hash = "19ead28d60430d6b485b8d4fe4c73f7aeee4fd87abf997f7ae40f105bdf41ad1"
 metafile = true
 
 [[files]]
@@ -266,7 +285,12 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "b955450fc7798bd9490f24977a828a06aeee726198aacec1eef16703ab88fbc5"
+hash = "9b98d442295d21ad9a3ae2c4de4ff556852232159da50057ce3996986ec3c425"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "678d1c7827d30fbe8c225e7f2b8ddc29f1dd69cced29335ee5a670477a0728a2"
 metafile = true
 
 [[files]]
@@ -291,7 +315,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "10f8e0f570cdd25d708f5f0d34e42b16851ce63849bde496d9fd63c97a032639"
+hash = "92c9cd0fd116f989f183c53fc8d2e1ca963c3178443b2d536778567e87724e52"
 metafile = true
 
 [[files]]
@@ -336,17 +360,12 @@ metafile = true
 
 [[files]]
 file = "mods/rrls.pw.toml"
-hash = "ea707eb968217e16a095503e72fa6fc12e3689a99995aa7a7d4878b966e106b4"
+hash = "5a70811f11bccd6a9b7e52682de06faae2ee5fcc1777ae5e466b1a6a87052f69"
 metafile = true
 
 [[files]]
 file = "mods/rubidium-extra.pw.toml"
-hash = "2ee05c095aa31539854f380e731f5173cdab1adda503a6b16e56d1a65674acec"
-metafile = true
-
-[[files]]
-file = "mods/rubidium.pw.toml"
-hash = "25d6f35a409f98b57d6e9003a9a0be5b2479fa08c9ed24d20da6eb29b3ccfffe"
+hash = "8f9f3b23ac87652f37dc9bd20144c6fc5d025bb49b10a594453e49b2f03abdcf"
 metafile = true
 
 [[files]]
@@ -356,7 +375,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "6cec2eed76af62f0b7be4c69ed816bb58fc57e704e29cab75ad6640a790393d7"
+hash = "887462bb9594fe1b0fd7d341b7c3baa80a0388016979aff7f7c1a97ab75f0698"
 metafile = true
 
 [[files]]
@@ -376,7 +395,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "c1ef4ff0e9d3b5ec41d3fbce5a3c60bde2fe5dac9a32a12d57530cdf9f5547ff"
+hash = "dbe2c430bf58c773082d7fd9d1bee2d510a2e0c08f390f7465e819b6e321ae09"
 metafile = true
 
 [[files]]
@@ -385,8 +404,8 @@ hash = "fb0ec93bfbee412229b63a9154abc992ee7e274a84fe569e077f250e6c77abbd"
 metafile = true
 
 [[files]]
-file = "mods/textrues-rubidium-options.pw.toml"
-hash = "6c10f3718ec253b0a68486f94316503560e3a95c589c99bea8b7a74694358b06"
+file = "mods/textrues-embeddium-options.pw.toml"
+hash = "17807ae81bd683e751beda009594a1d488f04eec594fe41d9b256f707226eb6d"
 metafile = true
 
 [[files]]
@@ -411,7 +430,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "8f75afb53c6d99ec035b3459918e380ffa6b747bfad1fbb60cdaeb1100735c86"
+hash = "ba93e7d7d6ed15476a7e2a5dfd1ac15d9f1e0f89c1a22e6a6c6ba2f8139e3636"
 metafile = true
 
 [[files]]
@@ -421,7 +440,7 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "5f5f3db8824093d650ea00c5f860c9532288310521ca2aa3689635d6d0910016"
+hash = "c19bc87fa42de31c7732c70cc4cbb03807248dad0137f7553d15873889617fc4"
 metafile = true
 
 [[files]]

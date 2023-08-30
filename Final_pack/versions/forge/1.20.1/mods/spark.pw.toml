@@ -1,13 +1,13 @@
 name = "spark"
-filename = "spark-1.10.42-forge.jar"
+filename = "spark-1.10.53-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/l6YH9Als/versions/Yp6s4wsw/spark-1.10.42-forge.jar"
+url = "https://cdn.modrinth.com/data/l6YH9Als/versions/4FXHDE9F/spark-1.10.53-forge.jar"
 hash-format = "sha1"
-hash = "4fb15b42fab48b33b41d29ceef1b5c51248b55d5"
+hash = "231fb325368c0660954f47bfb03493f5246fa4d1"
 
 [update]
 [update.modrinth]
 mod-id = "l6YH9Als"
-version = "Yp6s4wsw"
+version = "4FXHDE9F"

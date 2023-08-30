@@ -20,13 +20,13 @@
 - CreativeCore
 - Do a Barrel Roll
 - Durability Tooltip
+- Early Loading Screen
 - EMI
 - Gamma Utils (Fullbright)
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
 - Model Gap Fix
-- ModernFix
 - Mods Command
 - MoreChatHistory
 - Nicer Skies
@@ -100,7 +100,6 @@
 - ItemPhysic Lite
 - Jade 🔍
 - Model Gap Fix
-- ModernFix
 - Mods Command
 - MoreChatHistory
 - Nicer Skies
@@ -121,12 +120,13 @@
 - Who am I?
 
 ### Fabric:
+- (Neo)Forge Early Loading Screen for Fabric
 - LibJF
 - Recursive Resources
 - Respackopts
 
 ### Quilt:
-- (Nothing)
+- Early Loading Screen
 
 ### Forge:
 - 3D Skin Layers
@@ -140,7 +140,6 @@
 - ItemPhysic Lite
 - Jade 🔍
 - Model Gap Fix
-- ModernFix
 - No Chat Reports
 - Not Enough Animations
 - Raised
@@ -169,7 +168,6 @@
 - lambdabettergrass
 
 ### Forge:
-- cameraoverhaul
 - cosmetica
 - creativecore
 - itemphysic-lite

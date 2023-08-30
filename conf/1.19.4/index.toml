@@ -35,7 +35,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "9f356a9badb2b6831a2a41db05de0b536af61b38cb570fee966af525ee3395aa"
+hash = "a3ba575bdd5273967e8fc8da458035ed7631c0f858ba66e9143fc6e6496b7f46"
 metafile = true
 
 [[files]]
@@ -65,7 +65,12 @@ metafile = true
 
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
-hash = "7f1c330b89a0c9c336ec04d4b7a021ffcfe58a837e0c42e2ce4ac0cbc0697d14"
+hash = "f1363dae892a02f2118da129bcf6968e95c90a21abd4a89c4fa31611c8cf7da4"
+metafile = true
+
+[[files]]
+file = "mods/early-loading-screen.pw.toml"
+hash = "a4fa05cbcdb8f7987440d559b2277a7530b18df08f17d6b260cd2bab61c575de"
 metafile = true
 
 [[files]]
@@ -96,11 +101,6 @@ metafile = true
 [[files]]
 file = "mods/modelfix.pw.toml"
 hash = "47fff2ed63e342e95bf9a0ad086d896148195bbcbc25260300ca1b27d454f7b8"
-metafile = true
-
-[[files]]
-file = "mods/modernfix.pw.toml"
-hash = "f29d10d90e0b8562293d61155c0cb445b83f454d59e9d0c8012fca59399c01be"
 metafile = true
 
 [[files]]
@@ -155,7 +155,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "f9934cc48ea3fe919b0a94ac8af0782adf80e47947ae5270af3b4fc60f64170c"
+hash = "5e01e08a2ec8f957fb63a74559ed5b50025e6c922045a56064cb1527d61fe7ee"
 metafile = true
 
 [[files]]

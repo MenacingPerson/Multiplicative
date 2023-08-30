@@ -17,11 +17,10 @@ import core.packwiz
 import core.pack_editions
 from core.base import (echo, ODIR, runcmd, toml_read,
                        toml_write, json_read, json_write,
-                       config, base_conf)
-from core.packwiz import pw_rm_mods, pw_refresh, pw_export_pack
+                       config, base_conf, chodir)
 from core.pack_editions import run_in, run_separately_in_all
 
-os.chdir(core.base.ODIR)
+os.chdir(ODIR)
 
 # logic (functions)
 
@@ -36,15 +35,9 @@ def modify_packtoml(pack: dict):
     toml_write(pack_toml, './pack.toml')
 
 
-def cp_mods(_pack: dict, mods_key: str):
-    """Copy packwiz pw.toml mod files over to pack edition"""
-    shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{mods_key}', './mods/', dirs_exist_ok=True)
-
-
-def cp_rps(_pack: dict, rps_key: str):
-    """Copy packwiz pw.toml resourcepack files over to pack edition"""
-    shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{rps_key}',
-                    './resourcepacks', dirs_exist_ok=True)
+def copy_over(_pack: dict, src_name: str, dest_name: str):
+    """Copy over folder from config to pack edition"""
+    shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/{src_name}', f'./{dest_name}', dirs_exist_ok=True)
 
 
 def mark_mods_optional(pack: dict, optional_mods_key: str):
@@ -57,13 +50,6 @@ def mark_mods_optional(pack: dict, optional_mods_key: str):
             'optional': True
         }
         toml_write(mod_toml, f'mods/{mod}.pw.toml')
-
-
-def config_cp(pack: dict):
-    """Copy config over to edition"""
-    echo(f'Copying config files over for {pack["edition"]}')
-    return shutil.copytree(f'{ODIR}/conf/{sys.argv[1]}/config',
-                           './config', dirs_exist_ok=True)
 
 
 def cp_pwignore(pack: dict):
@@ -97,12 +83,20 @@ def change_modloader_ver(pack: dict) -> None:
     """Change version of specified modloader"""
     modloader = pack['modloader']
     if core.pack_editions.loader_is_valid(modloader):
-        echo(f"Updating {modloader} to {core.base.base_conf['modloaders'][modloader]['version']} for {pack['edition']}")
+        echo(f"Updating {modloader} to {base_conf['modloaders'][modloader]['version']} for {pack['edition']}")
         pack_toml = toml_read('./pack.toml')
-        pack_toml['versions'][modloader] = core.base.base_conf['modloaders'][modloader]['version']
+        pack_toml['versions'][modloader] = base_conf['modloaders'][modloader]['version']
         toml_write(pack_toml, './pack.toml')
     else:
         print(f'{i} is not a valid modloader!')
+        exit(1)
+
+
+def forge_additive_fixer(pack: dict) -> None:
+    """Clean up forge edition"""
+    echo(f'Cleaning up extra files for {pack["edition"]}')
+    for folder in glob.glob('mods_*'):
+        shutil.rmtree(folder)
 
 
 # Reset to certain hash to avoid unwanted changes
@@ -112,11 +106,11 @@ os.chdir('forgified-Additive/')
 runcmd('git pull origin main')
 runcmd('git reset --hard', base_conf["additive_hash"])
 os.chdir(ODIR)
-runcmd('git add Additive/ forgified-Additive/')
-
-# Error handling
 core.base.if_exists_rm(f'{ODIR}/forgified-Additive/Modified')
 core.base.if_exists_rm(f'{ODIR}/forgified-Additive/packs')
+core.base.if_exists_rm(f'{ODIR}/Additive/Modified')
+core.base.if_exists_rm(f'{ODIR}/Additive/packs')
+runcmd('git add Additive/ forgified-Additive/')
 
 # Recreate modified pack
 echo("Removing previous modified packs")
@@ -124,7 +118,7 @@ core.base.if_exists_rm(f'{ODIR}/Modified')
 core.base.if_not_exists_create_dir(f'{ODIR}/packs')
 shutil.copytree(f'{ODIR}/forgified-Additive/', f'{ODIR}/Modified/')
 
-core.base.chodir()
+chodir()
 
 unwanted_pack_editions = glob.glob('*/*')
 wanted_pack_editions = [modloader + '/' + config['game_version']
@@ -137,28 +131,30 @@ for pack_edition in unwanted_pack_editions:
 
 run_in('all', cp_pwignore)
 
-run_in('all', pw_refresh)
+run_in('all', core.packwiz.pw_refresh)
 
-run_separately_in_all(cp_mods, 'mods_[ml]')
+run_separately_in_all(copy_over, 'mods_[ml]', 'mods')
+
+run_separately_in_all(copy_over, 'resourcepacks_[ml]', 'resourcepacks')
+
+run_separately_in_all(copy_over, 'config_[ml]', 'config')
 
 run_separately_in_all(mark_mods_optional, 'mods_optional_[ml]')
 
-run_separately_in_all(pw_rm_mods, 'mods_removed_[ml]')
-
-run_in('all', cp_rps, 'resourcepacks')
+run_separately_in_all(core.packwiz.pw_rm_mods, 'mods_removed_[ml]')
 
 run_in('all', modify_packtoml)
-
-run_in('all', config_cp)
 
 run_in('all', fix_mmc_config)
 
 for i in core.packwiz.modloaders:
     run_in(i, change_modloader_ver)
 
-run_in('all', pw_refresh)
+run_in('forge', forge_additive_fixer)
 
-run_in('all', pw_export_pack)
+run_in('all', core.packwiz.pw_refresh)
+
+run_in('all', core.packwiz.pw_export_pack)
 
 echo('Packed files located in packs folder:')
 print('  '.join(os.listdir(f'{ODIR}/packs')))
