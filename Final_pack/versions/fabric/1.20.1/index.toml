@@ -195,6 +195,11 @@ hash = "c8c6a3893859d2f0e04ebf400c8ce8b47de21cfe6097996b5dde1561e92f3c80"
 metafile = true
 
 [[files]]
+file = "mods/early-loading-screen.pw.toml"
+hash = "8a20ee839497c47ad85a15ec75279a35eefe685663f5151c23d8a4c13bfd44b0"
+metafile = true
+
+[[files]]
 file = "mods/ears.pw.toml"
 hash = "6a4afd7b42387477795e73b17b8963ea313ce6f8a960343a2579ff0b41544beb"
 metafile = true
@@ -262,11 +267,6 @@ metafile = true
 [[files]]
 file = "mods/fix-keyboard-on-linux.pw.toml"
 hash = "38a2c415fc59ca97c5297542b67daf477ecce294b3cbe2fe530193c879a252a6"
-metafile = true
-
-[[files]]
-file = "mods/forge-early-loading-screen-fabric.pw.toml"
-hash = "f1b12bd31ad1392386c9457b7454feccfb435dba545e2327e7caf35dd9055488"
 metafile = true
 
 [[files]]

@@ -1,16 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/fabric_loader_dependencies.json"
-hash = "6f5bbb588fc23d8c873dc5f3cec789b6e96fe46e530e45646dd546dbb1e12e1b"
-
-[[files]]
 file = "config/yosbr/config/blur.json"
 hash = "7ed37e08b2ec3ec4b36475ceae21ba3b432436181c3ac6f30ef8a7728eef803c"
 
 [[files]]
 file = "config/yosbr/config/durabilitytooltip-common.toml"
 hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
+
+[[files]]
+file = "config_forge/fabric_loader_dependencies.json"
+hash = "6f5bbb588fc23d8c873dc5f3cec789b6e96fe46e530e45646dd546dbb1e12e1b"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -70,6 +70,11 @@ metafile = true
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
 hash = "68b89af2373d74955b72209195d3874d8ab24f25683010d7e61918ba84a5f439"
+metafile = true
+
+[[files]]
+file = "mods/early-loading-screen.pw.toml"
+hash = "8a20ee839497c47ad85a15ec75279a35eefe685663f5151c23d8a4c13bfd44b0"
 metafile = true
 
 [[files]]
@@ -193,11 +198,6 @@ hash = "8b35ac594bfad2fd2533849ad3f573cc1f036be47302123a3193c9009fbe4691"
 metafile = true
 
 [[files]]
-file = "mods_fabric/forge-early-loading-screen-fabric.pw.toml"
-hash = "f1b12bd31ad1392386c9457b7454feccfb435dba545e2327e7caf35dd9055488"
-metafile = true
-
-[[files]]
 file = "mods_fabric/libjf.pw.toml"
 hash = "fd1b685219022148a51b5834f9c424a148025ef673ce50c935c2388e08d0040a"
 metafile = true
@@ -315,11 +315,6 @@ metafile = true
 [[files]]
 file = "mods_forge/wavey-capes.pw.toml"
 hash = "fddece53bfe6711ea3b1d0c999439a2ebab1d996d53e433b4ecab5ee8e2045cb"
-metafile = true
-
-[[files]]
-file = "mods_quilt/early-loading-screen.pw.toml"
-hash = "8a20ee839497c47ad85a15ec75279a35eefe685663f5151c23d8a4c13bfd44b0"
 metafile = true
 
 [[files]]

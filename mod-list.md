@@ -94,6 +94,7 @@
 - CreativeCore
 - Do a Barrel Roll
 - Durability Tooltip
+- Early Loading Screen
 - EMI
 - Gamma Utils (Fullbright)
 - Halo HUD
@@ -120,13 +121,12 @@
 - Who am I?
 
 ### Fabric:
-- (Neo)Forge Early Loading Screen for Fabric
 - LibJF
 - Recursive Resources
 - Respackopts
 
 ### Quilt:
-- Early Loading Screen
+- (Nothing)
 
 ### Forge:
 - 3D Skin Layers
@@ -170,6 +170,7 @@
 ### Forge:
 - cosmetica
 - creativecore
+- early-loading-screen
 - itemphysic-lite
 - nicer-skies
 - remember-my-txt
