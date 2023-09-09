@@ -1,5 +1,0 @@
-hash-format = "sha256"
-
-[[files]]
-file = "unsup.ini"
-hash = "efb52e2ed59ff80dcebdce2239dd7ad2cff252246a215b4190fca7c4b091056a"

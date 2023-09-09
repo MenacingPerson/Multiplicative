@@ -1,6 +1,6 @@
-# Release wynn-1.3.0
+# Release wynn-1.4.0
 
-Sync with pack 3.0.0
+Sync with pack 3.2.0
 
 Updated:
 - Wynntils

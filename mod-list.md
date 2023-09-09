@@ -20,13 +20,13 @@
 - CreativeCore
 - Do a Barrel Roll
 - Durability Tooltip
+- Early Loading Screen
 - EMI
 - Gamma Utils (Fullbright)
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
 - Model Gap Fix
-- ModernFix
 - Mods Command
 - MoreChatHistory
 - Nicer Skies

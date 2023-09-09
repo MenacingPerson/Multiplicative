@@ -18,10 +18,9 @@
         "lambdabettergrass"
     ],
     "mods_removed_forge": [
-        "cameraoverhaul",
-        "caxton",
         "cosmetica",
         "creativecore",
+        "early-loading-screen",
         "itemphysic-lite",
         "nicer-skies",
         "remember-my-txt"

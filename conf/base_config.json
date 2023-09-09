@@ -1,8 +1,8 @@
 {
-    "additive_hash": "389f78bc8484b15371d2af99da2c893bdc816131",
+    "additive_hash": "4787076dd6f9b3b6b91ea3b9d474be1c9441a583",
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
-    "pack_version": "wynn-1.3.0",
+    "pack_version": "wynn-1.4.0",
     "pack_url": "https://github.com/MenacingPerson/Multiplicative",
     "pack_user_agent": "MenacingPerson/Multiplicative",
     "build": [
@@ -15,7 +15,7 @@
             "version": "0.14.22"
         },
         "quilt": {
-            "version": "0.19.5"
+            "version": "0.20.1"
         },
         "forge": {
             "version": "47.1.3"
