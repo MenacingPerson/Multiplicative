@@ -139,11 +139,6 @@ hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
 metafile = true
 
 [[files]]
-file = "mods/cameraoverhaul.pw.toml"
-hash = "b657f098bc6bdf2c7ee67f95bf6cbf7e39cf4db7c6b8fb6fd432b9471c53ec1a"
-metafile = true
-
-[[files]]
 file = "mods/canary.pw.toml"
 hash = "1a060877e79455b31a20e165adb356a517c161eacf3ae503de2fa515e79dea0a"
 metafile = true
@@ -270,7 +265,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "19ead28d60430d6b485b8d4fe4c73f7aeee4fd87abf997f7ae40f105bdf41ad1"
+hash = "abbdac3f8850c1cd33e78c7ab0b6be201245ea7d90d6ebc30bf96e14e36804a3"
 metafile = true
 
 [[files]]
@@ -285,7 +280,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "9b98d442295d21ad9a3ae2c4de4ff556852232159da50057ce3996986ec3c425"
+hash = "0115f86693696e977523c0137f7951a28577290d5e0e176b257e437e14f3fd5f"
 metafile = true
 
 [[files]]
@@ -375,7 +370,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "887462bb9594fe1b0fd7d341b7c3baa80a0388016979aff7f7c1a97ab75f0698"
+hash = "3e3dabc1f365da6f639c682112dc38ddcfacbf330bf473fa97f34f721a98e4f4"
 metafile = true
 
 [[files]]
@@ -405,7 +400,7 @@ metafile = true
 
 [[files]]
 file = "mods/textrues-embeddium-options.pw.toml"
-hash = "17807ae81bd683e751beda009594a1d488f04eec594fe41d9b256f707226eb6d"
+hash = "52560eeb85bbc692f2eae3875e59121ccc001f49c5ef5b51cab03d8b5bec9bfb"
 metafile = true
 
 [[files]]

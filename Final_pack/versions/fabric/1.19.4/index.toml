@@ -135,11 +135,6 @@ hash = "43c8d0c7b3642fe1748d07da8f3c6277a0a195bdc4043b9189fc53479e26b957"
 metafile = true
 
 [[files]]
-file = "mods/cameraoverhaul.pw.toml"
-hash = "b657f098bc6bdf2c7ee67f95bf6cbf7e39cf4db7c6b8fb6fd432b9471c53ec1a"
-metafile = true
-
-[[files]]
 file = "mods/caxton.pw.toml"
 hash = "a3ba575bdd5273967e8fc8da458035ed7631c0f858ba66e9143fc6e6496b7f46"
 metafile = true
@@ -191,7 +186,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "0ada4f3b91ee6a4cd40c8e9bcb69a3d59c24ff3940762efca9253b269af1eb25"
+hash = "c711e028cfbf9b1755ab576522e1405fe6cbbf822204f0e15711349dcc83affd"
 metafile = true
 
 [[files]]
@@ -281,7 +276,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "09cc84c8d459ab708ac281e47cf76c6cf19cefaed7084ec481334d37875cb500"
+hash = "b5fa79e04be38bf902564a40cb9ab417eb42eeb01dc562886932dfb00fbf7c7d"
 metafile = true
 
 [[files]]
@@ -421,7 +416,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "5e01e08a2ec8f957fb63a74559ed5b50025e6c922045a56064cb1527d61fe7ee"
+hash = "2c4246c373ca11bb99254351f223767ccdb7b1816c6c4ea180a13be628b89835"
 metafile = true
 
 [[files]]
@@ -486,7 +481,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "106a5a4554f1d79b3158beea97e16108a318b940924e643162444630dbebecab"
+hash = "88c0fc20bad48c7c65dc7394f8dbb00b908c4c4c21323a2160705177ccf10cc3"
 metafile = true
 
 [[files]]

@@ -135,11 +135,6 @@ hash = "43c8d0c7b3642fe1748d07da8f3c6277a0a195bdc4043b9189fc53479e26b957"
 metafile = true
 
 [[files]]
-file = "mods/cameraoverhaul.pw.toml"
-hash = "b657f098bc6bdf2c7ee67f95bf6cbf7e39cf4db7c6b8fb6fd432b9471c53ec1a"
-metafile = true
-
-[[files]]
 file = "mods/caxton.pw.toml"
 hash = "a3ba575bdd5273967e8fc8da458035ed7631c0f858ba66e9143fc6e6496b7f46"
 metafile = true
@@ -166,7 +161,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "4cb02206331c9a6d207681b2e40b4b8648a462b0c31e6e634200a01b592b1d3d"
+hash = "8c2f025206a96b2537a83f2d1fc10461e2a511e9cdbb8a120024299f88b046f5"
 metafile = true
 
 [[files]]
@@ -266,12 +261,12 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "09cc84c8d459ab708ac281e47cf76c6cf19cefaed7084ec481334d37875cb500"
+hash = "b5fa79e04be38bf902564a40cb9ab417eb42eeb01dc562886932dfb00fbf7c7d"
 metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "e6e746d0ac4dd170a8309e7bda19ad05c74d6352c1569f83f4dd01e2980674ff"
+hash = "012a895c6e6def9eccf33ca2296466a6f062f4587016c465c962fa8de2869ced"
 metafile = true
 
 [[files]]
@@ -406,7 +401,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "5e01e08a2ec8f957fb63a74559ed5b50025e6c922045a56064cb1527d61fe7ee"
+hash = "2c4246c373ca11bb99254351f223767ccdb7b1816c6c4ea180a13be628b89835"
 metafile = true
 
 [[files]]
@@ -471,7 +466,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "106a5a4554f1d79b3158beea97e16108a318b940924e643162444630dbebecab"
+hash = "88c0fc20bad48c7c65dc7394f8dbb00b908c4c4c21323a2160705177ccf10cc3"
 metafile = true
 
 [[files]]

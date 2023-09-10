@@ -1,6 +1,6 @@
-[submodule "Additive"]
-	path = Additive
-	url = https://github.com/skywardmc/additive.git
 [submodule "forgified-Additive"]
 	path = forgified-Additive
 	url = https://github.com/MenacingPerson/forgified-Additive.git
+[submodule "Additive"]
+	path = Additive
+	url = https://github.com/MenacingPerson/donotuse-additive-but-updated.git

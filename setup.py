@@ -102,32 +102,34 @@ def forge_additive_fixer(pack: dict) -> None:
 # Reset to certain hash to avoid unwanted changes
 echo('Updating Additive to specified hash')
 runcmd('git submodule update --recursive --init --remote')
-os.chdir('forgified-Additive/')
+os.chdir(f'{ODIR}/forgified-Additive/')
 runcmd('git pull origin main')
-runcmd('git reset --hard', base_conf["additive_hash"])
-os.chdir(ODIR)
+runcmd('git reset --hard', base_conf["forgified-Additive_hash"])
+os.chdir(f'{ODIR}/Additive/')
+runcmd('git pull origin main')
+runcmd('git reset --hard', base_conf["Additive_hash"])
 core.base.if_exists_rm(f'{ODIR}/forgified-Additive/Modified')
 core.base.if_exists_rm(f'{ODIR}/forgified-Additive/packs')
 core.base.if_exists_rm(f'{ODIR}/Additive/Modified')
 core.base.if_exists_rm(f'{ODIR}/Additive/packs')
+os.chdir(ODIR)
 runcmd('git add Additive/ forgified-Additive/')
 
 # Recreate modified pack
 echo("Removing previous modified packs")
 core.base.if_exists_rm(f'{ODIR}/Modified')
 core.base.if_not_exists_create_dir(f'{ODIR}/packs')
-shutil.copytree(f'{ODIR}/forgified-Additive/', f'{ODIR}/Modified/')
 
-chodir()
 
-unwanted_pack_editions = glob.glob('*/*')
-wanted_pack_editions = [modloader + '/' + config['game_version']
-                        for modloader in config['modloaders']]
-for pack_edition in unwanted_pack_editions:
-    if pack_edition in wanted_pack_editions:
-        unwanted_pack_editions.remove(pack_edition)
-for pack_edition in unwanted_pack_editions:
-    shutil.rmtree(pack_edition)
+for loader in config['modloaders']:
+    if not core.pack_editions.loader_is_valid(loader):
+        print("Invalid loader in conf, exiting!")
+        exit(1)
+    os.makedirs(f'{ODIR}/Modified/versions/{loader}')
+    chodir()
+    for i in os.listdir(f'{ODIR}/{core.packwiz.modloaders[loader]["additive_version"]}/versions/{loader}'):
+        if i == config['game_version']:
+            shutil.copytree(f'{ODIR}/{core.packwiz.modloaders[loader]["additive_version"]}/versions/{loader}/{i}', f'{loader}/{i}')
 
 run_in('all', cp_pwignore)
 

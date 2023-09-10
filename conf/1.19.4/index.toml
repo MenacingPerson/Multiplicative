@@ -29,11 +29,6 @@ hash = "55c14fd0cba0ae4478945420862cfdec970a5ab40b04a34ce9e3f94b9d721e38"
 metafile = true
 
 [[files]]
-file = "mods/cameraoverhaul.pw.toml"
-hash = "b657f098bc6bdf2c7ee67f95bf6cbf7e39cf4db7c6b8fb6fd432b9471c53ec1a"
-metafile = true
-
-[[files]]
 file = "mods/caxton.pw.toml"
 hash = "a3ba575bdd5273967e8fc8da458035ed7631c0f858ba66e9143fc6e6496b7f46"
 metafile = true
@@ -155,7 +150,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "5e01e08a2ec8f957fb63a74559ed5b50025e6c922045a56064cb1527d61fe7ee"
+hash = "2c4246c373ca11bb99254351f223767ccdb7b1816c6c4ea180a13be628b89835"
 metafile = true
 
 [[files]]

@@ -12,7 +12,6 @@
 - Architectury API
 - Better Trim Tooltips
 - Blur (Fabric)
-- CameraOverhaul
 - Caxton
 - Chat Heads
 - Continue Button
@@ -86,7 +85,6 @@
 - Architectury API
 - Better Trim Tooltips
 - Blur (Fabric)
-- CameraOverhaul
 - Caxton
 - Chat Heads
 - Continue Button
@@ -124,6 +122,7 @@
 - LibJF
 - Recursive Resources
 - Respackopts
+- Shimmer
 
 ### Quilt:
 - (Nothing)
