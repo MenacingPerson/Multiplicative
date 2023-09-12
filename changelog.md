@@ -6,15 +6,8 @@ Updated:
 - Seamless Loading Screen (1.19.4, 1.20.1)
 
 Added:
-- Shimmer (1.20.1 fabric)
+None
 
 Removed:
 - CameraOverhaul (1.19.4, 1.20.1)
 - Early Loading Screen (1.20.1)
-
-Upstream Contributors/credits:
-- Additive Contributors
-- Adrenaline Contributors
-- Packwiz Contributors
-- All contributors of other tools used
-
