@@ -10,4 +10,4 @@ None
 
 Removed:
 - CameraOverhaul (1.19.4, 1.20.1)
-- Early Loading Screen (1.20.1)
+- Early Loading Screen (1.19.4, 1.20.1)

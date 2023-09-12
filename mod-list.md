@@ -19,7 +19,6 @@
 - CreativeCore
 - Do a Barrel Roll
 - Durability Tooltip
-- Early Loading Screen
 - EMI
 - Gamma Utils (Fullbright)
 - Halo HUD
@@ -92,7 +91,6 @@
 - CreativeCore
 - Do a Barrel Roll
 - Durability Tooltip
-- Early Loading Screen
 - EMI
 - Gamma Utils (Fullbright)
 - Halo HUD
@@ -122,7 +120,6 @@
 - LibJF
 - Recursive Resources
 - Respackopts
-- Shimmer
 
 ### Quilt:
 - (Nothing)
@@ -169,7 +166,6 @@
 ### Forge:
 - cosmetica
 - creativecore
-- early-loading-screen
 - itemphysic-lite
 - nicer-skies
 - remember-my-txt
