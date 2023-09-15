@@ -6,7 +6,7 @@ hash = "6f5bbb588fc23d8c873dc5f3cec789b6e96fe46e530e45646dd546dbb1e12e1b"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "01e2319fb50030347c1ac60995c382d5a4817ee3485188944bc4b5ae176daa23"
+hash = "379444a77b3681151cd671042036455d4e98a6824f783a1003a9cc60f67c76d4"
 
 [[files]]
 file = "config/puzzle.json"
@@ -265,7 +265,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "abbdac3f8850c1cd33e78c7ab0b6be201245ea7d90d6ebc30bf96e14e36804a3"
+hash = "5e666c5f604e4e4680428d94e413227cfe4628d70f05377a3e94ba0169c454d3"
 metafile = true
 
 [[files]]

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "01e2319fb50030347c1ac60995c382d5a4817ee3485188944bc4b5ae176daa23"
+hash = "379444a77b3681151cd671042036455d4e98a6824f783a1003a9cc60f67c76d4"
 
 [[files]]
 file = "config/puzzle.json"
@@ -306,7 +306,7 @@ metafile = true
 
 [[files]]
 file = "mods/lilac.pw.toml"
-hash = "713b1d8daa14ec46c8d6ad966b6339ee8c5eff0f034ad14ab9cfe315cc6fcdb0"
+hash = "589bff25807b43912f721b2ff793c4ca1f0d47adf7e95dc843fd923a454220a0"
 metafile = true
 
 [[files]]
@@ -491,7 +491,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"
-hash = "1eefbc7cb42c6a0dcaa6febeb61b8df90657648ba9b6e3389e2fd087e838997b"
+hash = "c98c3d74d8de9927eaa192ffc1ef00362bf4557ebc2e67528becdedcb98be1e9"
 metafile = true
 
 [[files]]

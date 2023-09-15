@@ -1,12 +1,12 @@
 name = "Multiplicative"
 author = "Menacing Person"
-version = "Multiplicative-3.2.0-forge+1.20.1"
+version = "Multiplicative-3.3.0-forge+1.20.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "802fa6e144d58ab311578adbebea35a093dedf88f472a9f7dc12f93958af833b"
+hash = "920f2d21eb931ddd6ee58224c6da1c7c7d4c2b409bbfe24791e6b19b749b9b62"
 
 [versions]
 forge = "47.1.3"
