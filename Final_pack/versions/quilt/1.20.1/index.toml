@@ -49,8 +49,8 @@ file = "config/yosbr/config/durabilitytooltip-common.toml"
 hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
 
 [[files]]
-file = "config/yosbr/config/dynamicfps.toml"
-hash = "8eac230e722a59915fa26ed453d780cd2034b65ec39a7ffe88135d16840c9692"
+file = "config/yosbr/config/dynamic_fps.json"
+hash = "03446bd8438e32366f310541f383bce5cdb2154fb5fb51973a7f3cf14f3ef173"
 
 [[files]]
 file = "config/yosbr/config/enhanced_bes.properties"
@@ -136,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "a7836fe66441f9554ed8fc13f33d0d5eea307793e5e53972e1ea6f0c2fa2257a"
+hash = "b45a966c0c4ba68a93e6095805ba91f88041b3ddccd0f8a99d1a50e45e3c0d79"
 metafile = true
 
 [[files]]
@@ -211,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "7da69698cf49045c6572c6bb86b2d89e5ba445859dda0e4aa6ea65f380972963"
+hash = "e6a716a5df1371a83a60355346d2ce739b5ddbcf643e9b548222c7dabba800cd"
 metafile = true
 
 [[files]]
@@ -261,7 +261,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "0115f86693696e977523c0137f7951a28577290d5e0e176b257e437e14f3fd5f"
+hash = "3cc35c86abdf13b0a159dca601ab82f3ca7b39de7c682b266598849987fe93af"
 metafile = true
 
 [[files]]
@@ -320,11 +320,6 @@ hash = "4cd171d3f5f3e1d2948cb1b0062e742a5e85110c9e9a668f9aed5b0cebcb9c97"
 metafile = true
 
 [[files]]
-file = "mods/mods-command.pw.toml"
-hash = "d09ddd35158bc690b235adc42c84b62172c6ef0ec45fa45589b290c0233af4f4"
-metafile = true
-
-[[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
 metafile = true
@@ -336,7 +331,7 @@ metafile = true
 
 [[files]]
 file = "mods/nicer-skies.pw.toml"
-hash = "cc7f7708bde62377a501a217ef082f72ee35930b6747d653c7bcf07dc49a8ad3"
+hash = "ddbcdf60f634287b6df241a873fc07b4ce56facfb358a0a74cb1df9acff97725"
 metafile = true
 
 [[files]]
@@ -406,7 +401,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "3cb07bc8f092f2a895e38e93aba88240168d641f27ebc00f4de90f4f8e523d70"
+hash = "1cc8781b7c9b2fe9a7a3b9ab2ae6742374a007fc075c865827f97ece36f2919d"
 metafile = true
 
 [[files]]
@@ -476,7 +471,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"
-hash = "c98c3d74d8de9927eaa192ffc1ef00362bf4557ebc2e67528becdedcb98be1e9"
+hash = "f1f74f07924a5b0eb57e7c662c2e3f8c56d50eaee0dc2cb4cb40985af8eb9cf4"
 metafile = true
 
 [[files]]

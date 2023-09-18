@@ -30,7 +30,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "a3ba575bdd5273967e8fc8da458035ed7631c0f858ba66e9143fc6e6496b7f46"
+hash = "ba8f7c12ff1b0826e43fe041ee827c1463193da5dc705f2af259170777c5f20b"
 metafile = true
 
 [[files]]
@@ -94,11 +94,6 @@ hash = "47fff2ed63e342e95bf9a0ad086d896148195bbcbc25260300ca1b27d454f7b8"
 metafile = true
 
 [[files]]
-file = "mods/mods-command.pw.toml"
-hash = "06075d1bda329e514c6c41ca7b34c703f1d2be0568d4cc4d6df4c977e2e651f6"
-metafile = true
-
-[[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
 metafile = true
@@ -145,7 +140,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "2c4246c373ca11bb99254351f223767ccdb7b1816c6c4ea180a13be628b89835"
+hash = "f67004d9cb85f3ccca7a91937608a21c978166f23d8c759313311d5ebcdc1bbb"
 metafile = true
 
 [[files]]

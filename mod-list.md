@@ -25,7 +25,6 @@
 - ItemPhysic Lite
 - Jade 🔍
 - Model Gap Fix
-- Mods Command
 - MoreChatHistory
 - Nicer Skies
 - No Chat Reports
@@ -97,7 +96,6 @@
 - ItemPhysic Lite
 - Jade 🔍
 - Model Gap Fix
-- Mods Command
 - MoreChatHistory
 - Nicer Skies
 - No Chat Reports
@@ -165,7 +163,4 @@
 
 ### Forge:
 - cosmetica
-- creativecore
-- itemphysic-lite
-- nicer-skies
 - remember-my-txt

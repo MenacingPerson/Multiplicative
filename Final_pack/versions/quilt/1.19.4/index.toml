@@ -49,8 +49,8 @@ file = "config/yosbr/config/durabilitytooltip-common.toml"
 hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
 
 [[files]]
-file = "config/yosbr/config/dynamicfps.toml"
-hash = "8eac230e722a59915fa26ed453d780cd2034b65ec39a7ffe88135d16840c9692"
+file = "config/yosbr/config/dynamic_fps.json"
+hash = "03446bd8438e32366f310541f383bce5cdb2154fb5fb51973a7f3cf14f3ef173"
 
 [[files]]
 file = "config/yosbr/config/enhanced_bes.properties"
@@ -136,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "a3ba575bdd5273967e8fc8da458035ed7631c0f858ba66e9143fc6e6496b7f46"
+hash = "ba8f7c12ff1b0826e43fe041ee827c1463193da5dc705f2af259170777c5f20b"
 metafile = true
 
 [[files]]
@@ -161,7 +161,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "8c2f025206a96b2537a83f2d1fc10461e2a511e9cdbb8a120024299f88b046f5"
+hash = "4cb02206331c9a6d207681b2e40b4b8648a462b0c31e6e634200a01b592b1d3d"
 metafile = true
 
 [[files]]
@@ -206,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "4e54e315ce46ed6dd72b5d6c70bd24bebd6a4e648b80afcbbedc8ef352a06ec7"
+hash = "a59200f17de0902d8018567d20fdd550224a84ddf19f9b50fb70a14ad30d2d6a"
 metafile = true
 
 [[files]]
@@ -256,12 +256,12 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "b5fa79e04be38bf902564a40cb9ab417eb42eeb01dc562886932dfb00fbf7c7d"
+hash = "c449a15cfdfaf32cc1f49347404a08657464f032c59aab353052c97c70a30dbc"
 metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "012a895c6e6def9eccf33ca2296466a6f062f4587016c465c962fa8de2869ced"
+hash = "e6e746d0ac4dd170a8309e7bda19ad05c74d6352c1569f83f4dd01e2980674ff"
 metafile = true
 
 [[files]]
@@ -307,11 +307,6 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "d18d104455a86bebd3f29deaf3458258674ea053d96e7b8fb5711cfea227fc20"
-metafile = true
-
-[[files]]
-file = "mods/mods-command.pw.toml"
-hash = "06075d1bda329e514c6c41ca7b34c703f1d2be0568d4cc4d6df4c977e2e651f6"
 metafile = true
 
 [[files]]
@@ -396,7 +391,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "2c4246c373ca11bb99254351f223767ccdb7b1816c6c4ea180a13be628b89835"
+hash = "f67004d9cb85f3ccca7a91937608a21c978166f23d8c759313311d5ebcdc1bbb"
 metafile = true
 
 [[files]]

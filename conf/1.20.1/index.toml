@@ -34,7 +34,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "a7836fe66441f9554ed8fc13f33d0d5eea307793e5e53972e1ea6f0c2fa2257a"
+hash = "b45a966c0c4ba68a93e6095805ba91f88041b3ddccd0f8a99d1a50e45e3c0d79"
 metafile = true
 
 [[files]]
@@ -98,18 +98,13 @@ hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
 metafile = true
 
 [[files]]
-file = "mods/mods-command.pw.toml"
-hash = "d09ddd35158bc690b235adc42c84b62172c6ef0ec45fa45589b290c0233af4f4"
-metafile = true
-
-[[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
 metafile = true
 
 [[files]]
 file = "mods/nicer-skies.pw.toml"
-hash = "cc7f7708bde62377a501a217ef082f72ee35930b6747d653c7bcf07dc49a8ad3"
+hash = "ddbcdf60f634287b6df241a873fc07b4ce56facfb358a0a74cb1df9acff97725"
 metafile = true
 
 [[files]]
@@ -149,7 +144,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "3cb07bc8f092f2a895e38e93aba88240168d641f27ebc00f4de90f4f8e523d70"
+hash = "1cc8781b7c9b2fe9a7a3b9ab2ae6742374a007fc075c865827f97ece36f2919d"
 metafile = true
 
 [[files]]
@@ -214,7 +209,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/caxton.pw.toml"
-hash = "06a7dd69447310d97d6ad98dfedff19f1c863f0ba77f3510a36543449d4e3f29"
+hash = "580c38d91454db3200bd1c4c3e2c80dc5c6df807746dd88112910b2e17dd3c06"
 metafile = true
 
 [[files]]
@@ -284,7 +279,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/seamless-loading-screen.pw.toml"
-hash = "3e3dabc1f365da6f639c682112dc38ddcfacbf330bf473fa97f34f721a98e4f4"
+hash = "456a6afb9efe768e49e3fb427d0fac43e7af6534794b0e0873879341d3d82efd"
 metafile = true
 
 [[files]]

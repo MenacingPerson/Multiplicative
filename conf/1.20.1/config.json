@@ -19,9 +19,6 @@
     ],
     "mods_removed_forge": [
         "cosmetica",
-        "creativecore",
-        "itemphysic-lite",
-        "nicer-skies",
         "remember-my-txt"
     ]
 }
