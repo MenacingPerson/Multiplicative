@@ -8,6 +8,7 @@ Early Loading Screen removed again because it's unnecessary tbh
 Updated:
 - Additive (base|forgified)
 - Caxton (1.19.4, 1.20.1)
+- EMI (1.19.4, 1.20.1)
 - Jade (1.20.1 fabric/quilt)
 - Nicer Skies (1.20.1)
 - Quilt Loader
