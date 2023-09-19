@@ -169,7 +169,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "118a8a5cebafb20e3c809fdb093738160798f0314ec3f6fabf08a602aa9f4df0"
+hash = "b6d8b835fd83399d7d5a6926a76a186b07dc8e46ea8e82b2b9e8ea2a1407e677"
 metafile = true
 
 [[files]]
@@ -184,7 +184,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "2aa5700454e77ba458d9b5be31d45237b272fed25b481c19c8ad8eea20a72a79"
+hash = "eb07d502129348259e4b2b9430b050dfab58490f7c45e7039a07a9b6aae3c8e6"
 metafile = true
 
 [[files]]
@@ -219,7 +219,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "139f48f7adbc846d5b33138e1b823ef3541ceee2c9addd2684f778d6c22dfd2c"
+hash = "3acb5fe58d77f95ad96ae427ead2623a254bc04d5720d4ed8c6e59ee76ed144e"
 metafile = true
 
 [[files]]
