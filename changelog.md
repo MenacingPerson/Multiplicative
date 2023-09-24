@@ -9,7 +9,7 @@ Updated:
 - Durability Tooltip (1.20.1)
 
 Added:
-None
+- Replay Mod (1.19.4, 1.20.1)
 
 Removed:
 None

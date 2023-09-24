@@ -32,6 +32,7 @@
 - Presence Footsteps
 - Raised
 - Remember My Txt
+- ReplayMod
 - Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen 
@@ -103,6 +104,7 @@
 - Presence Footsteps
 - Raised
 - Remember My Txt
+- ReplayMod
 - Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen 

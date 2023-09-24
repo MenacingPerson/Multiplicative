@@ -390,6 +390,11 @@ hash = "473681d86fa36c7d2a4f6117d3bf043a9fe7db1787c75c65355923ae831e2d26"
 metafile = true
 
 [[files]]
+file = "mods/replaymod.pw.toml"
+hash = "b9fb79db8b422fbbe1002305c9dc0e5a893af59ea8f2f4edd239a78c315e2d49"
+metafile = true
+
+[[files]]
 file = "mods/respackopts.pw.toml"
 hash = "553155ad2a1991c319cc934fddb861349fdc5ac790ba2466b56c6cc8f3ae685a"
 metafile = true
