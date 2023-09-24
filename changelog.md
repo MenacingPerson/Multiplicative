@@ -1,5 +1,7 @@
 # Release 3.4.0
 
+Added an options.txt file
+
 Updated:
 - Additive (forgified)
 - Caxton (1.19.4, 1.20.1)
