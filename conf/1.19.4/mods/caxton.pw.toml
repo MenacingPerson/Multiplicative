@@ -1,13 +1,13 @@
 name = "Caxton"
-filename = "caxton-0.5.0-alpha.4+1.19.4-FABRIC.jar"
+filename = "caxton-0.5.0-alpha.5+1.19.4-FABRIC.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/k8iIgzXE/versions/tZAzsL6W/caxton-0.5.0-alpha.4%2B1.19.4-FABRIC.jar"
+url = "https://cdn.modrinth.com/data/k8iIgzXE/versions/9UA6AXqM/caxton-0.5.0-alpha.5%2B1.19.4-FABRIC.jar"
 hash-format = "sha1"
-hash = "21d4290d163d0b502e21cd71982c0c92625fefcf"
+hash = "bf49ee076f846462e0e661cd0a74188438c5f861"
 
 [update]
 [update.modrinth]
 mod-id = "k8iIgzXE"
-version = "tZAzsL6W"
+version = "9UA6AXqM"

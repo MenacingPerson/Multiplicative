@@ -34,12 +34,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "b45a966c0c4ba68a93e6095805ba91f88041b3ddccd0f8a99d1a50e45e3c0d79"
+hash = "e2fa0597d814da63e92b5fb7e69a369e9769c6283f6b60e22e7a8c49732c1523"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "7293ab05ee73400787ba9c31d4c59884d252dcc170880602e8e8da64dcf3f765"
+hash = "83005146b4c78677bb1fefadce2da308344d4682be5c17d2cd701c49e22f49bb"
 metafile = true
 
 [[files]]
@@ -59,12 +59,12 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "e82ce48190b2b7bc56aba98b91f0d0506c9f2f82c69ef6df9ed1ed6a4299a4fa"
+hash = "5bfb2fc56cb910123f34771dbcf02e2e1f4a7867dc246f62c34b5f60309fd36b"
 metafile = true
 
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
-hash = "68b89af2373d74955b72209195d3874d8ab24f25683010d7e61918ba84a5f439"
+hash = "c3f740612bea93485d917787e8a7fa9def95b110e84b89d251227b06a97ff9b4"
 metafile = true
 
 [[files]]
@@ -209,22 +209,22 @@ metafile = true
 
 [[files]]
 file = "mods_forge/caxton.pw.toml"
-hash = "580c38d91454db3200bd1c4c3e2c80dc5c6df807746dd88112910b2e17dd3c06"
+hash = "c51fa91ca6af1b943294a0dedc8d3bd608efe3bbd81a968f5136d55be9b1f9f5"
 metafile = true
 
 [[files]]
 file = "mods_forge/chat-heads.pw.toml"
-hash = "30c1db7284224a9c6cf2daa854b1ec470a0d4ecb0a64f48efdb17e1110244f1c"
+hash = "8d86800423897c7f9ce60b9d4fdfe858e228c8a746ff673e7fbfc90c5d9c4292"
 metafile = true
 
 [[files]]
 file = "mods_forge/creativecore.pw.toml"
-hash = "eb07d502129348259e4b2b9430b050dfab58490f7c45e7039a07a9b6aae3c8e6"
+hash = "5f4690d21a5941cdc7d89a979e529bd617cfec2f7817028e4294425566405f3d"
 metafile = true
 
 [[files]]
 file = "mods_forge/durability-tooltip.pw.toml"
-hash = "8d314e0af9f0c8ea01895c22c6b611f0ef560d86653b53e5e15ad755a99da7bc"
+hash = "e13845627cfb1c5a84fe0e012db743bd0c2e3fba5c0fa5d4033c737a9051ff9a"
 metafile = true
 
 [[files]]

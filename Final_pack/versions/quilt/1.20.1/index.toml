@@ -136,12 +136,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "b45a966c0c4ba68a93e6095805ba91f88041b3ddccd0f8a99d1a50e45e3c0d79"
+hash = "e2fa0597d814da63e92b5fb7e69a369e9769c6283f6b60e22e7a8c49732c1523"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "7293ab05ee73400787ba9c31d4c59884d252dcc170880602e8e8da64dcf3f765"
+hash = "83005146b4c78677bb1fefadce2da308344d4682be5c17d2cd701c49e22f49bb"
 metafile = true
 
 [[files]]
@@ -176,12 +176,12 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "e82ce48190b2b7bc56aba98b91f0d0506c9f2f82c69ef6df9ed1ed6a4299a4fa"
+hash = "5bfb2fc56cb910123f34771dbcf02e2e1f4a7867dc246f62c34b5f60309fd36b"
 metafile = true
 
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
-hash = "68b89af2373d74955b72209195d3874d8ab24f25683010d7e61918ba84a5f439"
+hash = "c3f740612bea93485d917787e8a7fa9def95b110e84b89d251227b06a97ff9b4"
 metafile = true
 
 [[files]]

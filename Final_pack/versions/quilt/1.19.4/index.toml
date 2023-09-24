@@ -136,12 +136,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "ba8f7c12ff1b0826e43fe041ee827c1463193da5dc705f2af259170777c5f20b"
+hash = "b395c26ff8b99afe3196448f4e0b5a0c777ffb0401e976b4150821c5e6036124"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "077a65a322a0b38447271b1ae70d59ff82a9f7bdf117e39a409a33a09540ebc3"
+hash = "586d68c59ede42f7cfdf1b230dfa272a2ebdbdda24c2c449eedcc7f28ac0a2f6"
 metafile = true
 
 [[files]]

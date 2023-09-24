@@ -149,12 +149,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "580c38d91454db3200bd1c4c3e2c80dc5c6df807746dd88112910b2e17dd3c06"
+hash = "c51fa91ca6af1b943294a0dedc8d3bd608efe3bbd81a968f5136d55be9b1f9f5"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "30c1db7284224a9c6cf2daa854b1ec470a0d4ecb0a64f48efdb17e1110244f1c"
+hash = "8d86800423897c7f9ce60b9d4fdfe858e228c8a746ff673e7fbfc90c5d9c4292"
 metafile = true
 
 [[files]]
@@ -164,7 +164,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "5d79957cc89a36aa873abf9fc3fcf074f040fa0d6784358ba501530505de040d"
+hash = "196d40b07e59ffbdbe9e8ba4a6d461c1cc5a1e2883a49fb4d9055607938a3644"
 metafile = true
 
 [[files]]
@@ -184,17 +184,17 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "eb07d502129348259e4b2b9430b050dfab58490f7c45e7039a07a9b6aae3c8e6"
+hash = "5f4690d21a5941cdc7d89a979e529bd617cfec2f7817028e4294425566405f3d"
 metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "e82ce48190b2b7bc56aba98b91f0d0506c9f2f82c69ef6df9ed1ed6a4299a4fa"
+hash = "5bfb2fc56cb910123f34771dbcf02e2e1f4a7867dc246f62c34b5f60309fd36b"
 metafile = true
 
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
-hash = "8d314e0af9f0c8ea01895c22c6b611f0ef560d86653b53e5e15ad755a99da7bc"
+hash = "e13845627cfb1c5a84fe0e012db743bd0c2e3fba5c0fa5d4033c737a9051ff9a"
 metafile = true
 
 [[files]]
@@ -214,7 +214,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "ed4fa07012beaf387d0e2fd2cf4f609b962bfa98d7196c40ac71934bad8ccae7"
+hash = "f10e968a77b29ed454319c2476dbbfa6702d4b9271b49210f61e6210d49c817a"
 metafile = true
 
 [[files]]
@@ -234,7 +234,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "307fad0fbc4628e41f1a28b0d044e75d0e5a721d560c1cc0bc2e93bf489b6916"
+hash = "e36da074b63dd450ebd8a4c79748a20dee63941ac3556ed867f10d2e9c2f12fb"
 metafile = true
 
 [[files]]
@@ -274,7 +274,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "63e85d55180cda29aa8a1d17503ad7526a07145a77550940118be7b50cef39f8"
+hash = "30359333e8a1ec44c021dcd4e3d5bbca04a503b98af34dde41313d7e14d5a523"
 metafile = true
 
 [[files]]
