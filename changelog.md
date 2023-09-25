@@ -1,5 +1,6 @@
 # Release 3.4.0
 
+Shader support for forge
 Added an options.txt file
 
 Updated:

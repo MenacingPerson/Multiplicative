@@ -214,7 +214,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "f10e968a77b29ed454319c2476dbbfa6702d4b9271b49210f61e6210d49c817a"
+hash = "754b65481dd63a3f8ccdba280335d6cdc5ddea1fb7348f8372061b67fe7c7e48"
 metafile = true
 
 [[files]]
@@ -274,7 +274,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "30359333e8a1ec44c021dcd4e3d5bbca04a503b98af34dde41313d7e14d5a523"
+hash = "391dc8323b7dfd37d3faa99b59ed2afeebb25cfafc826d032f16700d64e08679"
 metafile = true
 
 [[files]]
@@ -329,7 +329,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "92c9cd0fd116f989f183c53fc8d2e1ca963c3178443b2d536778567e87724e52"
+hash = "54e8ed31815deeb52e3f0f10bc53bf90935412e4118a581d38da6041aa2a5181"
 metafile = true
 
 [[files]]
@@ -350,6 +350,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "dae4dd79e8db2daea3ec318b456fc0e30f529b9acca0a444b4ce7d1debfca143"
+metafile = true
+
+[[files]]
+file = "mods/oculus.pw.toml"
+hash = "4a68abb339f8993d6e5809fe0255752837176dff9a28c27b70dfd9da939bf410"
 metafile = true
 
 [[files]]
@@ -380,11 +385,6 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "5a70811f11bccd6a9b7e52682de06faae2ee5fcc1777ae5e466b1a6a87052f69"
-metafile = true
-
-[[files]]
-file = "mods/rubidium-extra.pw.toml"
-hash = "8f9f3b23ac87652f37dc9bd20144c6fc5d025bb49b10a594453e49b2f03abdcf"
 metafile = true
 
 [[files]]
@@ -449,7 +449,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "ba93e7d7d6ed15476a7e2a5dfd1ac15d9f1e0f89c1a22e6a6c6ba2f8139e3636"
+hash = "653585251062a1963b36e89da8924c2452870f8435f3e706e2e8120a0ece6252"
 metafile = true
 
 [[files]]
