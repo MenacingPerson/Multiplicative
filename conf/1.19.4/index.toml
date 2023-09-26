@@ -9,6 +9,10 @@ file = "config/yosbr/config/durabilitytooltip-common.toml"
 hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
 
 [[files]]
+file = "config/yosbr/options.txt"
+hash = "a0446af63c44d0b69056ee1685b1de1507fdc7b5f6813e2ffca46bd4b4970d89"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "2905b7be42ac9c7c52eb1a5511ae67ebbff435f0630e93ace70b02ef6097d3d9"
 metafile = true
@@ -29,18 +33,13 @@ hash = "55c14fd0cba0ae4478945420862cfdec970a5ab40b04a34ce9e3f94b9d721e38"
 metafile = true
 
 [[files]]
-file = "mods/cameraoverhaul.pw.toml"
-hash = "b657f098bc6bdf2c7ee67f95bf6cbf7e39cf4db7c6b8fb6fd432b9471c53ec1a"
-metafile = true
-
-[[files]]
 file = "mods/caxton.pw.toml"
-hash = "a3ba575bdd5273967e8fc8da458035ed7631c0f858ba66e9143fc6e6496b7f46"
+hash = "b395c26ff8b99afe3196448f4e0b5a0c777ffb0401e976b4150821c5e6036124"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "077a65a322a0b38447271b1ae70d59ff82a9f7bdf117e39a409a33a09540ebc3"
+hash = "586d68c59ede42f7cfdf1b230dfa272a2ebdbdda24c2c449eedcc7f28ac0a2f6"
 metafile = true
 
 [[files]]
@@ -69,13 +68,13 @@ hash = "f1363dae892a02f2118da129bcf6968e95c90a21abd4a89c4fa31611c8cf7da4"
 metafile = true
 
 [[files]]
-file = "mods/early-loading-screen.pw.toml"
-hash = "a4fa05cbcdb8f7987440d559b2277a7530b18df08f17d6b260cd2bab61c575de"
+file = "mods/emi.pw.toml"
+hash = "77797f83086be6ce18fc6e11e798da283b48244065fb88a06084264403e09f6f"
 metafile = true
 
 [[files]]
-file = "mods/emi.pw.toml"
-hash = "7a3404eb106965ce2329cacb573fc099b5d0010abfa82fd0c8060960b0295a04"
+file = "mods/fuy_gg.pw.toml"
+hash = "7f892daf32ac3b7f73a4f6897e0143a2cb715c0aa3255f1fd9130fafa5d94a00"
 metafile = true
 
 [[files]]
@@ -101,11 +100,6 @@ metafile = true
 [[files]]
 file = "mods/modelfix.pw.toml"
 hash = "47fff2ed63e342e95bf9a0ad086d896148195bbcbc25260300ca1b27d454f7b8"
-metafile = true
-
-[[files]]
-file = "mods/mods-command.pw.toml"
-hash = "06075d1bda329e514c6c41ca7b34c703f1d2be0568d4cc4d6df4c977e2e651f6"
 metafile = true
 
 [[files]]
@@ -144,6 +138,11 @@ hash = "473681d86fa36c7d2a4f6117d3bf043a9fe7db1787c75c65355923ae831e2d26"
 metafile = true
 
 [[files]]
+file = "mods/replaymod.pw.toml"
+hash = "b9fb79db8b422fbbe1002305c9dc0e5a893af59ea8f2f4edd239a78c315e2d49"
+metafile = true
+
+[[files]]
 file = "mods/rrls.pw.toml"
 hash = "ea726946037adba0558ff0de1011aac5660eb6b4ea8663f5a575f3c61d7a49aa"
 metafile = true
@@ -155,7 +154,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "5e01e08a2ec8f957fb63a74559ed5b50025e6c922045a56064cb1527d61fe7ee"
+hash = "f67004d9cb85f3ccca7a91937608a21c978166f23d8c759313311d5ebcdc1bbb"
 metafile = true
 
 [[files]]
@@ -200,7 +199,7 @@ metafile = true
 
 [[files]]
 file = "mods/wynntils.pw.toml"
-hash = "06a72fd4678a0ca6659a7482ccab122f492acb6b0016cb2ed4e72f808e22d5f8"
+hash = "012ae0f4cee9bd3320040bb59395760f41e457326ea00ddb00380a8090b73cc3"
 metafile = true
 
 [[files]]

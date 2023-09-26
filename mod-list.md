@@ -12,7 +12,6 @@
 - Architectury API
 - Better Trim Tooltips
 - Blur (Fabric)
-- CameraOverhaul
 - Caxton
 - Chat Heads
 - Continue Button
@@ -20,14 +19,12 @@
 - CreativeCore
 - Do a Barrel Roll
 - Durability Tooltip
-- Early Loading Screen
 - EMI
 - Gamma Utils (Fullbright)
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
 - Model Gap Fix
-- Mods Command
 - MoreChatHistory
 - Nicer Skies
 - No Chat Reports
@@ -35,6 +32,7 @@
 - Presence Footsteps
 - Raised
 - Remember My Txt
+- ReplayMod
 - Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen 

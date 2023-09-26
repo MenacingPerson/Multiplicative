@@ -9,6 +9,7 @@ modloaders = {
             'fabric',
         ],
         'additive_loader': 'fabric',
+        'additive_version': 'Additive',
         'version': core.base.base_conf['modloaders']['fabric']['version']
     },
     'quilt': {
@@ -17,6 +18,7 @@ modloaders = {
             'quilt',
         ],
         'additive_loader': 'quilt',
+        'additive_version': 'Additive',
         'version': core.base.base_conf['modloaders']['quilt']['version']
     },
     'forge': {
@@ -25,6 +27,7 @@ modloaders = {
             'forge',
         ],
         'additive_loader': 'forge',
+        'additive_version': 'forgified-Additive',
         'version': core.base.base_conf['modloaders']['forge']['version']
     },
 }

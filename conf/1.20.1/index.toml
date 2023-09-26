@@ -33,18 +33,13 @@ hash = "5f53eb8d272bfec2c6f58d6d744397b8152d7561a370f1d6e7e1e495fc4a1e7a"
 metafile = true
 
 [[files]]
-file = "mods/cameraoverhaul.pw.toml"
-hash = "b657f098bc6bdf2c7ee67f95bf6cbf7e39cf4db7c6b8fb6fd432b9471c53ec1a"
-metafile = true
-
-[[files]]
 file = "mods/caxton.pw.toml"
-hash = "a7836fe66441f9554ed8fc13f33d0d5eea307793e5e53972e1ea6f0c2fa2257a"
+hash = "e2fa0597d814da63e92b5fb7e69a369e9769c6283f6b60e22e7a8c49732c1523"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "7293ab05ee73400787ba9c31d4c59884d252dcc170880602e8e8da64dcf3f765"
+hash = "83005146b4c78677bb1fefadce2da308344d4682be5c17d2cd701c49e22f49bb"
 metafile = true
 
 [[files]]
@@ -64,22 +59,17 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "e82ce48190b2b7bc56aba98b91f0d0506c9f2f82c69ef6df9ed1ed6a4299a4fa"
+hash = "5bfb2fc56cb910123f34771dbcf02e2e1f4a7867dc246f62c34b5f60309fd36b"
 metafile = true
 
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
-hash = "68b89af2373d74955b72209195d3874d8ab24f25683010d7e61918ba84a5f439"
-metafile = true
-
-[[files]]
-file = "mods/early-loading-screen.pw.toml"
-hash = "8a20ee839497c47ad85a15ec75279a35eefe685663f5151c23d8a4c13bfd44b0"
+hash = "c3f740612bea93485d917787e8a7fa9def95b110e84b89d251227b06a97ff9b4"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "4f0afa4e70e830f08266c181c2a0deb207780712db6e7f8961ffb62061afada0"
+hash = "45119a046ee1e893bed9ae1143e69e677816689379dcbba12151cdcf5a53a3e4"
 metafile = true
 
 [[files]]
@@ -99,17 +89,12 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "a4ee77a7c1388ad1874cd4d7a174667d0eb2c836e6ff0d4cd1b7f1551c019ef2"
+hash = "c068d98a1cc89baf3607efd841c9a8073bcdc2e95a1331de12308b65710df0cb"
 metafile = true
 
 [[files]]
 file = "mods/modelfix.pw.toml"
 hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
-metafile = true
-
-[[files]]
-file = "mods/mods-command.pw.toml"
-hash = "d09ddd35158bc690b235adc42c84b62172c6ef0ec45fa45589b290c0233af4f4"
 metafile = true
 
 [[files]]
@@ -119,7 +104,7 @@ metafile = true
 
 [[files]]
 file = "mods/nicer-skies.pw.toml"
-hash = "cc7f7708bde62377a501a217ef082f72ee35930b6747d653c7bcf07dc49a8ad3"
+hash = "ddbcdf60f634287b6df241a873fc07b4ce56facfb358a0a74cb1df9acff97725"
 metafile = true
 
 [[files]]
@@ -148,6 +133,11 @@ hash = "b1289a9043802a06b45f0fafa9ec5cbab15f9b543c2e8d6b33b014bf4fe4059c"
 metafile = true
 
 [[files]]
+file = "mods/replaymod.pw.toml"
+hash = "9e7c1e6cf3b81dce5a77bf5c95ed9d8e9b936b932aeadb1255245234230ced16"
+metafile = true
+
+[[files]]
 file = "mods/rrls.pw.toml"
 hash = "e96bb13c530a62100ad228f1c59f0fc37ceb91ec3e622a0a5d0e32cbe5d95424"
 metafile = true
@@ -159,7 +149,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "9118336a4d3134cb94653d32adee3295395e10124c59de9c779208b16cfba6f8"
+hash = "1cc8781b7c9b2fe9a7a3b9ab2ae6742374a007fc075c865827f97ece36f2919d"
 metafile = true
 
 [[files]]
@@ -224,27 +214,27 @@ metafile = true
 
 [[files]]
 file = "mods_forge/caxton.pw.toml"
-hash = "06a7dd69447310d97d6ad98dfedff19f1c863f0ba77f3510a36543449d4e3f29"
+hash = "c51fa91ca6af1b943294a0dedc8d3bd608efe3bbd81a968f5136d55be9b1f9f5"
 metafile = true
 
 [[files]]
 file = "mods_forge/chat-heads.pw.toml"
-hash = "30c1db7284224a9c6cf2daa854b1ec470a0d4ecb0a64f48efdb17e1110244f1c"
+hash = "8d86800423897c7f9ce60b9d4fdfe858e228c8a746ff673e7fbfc90c5d9c4292"
 metafile = true
 
 [[files]]
 file = "mods_forge/creativecore.pw.toml"
-hash = "2aa5700454e77ba458d9b5be31d45237b272fed25b481c19c8ad8eea20a72a79"
+hash = "5f4690d21a5941cdc7d89a979e529bd617cfec2f7817028e4294425566405f3d"
 metafile = true
 
 [[files]]
 file = "mods_forge/durability-tooltip.pw.toml"
-hash = "8d314e0af9f0c8ea01895c22c6b611f0ef560d86653b53e5e15ad755a99da7bc"
+hash = "e13845627cfb1c5a84fe0e012db743bd0c2e3fba5c0fa5d4033c737a9051ff9a"
 metafile = true
 
 [[files]]
 file = "mods_forge/emi.pw.toml"
-hash = "139f48f7adbc846d5b33138e1b823ef3541ceee2c9addd2684f778d6c22dfd2c"
+hash = "3acb5fe58d77f95ad96ae427ead2623a254bc04d5720d4ed8c6e59ee76ed144e"
 metafile = true
 
 [[files]]
@@ -294,7 +284,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/seamless-loading-screen.pw.toml"
-hash = "887462bb9594fe1b0fd7d341b7c3baa80a0388016979aff7f7c1a97ab75f0698"
+hash = "456a6afb9efe768e49e3fb427d0fac43e7af6534794b0e0873879341d3d82efd"
 metafile = true
 
 [[files]]

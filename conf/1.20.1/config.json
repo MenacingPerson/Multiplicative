@@ -19,10 +19,6 @@
     ],
     "mods_removed_forge": [
         "cosmetica",
-        "creativecore",
-        "early-loading-screen",
-        "itemphysic-lite",
-        "nicer-skies",
         "remember-my-txt"
     ]
 }

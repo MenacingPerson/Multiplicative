@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "79b3df99c252cbcae40d1016b8912335fc28dcd6cef525aa5939fa53dc0112ac"
+hash = "a4aa2ffacca0033a12b0bf2cb5e90bd0b5cfa515e0f49257a68bf794e5da4d6e"
 
 [[files]]
 file = "config/puzzle.json"
@@ -49,8 +49,8 @@ file = "config/yosbr/config/durabilitytooltip-common.toml"
 hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
 
 [[files]]
-file = "config/yosbr/config/dynamicfps.toml"
-hash = "8eac230e722a59915fa26ed453d780cd2034b65ec39a7ffe88135d16840c9692"
+file = "config/yosbr/config/dynamic_fps.json"
+hash = "03446bd8438e32366f310541f383bce5cdb2154fb5fb51973a7f3cf14f3ef173"
 
 [[files]]
 file = "config/yosbr/config/enhanced_bes.properties"
@@ -102,7 +102,7 @@ hash = "c602ad2f5d370579a6f530355b2c60852fbbbfa6c230ebb568cbf79ec290e76b"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "a8f46cff138e000d4ed4505cc2bfdc5cdc6e8b5588fd1b1e2d6222cd21e624e2"
+hash = "a0446af63c44d0b69056ee1685b1de1507fdc7b5f6813e2ffca46bd4b4970d89"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -135,18 +135,13 @@ hash = "43c8d0c7b3642fe1748d07da8f3c6277a0a195bdc4043b9189fc53479e26b957"
 metafile = true
 
 [[files]]
-file = "mods/cameraoverhaul.pw.toml"
-hash = "b657f098bc6bdf2c7ee67f95bf6cbf7e39cf4db7c6b8fb6fd432b9471c53ec1a"
-metafile = true
-
-[[files]]
 file = "mods/caxton.pw.toml"
-hash = "a3ba575bdd5273967e8fc8da458035ed7631c0f858ba66e9143fc6e6496b7f46"
+hash = "b395c26ff8b99afe3196448f4e0b5a0c777ffb0401e976b4150821c5e6036124"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "077a65a322a0b38447271b1ae70d59ff82a9f7bdf117e39a409a33a09540ebc3"
+hash = "586d68c59ede42f7cfdf1b230dfa272a2ebdbdda24c2c449eedcc7f28ac0a2f6"
 metafile = true
 
 [[files]]
@@ -190,11 +185,6 @@ hash = "f1363dae892a02f2118da129bcf6968e95c90a21abd4a89c4fa31611c8cf7da4"
 metafile = true
 
 [[files]]
-file = "mods/early-loading-screen.pw.toml"
-hash = "a4fa05cbcdb8f7987440d559b2277a7530b18df08f17d6b260cd2bab61c575de"
-metafile = true
-
-[[files]]
 file = "mods/ears.pw.toml"
 hash = "932f6be6f81e47ec23ac4c2e717d273d6321d9f6312c6d52b239a9af38a7e7ba"
 metafile = true
@@ -206,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "7a3404eb106965ce2329cacb573fc099b5d0010abfa82fd0c8060960b0295a04"
+hash = "77797f83086be6ce18fc6e11e798da283b48244065fb88a06084264403e09f6f"
 metafile = true
 
 [[files]]
@@ -216,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "4e54e315ce46ed6dd72b5d6c70bd24bebd6a4e648b80afcbbedc8ef352a06ec7"
+hash = "a59200f17de0902d8018567d20fdd550224a84ddf19f9b50fb70a14ad30d2d6a"
 metafile = true
 
 [[files]]
@@ -266,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "09cc84c8d459ab708ac281e47cf76c6cf19cefaed7084ec481334d37875cb500"
+hash = "c449a15cfdfaf32cc1f49347404a08657464f032c59aab353052c97c70a30dbc"
 metafile = true
 
 [[files]]
@@ -317,11 +307,6 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "d18d104455a86bebd3f29deaf3458258674ea053d96e7b8fb5711cfea227fc20"
-metafile = true
-
-[[files]]
-file = "mods/mods-command.pw.toml"
-hash = "06075d1bda329e514c6c41ca7b34c703f1d2be0568d4cc4d6df4c977e2e651f6"
 metafile = true
 
 [[files]]
@@ -395,6 +380,11 @@ hash = "473681d86fa36c7d2a4f6117d3bf043a9fe7db1787c75c65355923ae831e2d26"
 metafile = true
 
 [[files]]
+file = "mods/replaymod.pw.toml"
+hash = "b9fb79db8b422fbbe1002305c9dc0e5a893af59ea8f2f4edd239a78c315e2d49"
+metafile = true
+
+[[files]]
 file = "mods/rrls.pw.toml"
 hash = "ea726946037adba0558ff0de1011aac5660eb6b4ea8663f5a575f3c61d7a49aa"
 metafile = true
@@ -406,7 +396,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "5e01e08a2ec8f957fb63a74559ed5b50025e6c922045a56064cb1527d61fe7ee"
+hash = "f67004d9cb85f3ccca7a91937608a21c978166f23d8c759313311d5ebcdc1bbb"
 metafile = true
 
 [[files]]
@@ -481,7 +471,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "106a5a4554f1d79b3158beea97e16108a318b940924e643162444630dbebecab"
+hash = "88c0fc20bad48c7c65dc7394f8dbb00b908c4c4c21323a2160705177ccf10cc3"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "fuy.gg"
+filename = "fuy_gg-1.1.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/EMQzFaJ1/versions/vFaAOYvo/fuy_gg-1.1.6.jar"
+hash-format = "sha1"
+hash = "f6b20748e0e762a6e042b61292ab4104a6d62073"
+
+[update]
+[update.modrinth]
+mod-id = "EMQzFaJ1"
+version = "vFaAOYvo"
