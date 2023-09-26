@@ -18,6 +18,11 @@ hash = "2905b7be42ac9c7c52eb1a5511ae67ebbff435f0630e93ace70b02ef6097d3d9"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "63a98a539356af7c16641202f4a5e8f3883f66d58f2579b731becae265995a2e"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "56c08a19b9257a481269b77cd630c7396a4ce471f0a4f434df41a49a0623a95a"
 metafile = true
@@ -40,6 +45,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "f5c42d829a4f11f0b0c004cf6de7a3b418a8b8335cbb86a84cd0dba307e9ebb2"
+metafile = true
+
+[[files]]
+file = "mods/cherished-worlds.pw.toml"
+hash = "5d59c6735e85c3b46f6b5949d4ab981479e2d17d5cffbd8bbbca09991832f147"
 metafile = true
 
 [[files]]
