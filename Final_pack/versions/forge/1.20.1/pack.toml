@@ -1,0 +1,13 @@
+name = "Multiplicative"
+author = "Menacing Person"
+version = "Multiplicative-wynn-1.5.0-forge+1.20.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7aa4fb1495912bcd4276ae18076ab8126d7a5ecd514ded495164bc8434f856f6"
+
+[versions]
+forge = "47.1.3"
+minecraft = "1.20.1"

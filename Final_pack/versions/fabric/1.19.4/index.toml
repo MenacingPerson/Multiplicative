@@ -260,6 +260,11 @@ hash = "38a2c415fc59ca97c5297542b67daf477ecce294b3cbe2fe530193c879a252a6"
 metafile = true
 
 [[files]]
+file = "mods/fuy_gg.pw.toml"
+hash = "7f892daf32ac3b7f73a4f6897e0143a2cb715c0aa3255f1fd9130fafa5d94a00"
+metafile = true
+
+[[files]]
 file = "mods/gamma-utils.pw.toml"
 hash = "029737ae46672f650ceb961f135525915d59b1fbf040eb950185e3d7d472512a"
 metafile = true
@@ -481,7 +486,7 @@ metafile = true
 
 [[files]]
 file = "mods/wynntils.pw.toml"
-hash = "06a72fd4678a0ca6659a7482ccab122f492acb6b0016cb2ed4e72f808e22d5f8"
+hash = "012ae0f4cee9bd3320040bb59395760f41e457326ea00ddb00380a8090b73cc3"
 metafile = true
 
 [[files]]

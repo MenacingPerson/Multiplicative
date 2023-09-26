@@ -1,0 +1,13 @@
+{
+    "main_menu": {
+        "bottom_left": [
+            {
+                "text": "Multiplicative wynn-1.5.0",
+                "clickEvent": {
+                    "action": "open_url",
+                    "value": "https://github.com/MenacingPerson/Multiplicative"
+                }
+            }
+        ]
+    }
+}
