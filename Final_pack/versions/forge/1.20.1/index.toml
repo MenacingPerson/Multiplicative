@@ -154,7 +154,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "8d86800423897c7f9ce60b9d4fdfe858e228c8a746ff673e7fbfc90c5d9c4292"
+hash = "541bbb7440e657706ade79300a92cf66f2c6da658fd5c7cc6604d5565847b65f"
 metafile = true
 
 [[files]]
@@ -304,7 +304,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "8de3509044e6f7e8c54a003c6cc3af605e68ff243c169cf489d883e34969b744"
+hash = "0bbad39c925661641089bc7f6a744dfff493f49c129806e7a726e0b89531a325"
 metafile = true
 
 [[files]]

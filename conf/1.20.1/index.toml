@@ -43,7 +43,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "83005146b4c78677bb1fefadce2da308344d4682be5c17d2cd701c49e22f49bb"
+hash = "0159525d452d7e755045223330b3bfc0a3df5491c4a83beee9f00af0b68b8758"
 metafile = true
 
 [[files]]
@@ -93,7 +93,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "c068d98a1cc89baf3607efd841c9a8073bcdc2e95a1331de12308b65710df0cb"
+hash = "559a46acee6bd5368fac543cb90902a7eb692426329d1041af790d8a22167154"
 metafile = true
 
 [[files]]
@@ -223,7 +223,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/chat-heads.pw.toml"
-hash = "8d86800423897c7f9ce60b9d4fdfe858e228c8a746ff673e7fbfc90c5d9c4292"
+hash = "541bbb7440e657706ade79300a92cf66f2c6da658fd5c7cc6604d5565847b65f"
 metafile = true
 
 [[files]]
@@ -253,7 +253,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/jade.pw.toml"
-hash = "8de3509044e6f7e8c54a003c6cc3af605e68ff243c169cf489d883e34969b744"
+hash = "0bbad39c925661641089bc7f6a744dfff493f49c129806e7a726e0b89531a325"
 metafile = true
 
 [[files]]
