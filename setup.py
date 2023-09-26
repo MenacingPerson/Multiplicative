@@ -139,6 +139,8 @@ run_separately_in_all(copy_over, 'mods_[ml]', 'mods')
 
 run_separately_in_all(copy_over, 'resourcepacks_[ml]', 'resourcepacks')
 
+run_separately_in_all(copy_over, 'shaderpacks_[ml]', 'shaderpacks')
+
 run_separately_in_all(copy_over, 'config_[ml]', 'config')
 
 run_separately_in_all(mark_mods_optional, 'mods_optional_[ml]')

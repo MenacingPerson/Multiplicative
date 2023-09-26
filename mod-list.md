@@ -14,6 +14,7 @@
 - Blur (Fabric)
 - Caxton
 - Chat Heads
+- Cherished Worlds
 - Continue Button
 - Cosmetica
 - CreativeCore
@@ -86,6 +87,7 @@
 - Blur (Fabric)
 - Caxton
 - Chat Heads
+- Cherished Worlds
 - Continue Button
 - Cosmetica
 - CreativeCore
