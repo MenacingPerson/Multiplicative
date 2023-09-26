@@ -9,6 +9,10 @@ file = "config/yosbr/config/durabilitytooltip-common.toml"
 hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
 
 [[files]]
+file = "config/yosbr/options.txt"
+hash = "a0446af63c44d0b69056ee1685b1de1507fdc7b5f6813e2ffca46bd4b4970d89"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "2905b7be42ac9c7c52eb1a5511ae67ebbff435f0630e93ace70b02ef6097d3d9"
 metafile = true
