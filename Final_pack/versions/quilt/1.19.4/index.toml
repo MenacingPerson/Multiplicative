@@ -120,6 +120,11 @@ hash = "56c08a19b9257a481269b77cd630c7396a4ce471f0a4f434df41a49a0623a95a"
 metafile = true
 
 [[files]]
+file = "mods/better-clouds.pw.toml"
+hash = "10f322b4d4acbeb2023c18b878de0960b4a1d5f2e9d5ced51988c05acfdb2f06"
+metafile = true
+
+[[files]]
 file = "mods/better-trim-tooltips.pw.toml"
 hash = "c0b4399adb48c2b8d9304d01d621c836b3c0a0faecab519108f62d40a5ee8bef"
 metafile = true
@@ -240,6 +245,11 @@ hash = "ed38259e82ea5da07a9786886aa76e985c4603cfd578816b2ccab6f7ed4bc86f"
 metafile = true
 
 [[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "41b6ced96a53594eff35395e452dd2e67107e8b529a3f3724e80556ca31e71f0"
+metafile = true
+
+[[files]]
 file = "mods/fastquit.pw.toml"
 hash = "5907619c0a26d32e4b7b2f6de98eddeb192b523adfb6765dd73c3224e7be175b"
 metafile = true
@@ -302,6 +312,11 @@ metafile = true
 [[files]]
 file = "mods/main-menu-credits.pw.toml"
 hash = "2a79f7fb98b7073c926c6f87a93473f5714cf82a2ace7f344e4e2de4a33e0233"
+metafile = true
+
+[[files]]
+file = "mods/make_bubbles_pop.pw.toml"
+hash = "ac2ca5caef9ddb4fd53c035bfaf07026f12bcdb162d19c2fa473bdec8fbec630"
 metafile = true
 
 [[files]]
@@ -452,6 +467,16 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "7ad022bf604bb173a777bd87c77b5117b7f4f78bafc194fd9245e42b3d8c7a74"
+metafile = true
+
+[[files]]
+file = "mods/vectorientation.pw.toml"
+hash = "9655973657a2e851d84bcadf2292c5c41ad35dab1782dcbeda3ba4ab631906fd"
+metafile = true
+
+[[files]]
+file = "mods/visuality.pw.toml"
+hash = "6952301f1ddadd8104cd6e7561c3eed10b75a85dc7f6d5bdb44a334f2bea5a70"
 metafile = true
 
 [[files]]

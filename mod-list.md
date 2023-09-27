@@ -10,6 +10,7 @@
 ### All:
 - 3D Skin Layers
 - Architectury API
+- Better Clouds
 - Better Trim Tooltips
 - Blur (Fabric)
 - Carpet
@@ -22,10 +23,12 @@
 - Do a Barrel Roll
 - Durability Tooltip
 - EMI
+- Falling Leaves
 - Gamma Utils (Fullbright)
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
+- Make Bubbles Pop
 - Model Gap Fix
 - MoreChatHistory
 - Nicer Skies
@@ -43,6 +46,8 @@
 - Sound Physics Remastered
 - spark
 - SuperMartijn642's Config Lib
+- Vectorientation
+- Visuality
 - Wavey Capes
 - Who am I?
 
@@ -84,6 +89,7 @@
 ### All:
 - 3D Skin Layers
 - Architectury API
+- Better Clouds
 - Better Trim Tooltips
 - Blur (Fabric)
 - Carpet
@@ -96,10 +102,12 @@
 - Do a Barrel Roll
 - Durability Tooltip
 - EMI
+- Falling Leaves
 - Gamma Utils (Fullbright)
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
+- Make Bubbles Pop
 - Model Gap Fix
 - MoreChatHistory
 - Nicer Skies
@@ -118,6 +126,9 @@
 - Sound Physics Remastered
 - spark
 - SuperMartijn642's Config Lib
+- Vectorientation
+- Visuality
+- Wakes
 - Wavey Capes
 - Who am I?
 
@@ -141,6 +152,7 @@
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
+- Make Bubbles Pop
 - Model Gap Fix
 - No Chat Reports
 - Not Enough Animations

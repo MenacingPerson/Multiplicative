@@ -14,10 +14,16 @@ Updated:
 - Jade (1.20.1)
 
 Added:
+- Better Clouds (1.19.4, 1.20.1)
 - Carpet (1.19.4, 1.20.1)
 - Cherished Worlds (1.19.4, 1.20.1)
+- Falling Leaves (1.19.4, 1.20.1)
+- Make Bubbles Pop (1.19.4, 1.20.1)
 - Replay Mod (1.19.4, 1.20.1)
 - SkinShuffle (1.20.1)
+- Vectorientation (1.19.4, 1.20.1)
+- Visuality (1.19.4, 1.20.1)
+- Wakes (1.20.1)
 
 Removed:
 None

@@ -27,6 +27,11 @@ hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
 metafile = true
 
 [[files]]
+file = "mods/better-clouds.pw.toml"
+hash = "fa684c91d5c5194dbd5802554383d00894c8412e77060834c8588f473c239e19"
+metafile = true
+
+[[files]]
 file = "mods/better-trim-tooltips.pw.toml"
 hash = "c0b4399adb48c2b8d9304d01d621c836b3c0a0faecab519108f62d40a5ee8bef"
 metafile = true
@@ -87,6 +92,11 @@ hash = "45119a046ee1e893bed9ae1143e69e677816689379dcbba12151cdcf5a53a3e4"
 metafile = true
 
 [[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "41b6ced96a53594eff35395e452dd2e67107e8b529a3f3724e80556ca31e71f0"
+metafile = true
+
+[[files]]
 file = "mods/gamma-utils.pw.toml"
 hash = "39920920771dad756ccaf18e1509c53d32635828cd2ebf1701d55ea829c9ae97"
 metafile = true
@@ -104,6 +114,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "559a46acee6bd5368fac543cb90902a7eb692426329d1041af790d8a22167154"
+metafile = true
+
+[[files]]
+file = "mods/make_bubbles_pop.pw.toml"
+hash = "ac2ca5caef9ddb4fd53c035bfaf07026f12bcdb162d19c2fa473bdec8fbec630"
 metafile = true
 
 [[files]]
@@ -197,6 +212,21 @@ hash = "1b9f8b0039b5fdf0850e6977ee05eb83065bb68d6ac4fed7a5a1609ca8cc5b52"
 metafile = true
 
 [[files]]
+file = "mods/vectorientation.pw.toml"
+hash = "572010387dd87535b8af43b073879db82b8d5bea4141ff52536f38d96edea97d"
+metafile = true
+
+[[files]]
+file = "mods/visuality.pw.toml"
+hash = "1d0b62685fd74fdd9d8cba3b3f3a85da75423550704646251a39542fce96bcb4"
+metafile = true
+
+[[files]]
+file = "mods/wakes.pw.toml"
+hash = "c55ddaf36164636c197215a3aff813fc53199efe8001fd87d6cfd1194e6265b4"
+metafile = true
+
+[[files]]
 file = "mods/wavey-capes.pw.toml"
 hash = "9f6d01028472394a8c3120f1e2a0229d09c77069bdca793159fecc6074aae394"
 metafile = true
@@ -274,6 +304,11 @@ metafile = true
 [[files]]
 file = "mods_forge/jade.pw.toml"
 hash = "0bbad39c925661641089bc7f6a744dfff493f49c129806e7a726e0b89531a325"
+metafile = true
+
+[[files]]
+file = "mods_forge/make_bubbles_pop.pw.toml"
+hash = "6838240b825c5b2f362ed03da14e93f4449b29bc016370fba46bbf3312b79d10"
 metafile = true
 
 [[files]]
