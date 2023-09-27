@@ -12,6 +12,7 @@
 - Architectury API
 - Better Trim Tooltips
 - Blur (Fabric)
+- Carpet
 - Caxton
 - Chat Heads
 - Cherished Worlds
@@ -85,6 +86,7 @@
 - Architectury API
 - Better Trim Tooltips
 - Blur (Fabric)
+- Carpet
 - Caxton
 - Chat Heads
 - Cherished Worlds
@@ -111,6 +113,7 @@
 - Screenshot to Clipboard
 - Seamless Loading Screen 
 - Server Pack Unlocker
+- SkinShuffle
 - Smooth Swapping
 - Sound Physics Remastered
 - spark
@@ -131,6 +134,7 @@
 - Architectury API
 - Caxton
 - Chat Heads
+- Cherished Worlds
 - CreativeCore
 - Durability Tooltip
 - EMI

@@ -148,6 +148,11 @@ hash = "1a060877e79455b31a20e165adb356a517c161eacf3ae503de2fa515e79dea0a"
 metafile = true
 
 [[files]]
+file = "mods/carpet.pw.toml"
+hash = "095a93b4f0b4e2b8fadf8359bc145cbdd83be3c5bf23432e9a5f4e54d60de5b4"
+metafile = true
+
+[[files]]
 file = "mods/caxton.pw.toml"
 hash = "c51fa91ca6af1b943294a0dedc8d3bd608efe3bbd81a968f5136d55be9b1f9f5"
 metafile = true
@@ -159,7 +164,7 @@ metafile = true
 
 [[files]]
 file = "mods/cherished-worlds.pw.toml"
-hash = "b5f46bcdef2f0fa38846efb3af25912ca63ef1f77049d682604185d52dcdd8f1"
+hash = "a19567abfefbec59733bffea0554590f0b7fe15397a7b3c4294172f06ed95924"
 metafile = true
 
 [[files]]
@@ -405,6 +410,11 @@ metafile = true
 [[files]]
 file = "mods/server-pack-unlocker.pw.toml"
 hash = "e053efc45b146cc3d66ec1a723cd1ab03a1de3d1029d550e750f84329e6899c9"
+metafile = true
+
+[[files]]
+file = "mods/skinshuffle.pw.toml"
+hash = "bcc86c010aa0fc0175369f3a50f184c805d749fc6233b9f38f6624ccd3d93c69"
 metafile = true
 
 [[files]]

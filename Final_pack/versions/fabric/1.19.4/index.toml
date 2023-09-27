@@ -135,6 +135,11 @@ hash = "43c8d0c7b3642fe1748d07da8f3c6277a0a195bdc4043b9189fc53479e26b957"
 metafile = true
 
 [[files]]
+file = "mods/carpet.pw.toml"
+hash = "9f787016e772d10343a5d1ffcc30019a722659e6e7c9f658407d354283b24286"
+metafile = true
+
+[[files]]
 file = "mods/caxton.pw.toml"
 hash = "b395c26ff8b99afe3196448f4e0b5a0c777ffb0401e976b4150821c5e6036124"
 metafile = true

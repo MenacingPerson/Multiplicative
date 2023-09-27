@@ -135,6 +135,11 @@ hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
 metafile = true
 
 [[files]]
+file = "mods/carpet.pw.toml"
+hash = "095a93b4f0b4e2b8fadf8359bc145cbdd83be3c5bf23432e9a5f4e54d60de5b4"
+metafile = true
+
+[[files]]
 file = "mods/caxton.pw.toml"
 hash = "e2fa0597d814da63e92b5fb7e69a369e9769c6283f6b60e22e7a8c49732c1523"
 metafile = true
@@ -417,6 +422,11 @@ metafile = true
 [[files]]
 file = "mods/server-pack-unlocker.pw.toml"
 hash = "e053efc45b146cc3d66ec1a723cd1ab03a1de3d1029d550e750f84329e6899c9"
+metafile = true
+
+[[files]]
+file = "mods/skinshuffle.pw.toml"
+hash = "bcc86c010aa0fc0175369f3a50f184c805d749fc6233b9f38f6624ccd3d93c69"
 metafile = true
 
 [[files]]
