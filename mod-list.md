@@ -53,7 +53,6 @@
 
 ### Fabric:
 - LibJF
-- Recursive Resources
 - Respackopts
 
 ### Quilt:
@@ -134,7 +133,6 @@
 
 ### Fabric:
 - LibJF
-- Recursive Resources
 - Respackopts
 
 ### Quilt:
@@ -182,5 +180,7 @@
 - lambdabettergrass
 
 ### Forge:
+- carpet
 - cosmetica
 - remember-my-txt
+- replaymod

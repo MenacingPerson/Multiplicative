@@ -24,7 +24,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "10f322b4d4acbeb2023c18b878de0960b4a1d5f2e9d5ced51988c05acfdb2f06"
+hash = "57e0a4bef34d2ae55d3dcaea460ca1e3cb9c7dd4226f7f280d5b16737eb7bd44"
 metafile = true
 
 [[files]]
@@ -225,11 +225,6 @@ metafile = true
 [[files]]
 file = "mods_fabric/libjf.pw.toml"
 hash = "135fd53336c7e4a237e1e8933344b7439173318ae5a504c3f05241ed00468f8c"
-metafile = true
-
-[[files]]
-file = "mods_fabric/recursiveresources.pw.toml"
-hash = "f479ec13d681fea4bf15e702e9dedcbc08d3a5db8faf4a4efb4579d23afcc7c0"
 metafile = true
 
 [[files]]

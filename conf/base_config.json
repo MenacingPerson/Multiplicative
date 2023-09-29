@@ -1,9 +1,9 @@
 {
-    "Additive_hash": "b9c303aee8b6d34b10c942317d3a19ae1b0aeaff",
-    "forgified-Additive_hash": "e243a77eb1e8484780459f6f040d7e439b632b4f",
+    "Additive_hash": "41fb8bd82ff0c8b38da765e8d7dbf83d74b8aada",
+    "forgified-Additive_hash": "636be7e7936bce7b45eabdfaa22ddecea4d7b4b0",
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
-    "pack_version": "3.3.0",
+    "pack_version": "3.4.0",
     "pack_url": "https://github.com/MenacingPerson/Multiplicative",
     "pack_user_agent": "MenacingPerson/Multiplicative",
     "build": [

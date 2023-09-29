@@ -18,7 +18,9 @@
         "lambdabettergrass"
     ],
     "mods_removed_forge": [
+        "carpet",
         "cosmetica",
-        "remember-my-txt"
+        "remember-my-txt",
+        "replaymod"
     ]
 }

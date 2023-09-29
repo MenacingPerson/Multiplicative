@@ -6,7 +6,7 @@ hash = "6f5bbb588fc23d8c873dc5f3cec789b6e96fe46e530e45646dd546dbb1e12e1b"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "379444a77b3681151cd671042036455d4e98a6824f783a1003a9cc60f67c76d4"
+hash = "a242f5e931b80e03c0924b9701497e0f091a05905de04a51e2a49e63da59d503"
 
 [[files]]
 file = "config/puzzle.json"
@@ -129,7 +129,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "fa684c91d5c5194dbd5802554383d00894c8412e77060834c8588f473c239e19"
+hash = "52542ddcbf6f85ff4a66776f7829bdc23bddcf6ccc8b9273237a232e2fe3a78d"
 metafile = true
 
 [[files]]
@@ -150,11 +150,6 @@ metafile = true
 [[files]]
 file = "mods/canary.pw.toml"
 hash = "1a060877e79455b31a20e165adb356a517c161eacf3ae503de2fa515e79dea0a"
-metafile = true
-
-[[files]]
-file = "mods/carpet.pw.toml"
-hash = "095a93b4f0b4e2b8fadf8359bc145cbdd83be3c5bf23432e9a5f4e54d60de5b4"
 metafile = true
 
 [[files]]
@@ -184,7 +179,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "b6d8b835fd83399d7d5a6926a76a186b07dc8e46ea8e82b2b9e8ea2a1407e677"
+hash = "3b9cf9a72c449866736993fbdce1023b3a24e45081fb5c365160955907532dcc"
 metafile = true
 
 [[files]]
@@ -214,7 +209,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "ad214677d7d7b71d0d962d4b3f668d34ba2faa19b30ad007afd89a205256505c"
+hash = "b2501ec08296916d344df698d0542054e49eae3283d97df3c375c9ef3df93808"
 metafile = true
 
 [[files]]
@@ -264,12 +259,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabricskyboxes-interop.pw.toml"
-hash = "894d979ff26d8c7ee75d47a318f41873974a25f232c323980c0a82fa5999e93a"
+hash = "5e88e1e38b41f3feea53e18d4bcea09196859b09278953242cd4978b37842d93"
 metafile = true
 
 [[files]]
 file = "mods/fabricskyboxes.pw.toml"
-hash = "66b982a755b4d812e9792502e96672f2ef2d8ce4ef702d2bf86cf45d99a7ece0"
+hash = "ae83dfcccd580352eee3cf509ace37f67f1bf0d2862d2d9c9d64d8909892d2d4"
 metafile = true
 
 [[files]]
@@ -304,7 +299,7 @@ metafile = true
 
 [[files]]
 file = "mods/halohud.pw.toml"
-hash = "3faf3165882df05cbf97d7971567c5764ed3bea4cf7da86fa365fba4ca63c478"
+hash = "91c1ec4d6ac520a0ad369c4de3caf2fb4ca66b2652d8b08f18237122b9f59148"
 metafile = true
 
 [[files]]
@@ -314,7 +309,7 @@ metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "678d1c7827d30fbe8c225e7f2b8ddc29f1dd69cced29335ee5a670477a0728a2"
+hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
 metafile = true
 
 [[files]]
@@ -334,7 +329,7 @@ metafile = true
 
 [[files]]
 file = "mods/lilac.pw.toml"
-hash = "589bff25807b43912f721b2ff793c4ca1f0d47adf7e95dc843fd923a454220a0"
+hash = "baca3b76ab9bf92fe2335a39285822ba68e47650eeb3ae145a6fea0061c6c9e9"
 metafile = true
 
 [[files]]
@@ -403,11 +398,6 @@ hash = "d21089dd7d7b1f4b8018354f36662dddda994d37a76a9fa8ed06d9a9fcd8e1d9"
 metafile = true
 
 [[files]]
-file = "mods/replaymod.pw.toml"
-hash = "9e7c1e6cf3b81dce5a77bf5c95ed9d8e9b936b932aeadb1255245234230ced16"
-metafile = true
-
-[[files]]
 file = "mods/rrls.pw.toml"
 hash = "5a70811f11bccd6a9b7e52682de06faae2ee5fcc1777ae5e466b1a6a87052f69"
 metafile = true
@@ -459,7 +449,7 @@ metafile = true
 
 [[files]]
 file = "mods/threadtweak.pw.toml"
-hash = "bb044cd95d56fb9e1f52a8c18a843df8daf56d22a822568112e9dfa28dab7926"
+hash = "dbbeb7a8f32fdbe0d5e44a8c7671ed2297ee8d12d4610500ac54742e70b4fb53"
 metafile = true
 
 [[files]]
@@ -488,13 +478,8 @@ hash = "8b35ac594bfad2fd2533849ad3f573cc1f036be47302123a3193c9009fbe4691"
 metafile = true
 
 [[files]]
-file = "mods/world-host.pw.toml"
-hash = "3b2f9a0676459ee01cf4290f286857990fb5fee88dfad0d34d91e32ab5368815"
-metafile = true
-
-[[files]]
 file = "mods/yacl.pw.toml"
-hash = "653585251062a1963b36e89da8924c2452870f8435f3e706e2e8120a0ece6252"
+hash = "22c2a89925030790e8ff327977407190e9a8ec50d2d2b04404942a70d285f0a2"
 metafile = true
 
 [[files]]

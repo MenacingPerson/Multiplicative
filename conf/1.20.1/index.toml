@@ -28,7 +28,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "fa684c91d5c5194dbd5802554383d00894c8412e77060834c8588f473c239e19"
+hash = "52542ddcbf6f85ff4a66776f7829bdc23bddcf6ccc8b9273237a232e2fe3a78d"
 metafile = true
 
 [[files]]
@@ -103,7 +103,7 @@ metafile = true
 
 [[files]]
 file = "mods/halohud.pw.toml"
-hash = "f4c2bc5b19742306aab747ba78ba91db941a2b81c169e1a6cf8068e46b631bb8"
+hash = "c7d3f7fb5a6b5e18f149c4ae909798e2f42862229d01c23717087e29730e471d"
 metafile = true
 
 [[files]]
@@ -242,11 +242,6 @@ hash = "fd1b685219022148a51b5834f9c424a148025ef673ce50c935c2388e08d0040a"
 metafile = true
 
 [[files]]
-file = "mods_fabric/recursiveresources.pw.toml"
-hash = "a31bc2e0d4721a7d48388c7e2c2bac5f66fa775aee6d4f2e4b4b4c4b340ca2dd"
-metafile = true
-
-[[files]]
 file = "mods_fabric/respackopts.pw.toml"
 hash = "5c731d2ce5d0ca8651725748b7f9ce413e90bf742730f66eba47aa10dfc93753"
 metafile = true
@@ -293,7 +288,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/halohud.pw.toml"
-hash = "3faf3165882df05cbf97d7971567c5764ed3bea4cf7da86fa365fba4ca63c478"
+hash = "91c1ec4d6ac520a0ad369c4de3caf2fb4ca66b2652d8b08f18237122b9f59148"
 metafile = true
 
 [[files]]

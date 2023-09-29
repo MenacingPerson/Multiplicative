@@ -2,15 +2,17 @@
 
 Shader support for forge
 Added an options.txt file
-The next release will have no 1.19.4, and will be 1.20.2 instead of 1.20.1.
+The next release will have no 1.19.4 and hopefully no 1.20.1.
+It will instead opt for 1.20.2.
 
 Updated:
-- Additive (forgified)
+- Additive (base|forgified)
 - Caxton (1.19.4, 1.20.1)
 - Chat Heads (1.19.4, 1.20.1)
 - CreativeCore (1.20.1 forge)
 - Do a Barrel Roll (1.20.1)
 - Durability Tooltip (1.20.1)
+- HaloHUD (1.20.1)
 - Jade (1.20.1)
 
 Added:
@@ -26,4 +28,4 @@ Added:
 - Wakes (1.20.1)
 
 Removed:
-None
+- Recursive Resources (1.19.4, 1.20.1, 1.20.2)

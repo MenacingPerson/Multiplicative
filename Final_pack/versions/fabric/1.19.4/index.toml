@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "379444a77b3681151cd671042036455d4e98a6824f783a1003a9cc60f67c76d4"
+hash = "a242f5e931b80e03c0924b9701497e0f091a05905de04a51e2a49e63da59d503"
 
 [[files]]
 file = "config/puzzle.json"
@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "10f322b4d4acbeb2023c18b878de0960b4a1d5f2e9d5ced51988c05acfdb2f06"
+hash = "57e0a4bef34d2ae55d3dcaea460ca1e3cb9c7dd4226f7f280d5b16737eb7bd44"
 metafile = true
 
 [[files]]
@@ -201,7 +201,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "c711e028cfbf9b1755ab576522e1405fe6cbbf822204f0e15711349dcc83affd"
+hash = "b8cb0fbb7b57ea25bf7d7a5035b76ab188d8caedbb8ea50578a319a0b4d871dc"
 metafile = true
 
 [[files]]
@@ -226,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "a59200f17de0902d8018567d20fdd550224a84ddf19f9b50fb70a14ad30d2d6a"
+hash = "b179e8127f4e555b51cf2aa5fe853d1dc375244557a0b724823664a6b88765ad"
 metafile = true
 
 [[files]]
@@ -291,7 +291,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "c449a15cfdfaf32cc1f49347404a08657464f032c59aab353052c97c70a30dbc"
+hash = "1c1fb401b3fef6dc52ce5e0fec5e5a8232fcb7d1f76bdecae82d9b7314a1419e"
 metafile = true
 
 [[files]]
@@ -301,7 +301,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "7331e591ff6290f533fac1ddee6e0caf3fb0941e61bfdcf2c61054aa7645dd0e"
+hash = "31df80480dcd53b93b38b42f24616f777a944c0528422f60e2db5dcc4fa12956"
 metafile = true
 
 [[files]]
@@ -397,11 +397,6 @@ metafile = true
 [[files]]
 file = "mods/raised.pw.toml"
 hash = "daf895c100f1d256fc1df8bf67e8cf4b11c0972b9082c5fbee8f47c4eacf311f"
-metafile = true
-
-[[files]]
-file = "mods/recursiveresources.pw.toml"
-hash = "f479ec13d681fea4bf15e702e9dedcbc08d3a5db8faf4a4efb4579d23afcc7c0"
 metafile = true
 
 [[files]]
@@ -506,7 +501,7 @@ metafile = true
 
 [[files]]
 file = "mods/world-host.pw.toml"
-hash = "39b013f54d6a8c48419a71557e6a3ec0fa9f350438b4ca26285261d66e017b0a"
+hash = "bf15af24a20747fa85a32c620eef0f36963a0bff65dda2d6b70b29a9bebd0793"
 metafile = true
 
 [[files]]

@@ -1,0 +1,24 @@
+{
+    "game_version": "1.20.2",
+    "game_version_compat": ["1.20.2"],
+    "modloaders": [
+        "fabric",
+        "quilt",
+        "forge"
+    ],
+    "mods_optional": [],
+    "mods_optional_fabric": [],
+    "mods_optional_quilt": [],
+    "mods_optional_forge": [],
+    "mods_removed": [
+        "capes"
+    ],
+    "mods_removed_fabric": [],
+    "mods_removed_quilt": [
+        "lambdabettergrass"
+    ],
+    "mods_removed_forge": [
+        "cosmetica",
+        "remember-my-txt"
+    ]
+}
