@@ -2,8 +2,7 @@
     "game_version": "1.19.4",
     "game_version_compat": ["1.19.4"],
     "modloaders": [
-        "fabric",
-        "quilt"
+        "fabric"
     ],
     "mods_optional": [],
     "mods_optional_fabric": [],

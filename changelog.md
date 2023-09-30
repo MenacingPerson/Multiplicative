@@ -1,12 +1,30 @@
 # Release 3.4.0
 
-Shader support for forge
+- Quilt has been removed...
 
-Added an options.txt file
+Why? Because it's basically identical to fabric.
 
-The next release will have no 1.19.4 and hopefully no 1.20.1.
+It's also slower to update. It hasn't updated to 1.20.2 yet.
+
+This also presents me with 3 less versions to test than if I had kept quilt support for this release.
+
+- Added 1.20.2
+
+- Shader support for forge
+
+- Added an options.txt file
+
+- The next release will have no 1.19.4 and hopefully no 1.20.1.
 
 It will instead opt for only 1.20.2.
+
+- A lot more mods
+
+This is another thing I'm trying... if you don't like it, please join my discord and tell me.
+
+https://inv.wtf/Multiplicative
+
+(Alternatively, make an issue on GitHub)
 
 Updated:
 - Additive (base|forgified)
