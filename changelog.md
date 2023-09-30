@@ -1,9 +1,12 @@
 # Release 3.4.0
 
 Shader support for forge
+
 Added an options.txt file
+
 The next release will have no 1.19.4 and hopefully no 1.20.1.
-It will instead opt for 1.20.2.
+
+It will instead opt for only 1.20.2.
 
 Updated:
 - Additive (base|forgified)
@@ -29,3 +32,24 @@ Added:
 
 Removed:
 - Recursive Resources (1.19.4, 1.20.1, 1.20.2)
+
+Disabled temporarily in 1.20.2:
+- Continue Button
+- Cosmetica
+- CreativeCore
+- EMI
+- ItemPhysic Lite
+- Model Gap Fix
+- Presence Footsteps
+- Raised
+- ReplayMod
+- Remove Reloading Screen
+- Screenshot to Clipboard
+- Seamless Loading Screen
+- Server Pack Unlocker
+- SkinShuffle
+- Smooth Swapping
+- Sound Physics Remastered
+- Vectorientation
+- Wakes
+- Who am I?
