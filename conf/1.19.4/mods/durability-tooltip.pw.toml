@@ -1,13 +1,13 @@
 name = "Durability Tooltip"
-filename = "durabilitytooltip-1.1.5-fabric-mc1.19.jar"
+filename = "durabilitytooltip-1.1.5a-fabric-mc1.19.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/smUP7V3r/versions/CBTZLSEt/durabilitytooltip-1.1.5-fabric-mc1.19.jar"
+url = "https://cdn.modrinth.com/data/smUP7V3r/versions/NSVkqw6e/durabilitytooltip-1.1.5a-fabric-mc1.19.4.jar"
 hash-format = "sha1"
-hash = "f2e94fa42f277aa8750b80df7d74fb911f93579a"
+hash = "893c6496410d220f478e8787b673dddb25f2ecf1"
 
 [update]
 [update.modrinth]
 mod-id = "smUP7V3r"
-version = "CBTZLSEt"
+version = "NSVkqw6e"

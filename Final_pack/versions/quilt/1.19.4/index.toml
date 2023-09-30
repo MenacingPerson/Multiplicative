@@ -191,12 +191,12 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "05f1f50dbdf795a64538a102d4c028a957c082f913c74d779d120a6e2270db06"
+hash = "f916c8278d3ae7e2dc3bef760dd1faabb4ed87069eadb184c0dbf322576f7c82"
 metafile = true
 
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
-hash = "f1363dae892a02f2118da129bcf6968e95c90a21abd4a89c4fa31611c8cf7da4"
+hash = "c371c012b9600e6dd518982787eb9749adfb21bb9fa6506c70420a5b5a22f170"
 metafile = true
 
 [[files]]

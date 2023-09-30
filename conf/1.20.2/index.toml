@@ -38,12 +38,12 @@ metafile = true
 
 [[files]]
 file = "mods/blur-fabric.pw.toml"
-hash = "5f53eb8d272bfec2c6f58d6d744397b8152d7561a370f1d6e7e1e495fc4a1e7a"
+hash = "68a120db2b2c4db5fbfde501a6ee0504c692f3b1e777cc4dd85f1cb90c84dcd0"
 metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
-hash = "538d82294b38e9e07c7424ae2363f643161ed9e6082c7bd421242ec672db66bb"
+hash = "bc125da2af00e14613ca7d6582bbfff0ce63632dac134da4e9cfcf2d724bd856"
 metafile = true
 
 [[files]]
@@ -78,7 +78,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "5bfb2fc56cb910123f34771dbcf02e2e1f4a7867dc246f62c34b5f60309fd36b"
+hash = "a7e0c1d273ed323b1f55e763c2d9847074cf842eacf19804f8dfb30ea68ff5f3"
 metafile = true
 
 [[files]]
