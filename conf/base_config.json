@@ -8,9 +8,6 @@
     "pack_user_agent": "MenacingPerson/Multiplicative",
     "build": [
         {
-            "mc": "1.19.4"
-        },
-        {
             "mc": "1.20.1"
         },
         {
