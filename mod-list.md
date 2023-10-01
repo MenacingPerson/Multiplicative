@@ -55,9 +55,6 @@
 - LibJF
 - Respackopts
 
-### Quilt:
-- (Nothing)
-
 ### Forge:
 - (Nothing)
 
@@ -73,9 +70,6 @@
 
 ### Fabric:
 - (Nothing)
-
-### Quilt:
-- lambdabettergrass
 
 ### Forge:
 - (Nothing)
@@ -135,9 +129,6 @@
 - LibJF
 - Respackopts
 
-### Quilt:
-- (Nothing)
-
 ### Forge:
 - 3D Skin Layers
 - Architectury API
@@ -175,9 +166,6 @@
 
 ### Fabric:
 - (Nothing)
-
-### Quilt:
-- lambdabettergrass
 
 ### Forge:
 - carpet
@@ -240,9 +228,6 @@
 - LibJF
 - Respackopts
 
-### Quilt:
-- (Nothing)
-
 ### Forge:
 - 3D Skin Layers
 - Architectury API
@@ -282,7 +267,6 @@
 - continue
 - cosmetica
 - creativecore
-- emi
 - itemphysic-lite
 - modelfix
 - presence-footsteps
@@ -298,9 +282,6 @@
 - vectorientation
 - wakes
 - whoami
-
-### Quilt:
-- lambdabettergrass
 
 ### Forge:
 - cosmetica
