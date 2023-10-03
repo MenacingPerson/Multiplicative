@@ -1,14 +1,6 @@
 {
   "version": 1,
   "overrides": {
-    "cameraoverhaul": {
-      "-depends": {
-        "cloth-config2": "IGNORED"
-      },
-      "+depends": {
-        "cloth-config": "*"
-      }
-    },
     "indium": {
       "-depends": {
         "sodium": "IGNORED"

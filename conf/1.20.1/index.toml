@@ -13,10 +13,6 @@ file = "config/yosbr/options.txt"
 hash = "a0446af63c44d0b69056ee1685b1de1507fdc7b5f6813e2ffca46bd4b4970d89"
 
 [[files]]
-file = "config_forge/fabric_loader_dependencies.json"
-hash = "6f5bbb588fc23d8c873dc5f3cec789b6e96fe46e530e45646dd546dbb1e12e1b"
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "a7c95abc830068cdbd3adf8ec2ee8135b2eb2685f88fa90adda305f2d01205bc"
 metafile = true

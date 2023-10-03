@@ -8,12 +8,11 @@ import core.packwiz
 
 def run_in(modloader: str, func, *args):
     """Run function in certain edition of pack"""
-    if modloader not in ('fabric', 'quilt', 'forge', 'all'):
+    if modloader not in (*core.base.base_conf['modloaders'], 'all'):
         raise NameError('That\'s not a modloader!')
     if modloader == 'all':
-        for i in core.packwiz.modloaders:
-            if loader_is_valid(i):
-                run_in(i, func, *args)
+        for i in core.base.base_conf['modloaders']:
+            run_in(i, func, *args)
         return
     core.base.chodir()
     for pack_edition_path in glob.glob(f'{modloader}/*'):
@@ -34,11 +33,6 @@ def run_separately_in_all(func, *args):
     args_all = [arg.replace('_[ml]', '') for arg in args]
     run_in('all', func, *args_all)
     args_forwarded = {}
-    for i in core.packwiz.modloaders:
-        if loader_is_valid(i):
-            args_forwarded[i] = [arg.replace('[ml]', i) for arg in args]
-            run_in(i, func, *args_forwarded[i])
-
-
-def loader_is_valid(modloader: str) -> bool:
-    return modloader in core.packwiz.modloaders and modloader in core.base.config['modloaders']
+    for i in core.base.base_conf['modloaders']:
+        args_forwarded[i] = [arg.replace('[ml]', i) for arg in args]
+        run_in(i, func, *args_forwarded[i])
