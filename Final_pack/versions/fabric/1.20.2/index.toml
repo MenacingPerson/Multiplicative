@@ -365,11 +365,6 @@ hash = "19a098ab3131eb6daf0033199744d33dbb31a4ce9b20b9fc6eb709ab1272aa7e"
 metafile = true
 
 [[files]]
-file = "mods/remember-my-txt.pw.toml"
-hash = "b1289a9043802a06b45f0fafa9ec5cbab15f9b543c2e8d6b33b014bf4fe4059c"
-metafile = true
-
-[[files]]
 file = "mods/respackopts.pw.toml"
 hash = "d1933e5bae58b915ad72da111370cc94a353bcee2a0e19afcf7013dba22bd23c"
 metafile = true

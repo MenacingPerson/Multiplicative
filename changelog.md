@@ -58,6 +58,7 @@ Added:
 
 Removed:
 - Recursive Resources (1.20.1, 1.20.2)
+- Remember My Txt (1.20.1, 1.20.2)
 
 Disabled temporarily in 1.20.2:
 - Continue Button

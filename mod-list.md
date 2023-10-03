@@ -36,7 +36,6 @@
 - Not Enough Animations
 - Presence Footsteps
 - Raised
-- Remember My Txt
 - ReplayMod
 - Remove Reloading Screen
 - Screenshot to Clipboard
@@ -98,7 +97,6 @@
 ### Forge:
 - carpet
 - cosmetica
-- remember-my-txt
 - replaymod
 
 
@@ -135,7 +133,6 @@
 - Not Enough Animations
 - Presence Footsteps
 - Raised
-- Remember My Txt
 - ReplayMod
 - Remove Reloading Screen
 - Screenshot to Clipboard
