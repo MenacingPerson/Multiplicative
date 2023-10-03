@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "52542ddcbf6f85ff4a66776f7829bdc23bddcf6ccc8b9273237a232e2fe3a78d"
+hash = "86550f2ea052d6a90a665747f1983674d1c0207d243e4eac4702573589c4a0a3"
 metafile = true
 
 [[files]]
@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "45119a046ee1e893bed9ae1143e69e677816689379dcbba12151cdcf5a53a3e4"
+hash = "e1281e7858663cb1ef53f91e56005ea165f7d95473e12891db40f3266cf755e1"
 metafile = true
 
 [[files]]
@@ -306,7 +306,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemphysic-lite.pw.toml"
-hash = "7f2635c486010653a23e050b26170d80d87dbf56238720bb537efd4bdc247243"
+hash = "d7af4e122c6f120552d0d0864d2980cde51cc195e7f2e8d84e84db4d5faecec3"
 metafile = true
 
 [[files]]

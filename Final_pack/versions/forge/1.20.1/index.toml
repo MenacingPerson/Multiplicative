@@ -129,7 +129,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "52542ddcbf6f85ff4a66776f7829bdc23bddcf6ccc8b9273237a232e2fe3a78d"
+hash = "86550f2ea052d6a90a665747f1983674d1c0207d243e4eac4702573589c4a0a3"
 metafile = true
 
 [[files]]
@@ -229,7 +229,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "3acb5fe58d77f95ad96ae427ead2623a254bc04d5720d4ed8c6e59ee76ed144e"
+hash = "15d47c75c7b2e02317b563f3bdae289c778bde6c20cb2dd502899a9cbc7e34e2"
 metafile = true
 
 [[files]]

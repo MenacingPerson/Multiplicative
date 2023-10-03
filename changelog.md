@@ -41,7 +41,9 @@ Updated:
 - CreativeCore (1.20.1 forge)
 - Do a Barrel Roll (1.20.1)
 - Durability Tooltip (1.20.1)
+- EMI (1.20.1)
 - HaloHUD (1.20.1)
+- ItemPhysic Lite (1.20.1)
 - Jade (1.20.1)
 
 Added:
