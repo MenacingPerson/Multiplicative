@@ -73,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "82285f2aa33891d7b7ad1f9d6b8cdacb46aa2bde7d091cc65d279b0ef0caeb3a"
+hash = "c3db7d59e69e69067942dd7e5bfd71bb10ca823c60198c92727c071f022f2789"
 metafile = true
 
 [[files]]
@@ -108,7 +108,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemphysic-lite.pw.toml"
-hash = "7f2635c486010653a23e050b26170d80d87dbf56238720bb537efd4bdc247243"
+hash = "d7af4e122c6f120552d0d0864d2980cde51cc195e7f2e8d84e84db4d5faecec3"
 metafile = true
 
 [[files]]
@@ -183,7 +183,7 @@ metafile = true
 
 [[files]]
 file = "mods/server-pack-unlocker.pw.toml"
-hash = "e053efc45b146cc3d66ec1a723cd1ab03a1de3d1029d550e750f84329e6899c9"
+hash = "e50f824096c786528a4ff6e610f48aaeec638111c27660eb3f455882bee8ef2a"
 metafile = true
 
 [[files]]

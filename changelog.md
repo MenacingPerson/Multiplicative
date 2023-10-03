@@ -62,8 +62,6 @@ Removed:
 Disabled temporarily in 1.20.2:
 - Continue Button
 - Cosmetica
-- CreativeCore
-- ItemPhysic Lite
 - Model Gap Fix
 - Presence Footsteps
 - Raised
@@ -71,7 +69,6 @@ Disabled temporarily in 1.20.2:
 - Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen
-- Server Pack Unlocker
 - SkinShuffle
 - Smooth Swapping
 - Sound Physics Remastered
