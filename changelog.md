@@ -2,11 +2,11 @@
 
 - Quilt has been removed...
 
-Why? Because it's basically identical to fabric.
+...for 1.20.2
 
-It's also slower to update. It hasn't updated to 1.20.2 yet.
+...temporarily
 
-This also presents me with 3 less versions to test than if I had kept quilt support for this release.
+Why? Because it's slow to update. It hasn't updated to 1.20.2 yet.
 
 - 1.19.4 has been removed...
 

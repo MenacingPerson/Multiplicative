@@ -194,8 +194,6 @@
 ### Fabric:
 - continue
 - cosmetica
-- creativecore
-- itemphysic-lite
 - modelfix
 - presence-footsteps
 - raised
@@ -203,7 +201,6 @@
 - rrls
 - screenshot-to-clipboard
 - seamless-loading-screen
-- server-pack-unlocker
 - skinshuffle
 - smooth-swapping
 - sound-physics-remastered
