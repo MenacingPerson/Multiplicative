@@ -16,15 +16,9 @@ It was too old, anyway. So now:
 
 It has been replaced with 1.20.2!
 
-The next to go will be 1.20.1 once all pending mods update
+The next to go will be 1.20.1 once all pending mods update to 1.20.2
 
 - Shader support for forge
-
-- Added an options.txt file
-
-- The next release will have no 1.19.4 and hopefully no 1.20.1.
-
-It will instead opt for only 1.20.2.
 
 - A lot more mods
 
