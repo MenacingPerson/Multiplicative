@@ -1,13 +1,13 @@
 name = "EMI"
-filename = "emi-1.0.20+1.20.1+forge.jar"
+filename = "emi-1.0.21+1.20.1+forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/fRiHVvU7/versions/E80ymIet/emi-1.0.20%2B1.20.1%2Bforge.jar"
+url = "https://cdn.modrinth.com/data/fRiHVvU7/versions/bTfpCdYw/emi-1.0.21%2B1.20.1%2Bforge.jar"
 hash-format = "sha1"
-hash = "3b8433bee3e5ad07245c971437a88a3beb96e6f5"
+hash = "50d0039a984653c67a86e8567700ab338b79fcbd"
 
 [update]
 [update.modrinth]
 mod-id = "fRiHVvU7"
-version = "E80ymIet"
+version = "bTfpCdYw"

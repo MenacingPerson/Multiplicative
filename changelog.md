@@ -1,4 +1,4 @@
-# Release wynn-1.4.0
+# Release wynn-1.5.0
 
 Sync with pack 3.4.0
 
@@ -9,4 +9,4 @@ Added:
 - Fuy.gg
 
 Removed:
-None
+- Show Me My DPS!

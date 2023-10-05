@@ -19,4 +19,4 @@ done
 
 ./scripts/gen_mod_list.sh > mod-list.md
 
-cp Additive/LICENSE Final_pack
+cp additive/LICENSE Final_pack

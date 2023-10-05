@@ -9,14 +9,6 @@ file = "config/yosbr/config/durabilitytooltip-common.toml"
 hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
 
 [[files]]
-file = "config/yosbr/options.txt"
-hash = "a0446af63c44d0b69056ee1685b1de1507fdc7b5f6813e2ffca46bd4b4970d89"
-
-[[files]]
-file = "config_forge/fabric_loader_dependencies.json"
-hash = "6f5bbb588fc23d8c873dc5f3cec789b6e96fe46e530e45646dd546dbb1e12e1b"
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "a7c95abc830068cdbd3adf8ec2ee8135b2eb2685f88fa90adda305f2d01205bc"
 metafile = true
@@ -24,6 +16,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
+metafile = true
+
+[[files]]
+file = "mods/better-clouds.pw.toml"
+hash = "86550f2ea052d6a90a665747f1983674d1c0207d243e4eac4702573589c4a0a3"
 metafile = true
 
 [[files]]
@@ -37,13 +34,23 @@ hash = "5f53eb8d272bfec2c6f58d6d744397b8152d7561a370f1d6e7e1e495fc4a1e7a"
 metafile = true
 
 [[files]]
+file = "mods/carpet.pw.toml"
+hash = "095a93b4f0b4e2b8fadf8359bc145cbdd83be3c5bf23432e9a5f4e54d60de5b4"
+metafile = true
+
+[[files]]
 file = "mods/caxton.pw.toml"
 hash = "e2fa0597d814da63e92b5fb7e69a369e9769c6283f6b60e22e7a8c49732c1523"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "83005146b4c78677bb1fefadce2da308344d4682be5c17d2cd701c49e22f49bb"
+hash = "0159525d452d7e755045223330b3bfc0a3df5491c4a83beee9f00af0b68b8758"
+metafile = true
+
+[[files]]
+file = "mods/cherished-worlds.pw.toml"
+hash = "b5f46bcdef2f0fa38846efb3af25912ca63ef1f77049d682604185d52dcdd8f1"
 metafile = true
 
 [[files]]
@@ -63,7 +70,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "5bfb2fc56cb910123f34771dbcf02e2e1f4a7867dc246f62c34b5f60309fd36b"
+hash = "a7e0c1d273ed323b1f55e763c2d9847074cf842eacf19804f8dfb30ea68ff5f3"
 metafile = true
 
 [[files]]
@@ -73,7 +80,12 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "45119a046ee1e893bed9ae1143e69e677816689379dcbba12151cdcf5a53a3e4"
+hash = "e1281e7858663cb1ef53f91e56005ea165f7d95473e12891db40f3266cf755e1"
+metafile = true
+
+[[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "41b6ced96a53594eff35395e452dd2e67107e8b529a3f3724e80556ca31e71f0"
 metafile = true
 
 [[files]]
@@ -83,17 +95,22 @@ metafile = true
 
 [[files]]
 file = "mods/halohud.pw.toml"
-hash = "f4c2bc5b19742306aab747ba78ba91db941a2b81c169e1a6cf8068e46b631bb8"
+hash = "c7d3f7fb5a6b5e18f149c4ae909798e2f42862229d01c23717087e29730e471d"
 metafile = true
 
 [[files]]
 file = "mods/itemphysic-lite.pw.toml"
-hash = "7f2635c486010653a23e050b26170d80d87dbf56238720bb537efd4bdc247243"
+hash = "d7af4e122c6f120552d0d0864d2980cde51cc195e7f2e8d84e84db4d5faecec3"
 metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "c068d98a1cc89baf3607efd841c9a8073bcdc2e95a1331de12308b65710df0cb"
+hash = "559a46acee6bd5368fac543cb90902a7eb692426329d1041af790d8a22167154"
+metafile = true
+
+[[files]]
+file = "mods/make_bubbles_pop.pw.toml"
+hash = "ac2ca5caef9ddb4fd53c035bfaf07026f12bcdb162d19c2fa473bdec8fbec630"
 metafile = true
 
 [[files]]
@@ -132,11 +149,6 @@ hash = "7843c9f45563df3fab3779f6771316b679d32694085d5626b2a060453fbe4e03"
 metafile = true
 
 [[files]]
-file = "mods/remember-my-txt.pw.toml"
-hash = "b1289a9043802a06b45f0fafa9ec5cbab15f9b543c2e8d6b33b014bf4fe4059c"
-metafile = true
-
-[[files]]
 file = "mods/replaymod.pw.toml"
 hash = "9e7c1e6cf3b81dce5a77bf5c95ed9d8e9b936b932aeadb1255245234230ced16"
 metafile = true
@@ -162,6 +174,11 @@ hash = "e053efc45b146cc3d66ec1a723cd1ab03a1de3d1029d550e750f84329e6899c9"
 metafile = true
 
 [[files]]
+file = "mods/skinshuffle.pw.toml"
+hash = "bcc86c010aa0fc0175369f3a50f184c805d749fc6233b9f38f6624ccd3d93c69"
+metafile = true
+
+[[files]]
 file = "mods/smooth-swapping.pw.toml"
 hash = "5a523fb19287c6ce690ed0b7986e07e7002b878d980204226c3cde04e85baa77"
 metafile = true
@@ -182,6 +199,21 @@ hash = "1b9f8b0039b5fdf0850e6977ee05eb83065bb68d6ac4fed7a5a1609ca8cc5b52"
 metafile = true
 
 [[files]]
+file = "mods/vectorientation.pw.toml"
+hash = "572010387dd87535b8af43b073879db82b8d5bea4141ff52536f38d96edea97d"
+metafile = true
+
+[[files]]
+file = "mods/visuality.pw.toml"
+hash = "1d0b62685fd74fdd9d8cba3b3f3a85da75423550704646251a39542fce96bcb4"
+metafile = true
+
+[[files]]
+file = "mods/wakes.pw.toml"
+hash = "c55ddaf36164636c197215a3aff813fc53199efe8001fd87d6cfd1194e6265b4"
+metafile = true
+
+[[files]]
 file = "mods/wavey-capes.pw.toml"
 hash = "9f6d01028472394a8c3120f1e2a0229d09c77069bdca793159fecc6074aae394"
 metafile = true
@@ -194,11 +226,6 @@ metafile = true
 [[files]]
 file = "mods_fabric/libjf.pw.toml"
 hash = "fd1b685219022148a51b5834f9c424a148025ef673ce50c935c2388e08d0040a"
-metafile = true
-
-[[files]]
-file = "mods_fabric/recursiveresources.pw.toml"
-hash = "a31bc2e0d4721a7d48388c7e2c2bac5f66fa775aee6d4f2e4b4b4c4b340ca2dd"
 metafile = true
 
 [[files]]
@@ -223,7 +250,12 @@ metafile = true
 
 [[files]]
 file = "mods_forge/chat-heads.pw.toml"
-hash = "8d86800423897c7f9ce60b9d4fdfe858e228c8a746ff673e7fbfc90c5d9c4292"
+hash = "541bbb7440e657706ade79300a92cf66f2c6da658fd5c7cc6604d5565847b65f"
+metafile = true
+
+[[files]]
+file = "mods_forge/cherished-worlds.pw.toml"
+hash = "a19567abfefbec59733bffea0554590f0b7fe15397a7b3c4294172f06ed95924"
 metafile = true
 
 [[files]]
@@ -238,12 +270,12 @@ metafile = true
 
 [[files]]
 file = "mods_forge/emi.pw.toml"
-hash = "3acb5fe58d77f95ad96ae427ead2623a254bc04d5720d4ed8c6e59ee76ed144e"
+hash = "15d47c75c7b2e02317b563f3bdae289c778bde6c20cb2dd502899a9cbc7e34e2"
 metafile = true
 
 [[files]]
 file = "mods_forge/halohud.pw.toml"
-hash = "3faf3165882df05cbf97d7971567c5764ed3bea4cf7da86fa365fba4ca63c478"
+hash = "91c1ec4d6ac520a0ad369c4de3caf2fb4ca66b2652d8b08f18237122b9f59148"
 metafile = true
 
 [[files]]
@@ -253,7 +285,12 @@ metafile = true
 
 [[files]]
 file = "mods_forge/jade.pw.toml"
-hash = "8de3509044e6f7e8c54a003c6cc3af605e68ff243c169cf489d883e34969b744"
+hash = "0bbad39c925661641089bc7f6a744dfff493f49c129806e7a726e0b89531a325"
+metafile = true
+
+[[files]]
+file = "mods_forge/make_bubbles_pop.pw.toml"
+hash = "6838240b825c5b2f362ed03da14e93f4449b29bc016370fba46bbf3312b79d10"
 metafile = true
 
 [[files]]

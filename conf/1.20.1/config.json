@@ -3,8 +3,8 @@
     "game_version_compat": ["1.20", "1.20.1"],
     "modloaders": [
         "fabric",
-        "quilt",
-        "forge"
+        "forge",
+        "quilt"
     ],
     "mods_optional": [],
     "mods_optional_fabric": [],
@@ -18,7 +18,8 @@
         "lambdabettergrass"
     ],
     "mods_removed_forge": [
+        "carpet",
         "cosmetica",
-        "remember-my-txt"
+        "replaymod"
     ]
 }

@@ -3,28 +3,33 @@
 (excluding all Additive mods)
 
 
-# Version 1.19.4:
+# Version 1.20.2:
 
 ## Mods
 
 ### All:
 - 3D Skin Layers
 - Architectury API
+- Better Clouds
 - Better Trim Tooltips
 - Blur (Fabric)
+- Carpet
 - Caxton
 - Chat Heads
+- Cherished Worlds
 - Continue Button
 - Cosmetica
 - CreativeCore
 - Do a Barrel Roll
 - Durability Tooltip
 - EMI
+- Falling Leaves
 - fuy.gg
 - Gamma Utils (Fullbright)
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
+- Make Bubbles Pop
 - Model Gap Fix
 - MoreChatHistory
 - Nicer Skies
@@ -32,112 +37,40 @@
 - Not Enough Animations
 - Presence Footsteps
 - Raised
-- Remember My Txt
 - ReplayMod
 - Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen 
 - Server Pack Unlocker
-- ShowMeMyDPS!
+- SkinShuffle
 - Smooth Swapping
 - Sound Physics Remastered
 - spark
 - SuperMartijn642's Config Lib
+- Vectorientation
+- Visuality
+- Wakes
 - Wavey Capes
 - Who am I?
 - Wynntils
 
 ### Fabric:
 - LibJF
-- Recursive Resources
 - Respackopts
-
-### Quilt:
-- (Nothing)
-
-### Forge:
-- (Nothing)
-
-## Resource packs:
-- Faithful 32x
-- Fresh Animations
-- Geometric Font Edge
-
-## Removed from Additive
-
-### All:
-- capes
-
-### Fabric:
-- (Nothing)
-
-### Quilt:
-- lambdabettergrass
-
-### Forge:
-- (Nothing)
-
-
-# Version 1.20.1:
-
-## Mods
-
-### All:
-- 3D Skin Layers
-- Architectury API
-- Better Trim Tooltips
-- Blur (Fabric)
-- Caxton
-- Chat Heads
-- Continue Button
-- Cosmetica
-- CreativeCore
-- Do a Barrel Roll
-- Durability Tooltip
-- EMI
-- Gamma Utils (Fullbright)
-- Halo HUD
-- ItemPhysic Lite
-- Jade 🔍
-- Model Gap Fix
-- MoreChatHistory
-- Nicer Skies
-- No Chat Reports
-- Not Enough Animations
-- Presence Footsteps
-- Raised
-- Remember My Txt
-- ReplayMod
-- Remove Reloading Screen
-- Screenshot to Clipboard
-- Seamless Loading Screen 
-- Server Pack Unlocker
-- Smooth Swapping
-- Sound Physics Remastered
-- spark
-- SuperMartijn642's Config Lib
-- Wavey Capes
-- Who am I?
-
-### Fabric:
-- LibJF
-- Recursive Resources
-- Respackopts
-
-### Quilt:
-- (Nothing)
 
 ### Forge:
 - 3D Skin Layers
 - Architectury API
 - Caxton
 - Chat Heads
+- Cherished Worlds
 - CreativeCore
 - Durability Tooltip
 - EMI
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
+- Make Bubbles Pop
 - Model Gap Fix
 - No Chat Reports
 - Not Enough Animations
@@ -158,13 +91,24 @@
 ## Removed from Additive
 
 ### All:
-- capes
-
-### Fabric:
 - (Nothing)
 
-### Quilt:
-- lambdabettergrass
+### Fabric:
+- continue
+- cosmetica
+- modelfix
+- presence-footsteps
+- raised
+- replaymod
+- rrls
+- screenshot-to-clipboard
+- seamless-loading-screen
+- skinshuffle
+- smooth-swapping
+- sound-physics-remastered
+- vectorientation
+- wakes
+- whoami
 
 ### Forge:
 - cosmetica

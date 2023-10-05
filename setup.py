@@ -82,7 +82,7 @@ def fix_mmc_config(pack: dict):
 def change_modloader_ver(pack: dict) -> None:
     """Change version of specified modloader"""
     modloader = pack['modloader']
-    if core.pack_editions.loader_is_valid(modloader):
+    if modloader in base_conf['modloaders']:
         echo(f"Updating {modloader} to {base_conf['modloaders'][modloader]['version']} for {pack['edition']}")
         pack_toml = toml_read('./pack.toml')
         pack_toml['versions'][modloader] = base_conf['modloaders'][modloader]['version']
@@ -102,18 +102,15 @@ def forge_additive_fixer(pack: dict) -> None:
 # Reset to certain hash to avoid unwanted changes
 echo('Updating Additive to specified hash')
 runcmd('git submodule update --recursive --init --remote')
-os.chdir(f'{ODIR}/forgified-Additive/')
-runcmd('git pull origin main')
-runcmd('git reset --hard', base_conf["forgified-Additive_hash"])
-os.chdir(f'{ODIR}/Additive/')
-runcmd('git pull origin main')
-runcmd('git reset --hard', base_conf["Additive_hash"])
-core.base.if_exists_rm(f'{ODIR}/forgified-Additive/Modified')
-core.base.if_exists_rm(f'{ODIR}/forgified-Additive/packs')
-core.base.if_exists_rm(f'{ODIR}/Additive/Modified')
-core.base.if_exists_rm(f'{ODIR}/Additive/packs')
+for i in base_conf['additive']:
+    os.chdir(f'{ODIR}/{i}')
+    runcmd('git pull origin main')
+    runcmd('git reset --hard', base_conf['additive'][i]['hash'])
+    core.base.if_exists_rm(f'{ODIR}/{i}/Modified')
+    core.base.if_exists_rm(f'{ODIR}/{i}/packs')
+    os.chdir(ODIR)
 os.chdir(ODIR)
-runcmd('git add Additive/ forgified-Additive/')
+runcmd(f'git add {" ".join(base_conf["additive"])}')
 
 # Recreate modified pack
 echo("Removing previous modified packs")
@@ -121,15 +118,14 @@ core.base.if_exists_rm(f'{ODIR}/Modified')
 core.base.if_not_exists_create_dir(f'{ODIR}/packs')
 
 
-for loader in config['modloaders']:
-    if not core.pack_editions.loader_is_valid(loader):
-        print("Invalid loader in conf, exiting!")
+for modloader in config['modloaders']:
+    if modloader not in base_conf['modloaders']:
+        print("Invalid modloader in conf, exiting!")
         exit(1)
-    os.makedirs(f'{ODIR}/Modified/versions/{loader}')
+    os.makedirs(f'{ODIR}/Modified/versions/{modloader}')
     chodir()
-    for i in os.listdir(f'{ODIR}/{core.packwiz.modloaders[loader]["additive_version"]}/versions/{loader}'):
-        if i == config['game_version']:
-            shutil.copytree(f'{ODIR}/{core.packwiz.modloaders[loader]["additive_version"]}/versions/{loader}/{i}', f'{loader}/{i}')
+    if os.path.isdir(f'{ODIR}/{base_conf["modloaders"][modloader]["additive_version"]}/versions/{modloader}/{config["game_version"]}'):
+        shutil.copytree(f'{ODIR}/{base_conf["modloaders"][modloader]["additive_version"]}/versions/{modloader}/{config["game_version"]}', f'{modloader}/{config["game_version"]}')
 
 run_in('all', cp_pwignore)
 
@@ -138,6 +134,8 @@ run_in('all', core.packwiz.pw_refresh)
 run_separately_in_all(copy_over, 'mods_[ml]', 'mods')
 
 run_separately_in_all(copy_over, 'resourcepacks_[ml]', 'resourcepacks')
+
+run_separately_in_all(copy_over, 'shaderpacks_[ml]', 'shaderpacks')
 
 run_separately_in_all(copy_over, 'config_[ml]', 'config')
 
@@ -149,7 +147,7 @@ run_in('all', modify_packtoml)
 
 run_in('all', fix_mmc_config)
 
-for i in core.packwiz.modloaders:
+for i in base_conf['modloaders']:
     run_in(i, change_modloader_ver)
 
 run_in('forge', forge_additive_fixer)
