@@ -39,7 +39,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
-hash = "bc125da2af00e14613ca7d6582bbfff0ce63632dac134da4e9cfcf2d724bd856"
+hash = "3346013c36376766f129ff9f6329a671b7d6f0e1d7bcdddb711a2f71811af0cd"
 metafile = true
 
 [[files]]
@@ -74,7 +74,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "a7e0c1d273ed323b1f55e763c2d9847074cf842eacf19804f8dfb30ea68ff5f3"
+hash = "2e84ccfb19ba6e255f7fb32366a7fb1921f84d364e146f1605b9f6016af5b0aa"
 metafile = true
 
 [[files]]
@@ -84,12 +84,17 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "b64151258f28dee6f6b1215dc7af5e5a8f79c1a690e972c2a207a9dc9f362df1"
+hash = "a7f6ee02f8e2a0deef0cddb2952fe4a2a903ec7f6a7becd615040a0f18728fb6"
 metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "41b6ced96a53594eff35395e452dd2e67107e8b529a3f3724e80556ca31e71f0"
+hash = "0c4c20d601b15dbc85c275732d9efe9369597503c7d6caa9a7fee217f67073e7"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "a95c41df961eaabeeb2fbf122fadbef2ac9d917b5b1d8f6b354be5399ddc928c"
 metafile = true
 
 [[files]]
@@ -149,12 +154,12 @@ metafile = true
 
 [[files]]
 file = "mods/raised.pw.toml"
-hash = "7843c9f45563df3fab3779f6771316b679d32694085d5626b2a060453fbe4e03"
+hash = "59dc9a1f43a871a88c6211cda02b2847ff9b4015d832a0647bb4d59cc596a43f"
 metafile = true
 
 [[files]]
 file = "mods/replaymod.pw.toml"
-hash = "9e7c1e6cf3b81dce5a77bf5c95ed9d8e9b936b932aeadb1255245234230ced16"
+hash = "86d17a50f7c7ebf452dd61b77678ae9239e86be268aad72c170c86533ad5e45d"
 metafile = true
 
 [[files]]
@@ -199,7 +204,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
-hash = "0f763d958742d41b2d0211539cca687ee98baf5b7a93ff9a2cc43f4d2b59954b"
+hash = "f17a3b340c9e1535dce9a81a2f6d4a069dfd3defdcbbc6eb005bb6494a900c02"
 metafile = true
 
 [[files]]

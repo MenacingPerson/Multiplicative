@@ -6,7 +6,7 @@ hash = "2dc9d93a59c9281065b7f4c67cb1590044034a1af3ed9e06ef5b3eda1f625d42"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "a242f5e931b80e03c0924b9701497e0f091a05905de04a51e2a49e63da59d503"
+hash = "fe80866d672f6f392a0e8fc4e811f22f67fe2cb7d6a3f6fb8a4b7735177c0fc0"
 
 [[files]]
 file = "config/puzzle.json"
@@ -179,7 +179,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "bc354c98a8f944fc470ece5161ad68bb31ce6cb38c8e9de6ba678cce1d389c0d"
+hash = "a7e83dc72da60784723493d0e0fcddb01ba302710b7b1b24f1c8bfdaa2eb2266"
 metafile = true
 
 [[files]]
@@ -189,17 +189,17 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "2ff8353009122a86ac846dd8d48b2522d46f3b43111eb3a697d99cc42285a14f"
+hash = "bb7b31de1f5c7941aff59030d59168a5971e8c47884bcd8905637836ff97ce46"
 metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "5f4690d21a5941cdc7d89a979e529bd617cfec2f7817028e4294425566405f3d"
+hash = "23e5722f69692dbbb30127413d14aff1764110a87ca4eec4b526c37177678715"
 metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "a7e0c1d273ed323b1f55e763c2d9847074cf842eacf19804f8dfb30ea68ff5f3"
+hash = "2e84ccfb19ba6e255f7fb32366a7fb1921f84d364e146f1605b9f6016af5b0aa"
 metafile = true
 
 [[files]]
@@ -209,7 +209,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "b2501ec08296916d344df698d0542054e49eae3283d97df3c375c9ef3df93808"
+hash = "6e6ee1bf66d6977728d3bf5404338c87a0a4ad5260833efcd912aaaca776cf8f"
 metafile = true
 
 [[files]]
@@ -224,17 +224,17 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "2284324685ac6afe22f833731a99a4413a6351fdedc36c4ea917afac0171c879"
+hash = "b533c58b244a1d5ba3899bc8f9077085c06f367e8b5644353be84e204636d5d7"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "15d47c75c7b2e02317b563f3bdae289c778bde6c20cb2dd502899a9cbc7e34e2"
+hash = "f4e0e55bfea98c0dee1e3dc2c9f687cb7bf00ae3ddd4f89ab6bd2c36f284cda6"
 metafile = true
 
 [[files]]
 file = "mods/emuno.pw.toml"
-hash = "3fe8ab29c47d04dd0a80b3886534bfa56bfcab9a490dbfdc96c4516db8c477b3"
+hash = "8f0c18360533351fff9237b803b1a91fb86cc9b00d56e61f116076e654c9f8e8"
 metafile = true
 
 [[files]]
@@ -269,7 +269,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "41b6ced96a53594eff35395e452dd2e67107e8b529a3f3724e80556ca31e71f0"
+hash = "0c4c20d601b15dbc85c275732d9efe9369597503c7d6caa9a7fee217f67073e7"
 metafile = true
 
 [[files]]
@@ -289,7 +289,12 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "15519fa71ce872c052107f63d2b4429f0bf6fdc9dc2a8b09e1645cde1be0fcbf"
+hash = "e0a446366759a2c5e22163c45e15a4c959b3b1c297f1c099ffe5d2519bcc595e"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "b1367ac93bda0f54f8d9b195733fef193fc7f8a11c0aeae018d2d6dc4cd36aa5"
 metafile = true
 
 [[files]]
@@ -349,7 +354,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "01ce10dd8242ac65403a71a3dd23c33676a73835cfd665b799e88db6fd85c42a"
+hash = "262738c00df7a1815729fde1a9527298d2c1b6dbb3e53465063147fa52ee9dc7"
 metafile = true
 
 [[files]]
@@ -394,7 +399,12 @@ metafile = true
 
 [[files]]
 file = "mods/raised.pw.toml"
-hash = "d21089dd7d7b1f4b8018354f36662dddda994d37a76a9fa8ed06d9a9fcd8e1d9"
+hash = "047df59d91704852dc276dab11b55733a2be3e2c1ae7c21e4ee87fa8253f85cb"
+metafile = true
+
+[[files]]
+file = "mods/replaymod.pw.toml"
+hash = "86d17a50f7c7ebf452dd61b77678ae9239e86be268aad72c170c86533ad5e45d"
 metafile = true
 
 [[files]]
@@ -480,6 +490,11 @@ metafile = true
 [[files]]
 file = "mods/whoami.pw.toml"
 hash = "8b35ac594bfad2fd2533849ad3f573cc1f036be47302123a3193c9009fbe4691"
+metafile = true
+
+[[files]]
+file = "mods/world-host.pw.toml"
+hash = "f242ef847b7d2a2fa79cfe538751e153f855c17be5bb50e025d81e5ade983d67"
 metafile = true
 
 [[files]]

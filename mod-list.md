@@ -24,6 +24,7 @@
 - Durability Tooltip
 - EMI
 - Falling Leaves
+- Freecam (Modrinth Edition)
 - Gamma Utils (Fullbright)
 - Halo HUD
 - ItemPhysic Lite
@@ -65,6 +66,7 @@
 - CreativeCore
 - Durability Tooltip
 - EMI
+- Freecam (Modrinth Edition)
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
@@ -97,7 +99,6 @@
 ### Forge:
 - carpet
 - cosmetica
-- replaymod
 
 
 # Version 1.20.2:
@@ -121,6 +122,7 @@
 - Durability Tooltip
 - EMI
 - Falling Leaves
+- Freecam (Modrinth Edition)
 - Gamma Utils (Fullbright)
 - Halo HUD
 - ItemPhysic Lite
@@ -193,17 +195,14 @@
 - cosmetica
 - modelfix
 - presence-footsteps
-- raised
 - replaymod
 - rrls
-- screenshot-to-clipboard
 - seamless-loading-screen
 - skinshuffle
 - smooth-swapping
 - sound-physics-remastered
 - vectorientation
 - wakes
-- whoami
 
 ### Forge:
 - cosmetica

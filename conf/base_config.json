@@ -1,17 +1,17 @@
 {
     "additive": {
         "additive": {
-            "hash": "4b726a1b0252894502b75c69f56fc6e61695ce56",
+            "hash": "fa97c32b2d023b9c3bfe86a133df07a3f96ca096",
             "path": "additive"
         },
         "drill": {
-            "hash": "8d0db1ee2431610f24bb2aadb4faccffdb186470",
+            "hash": "f9edbd026ae7a1332419a6dcf7940d5f73509ad3",
             "path": "drill"
         }
     },
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
-    "pack_version": "3.4.0",
+    "pack_version": "3.5.0",
     "pack_url": "https://github.com/MenacingPerson/Multiplicative",
     "build": [
         {
@@ -23,7 +23,7 @@
     ],
     "modloaders": {
         "fabric": {
-            "version": "0.14.22",
+            "version": "0.14.23",
             "additive_version": "additive"
         },
         "quilt": {

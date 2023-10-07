@@ -65,7 +65,7 @@ def fix_mmc_config(pack: dict):
     mmc_conf_json = json_read('./config/isxander-main-menu-credits.json')
     mmc_conf_json = {
         'main_menu': {
-            'bottom_left': [
+            ('bottom_left' if pack['modloader'] != 'forge' else 'top_left'): [
                 {
                     'text': f'{base_conf["pack_name"]} {base_conf["pack_version"]}',
                     'clickEvent': {

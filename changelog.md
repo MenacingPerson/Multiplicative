@@ -1,74 +1,41 @@
-# Release 3.4.0
+# Release 3.5.0
 
-- Quilt has been removed...
-
-...for 1.20.2
-
-...temporarily
-
-Why? Because it's slow to update. It hasn't updated to 1.20.2 yet.
-
-- 1.19.4 has been removed...
-
-It was too old, anyway. So now:
-
-- Added 1.20.2
-
-It has been replaced with 1.20.2!
-
-The next to go will be 1.20.1 once all pending mods update to 1.20.2
-
-- Shader support for forge
-
-- A lot more mods
-
-This is another thing I'm trying... if you don't like it, please join my discord and tell me.
+Join my Discord:
 
 https://inv.wtf/Multiplicative
 
-(Alternatively, make an issue on GitHub)
+Marked Freecam and Replay Mod as optional
 
 Updated:
 - Additive (base|forgified)
-- Caxton (1.20.1)
-- Chat Heads (1.20.1)
+- Carpet (1.20.2)
 - CreativeCore (1.20.1 forge)
-- Do a Barrel Roll (1.20.1)
-- Durability Tooltip (1.20.1)
-- EMI (1.20.1)
-- HaloHUD (1.20.1)
-- ItemPhysic Lite (1.20.1)
+- Do a Barrel Roll (1.20.1, 1.20.2)
+- EMI (1.20.1, 1.20.2)
+- Falling Leaves (1.20.1, 1.20.2)
 - Jade (1.20.1)
+- Raised (1.20.1, 1.20.2)
+- Screenshot to Clipboard (1.20.2)
+- Supermartinjn642's Config Lib (1.20.1, 1.20.2)
+- Who am I? (1.20.2)
 
 Added:
-- Better Clouds (1.20.1)
-- Carpet (1.20.1)
-- Cherished Worlds (1.20.1)
-- Falling Leaves (1.20.1)
-- Make Bubbles Pop (1.20.1)
-- Replay Mod (1.20.1)
-- SkinShuffle (1.20.1)
-- Vectorientation (1.20.1)
-- Visuality (1.20.1)
-- Wakes (1.20.1)
+- Freecam (1.20.1, 1.20.2)
+- Replay Mod (1.20.1 forge)
 
 Removed:
-- Recursive Resources (1.20.1, 1.20.2)
-- Remember My Txt (1.20.1, 1.20.2)
+None
 
 Disabled temporarily in 1.20.2:
 - Continue Button
 - Cosmetica
 - Model Gap Fix
 - Presence Footsteps
-- Raised
 - ReplayMod
 - Remove Reloading Screen
-- Screenshot to Clipboard
 - Seamless Loading Screen
 - SkinShuffle
 - Smooth Swapping
 - Sound Physics Remastered
 - Vectorientation
 - Wakes
-- Who am I?

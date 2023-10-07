@@ -19,7 +19,6 @@
     ],
     "mods_removed_forge": [
         "carpet",
-        "cosmetica",
-        "replaymod"
+        "cosmetica"
     ]
 }

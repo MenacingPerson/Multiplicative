@@ -70,7 +70,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "a7e0c1d273ed323b1f55e763c2d9847074cf842eacf19804f8dfb30ea68ff5f3"
+hash = "2e84ccfb19ba6e255f7fb32366a7fb1921f84d364e146f1605b9f6016af5b0aa"
 metafile = true
 
 [[files]]
@@ -80,12 +80,17 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "e1281e7858663cb1ef53f91e56005ea165f7d95473e12891db40f3266cf755e1"
+hash = "1534cc48fe10f96a488339c716e8e8b2b639cf9355b8949e09fa264991f16432"
 metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "41b6ced96a53594eff35395e452dd2e67107e8b529a3f3724e80556ca31e71f0"
+hash = "0c4c20d601b15dbc85c275732d9efe9369597503c7d6caa9a7fee217f67073e7"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "2e82da41578d39e859c2fb92ef45761c46642520678ca43867db398c8f8ec7e5"
 metafile = true
 
 [[files]]
@@ -105,7 +110,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "559a46acee6bd5368fac543cb90902a7eb692426329d1041af790d8a22167154"
+hash = "51709a536d48a3aa27af5c0316647dc0dc74be79000ecb5262795bb383c9a204"
 metafile = true
 
 [[files]]
@@ -145,12 +150,12 @@ metafile = true
 
 [[files]]
 file = "mods/raised.pw.toml"
-hash = "7843c9f45563df3fab3779f6771316b679d32694085d5626b2a060453fbe4e03"
+hash = "d8927be5076d9167c8e0eddf0a449516b1921c10315ac1640e37fe7465095606"
 metafile = true
 
 [[files]]
 file = "mods/replaymod.pw.toml"
-hash = "9e7c1e6cf3b81dce5a77bf5c95ed9d8e9b936b932aeadb1255245234230ced16"
+hash = "86d17a50f7c7ebf452dd61b77678ae9239e86be268aad72c170c86533ad5e45d"
 metafile = true
 
 [[files]]
@@ -195,7 +200,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
-hash = "1b9f8b0039b5fdf0850e6977ee05eb83065bb68d6ac4fed7a5a1609ca8cc5b52"
+hash = "075b0a946ee6bc32d2eadde90257bdf53d09493978b3b7add5af49716691799e"
 metafile = true
 
 [[files]]
@@ -260,7 +265,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/creativecore.pw.toml"
-hash = "5f4690d21a5941cdc7d89a979e529bd617cfec2f7817028e4294425566405f3d"
+hash = "23e5722f69692dbbb30127413d14aff1764110a87ca4eec4b526c37177678715"
 metafile = true
 
 [[files]]
@@ -270,7 +275,12 @@ metafile = true
 
 [[files]]
 file = "mods_forge/emi.pw.toml"
-hash = "15d47c75c7b2e02317b563f3bdae289c778bde6c20cb2dd502899a9cbc7e34e2"
+hash = "f4e0e55bfea98c0dee1e3dc2c9f687cb7bf00ae3ddd4f89ab6bd2c36f284cda6"
+metafile = true
+
+[[files]]
+file = "mods_forge/freecam.pw.toml"
+hash = "b1367ac93bda0f54f8d9b195733fef193fc7f8a11c0aeae018d2d6dc4cd36aa5"
 metafile = true
 
 [[files]]
@@ -310,7 +320,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/raised.pw.toml"
-hash = "d21089dd7d7b1f4b8018354f36662dddda994d37a76a9fa8ed06d9a9fcd8e1d9"
+hash = "047df59d91704852dc276dab11b55733a2be3e2c1ae7c21e4ee87fa8253f85cb"
 metafile = true
 
 [[files]]
