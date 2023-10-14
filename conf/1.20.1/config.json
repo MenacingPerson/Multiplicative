@@ -2,9 +2,7 @@
     "game_version": "1.20.1",
     "game_version_compat": ["1.20", "1.20.1"],
     "modloaders": [
-        "fabric",
-        "forge",
-        "quilt"
+        "fabric"
     ],
     "mods_optional": [],
     "mods_optional_fabric": [],

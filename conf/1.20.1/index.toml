@@ -14,8 +14,23 @@ hash = "a7c95abc830068cdbd3adf8ec2ee8135b2eb2685f88fa90adda305f2d01205bc"
 metafile = true
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "65df20d0156ede8eefdedbcb297ee041f3e0d4058e957f3b7d52c509d9d07852"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "e3dfb2478e6bb096667d4ec89b0ddfef627747939373bdefee02f358d6e3dee1"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
+metafile = true
+
+[[files]]
+file = "mods/armorful.pw.toml"
+hash = "f328312f56dc4dcd1a28808989d9a6fa424f206999d56a344a047d7e68974893"
 metafile = true
 
 [[files]]
@@ -104,13 +119,23 @@ hash = "c7d3f7fb5a6b5e18f149c4ae909798e2f42862229d01c23717087e29730e471d"
 metafile = true
 
 [[files]]
-file = "mods/itemphysic-lite.pw.toml"
-hash = "d7af4e122c6f120552d0d0864d2980cde51cc195e7f2e8d84e84db4d5faecec3"
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "33c89073f71a972da05cfee8c8b00eec1549e406222b0abab659e38b42797820"
+metafile = true
+
+[[files]]
+file = "mods/itemphysic.pw.toml"
+hash = "0d3cc2f7ec40ed097d867de4f2988e52d738406535e36ca339f8250d7e8def02"
 metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "51709a536d48a3aa27af5c0316647dc0dc74be79000ecb5262795bb383c9a204"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "8547edbdc700238255794cdbb3b142d2bdb9f17a65b36ac1ce3c92e1aa942c3d"
 metafile = true
 
 [[files]]
@@ -129,6 +154,11 @@ hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
 metafile = true
 
 [[files]]
+file = "mods/mru.pw.toml"
+hash = "c866e7a833d91a51651767941d55b21e0b455a7a9a4450f7a718cbd3c0a5c64e"
+metafile = true
+
+[[files]]
 file = "mods/nicer-skies.pw.toml"
 hash = "ddbcdf60f634287b6df241a873fc07b4ce56facfb358a0a74cb1df9acff97725"
 metafile = true
@@ -144,8 +174,48 @@ hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
 metafile = true
 
 [[files]]
+file = "mods/plasmo-voice.pw.toml"
+hash = "fd1861c2fbfac935ba6829d64dfa9ea73119fd73681446bca3468badfed5be4c"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "5027329d763899c40db5e3f389cfb2262d61d0037668c331db0cec1491c585d8"
+metafile = true
+
+[[files]]
+file = "mods/pv-addon-broadcast.pw.toml"
+hash = "99dc10c737cff18f2f08d076f3c6ba1f54a714fddd4d690cfb9631e1d25136f7"
+metafile = true
+
+[[files]]
+file = "mods/pv-addon-groups.pw.toml"
+hash = "98ec355436257a68b2b6a9066ade873e0675ca2b74aea0a3b3f9ef38ac6aadf1"
+metafile = true
+
+[[files]]
+file = "mods/pv-addon-priority.pw.toml"
+hash = "8ae6bb366235402b73a6fd38c86adaaad89c3358574f4d59a2e23fbee694a6dc"
+metafile = true
+
+[[files]]
+file = "mods/pv-addon-replaymod.pw.toml"
+hash = "9fcfd07570667771722befc821eccab31cc2c680a14f29d44eb950a6ca9d9e5a"
+metafile = true
+
+[[files]]
+file = "mods/pv-addon-sculk.pw.toml"
+hash = "5e6b572e61b65e964baebd2c234ce439241b30517cf8765df4c6204cc1125077"
+metafile = true
+
+[[files]]
+file = "mods/pv-addon-soundphysics.pw.toml"
+hash = "699022f3c6f29cdc0aa6c629f46b087f1b2a65766cf14f1889c8f61c4c83cc9a"
+metafile = true
+
+[[files]]
+file = "mods/pv-addon-whisper.pw.toml"
+hash = "c3e8d0f94318d2deb4ca9d9a05f18889315e046bffc72235213d9094d5c1d634"
 metafile = true
 
 [[files]]
@@ -189,6 +259,11 @@ hash = "5a523fb19287c6ce690ed0b7986e07e7002b878d980204226c3cde04e85baa77"
 metafile = true
 
 [[files]]
+file = "mods/snow-under-trees-remastered.pw.toml"
+hash = "f7939f0e5d80ea989e684e176148ef23a3869171544da4512f249b832508cc85"
+metafile = true
+
+[[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "3decc297ef37c1ecb820b095d076dfa04e5c2d16a29e165f27c911a80d2e4afd"
 metafile = true
@@ -226,6 +301,21 @@ metafile = true
 [[files]]
 file = "mods/whoami.pw.toml"
 hash = "8b35ac594bfad2fd2533849ad3f573cc1f036be47302123a3193c9009fbe4691"
+metafile = true
+
+[[files]]
+file = "mods/wolves-of-other-furs.pw.toml"
+hash = "ccb78614fb49f7a46110628a5cb75299a0e0ceaf94d008f53f928c6f60be292c"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "bc0ca9370e45f2a1e6e76f8bb9cf556121dd46b513b7ac796758e3ebe69880ec"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "3da4278dce5b43b0e0288cea2f86b342aa231b4188d23f3462481afd6d50b197"
 metafile = true
 
 [[files]]
