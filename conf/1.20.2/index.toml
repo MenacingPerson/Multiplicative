@@ -59,7 +59,7 @@ metafile = true
 
 [[files]]
 file = "mods/continue.pw.toml"
-hash = "9b65ce988265594df45f26a71cca523779e97696c579740e8fd6b8c6b0236cb8"
+hash = "57aa52faacc0e1e747decbdefc9f38d12c518cf91af2e148f31f65bef30ea79b"
 metafile = true
 
 [[files]]
@@ -359,7 +359,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32x.pw.toml"
-hash = "1d513dbb28adcf63f19df7a0972f9c5b325d734fb28404e38bf902085f1c4837"
+hash = "bf0343986d34c27a6779264ebb25131c619472f81de4b98c36080ff33a8c39bf"
 metafile = true
 
 [[files]]

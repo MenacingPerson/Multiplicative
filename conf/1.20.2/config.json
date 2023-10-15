@@ -10,7 +10,6 @@
     "mods_optional_forge": [],
     "mods_removed": [],
     "mods_removed_fabric": [
-        "continue",
         "cosmetica",
         "modelfix",
         "presence-footsteps",

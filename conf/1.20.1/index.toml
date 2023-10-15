@@ -265,7 +265,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/creativecore.pw.toml"
-hash = "23e5722f69692dbbb30127413d14aff1764110a87ca4eec4b526c37177678715"
+hash = "4e8ab972316e1c9e8923969f7be6adfca6437c46955e1f410d71b6af1c1e0c39"
 metafile = true
 
 [[files]]
@@ -360,7 +360,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32x.pw.toml"
-hash = "793f8f2437f0d66cc12496e300016bee115e6d74873dbf83008e37b63d533403"
+hash = "b4018788362b48e316412a3a84a0f73f0b898acad1ef70ad8af10f5d5137bf39"
 metafile = true
 
 [[files]]

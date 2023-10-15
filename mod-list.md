@@ -191,7 +191,6 @@
 - (Nothing)
 
 ### Fabric:
-- continue
 - cosmetica
 - modelfix
 - presence-footsteps
