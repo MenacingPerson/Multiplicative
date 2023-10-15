@@ -22,6 +22,7 @@ Updated:
 - Who am I? (1.20.2)
 
 Added:
+- Auth Me (1.20.1, 1.20.2)
 - Freecam (1.20.1, 1.20.2)
 - Replay Mod (1.20.1 forge)
 

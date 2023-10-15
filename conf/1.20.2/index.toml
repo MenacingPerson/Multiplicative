@@ -23,6 +23,11 @@ hash = "a3caf4dd0a0d0a739c8f00a7d81b74c9ae7fdb58b250ddc9b466213dbd385a80"
 metafile = true
 
 [[files]]
+file = "mods/auth-me.pw.toml"
+hash = "9eead48eb4fdeadb6a4a078b3136818c82af8089133cec4fa1c90799d535028b"
+metafile = true
+
+[[files]]
 file = "mods/better-clouds.pw.toml"
 hash = "3e8315499cccae2636ff5ea386882ed71deeeab35e70aba5deb987aa7f6f4c25"
 metafile = true
