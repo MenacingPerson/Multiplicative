@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "e2fa0597d814da63e92b5fb7e69a369e9769c6283f6b60e22e7a8c49732c1523"
+hash = "a15f12af5f6fdc87aec4028c113d3127c45967af729343587235a72f2046b4ce"
 metafile = true
 
 [[files]]
@@ -191,7 +191,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "82285f2aa33891d7b7ad1f9d6b8cdacb46aa2bde7d091cc65d279b0ef0caeb3a"
+hash = "16e271347136c50d3ce6b3350dcc558ab2f5b75b60d88c1781c03e619b21858d"
 metafile = true
 
 [[files]]

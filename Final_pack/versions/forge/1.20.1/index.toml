@@ -159,7 +159,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "c51fa91ca6af1b943294a0dedc8d3bd608efe3bbd81a968f5136d55be9b1f9f5"
+hash = "1b15a70462c67c08e02dc951c06175a13667f37bc386600b45185e06024411d6"
 metafile = true
 
 [[files]]
@@ -334,7 +334,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "0bbad39c925661641089bc7f6a744dfff493f49c129806e7a726e0b89531a325"
+hash = "f9f548d67bbc7238183566c87c68ca5a313e5036fd3c44e24b0b98b8b1fd40f3"
 metafile = true
 
 [[files]]
