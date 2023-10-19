@@ -184,7 +184,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector-extras.pw.toml"
-hash = "b5fcd82ab026ca001bf0cfe12876cea26fb80aa634a1641ff079da289c1caded"
+hash = "3990f6490ed84eadac2cb007f71a370e8f15c10fea2fc32d031bbe4a4917b6d1"
 metafile = true
 
 [[files]]
@@ -234,7 +234,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "b533c58b244a1d5ba3899bc8f9077085c06f367e8b5644353be84e204636d5d7"
+hash = "03d33a32ce06757a695427e08a09495d342470cf1028d2fcd5eb082a62f67b61"
 metafile = true
 
 [[files]]
@@ -410,6 +410,11 @@ metafile = true
 [[files]]
 file = "mods/raised.pw.toml"
 hash = "047df59d91704852dc276dab11b55733a2be3e2c1ae7c21e4ee87fa8253f85cb"
+metafile = true
+
+[[files]]
+file = "mods/recursiveresources.pw.toml"
+hash = "a31bc2e0d4721a7d48388c7e2c2bac5f66fa775aee6d4f2e4b4b4c4b340ca2dd"
 metafile = true
 
 [[files]]

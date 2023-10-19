@@ -385,6 +385,11 @@ hash = "59dc9a1f43a871a88c6211cda02b2847ff9b4015d832a0647bb4d59cc596a43f"
 metafile = true
 
 [[files]]
+file = "mods/recursiveresources.pw.toml"
+hash = "b04bb3294cea2c716978b7e62f08a6a5cd19ec5f15211894cee39060cef57f81"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "19a098ab3131eb6daf0033199744d33dbb31a4ce9b20b9fc6eb709ab1272aa7e"
 metafile = true

@@ -1,6 +1,6 @@
 [submodule "drill"]
 	path = drill
-	url = https://github.com/skywardmc/drill.git
+	url = https://github.com/MenacingPerson/drill.git
 [submodule "additive"]
 	path = additive
 	url = https://github.com/skywardmc/additive.git

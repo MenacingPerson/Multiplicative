@@ -38,6 +38,7 @@
 - Not Enough Animations
 - Presence Footsteps
 - Raised
+- Recursive Resources
 - ReplayMod
 - Remove Reloading Screen
 - Screenshot to Clipboard
@@ -137,6 +138,7 @@
 - Not Enough Animations
 - Presence Footsteps
 - Raised
+- Recursive Resources
 - ReplayMod
 - Remove Reloading Screen
 - Screenshot to Clipboard

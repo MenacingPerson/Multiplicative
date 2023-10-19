@@ -163,6 +163,11 @@ hash = "59dc9a1f43a871a88c6211cda02b2847ff9b4015d832a0647bb4d59cc596a43f"
 metafile = true
 
 [[files]]
+file = "mods/recursiveresources.pw.toml"
+hash = "b04bb3294cea2c716978b7e62f08a6a5cd19ec5f15211894cee39060cef57f81"
+metafile = true
+
+[[files]]
 file = "mods/replaymod.pw.toml"
 hash = "86d17a50f7c7ebf452dd61b77678ae9239e86be268aad72c170c86533ad5e45d"
 metafile = true

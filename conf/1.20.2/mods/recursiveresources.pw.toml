@@ -1,0 +1,13 @@
+name = "Recursive Resources"
+filename = "recursive-resources-2.5.2+1.20.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CcL3MXyI/versions/SEfAdtuM/recursive-resources-2.5.2%2B1.20.2.jar"
+hash-format = "sha1"
+hash = "c44eca50e56818620e78840001fba52e1b5fd2a2"
+
+[update]
+[update.modrinth]
+mod-id = "CcL3MXyI"
+version = "SEfAdtuM"

@@ -6,6 +6,8 @@ https://inv.wtf/Multiplicative
 
 Marked Freecam and Replay Mod as optional
 
+Forge 1.20.1 and Fabric 1.20.2 are finally out of Beta.
+
 Updated:
 - Additive (base|forgified)
 - Carpet (1.20.2)
@@ -25,6 +27,7 @@ Updated:
 Added:
 - Auth Me (1.20.1, 1.20.2)
 - Freecam (1.20.1, 1.20.2)
+- Recursive Resources (1.20.1, 1.20.2)
 - Replay Mod (1.20.1 forge)
 
 Removed:
