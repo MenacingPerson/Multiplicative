@@ -10,7 +10,7 @@ hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
 
 [[files]]
 file = "config_forge/fabric_loader_dependencies.json"
-hash = "2dc9d93a59c9281065b7f4c67cb1590044034a1af3ed9e06ef5b3eda1f625d42"
+hash = "4b40806b3db14bae2ce476bb0a3d85916d445476e915c02bd31bdae3d8e004b8"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
