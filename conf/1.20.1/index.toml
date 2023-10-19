@@ -34,6 +34,11 @@ hash = "f328312f56dc4dcd1a28808989d9a6fa424f206999d56a344a047d7e68974893"
 metafile = true
 
 [[files]]
+file = "mods/auth-me.pw.toml"
+hash = "e954c2f9ea9195ef558f0cb7dbc7057f2086348fc4a78186bc399145c18b4bb9"
+metafile = true
+
+[[files]]
 file = "mods/better-clouds.pw.toml"
 hash = "86550f2ea052d6a90a665747f1983674d1c0207d243e4eac4702573589c4a0a3"
 metafile = true
@@ -55,7 +60,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "e2fa0597d814da63e92b5fb7e69a369e9769c6283f6b60e22e7a8c49732c1523"
+hash = "a15f12af5f6fdc87aec4028c113d3127c45967af729343587235a72f2046b4ce"
 metafile = true
 
 [[files]]
@@ -80,7 +85,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "82285f2aa33891d7b7ad1f9d6b8cdacb46aa2bde7d091cc65d279b0ef0caeb3a"
+hash = "16e271347136c50d3ce6b3350dcc558ab2f5b75b60d88c1781c03e619b21858d"
 metafile = true
 
 [[files]]
@@ -340,7 +345,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/caxton.pw.toml"
-hash = "c51fa91ca6af1b943294a0dedc8d3bd608efe3bbd81a968f5136d55be9b1f9f5"
+hash = "1b15a70462c67c08e02dc951c06175a13667f37bc386600b45185e06024411d6"
 metafile = true
 
 [[files]]
@@ -355,7 +360,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/creativecore.pw.toml"
-hash = "23e5722f69692dbbb30127413d14aff1764110a87ca4eec4b526c37177678715"
+hash = "4e8ab972316e1c9e8923969f7be6adfca6437c46955e1f410d71b6af1c1e0c39"
 metafile = true
 
 [[files]]
@@ -385,7 +390,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/jade.pw.toml"
-hash = "0bbad39c925661641089bc7f6a744dfff493f49c129806e7a726e0b89531a325"
+hash = "f9f548d67bbc7238183566c87c68ca5a313e5036fd3c44e24b0b98b8b1fd40f3"
 metafile = true
 
 [[files]]
@@ -450,7 +455,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32x.pw.toml"
-hash = "793f8f2437f0d66cc12496e300016bee115e6d74873dbf83008e37b63d533403"
+hash = "b4018788362b48e316412a3a84a0f73f0b898acad1ef70ad8af10f5d5137bf39"
 metafile = true
 
 [[files]]

@@ -10,6 +10,7 @@
 ### All:
 - 3D Skin Layers
 - Architectury API
+- Auth Me
 - Better Clouds
 - Better Trim Tooltips
 - Blur (Fabric)
@@ -108,6 +109,7 @@
 ### All:
 - 3D Skin Layers
 - Architectury API
+- Auth Me
 - Better Clouds
 - Better Trim Tooltips
 - Blur (Fabric)
@@ -191,7 +193,6 @@
 - (Nothing)
 
 ### Fabric:
-- continue
 - cosmetica
 - modelfix
 - presence-footsteps

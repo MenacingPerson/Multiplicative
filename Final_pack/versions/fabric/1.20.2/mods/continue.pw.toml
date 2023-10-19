@@ -1,0 +1,13 @@
+name = "Continue Button"
+filename = "continuebutton-1.2.3+1.20.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6DpItqEj/versions/V1Nz3WZ3/continuebutton-1.2.3%2B1.20.2.jar"
+hash-format = "sha1"
+hash = "be6f86b60519ab7947dfafa0002e94b3d0997620"
+
+[update]
+[update.modrinth]
+mod-id = "6DpItqEj"
+version = "V1Nz3WZ3"
