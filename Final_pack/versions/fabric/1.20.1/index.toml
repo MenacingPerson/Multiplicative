@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "a15f12af5f6fdc87aec4028c113d3127c45967af729343587235a72f2046b4ce"
+hash = "942c2b116634e50bf643df4f1b4622022180b60f67f4c54146cb7b92caf88cb5"
 metafile = true
 
 [[files]]
