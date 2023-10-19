@@ -9,6 +9,7 @@
 
 ### All:
 - 3D Skin Layers
+- Amecs
 - Architectury API
 - Auth Me
 - Better Clouds
@@ -99,6 +100,7 @@
 - (Nothing)
 
 ### Forge:
+- amecs
 - carpet
 - cosmetica
 
@@ -109,6 +111,7 @@
 
 ### All:
 - 3D Skin Layers
+- Amecs
 - Architectury API
 - Auth Me
 - Better Clouds

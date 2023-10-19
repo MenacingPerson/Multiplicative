@@ -18,6 +18,11 @@ hash = "8868e7077cfcb26792ae0e366577400ee26c74b9fb9da550cd8570829c97020f"
 metafile = true
 
 [[files]]
+file = "mods/amecs.pw.toml"
+hash = "1dcddab4bd6235097fb1d5c8ac3347307cbe62fa86f89176c117d84310832e03"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "a3caf4dd0a0d0a739c8f00a7d81b74c9ae7fdb58b250ddc9b466213dbd385a80"
 metafile = true

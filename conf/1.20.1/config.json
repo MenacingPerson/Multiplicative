@@ -18,6 +18,7 @@
         "lambdabettergrass"
     ],
     "mods_removed_forge": [
+        "amecs",
         "carpet",
         "cosmetica"
     ]

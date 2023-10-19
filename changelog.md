@@ -25,6 +25,7 @@ Updated:
 - Who am I? (1.20.2)
 
 Added:
+- Amecs (1.20.1 fabric/quilt, 1.20.2)
 - Auth Me (1.20.1, 1.20.2)
 - Freecam (1.20.1, 1.20.2)
 - Recursive Resources (1.20.1, 1.20.2)

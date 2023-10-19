@@ -110,6 +110,11 @@ hash = "8868e7077cfcb26792ae0e366577400ee26c74b9fb9da550cd8570829c97020f"
 metafile = true
 
 [[files]]
+file = "mods/amecs.pw.toml"
+hash = "1dcddab4bd6235097fb1d5c8ac3347307cbe62fa86f89176c117d84310832e03"
+metafile = true
+
+[[files]]
 file = "mods/animatica.pw.toml"
 hash = "f0463f1b50e2c2ab3c726b14236b22e07ce9be4896528ede9d51486a212a5c07"
 metafile = true
