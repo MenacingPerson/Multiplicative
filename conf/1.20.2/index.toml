@@ -54,7 +54,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "5d528987bf88d9fda843c1ad9bd04fe096027ddd404f6aa80f601c192079efca"
+hash = "837b9cbf20198012dec36933906ac3e448358150efef53c45426260ffc8dd76e"
 metafile = true
 
 [[files]]
@@ -94,7 +94,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "a7f6ee02f8e2a0deef0cddb2952fe4a2a903ec7f6a7becd615040a0f18728fb6"
+hash = "84097218001613b77efb246a06a670ab393f149818482e8519c7e49c2b897cf8"
 metafile = true
 
 [[files]]
@@ -189,7 +189,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "1cc8781b7c9b2fe9a7a3b9ab2ae6742374a007fc075c865827f97ece36f2919d"
+hash = "0dee922f90d4702affa65ff8f17ea2d468ef382e1855bbbdadf4aedc9873ad86"
 metafile = true
 
 [[files]]

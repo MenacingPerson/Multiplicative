@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "bece26a097d336d67e0c6e26b98ac19e6d01b009ca62944436d04be9c3826d34"
+hash = "327fdede5054d6427af22d6a502e05c37781c6879d191b2502c58485cbeaef8d"
 
 [[files]]
 file = "config/puzzle.json"
@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "942c2b116634e50bf643df4f1b4622022180b60f67f4c54146cb7b92caf88cb5"
+hash = "522c6876f556461c9fc85586eb4f7ded23918ffdee0bd074d1673e42a37bdf9a"
 metafile = true
 
 [[files]]
@@ -226,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "1534cc48fe10f96a488339c716e8e8b2b639cf9355b8949e09fa264991f16432"
+hash = "61d4f489d43922fb32e1868ddce2129ecfaddb40e42029908d41142057a28f89"
 metafile = true
 
 [[files]]

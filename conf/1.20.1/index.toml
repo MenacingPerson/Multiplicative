@@ -54,7 +54,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "942c2b116634e50bf643df4f1b4622022180b60f67f4c54146cb7b92caf88cb5"
+hash = "522c6876f556461c9fc85586eb4f7ded23918ffdee0bd074d1673e42a37bdf9a"
 metafile = true
 
 [[files]]
@@ -94,7 +94,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "1534cc48fe10f96a488339c716e8e8b2b639cf9355b8949e09fa264991f16432"
+hash = "61d4f489d43922fb32e1868ddce2129ecfaddb40e42029908d41142057a28f89"
 metafile = true
 
 [[files]]
@@ -269,7 +269,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/caxton.pw.toml"
-hash = "d8ffecf4e2159ad4f8c456ecc2502ad8566756fa432d2f8d3fb6099a19424fa0"
+hash = "90d4f33eccd113cef4853fe1248530b740a280390291a4461ddc758d8a19ea4c"
 metafile = true
 
 [[files]]
@@ -294,7 +294,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/emi.pw.toml"
-hash = "f4e0e55bfea98c0dee1e3dc2c9f687cb7bf00ae3ddd4f89ab6bd2c36f284cda6"
+hash = "c0e22e29bd5ad71f2f9a1a218e291d19388f31f968e71db04593000aefca4e80"
 metafile = true
 
 [[files]]

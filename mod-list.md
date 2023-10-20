@@ -203,7 +203,6 @@
 - presence-footsteps
 - replaymod
 - rrls
-- seamless-loading-screen
 - skinshuffle
 - smooth-swapping
 - sound-physics-remastered
