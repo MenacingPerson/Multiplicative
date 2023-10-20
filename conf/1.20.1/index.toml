@@ -33,6 +33,11 @@ hash = "e954c2f9ea9195ef558f0cb7dbc7057f2086348fc4a78186bc399145c18b4bb9"
 metafile = true
 
 [[files]]
+file = "mods/backrooms.pw.toml"
+hash = "1720c8565691d808f8cea8e42820b247b859ed43589baa34d229b1f3c2d2e54b"
+metafile = true
+
+[[files]]
 file = "mods/better-clouds.pw.toml"
 hash = "86550f2ea052d6a90a665747f1983674d1c0207d243e4eac4702573589c4a0a3"
 metafile = true
@@ -108,6 +113,11 @@ hash = "2e82da41578d39e859c2fb92ef45761c46642520678ca43867db398c8f8ec7e5"
 metafile = true
 
 [[files]]
+file = "mods/from-the-fog.pw.toml"
+hash = "49dfc6e8737d45a945e5a91cfd19ec8e810eec40a0f8c16d19690633c440aca1"
+metafile = true
+
+[[files]]
 file = "mods/gamma-utils.pw.toml"
 hash = "39920920771dad756ccaf18e1509c53d32635828cd2ebf1701d55ea829c9ae97"
 metafile = true
@@ -125,6 +135,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "51709a536d48a3aa27af5c0316647dc0dc74be79000ecb5262795bb383c9a204"
+metafile = true
+
+[[files]]
+file = "mods/letsdoajumpscare.pw.toml"
+hash = "244a41e5b6953e1360ada336ee132ae2bb4983602d5eb7b7edd418a29a0e7536"
 metafile = true
 
 [[files]]
@@ -155,6 +170,16 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
+metafile = true
+
+[[files]]
+file = "mods/nyctophobia.pw.toml"
+hash = "821b6e5d0a115fa14d0692abe41a8c6621f04882aea975829e1d1e51f672ef58"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "28b3e0806647eb166e942cf6552993bb6d666949c53f0d51927bdfb063cb6cc4"
 metafile = true
 
 [[files]]
@@ -220,6 +245,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "075b0a946ee6bc32d2eadde90257bdf53d09493978b3b7add5af49716691799e"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "a1fd826038c193e91c0ac45648b93721760c3e4f0fbddde169952e93bc348df7"
 metafile = true
 
 [[files]]
