@@ -421,3 +421,8 @@ metafile = true
 file = "resourcepacks/geometric-font-edge.pw.toml"
 hash = "e87fbe0fb690cb9e9c95052b928e7ce0ec5649d113dd61e4c3fdd639c42e5cd9"
 metafile = true
+
+[[files]]
+file = "shaderpacks/insanity-shader.pw.toml"
+hash = "a75fbb782eeb80682c3c742edc9496960f7eaccb7387a1f978cc4175797d661d"
+metafile = true
