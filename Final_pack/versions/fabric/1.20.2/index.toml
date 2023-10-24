@@ -386,7 +386,7 @@ metafile = true
 
 [[files]]
 file = "mods/raised.pw.toml"
-hash = "59dc9a1f43a871a88c6211cda02b2847ff9b4015d832a0647bb4d59cc596a43f"
+hash = "1035934f4a2815750fb1608b360329604c9b8fa25283ed435fb3cda1339b0f8b"
 metafile = true
 
 [[files]]
@@ -402,6 +402,11 @@ metafile = true
 [[files]]
 file = "mods/respackopts.pw.toml"
 hash = "d1933e5bae58b915ad72da111370cc94a353bcee2a0e19afcf7013dba22bd23c"
+metafile = true
+
+[[files]]
+file = "mods/rsls.pw.toml"
+hash = "c88a2f7d74117f46baff4961fbbdfda64ec34c21097c148f4e711e7331826b00"
 metafile = true
 
 [[files]]

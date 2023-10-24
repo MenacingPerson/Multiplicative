@@ -1,0 +1,13 @@
+name = "Sonance"
+filename = "Sonance-0.1.0+1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZouiUX7t/versions/wnD4aowf/Sonance-0.1.0%2B1.20.jar"
+hash-format = "sha1"
+hash = "e712f06e4504f53566a34482ed4c153d4c1e47a2"
+
+[update]
+[update.modrinth]
+mod-id = "ZouiUX7t"
+version = "wnD4aowf"

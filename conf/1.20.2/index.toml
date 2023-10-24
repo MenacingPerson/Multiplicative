@@ -164,7 +164,7 @@ metafile = true
 
 [[files]]
 file = "mods/raised.pw.toml"
-hash = "59dc9a1f43a871a88c6211cda02b2847ff9b4015d832a0647bb4d59cc596a43f"
+hash = "1035934f4a2815750fb1608b360329604c9b8fa25283ed435fb3cda1339b0f8b"
 metafile = true
 
 [[files]]
@@ -180,6 +180,11 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "e96bb13c530a62100ad228f1c59f0fc37ceb91ec3e622a0a5d0e32cbe5d95424"
+metafile = true
+
+[[files]]
+file = "mods/rsls.pw.toml"
+hash = "c88a2f7d74117f46baff4961fbbdfda64ec34c21097c148f4e711e7331826b00"
 metafile = true
 
 [[files]]
@@ -205,6 +210,11 @@ metafile = true
 [[files]]
 file = "mods/smooth-swapping.pw.toml"
 hash = "5a523fb19287c6ce690ed0b7986e07e7002b878d980204226c3cde04e85baa77"
+metafile = true
+
+[[files]]
+file = "mods/sonance.pw.toml"
+hash = "05ea6743364724e8ad786de3dc21ef8faa5534d15bec51286bc900392c1e8de9"
 metafile = true
 
 [[files]]
@@ -259,32 +269,32 @@ metafile = true
 
 [[files]]
 file = "mods_forge/3dskinlayers.pw.toml"
-hash = "96f9983d86fa756ca973306fca579288302f26482e2de6b69d4845e24f03ffb6"
+hash = "d1e05374237dcfc7418b6967f29d8dd8514920013c586ccbd8783c68256affd8"
 metafile = true
 
 [[files]]
 file = "mods_forge/architectury-api.pw.toml"
-hash = "b7321e670cc58aa8062f7cae470c9806c2ed83680ca598df5fe6e75ab40df452"
+hash = "616ca68261db5758c3a4074045bbb9461f9e35cb52a5dd0a532ab499e1046736"
 metafile = true
 
 [[files]]
 file = "mods_forge/caxton.pw.toml"
-hash = "c51fa91ca6af1b943294a0dedc8d3bd608efe3bbd81a968f5136d55be9b1f9f5"
+hash = "a3d22c9f022e2a4d807b2ddc6218106b8b0ed903266b53cfb8c64e3ab525953f"
 metafile = true
 
 [[files]]
 file = "mods_forge/chat-heads.pw.toml"
-hash = "541bbb7440e657706ade79300a92cf66f2c6da658fd5c7cc6604d5565847b65f"
+hash = "b68c14b88b06c620c8f1dddbf9a105ae40ccd370c62d404d792de1a2a78ba98b"
 metafile = true
 
 [[files]]
 file = "mods_forge/cherished-worlds.pw.toml"
-hash = "a19567abfefbec59733bffea0554590f0b7fe15397a7b3c4294172f06ed95924"
+hash = "f02ecddde6b084311ad2b312a01976598060f1d758034cbe69fea52c91757ec0"
 metafile = true
 
 [[files]]
 file = "mods_forge/creativecore.pw.toml"
-hash = "5f4690d21a5941cdc7d89a979e529bd617cfec2f7817028e4294425566405f3d"
+hash = "c5d155fbbdcf44b13a6120c89260cd71f7b8c806fe2eceeed87f4410edae4da9"
 metafile = true
 
 [[files]]
@@ -294,12 +304,17 @@ metafile = true
 
 [[files]]
 file = "mods_forge/emi.pw.toml"
-hash = "3acb5fe58d77f95ad96ae427ead2623a254bc04d5720d4ed8c6e59ee76ed144e"
+hash = "6f1564755613c5e0b3d38632d3399b7bb01078938090da357b57efba598b1d98"
+metafile = true
+
+[[files]]
+file = "mods_forge/freecam.pw.toml"
+hash = "38b2a10e2b231fe8a50461627ca60b981d221f0cc92b8508080336dde5a3d434"
 metafile = true
 
 [[files]]
 file = "mods_forge/halohud.pw.toml"
-hash = "3faf3165882df05cbf97d7971567c5764ed3bea4cf7da86fa365fba4ca63c478"
+hash = "91c1ec4d6ac520a0ad369c4de3caf2fb4ca66b2652d8b08f18237122b9f59148"
 metafile = true
 
 [[files]]
@@ -324,17 +339,17 @@ metafile = true
 
 [[files]]
 file = "mods_forge/no-chat-reports.pw.toml"
-hash = "9a3c80bf6eee8234001d2a1602b3e123ac5706af051902e40f24abe317b86e50"
+hash = "b4e9a51ace7859b25ea5f9c0e58cc1685066a37004d5f9251ed0d79bb8c8a4cf"
 metafile = true
 
 [[files]]
 file = "mods_forge/not-enough-animations.pw.toml"
-hash = "dae4dd79e8db2daea3ec318b456fc0e30f529b9acca0a444b4ce7d1debfca143"
+hash = "6b713b4fbed0323106f17cb80b10c8693dc6fa15b0049abbd5dbb6ea87546523"
 metafile = true
 
 [[files]]
 file = "mods_forge/raised.pw.toml"
-hash = "d21089dd7d7b1f4b8018354f36662dddda994d37a76a9fa8ed06d9a9fcd8e1d9"
+hash = "b5709754968fb4eabcc5689e66d5a72ff9e1c2409180061135c1a5917bef86a7"
 metafile = true
 
 [[files]]
@@ -349,7 +364,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/seamless-loading-screen.pw.toml"
-hash = "456a6afb9efe768e49e3fb427d0fac43e7af6534794b0e0873879341d3d82efd"
+hash = "af416b565f0f1eb636db2afb70a0e922a59e47e84853597de5ac4dcae0101221"
 metafile = true
 
 [[files]]
@@ -359,17 +374,17 @@ metafile = true
 
 [[files]]
 file = "mods_forge/spark.pw.toml"
-hash = "dbe2c430bf58c773082d7fd9d1bee2d510a2e0c08f390f7465e819b6e321ae09"
+hash = "ec76d352ae9edb5449b1e63229d4275b66d11065d1ac1d5308076b0e420085b6"
 metafile = true
 
 [[files]]
 file = "mods_forge/supermartijn642s-config-lib.pw.toml"
-hash = "fb0ec93bfbee412229b63a9154abc992ee7e274a84fe569e077f250e6c77abbd"
+hash = "bbfed281be243d734ced2ef413afcaff4536ca0850f5c85199d6c3817d32c959"
 metafile = true
 
 [[files]]
 file = "mods_forge/wavey-capes.pw.toml"
-hash = "fddece53bfe6711ea3b1d0c999439a2ebab1d996d53e433b4ecab5ee8e2045cb"
+hash = "b797dd9e5c89c4bf1e00d52c9f37e716854aeeb64f168af1645f28ae716616fd"
 metafile = true
 
 [[files]]

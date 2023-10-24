@@ -42,11 +42,13 @@
 - Recursive Resources
 - ReplayMod
 - Remove Reloading Screen
+- Raise Sound Limit Simplified
 - Screenshot to Clipboard
 - Seamless Loading Screen 
 - Server Pack Unlocker
 - SkinShuffle
 - Smooth Swapping
+- Sonance
 - Sound Physics Remastered
 - spark
 - SuperMartijn642's Config Lib
@@ -144,11 +146,13 @@
 - Recursive Resources
 - ReplayMod
 - Remove Reloading Screen
+- Raise Sound Limit Simplified
 - Screenshot to Clipboard
 - Seamless Loading Screen 
 - Server Pack Unlocker
 - SkinShuffle
 - Smooth Swapping
+- Sonance
 - Sound Physics Remastered
 - spark
 - SuperMartijn642's Config Lib
@@ -171,6 +175,7 @@
 - CreativeCore
 - Durability Tooltip
 - EMI
+- Freecam (Modrinth Edition)
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
@@ -205,6 +210,7 @@
 - rrls
 - skinshuffle
 - smooth-swapping
+- sonance
 - sound-physics-remastered
 - vectorientation
 - wakes

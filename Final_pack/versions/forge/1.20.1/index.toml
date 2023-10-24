@@ -409,7 +409,7 @@ metafile = true
 
 [[files]]
 file = "mods/raised.pw.toml"
-hash = "047df59d91704852dc276dab11b55733a2be3e2c1ae7c21e4ee87fa8253f85cb"
+hash = "47b95884f41ca1f097388fd3b820a9c6ced157a07eff0e52eeadc526f9a47482"
 metafile = true
 
 [[files]]
@@ -425,6 +425,11 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "5a70811f11bccd6a9b7e52682de06faae2ee5fcc1777ae5e466b1a6a87052f69"
+metafile = true
+
+[[files]]
+file = "mods/rsls.pw.toml"
+hash = "c88a2f7d74117f46baff4961fbbdfda64ec34c21097c148f4e711e7331826b00"
 metafile = true
 
 [[files]]
@@ -455,6 +460,11 @@ metafile = true
 [[files]]
 file = "mods/smooth-swapping.pw.toml"
 hash = "5a523fb19287c6ce690ed0b7986e07e7002b878d980204226c3cde04e85baa77"
+metafile = true
+
+[[files]]
+file = "mods/sonance.pw.toml"
+hash = "05ea6743364724e8ad786de3dc21ef8faa5534d15bec51286bc900392c1e8de9"
 metafile = true
 
 [[files]]

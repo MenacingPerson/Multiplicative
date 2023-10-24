@@ -1,13 +1,13 @@
 name = "SuperMartijn642's Config Lib"
-filename = "supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+filename = "supermartijn642configlib-1.1.8-forge-mc1.20.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+url = "https://cdn.modrinth.com/data/LN9BxssP/versions/u2uH4N7P/supermartijn642configlib-1.1.8-forge-mc1.20.2.jar"
 hash-format = "sha1"
-hash = "f80f9eed728966adcfbcc848633e789645057281"
+hash = "bfaa32bf5ef96fffa0d6bb329da00b33709fc5b3"
 
 [update]
 [update.modrinth]
 mod-id = "LN9BxssP"
-version = "ZKor79dR"
+version = "u2uH4N7P"
