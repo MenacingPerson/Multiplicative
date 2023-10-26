@@ -226,8 +226,6 @@
 - skinshuffle
 - smooth-swapping
 - sound-physics-remastered
-- vectorientation
-- wakes
 
 ### Forge:
 - cosmetica

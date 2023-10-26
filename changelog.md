@@ -11,6 +11,8 @@ Updated:
 - Presence Footsteps (1.20.1, 1.20.2)
 - Raised (1.20.1, 1.20.2)
 - Seamless Loading Screen (1.20.2)
+- Vectorientation (1.20.2)
+- Wakes (1.20.2)
 
 Added:
 - AppleSkin (1.20.1, 1.20.2)
@@ -35,5 +37,3 @@ Disabled temporarily in 1.20.2:
 - SkinShuffle
 - Smooth Swapping
 - Sound Physics Remastered
-- Vectorientation
-- Wakes
