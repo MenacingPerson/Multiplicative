@@ -23,6 +23,11 @@ hash = "d66bc9c3f81429f138de5eae6226dce25f620f90df864bf7f0f9121708bf0bcc"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "e3dfb2478e6bb096667d4ec89b0ddfef627747939373bdefee02f358d6e3dee1"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
 metafile = true
@@ -48,6 +53,11 @@ hash = "5f53eb8d272bfec2c6f58d6d744397b8152d7561a370f1d6e7e1e495fc4a1e7a"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "7721e78d990cc15c02f1a03cd6d7652ea995b271a3d19a6ae44829b4c69acbf0"
+metafile = true
+
+[[files]]
 file = "mods/carpet.pw.toml"
 hash = "095a93b4f0b4e2b8fadf8359bc145cbdd83be3c5bf23432e9a5f4e54d60de5b4"
 metafile = true
@@ -68,6 +78,11 @@ hash = "b5f46bcdef2f0fa38846efb3af25912ca63ef1f77049d682604185d52dcdd8f1"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "c176a0f84b0c3c03423e68b988cd43f51a6b1cf13a844574b19e003324533da0"
+metafile = true
+
+[[files]]
 file = "mods/continue.pw.toml"
 hash = "9b65ce988265594df45f26a71cca523779e97696c579740e8fd6b8c6b0236cb8"
 metafile = true
@@ -79,7 +94,12 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "16e271347136c50d3ce6b3350dcc558ab2f5b75b60d88c1781c03e619b21858d"
+hash = "5ed437c14268d539c9ec53a01ad1f9a686a4c1a60268bd8862a3b8c7a8e9ef63"
+metafile = true
+
+[[files]]
+file = "mods/deathlog.pw.toml"
+hash = "b02739fbdc676c7561a500ad26aa59802b463e08d637d261b247a544f788d585"
 metafile = true
 
 [[files]]
@@ -103,6 +123,11 @@ hash = "0c4c20d601b15dbc85c275732d9efe9369597503c7d6caa9a7fee217f67073e7"
 metafile = true
 
 [[files]]
+file = "mods/flow.pw.toml"
+hash = "e8942e9d3b70c6f939af44ddc588c5f8f2fa87247711360e4c1b3dccc4c3b857"
+metafile = true
+
+[[files]]
 file = "mods/freecam.pw.toml"
 hash = "2e82da41578d39e859c2fb92ef45761c46642520678ca43867db398c8f8ec7e5"
 metafile = true
@@ -115,6 +140,11 @@ metafile = true
 [[files]]
 file = "mods/halohud.pw.toml"
 hash = "c7d3f7fb5a6b5e18f149c4ae909798e2f42862229d01c23717087e29730e471d"
+metafile = true
+
+[[files]]
+file = "mods/isometric-renders.pw.toml"
+hash = "75ae35db534fd000d29631884ea2a10f81dd49fb3cb3ea426cb6901ca2a30bdf"
 metafile = true
 
 [[files]]
@@ -158,8 +188,13 @@ hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "28b3e0806647eb166e942cf6552993bb6d666949c53f0d51927bdfb063cb6cc4"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "5027329d763899c40db5e3f389cfb2262d61d0037668c331db0cec1491c585d8"
+hash = "7a6c27fcdf9d6e4c25ad433a676357353b8d6125433e7a883de4ddb889767f88"
 metafile = true
 
 [[files]]
@@ -228,6 +263,11 @@ hash = "96e3771cd09bb4a808d1c1fcb5a050efdc2ffb4efe7b584407ed54c46c0388d9"
 metafile = true
 
 [[files]]
+file = "mods/stendhal.pw.toml"
+hash = "83646326afae6c338ed6c1f686387269e8a239aa81034e58d157bd374eec8570"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "075b0a946ee6bc32d2eadde90257bdf53d09493978b3b7add5af49716691799e"
 metafile = true
@@ -273,6 +313,11 @@ hash = "96f9983d86fa756ca973306fca579288302f26482e2de6b69d4845e24f03ffb6"
 metafile = true
 
 [[files]]
+file = "mods_forge/appleskin.pw.toml"
+hash = "0a1d5aeaae3975eaa4bb3a98e91852f797a5095794af70df41d50841c57ca347"
+metafile = true
+
+[[files]]
 file = "mods_forge/architectury-api.pw.toml"
 hash = "b7321e670cc58aa8062f7cae470c9806c2ed83680ca598df5fe6e75ab40df452"
 metafile = true
@@ -293,8 +338,13 @@ hash = "a19567abfefbec59733bffea0554590f0b7fe15397a7b3c4294172f06ed95924"
 metafile = true
 
 [[files]]
+file = "mods_forge/chunky.pw.toml"
+hash = "0e82cf003a7ae18edfad6964fb76d7a7230e546f45e56fccae7eca7bd84eee90"
+metafile = true
+
+[[files]]
 file = "mods_forge/creativecore.pw.toml"
-hash = "b05a835914950adbdf408c8773532b458a0225a00434144b44e36301d196b0b2"
+hash = "2e46b43e8627198d011618a59af0b97f06bb3e23f160c25e30bb8d7a82038800"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "AppleSkin"
+filename = "appleskin-forge-mc1.20.2-2.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EsAfCjCV/versions/pyRMqaEV/appleskin-forge-mc1.20.2-2.5.1.jar"
+hash-format = "sha1"
+hash = "a4cd0cf82349d8c68cb100d4e2d9788969ee1397"
+
+[update]
+[update.modrinth]
+mod-id = "EsAfCjCV"
+version = "pyRMqaEV"

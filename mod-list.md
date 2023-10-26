@@ -10,25 +10,31 @@
 ### All:
 - 3D Skin Layers
 - Amecs
+- AppleSkin
 - Architectury API
 - Auth Me
 - Better Clouds
 - Better Trim Tooltips
 - Blur (Fabric)
+- Concurrent Chunk Management Engine (Fabric)
 - Carpet
 - Caxton
 - Chat Heads
 - Cherished Worlds
+- Chunky
 - Continue Button
 - Cosmetica
 - CreativeCore
+- DeathLog
 - Do a Barrel Roll
 - Durability Tooltip
 - EMI
 - Falling Leaves
+- Flow
 - Freecam (Modrinth Edition)
 - Gamma Utils (Fullbright)
 - Halo HUD
+- Isometric Renders
 - ItemPhysic Lite
 - Jade 🔍
 - Make Bubbles Pop
@@ -37,6 +43,7 @@
 - Nicer Skies
 - No Chat Reports
 - Not Enough Animations
+- oωo (owo-lib)
 - Presence Footsteps
 - Raised
 - Recursive Resources
@@ -51,6 +58,7 @@
 - Sonance
 - Sound Physics Remastered
 - spark
+- Stendhal
 - SuperMartijn642's Config Lib
 - Vectorientation
 - Visuality
@@ -64,10 +72,12 @@
 
 ### Forge:
 - 3D Skin Layers
+- AppleSkin
 - Architectury API
 - Caxton
 - Chat Heads
 - Cherished Worlds
+- Chunky
 - CreativeCore
 - Durability Tooltip
 - EMI
@@ -114,25 +124,31 @@
 ### All:
 - 3D Skin Layers
 - Amecs
+- AppleSkin
 - Architectury API
 - Auth Me
 - Better Clouds
 - Better Trim Tooltips
 - Blur (Fabric)
+- Concurrent Chunk Management Engine (Fabric)
 - Carpet
 - Caxton
 - Chat Heads
 - Cherished Worlds
+- Chunky
 - Continue Button
 - Cosmetica
 - CreativeCore
+- DeathLog
 - Do a Barrel Roll
 - Durability Tooltip
 - EMI
 - Falling Leaves
+- Flow
 - Freecam (Modrinth Edition)
 - Gamma Utils (Fullbright)
 - Halo HUD
+- Isometric Renders
 - ItemPhysic Lite
 - Jade 🔍
 - Make Bubbles Pop
@@ -141,6 +157,7 @@
 - Nicer Skies
 - No Chat Reports
 - Not Enough Animations
+- oωo (owo-lib)
 - Presence Footsteps
 - Raised
 - Recursive Resources
@@ -155,6 +172,7 @@
 - Sonance
 - Sound Physics Remastered
 - spark
+- Stendhal
 - SuperMartijn642's Config Lib
 - Vectorientation
 - Visuality
@@ -168,26 +186,24 @@
 
 ### Forge:
 - 3D Skin Layers
+- AppleSkin
 - Architectury API
 - Caxton
 - Chat Heads
 - Cherished Worlds
+- Chunky
 - CreativeCore
 - Durability Tooltip
 - EMI
 - Freecam (Modrinth Edition)
 - Halo HUD
 - ItemPhysic Lite
-- Jade 🔍
 - Make Bubbles Pop
-- Model Gap Fix
 - No Chat Reports
 - Not Enough Animations
 - Raised
-- Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen 
-- Sound Physics Remastered
 - spark
 - SuperMartijn642's Config Lib
 - Wavey Capes
@@ -205,12 +221,10 @@
 ### Fabric:
 - cosmetica
 - modelfix
-- presence-footsteps
 - replaymod
 - rrls
 - skinshuffle
 - smooth-swapping
-- sonance
 - sound-physics-remastered
 - vectorientation
 - wakes
