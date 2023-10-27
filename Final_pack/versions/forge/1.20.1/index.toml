@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/connector_global_mod_aliases.json"
+hash = "8a58398ced7f64912deb4bdc2096dbf644451d251e0332acfcb8e5c1adeddd9c"
+
+[[files]]
 file = "config/fabric_loader_dependencies.json"
 hash = "4b40806b3db14bae2ce476bb0a3d85916d445476e915c02bd31bdae3d8e004b8"
 
@@ -179,7 +183,7 @@ metafile = true
 
 [[files]]
 file = "mods/cherished-worlds.pw.toml"
-hash = "a19567abfefbec59733bffea0554590f0b7fe15397a7b3c4294172f06ed95924"
+hash = "0f29548dfc9bb6c0f59acde2e04f5c9f0a60bda0900efcd2909ff5862157ec6f"
 metafile = true
 
 [[files]]
@@ -204,7 +208,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "e9d843694c4b60ec30009d7127f242493a6c7afe639bd54e5d3b5979012c0bf7"
+hash = "94240627d0a20f1fcdb31c784626cca34bf78d32a5b12d20c874916f7cc7e60a"
 metafile = true
 
 [[files]]
@@ -309,7 +313,7 @@ metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "8aacdfc270e0c6d4757aa569b56bcedaaf570a94aa98e0e2e7f7e9c2b1599c0a"
+hash = "4a73f04a8986129d79ea4f283a0a33ce51af17079b6efa23596af5bc685e1c1e"
 metafile = true
 
 [[files]]
@@ -319,12 +323,12 @@ metafile = true
 
 [[files]]
 file = "mods/flow.pw.toml"
-hash = "e8942e9d3b70c6f939af44ddc588c5f8f2fa87247711360e4c1b3dccc4c3b857"
+hash = "83ffccaf309c829a1980d80688d09c036a15ba7c1cbd1cf2ab3237148aa9ba35"
 metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "e0a446366759a2c5e22163c45e15a4c959b3b1c297f1c099ffe5d2519bcc595e"
+hash = "db60f4a2184f67ae9e54ba378c7a251b73df6dcb7852ae1fd8b9198f34c5a1aa"
 metafile = true
 
 [[files]]
@@ -440,11 +444,6 @@ metafile = true
 [[files]]
 file = "mods/puzzle.pw.toml"
 hash = "a6e087aa1beacb72cbfd77e442c78329b8a3c8af71cd3833078ff4cc7186d64f"
-metafile = true
-
-[[files]]
-file = "mods/raised.pw.toml"
-hash = "47b95884f41ca1f097388fd3b820a9c6ced157a07eff0e52eeadc526f9a47482"
 metafile = true
 
 [[files]]

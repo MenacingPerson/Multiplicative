@@ -45,7 +45,6 @@
 - Not Enough Animations
 - oωo (owo-lib)
 - Presence Footsteps
-- Raised
 - Recursive Resources
 - ReplayMod
 - Remove Reloading Screen
@@ -89,7 +88,6 @@
 - Model Gap Fix
 - No Chat Reports
 - Not Enough Animations
-- Raised
 - Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen 
@@ -159,7 +157,6 @@
 - Not Enough Animations
 - oωo (owo-lib)
 - Presence Footsteps
-- Raised
 - Recursive Resources
 - ReplayMod
 - Remove Reloading Screen
@@ -198,10 +195,10 @@
 - Freecam (Modrinth Edition)
 - Halo HUD
 - ItemPhysic Lite
+- Jade 🔍
 - Make Bubbles Pop
 - No Chat Reports
 - Not Enough Animations
-- Raised
 - Screenshot to Clipboard
 - Seamless Loading Screen 
 - spark

@@ -1,13 +1,13 @@
 name = "Cherished Worlds"
-filename = "cherishedworlds-forge-7.0.0+1.20.2.jar"
+filename = "cherishedworlds-forge-7.0.1+1.20.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/3azQ6p0W/versions/lBGUESRL/cherishedworlds-forge-7.0.0%2B1.20.2.jar"
+url = "https://cdn.modrinth.com/data/3azQ6p0W/versions/3tT75QEN/cherishedworlds-forge-7.0.1%2B1.20.2.jar"
 hash-format = "sha1"
-hash = "00f998260ab4803128ceff1aab258786cf78a400"
+hash = "4a567a79e794fe8c0667e23ba0208fbc58e8fc01"
 
 [update]
 [update.modrinth]
 mod-id = "3azQ6p0W"
-version = "lBGUESRL"
+version = "3tT75QEN"

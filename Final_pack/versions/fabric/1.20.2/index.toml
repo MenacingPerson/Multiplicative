@@ -176,7 +176,7 @@ metafile = true
 
 [[files]]
 file = "mods/cherished-worlds.pw.toml"
-hash = "69c2378f443c727728cc4095f00d3f8935c835ce0af8c1c497745e57e2f02b08"
+hash = "64d20dc87e2798e36b6c62d07e6cdece74b7f5d557c59e217c6caa2eb63c0f49"
 metafile = true
 
 [[files]]
@@ -296,7 +296,7 @@ metafile = true
 
 [[files]]
 file = "mods/flow.pw.toml"
-hash = "d66d76cc363edd9265512037b223b87d808b2eb5f522b5a7f1234c4bf99f0dcb"
+hash = "eaa747b7dfd9ffb17c71715249cbbda007ab677fc43490aa91990b510f3298e7"
 metafile = true
 
 [[files]]
@@ -422,11 +422,6 @@ metafile = true
 [[files]]
 file = "mods/puzzle.pw.toml"
 hash = "29d85b8c6d97e886f4f8200a1ea2e151602fc3944b71d5e5a134ecf6bcb5288a"
-metafile = true
-
-[[files]]
-file = "mods/raised.pw.toml"
-hash = "1035934f4a2815750fb1608b360329604c9b8fa25283ed435fb3cda1339b0f8b"
 metafile = true
 
 [[files]]

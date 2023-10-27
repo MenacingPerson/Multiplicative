@@ -5,7 +5,7 @@
             "path": "additive"
         },
         "drill": {
-            "hash": "35a476dcfd8031611931d25913a4a3d9a8912cd3",
+            "hash": "f6fbd407b00c557ba4590a9593c56ea7726be256",
             "path": "drill"
         }
     },
@@ -23,11 +23,11 @@
     ],
     "modloaders": {
         "fabric": {
-            "version": "0.14.23",
+            "version": "0.14.24",
             "additive_version": "additive"
         },
         "quilt": {
-            "version": "0.21.0",
+            "version": "0.21.1",
             "additive_version": "additive"
         },
         "forge": {

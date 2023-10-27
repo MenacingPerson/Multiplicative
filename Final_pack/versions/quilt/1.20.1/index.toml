@@ -176,7 +176,7 @@ metafile = true
 
 [[files]]
 file = "mods/cherished-worlds.pw.toml"
-hash = "b5f46bcdef2f0fa38846efb3af25912ca63ef1f77049d682604185d52dcdd8f1"
+hash = "71f9ac8b4941f937383606fc7f3661c4d895f34f37315b86a23a0d0a9b599d39"
 metafile = true
 
 [[files]]
@@ -301,7 +301,7 @@ metafile = true
 
 [[files]]
 file = "mods/flow.pw.toml"
-hash = "e8942e9d3b70c6f939af44ddc588c5f8f2fa87247711360e4c1b3dccc4c3b857"
+hash = "83ffccaf309c829a1980d80688d09c036a15ba7c1cbd1cf2ab3237148aa9ba35"
 metafile = true
 
 [[files]]
@@ -447,11 +447,6 @@ metafile = true
 [[files]]
 file = "mods/qsl.pw.toml"
 hash = "a41dbddd6d8d0500fe2dfaa5115ea56393ce8556372da24633ef681273f4dc3c"
-metafile = true
-
-[[files]]
-file = "mods/raised.pw.toml"
-hash = "dc0a117734b1153892a40e65301ee236c9dbe45930f04d7ab6967daaee11214a"
 metafile = true
 
 [[files]]
