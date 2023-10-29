@@ -216,7 +216,6 @@
 - (Nothing)
 
 ### Fabric:
-- cosmetica
 - modelfix
 - replaymod
 - rrls

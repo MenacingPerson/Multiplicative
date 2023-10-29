@@ -10,7 +10,6 @@
     "mods_optional_forge": [],
     "mods_removed": [],
     "mods_removed_fabric": [
-        "cosmetica",
         "modelfix",
         "replaymod",
         "rrls",

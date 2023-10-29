@@ -1,13 +1,13 @@
 name = "Cosmetica"
-filename = "cosmetica-1.20-1.2.5.jar"
+filename = "cosmetica-1.20-1.2.6.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/s9hF9QGp/versions/gwdKlZZc/cosmetica-1.20-1.2.5.jar"
+url = "https://cdn.modrinth.com/data/s9hF9QGp/versions/F4Rhejne/cosmetica-1.20-1.2.6.jar"
 hash-format = "sha1"
-hash = "0145ef87ec4980fd3f79c08f893901b257619dcf"
+hash = "d85b1f0514dab1ebe80e5f38c383fad83c37508c"
 
 [update]
 [update.modrinth]
 mod-id = "s9hF9QGp"
-version = "gwdKlZZc"
+version = "F4Rhejne"

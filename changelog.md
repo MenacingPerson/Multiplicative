@@ -7,15 +7,18 @@ Join my Discord:
 https://inv.wtf/Multiplicative
 
 Updated:
+- Drill
 - Caxton (1.20.1, 1.20.2)
 - Cherished Worlds (1.20.1, 1.20.2)
+- Cosmetica (1.20.1, 1.20.2)
 - CreativeCore (1.20.1)
 - EMI (1.20.1, 1.20.2)
+- Jade (1.20.2)
 - Presence Footsteps (1.20.1, 1.20.2)
-- Raised (1.20.1, 1.20.2)
 - Seamless Loading Screen (1.20.2)
 - Vectorientation (1.20.2)
 - Wakes (1.20.2)
+- Wavey Capes (1.20.2)
 
 Added:
 - AppleSkin (1.20.1, 1.20.2)
@@ -33,7 +36,6 @@ Removed:
 - Raised (1.20.1, 1.20.2)
 
 Disabled temporarily in 1.20.2:
-- Cosmetica
 - Model Gap Fix
 - ReplayMod
 - Remove Reloading Screen

@@ -200,6 +200,11 @@ hash = "ab1c014ce67654e89af779137bdfd1f6f22888af218f44cf5d83e943d0d5fbc4"
 metafile = true
 
 [[files]]
+file = "mods/cosmetica.pw.toml"
+hash = "96d872f67232837b5fa600f1cf7edb254a783e3b081afa206db02811eed579c3"
+metafile = true
+
+[[files]]
 file = "mods/creativecore.pw.toml"
 hash = "c3db7d59e69e69067942dd7e5bfd71bb10ca823c60198c92727c071f022f2789"
 metafile = true
@@ -296,7 +301,7 @@ metafile = true
 
 [[files]]
 file = "mods/flow.pw.toml"
-hash = "eaa747b7dfd9ffb17c71715249cbbda007ab677fc43490aa91990b510f3298e7"
+hash = "02ae09f8a25a45357e131e6e31ed9f80738e39c0570365efa8fcc41ccba9b979"
 metafile = true
 
 [[files]]
@@ -341,7 +346,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "e155f1652743cbc82d1bf0970c6f1759ad2507eabfc409a41dbb604999946b12"
+hash = "5b8a63971dab0cf3c220d5de1f9fcc6157cf991fb73d6d936d311bc37328343c"
 metafile = true
 
 [[files]]
@@ -511,7 +516,7 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "c1a73e1365c070187293067ac39295b45ea3bcf933166d9bed9a0a8bd3762874"
+hash = "1e7b4efab2e9cea7ae5b4646a5fa9fdf90e964d8d5823397a0985ff93ae54093"
 metafile = true
 
 [[files]]
