@@ -167,11 +167,6 @@ hash = "7721e78d990cc15c02f1a03cd6d7652ea995b271a3d19a6ae44829b4c69acbf0"
 metafile = true
 
 [[files]]
-file = "mods/canary.pw.toml"
-hash = "1a060877e79455b31a20e165adb356a517c161eacf3ae503de2fa515e79dea0a"
-metafile = true
-
-[[files]]
 file = "mods/caxton.pw.toml"
 hash = "90d4f33eccd113cef4853fe1248530b740a280390291a4461ddc758d8a19ea4c"
 metafile = true
@@ -203,12 +198,12 @@ metafile = true
 
 [[files]]
 file = "mods/connector-extras.pw.toml"
-hash = "3990f6490ed84eadac2cb007f71a370e8f15c10fea2fc32d031bbe4a4917b6d1"
+hash = "096914067288b27f9b24168ca9e4b601d677f1a1d3e69e7641724d54c25f9ebc"
 metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "94240627d0a20f1fcdb31c784626cca34bf78d32a5b12d20c874916f7cc7e60a"
+hash = "5d0112c0f11aad378d3ea34fc6253987632673a0c15af2204115153f421ffac4"
 metafile = true
 
 [[files]]
@@ -258,7 +253,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "03d33a32ce06757a695427e08a09495d342470cf1028d2fcd5eb082a62f67b61"
+hash = "022a9a1017ffcf3ddd00867b05529d90d1e89ba0928f65f71f4788f889831231"
 metafile = true
 
 [[files]]
@@ -283,7 +278,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "e28c67be4d5873afc664afd1ce7136d2d7c7fba0d62b3dcdd14193ba608ee21d"
+hash = "c44867a6764d49e893b74d279de8c3179402b63e82374b715d19e8d62cc8d4a8"
 metafile = true
 
 [[files]]
@@ -323,12 +318,12 @@ metafile = true
 
 [[files]]
 file = "mods/flow.pw.toml"
-hash = "d6cc432602bc10d3b04f5c7ba2d94a85944c2c8f0cc197ffd848f7abebca26e9"
+hash = "d24141382a143e8c1e84d8ab7f3397ec1865e6813d71d32be11028ab68825da6"
 metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "db60f4a2184f67ae9e54ba378c7a251b73df6dcb7852ae1fd8b9198f34c5a1aa"
+hash = "2cc92962d3e93470b886d5cc6b4e359ae2c7294af7e1faf14461d576ede9a005"
 metafile = true
 
 [[files]]
@@ -352,11 +347,6 @@ hash = "7e9f6a5b564e4fbe92bff784eb13a2565eb5a631ed452cf9b8748e73935ae8b2"
 metafile = true
 
 [[files]]
-file = "mods/indium.pw.toml"
-hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
-metafile = true
-
-[[files]]
 file = "mods/isometric-renders.pw.toml"
 hash = "75ae35db534fd000d29631884ea2a10f81dd49fb3cb3ea426cb6901ca2a30bdf"
 metafile = true
@@ -374,6 +364,11 @@ metafile = true
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "a626674fc1092afe5ccc6cbf4856c09119e42395494f1c3862eed2ab17da0221"
+metafile = true
+
+[[files]]
+file = "mods/lazurite.pw.toml"
+hash = "c397996477dbd2c0055f4737422f8882f890afb6084003ec465f34067dbcf4f4"
 metafile = true
 
 [[files]]
@@ -398,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "262738c00df7a1815729fde1a9527298d2c1b6dbb3e53465063147fa52ee9dc7"
+hash = "cee43ab4748d906c4494abe01ff8b5756c517cc04b3f1ab5a0843b5d8d7eb44a"
 metafile = true
 
 [[files]]
@@ -468,7 +463,7 @@ metafile = true
 
 [[files]]
 file = "mods/rubidium-extra.pw.toml"
-hash = "095dae1292ba5902b5e2abce6b85ef18d92e0131bce67fdb03b59b6b9fef848c"
+hash = "4784b541326dacd7cd2875896cf0b3d6cf79fb0194dbca21d691b0f5083a8030"
 metafile = true
 
 [[files]]

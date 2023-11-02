@@ -124,7 +124,7 @@ metafile = true
 
 [[files]]
 file = "mods/flow.pw.toml"
-hash = "d6cc432602bc10d3b04f5c7ba2d94a85944c2c8f0cc197ffd848f7abebca26e9"
+hash = "d24141382a143e8c1e84d8ab7f3397ec1865e6813d71d32be11028ab68825da6"
 metafile = true
 
 [[files]]

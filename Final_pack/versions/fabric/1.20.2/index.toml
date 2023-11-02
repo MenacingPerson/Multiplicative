@@ -201,7 +201,7 @@ metafile = true
 
 [[files]]
 file = "mods/cosmetica.pw.toml"
-hash = "96d872f67232837b5fa600f1cf7edb254a783e3b081afa206db02811eed579c3"
+hash = "470c8d89da49735ddeebfe85c25bf6503073650db862815d0e04713ef58ecde9"
 metafile = true
 
 [[files]]
@@ -301,7 +301,7 @@ metafile = true
 
 [[files]]
 file = "mods/flow.pw.toml"
-hash = "02ae09f8a25a45357e131e6e31ed9f80738e39c0570365efa8fcc41ccba9b979"
+hash = "56d4ff9e94f325d694b0f73b307110319d078b56c8c4d189596570f2460f83f7"
 metafile = true
 
 [[files]]
