@@ -200,10 +200,14 @@
 - ItemPhysic Lite
 - Jade 🔍
 - Make Bubbles Pop
+- Model Gap Fix
 - No Chat Reports
 - Not Enough Animations
+- Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen 
+- Smooth Swapping
+- Sound Physics Remastered
 - spark
 - SuperMartijn642's Config Lib
 - Wavey Capes
