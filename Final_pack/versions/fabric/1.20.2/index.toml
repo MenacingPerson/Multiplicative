@@ -69,6 +69,10 @@ file = "config/yosbr/config/ferritecore.mixin.properties"
 hash = "2fee62477522b340fb814284e126749bd7858d2f7c17a2400d09644e5c4d725d"
 
 [[files]]
+file = "config/yosbr/config/flow.config.json"
+hash = "1a2b335b5c1236b29749b49fef186344a995d502ce005ed43d510fc48fdeb9b0"
+
+[[files]]
 file = "config/yosbr/config/iris.properties"
 hash = "4b404c16b82563e05e0cc8dc1218eb6194b2aa4473f348ff0c0c7a8655d9b5ff"
 
@@ -166,7 +170,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "837b9cbf20198012dec36933906ac3e448358150efef53c45426260ffc8dd76e"
+hash = "672e43d91d3cd8332a43df96358dea26b4eda3291b84a536092416f4f56d99df"
 metafile = true
 
 [[files]]
@@ -380,6 +384,11 @@ hash = "ac2ca5caef9ddb4fd53c035bfaf07026f12bcdb162d19c2fa473bdec8fbec630"
 metafile = true
 
 [[files]]
+file = "mods/modelfix.pw.toml"
+hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "b50ea3f021933d82142587865b7f5998c36b5463613c61c85798cb9ca66e2f45"
 metafile = true
@@ -397,6 +406,11 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "be1f88824f7ceb008ce38ae763a93921db0c27db68577fdb16c29c6a085ec1f3"
+metafile = true
+
+[[files]]
+file = "mods/mru.pw.toml"
+hash = "28c6628c17eabf890ddbb48344b2cc578677994968f6e610e63b6a25f68d694d"
 metafile = true
 
 [[files]]
@@ -462,6 +476,11 @@ metafile = true
 [[files]]
 file = "mods/server-pack-unlocker.pw.toml"
 hash = "e50f824096c786528a4ff6e610f48aaeec638111c27660eb3f455882bee8ef2a"
+metafile = true
+
+[[files]]
+file = "mods/smooth-swapping.pw.toml"
+hash = "9f38461b4e2c233243c2149dd495f9992672cba45088557a29f93dc3b8cd12f4"
 metafile = true
 
 [[files]]

@@ -81,6 +81,10 @@ file = "config/yosbr/config/ferritecore.mixin.properties"
 hash = "2fee62477522b340fb814284e126749bd7858d2f7c17a2400d09644e5c4d725d"
 
 [[files]]
+file = "config/yosbr/config/flow.config.json"
+hash = "1a2b335b5c1236b29749b49fef186344a995d502ce005ed43d510fc48fdeb9b0"
+
+[[files]]
 file = "config/yosbr/config/iris.properties"
 hash = "4b404c16b82563e05e0cc8dc1218eb6194b2aa4473f348ff0c0c7a8655d9b5ff"
 
@@ -168,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "90d4f33eccd113cef4853fe1248530b740a280390291a4461ddc758d8a19ea4c"
+hash = "a13ff17c9e92d4a9493641d25f180ab81012270ab7cfc5465772c52c86b935ab"
 metafile = true
 
 [[files]]
@@ -402,6 +406,11 @@ hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
 metafile = true
 
 [[files]]
+file = "mods/mru.pw.toml"
+hash = "051b1bee4a7fd8f2a55753fe95eda061e0f2a724c5b8ad38d2ca3619c88f2fae"
+metafile = true
+
+[[files]]
 file = "mods/nicer-skies.pw.toml"
 hash = "ddbcdf60f634287b6df241a873fc07b4ce56facfb358a0a74cb1df9acff97725"
 metafile = true
@@ -488,7 +497,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-swapping.pw.toml"
-hash = "5a523fb19287c6ce690ed0b7986e07e7002b878d980204226c3cde04e85baa77"
+hash = "f7078957bab04a8b8e86e759c21d8e05d0c9c9fa353514f16d400b76a1edde84"
 metafile = true
 
 [[files]]

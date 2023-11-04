@@ -40,6 +40,7 @@
 - Make Bubbles Pop
 - Model Gap Fix
 - MoreChatHistory
+- M.R.U
 - Nicer Skies
 - No Chat Reports
 - Not Enough Animations
@@ -91,6 +92,7 @@
 - Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen 
+- Smooth Swapping
 - Sound Physics Remastered
 - spark
 - SuperMartijn642's Config Lib
@@ -152,6 +154,7 @@
 - Make Bubbles Pop
 - Model Gap Fix
 - MoreChatHistory
+- M.R.U
 - Nicer Skies
 - No Chat Reports
 - Not Enough Animations
@@ -216,11 +219,9 @@
 - (Nothing)
 
 ### Fabric:
-- modelfix
 - replaymod
 - rrls
 - skinshuffle
-- smooth-swapping
 - sound-physics-remastered
 
 ### Forge:

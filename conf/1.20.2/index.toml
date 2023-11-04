@@ -9,6 +9,10 @@ file = "config/yosbr/config/durabilitytooltip-common.toml"
 hash = "36b8ca12bd78785a278d2d6ef6119104b95f338b65e4c185b1caa70805565bd0"
 
 [[files]]
+file = "config/yosbr/config/flow.config.json"
+hash = "1a2b335b5c1236b29749b49fef186344a995d502ce005ed43d510fc48fdeb9b0"
+
+[[files]]
 file = "config_forge/fabric_loader_dependencies.json"
 hash = "6f5bbb588fc23d8c873dc5f3cec789b6e96fe46e530e45646dd546dbb1e12e1b"
 
@@ -64,7 +68,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "837b9cbf20198012dec36933906ac3e448358150efef53c45426260ffc8dd76e"
+hash = "672e43d91d3cd8332a43df96358dea26b4eda3291b84a536092416f4f56d99df"
 metafile = true
 
 [[files]]
@@ -173,6 +177,11 @@ hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
 metafile = true
 
 [[files]]
+file = "mods/mru.pw.toml"
+hash = "28c6628c17eabf890ddbb48344b2cc578677994968f6e610e63b6a25f68d694d"
+metafile = true
+
+[[files]]
 file = "mods/nicer-skies.pw.toml"
 hash = "740561bdea8bc9be18c80f740b05e51a8ff890b1e2ba7edb6d04ba936faaceed"
 metafile = true
@@ -239,7 +248,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-swapping.pw.toml"
-hash = "5a523fb19287c6ce690ed0b7986e07e7002b878d980204226c3cde04e85baa77"
+hash = "9f38461b4e2c233243c2149dd495f9992672cba45088557a29f93dc3b8cd12f4"
 metafile = true
 
 [[files]]
@@ -319,7 +328,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/caxton.pw.toml"
-hash = "a3d22c9f022e2a4d807b2ddc6218106b8b0ed903266b53cfb8c64e3ab525953f"
+hash = "ed02076320ea8f335318eaf6a063fd46974b330e23b8f5a911d46ab675adc5a4"
 metafile = true
 
 [[files]]
