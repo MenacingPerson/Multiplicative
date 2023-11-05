@@ -19,7 +19,8 @@
         "lambdabettergrass"
     ],
     "mods_removed_forge": [
-        "cosmetica",
-        "remember-my-txt"
+        "amecs",
+        "carpet",
+        "cosmetica"
     ]
 }
