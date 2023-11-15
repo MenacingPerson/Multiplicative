@@ -28,7 +28,7 @@ cp ../.cache/unsup-$unsup_ver.jar unsup.jar
 
 cp ../unsup.ini .
 
-sed -i "s|mcver|$modloader/$mc_version|g" unsup.ini
+sed -i "s|!!mcver!!|$modloader/$mc_version|g" unsup.ini
 
 packwiz refresh
 
