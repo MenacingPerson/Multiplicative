@@ -17,6 +17,6 @@ do
     fi
 done
 
-./scripts/gen_mod_list.sh > ./mod-list.md
+./scripts/gen_mod_list.sh > ./conf/mod-list.md
 
 cp additive/LICENSE ./unsup/versions
