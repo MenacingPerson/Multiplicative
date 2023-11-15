@@ -1,6 +1,6 @@
 # Multiplicative
 
-My custom modpack, meant to be played on servers and singleplayer
+A custom modpack, meant to be vanilla-like
 
 # Mod list
 
@@ -15,9 +15,11 @@ Add unsup as a java agent in Prism Launcher directly or use `-javaagent:unsup.ja
 # Usage as a base for another pack
 
 For this purpose, you can clone this modpack repo and use it as a template to develop your own.
-All branding is contained within the `base_config.json`.
-Thus, the only file you would need to change is the `base_config.json`, the config folder (`conf`) and `README.md`.
+
+The only files you would need to change are the `base_config.json` (in which all branding should be contained), the config folder (`conf`) and `README.md`.
+
 Also, you would need to remove all branding of `Multiplicative` from this pack.
+
 (Please credit me, though!)
 
 # Compiling modpack
