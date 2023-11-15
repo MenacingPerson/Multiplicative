@@ -134,7 +134,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "a3caf4dd0a0d0a739c8f00a7d81b74c9ae7fdb58b250ddc9b466213dbd385a80"
+hash = "3ad3b51c673d4839d7c8cadb9172bfdb9b44e69cb645c3d8aec2704f3410baf5"
 metafile = true
 
 [[files]]
@@ -179,12 +179,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "672e43d91d3cd8332a43df96358dea26b4eda3291b84a536092416f4f56d99df"
+hash = "8e211923a36440a09c3599fcf45d91b31ac36635fb3906d3fda43522f23abdbc"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "175b8367c59ebb8fd86daa321c17764c3a8ee056358c0b048ea644404471b632"
+hash = "7fa5f4a03897949cc7452d9861be5dcb7d938eadb44b3c2c802832d30d7026be"
 metafile = true
 
 [[files]]
@@ -234,7 +234,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "2e84ccfb19ba6e255f7fb32366a7fb1921f84d364e146f1605b9f6016af5b0aa"
+hash = "1d785b49b32811ff3c9d734aafcabe4fa6f6d56f2f7a2053d1181524c1d33379"
 metafile = true
 
 [[files]]
@@ -254,7 +254,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "84097218001613b77efb246a06a670ab393f149818482e8519c7e49c2b897cf8"
+hash = "f84192fd379617a845a048e57291a0eea8973f24aae2d2be6923196f2784a26c"
 metafile = true
 
 [[files]]
@@ -319,7 +319,7 @@ metafile = true
 
 [[files]]
 file = "mods/flow.pw.toml"
-hash = "56d4ff9e94f325d694b0f73b307110319d078b56c8c4d189596570f2460f83f7"
+hash = "c823af4efe1d64c6ac72ae487e81d05618dd852a37a5fcb8496d6a92febb38f4"
 metafile = true
 
 [[files]]
@@ -364,7 +364,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "5b8a63971dab0cf3c220d5de1f9fcc6157cf991fb73d6d936d311bc37328343c"
+hash = "ad13fd19645969d61b132e7921520b630617f20f2e39dcd21c3e51ff8e24547c"
 metafile = true
 
 [[files]]
@@ -479,7 +479,7 @@ metafile = true
 
 [[files]]
 file = "mods/rsls.pw.toml"
-hash = "c88a2f7d74117f46baff4961fbbdfda64ec34c21097c148f4e711e7331826b00"
+hash = "3521a2a19031d94429fbae9b17fda816e7bf024600a19af40efeec9aeeec32d4"
 metafile = true
 
 [[files]]
@@ -489,7 +489,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless-loading-screen.pw.toml"
-hash = "0dee922f90d4702affa65ff8f17ea2d468ef382e1855bbbdadf4aedc9873ad86"
+hash = "8215fde5b111f73befeafb7b6607eae3ee908a6f0dcfeeefb32eb7df65c5bc73"
 metafile = true
 
 [[files]]
@@ -514,7 +514,7 @@ metafile = true
 
 [[files]]
 file = "mods/sonance.pw.toml"
-hash = "b3e053c6a209e522e45bed643cebbba312ce91bd2d5056cb67212e88eb4d239c"
+hash = "ede7651846f1bddad82db71ec09a411e3ec48712eb5d6c728cd65260efe238c7"
 metafile = true
 
 [[files]]

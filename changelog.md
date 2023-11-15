@@ -7,11 +7,15 @@ Join my Discord:
 https://inv.wtf/Multiplicative
 
 Updated:
-- Drill
+- Additive (Fabric/Quilt)
+- Architectury API (1.20.2)
 - Caxton (1.20.1, 1.20.2)
+- Chat Heads (1.20.1, 1.20.2)
 - Cherished Worlds (1.20.1, 1.20.2)
 - Cosmetica (1.20.1, 1.20.2)
 - CreativeCore (1.20.1)
+- Do a Barrel Roll (1.20.1, 1.20.2)
+- Drill (Forge)
 - EMI (1.20.1, 1.20.2)
 - Jade (1.20.2)
 - Model Gap Fix (1.20.2)

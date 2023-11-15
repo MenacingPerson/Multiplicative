@@ -170,12 +170,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "2733cbb32e87bc987f05627618a1e8f11b9cb2b701c7a05304e5f98bd8f8cfdd"
+hash = "e38aeca2777098281a66b9cdd1fd5566a28534a86566211364b156301d054bf1"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "0159525d452d7e755045223330b3bfc0a3df5491c4a83beee9f00af0b68b8758"
+hash = "4c47dc1b5aa64bf99ea79086f02fc4d1bc79922098fc2c0e3d84a68e3c36dd10"
 metafile = true
 
 [[files]]
@@ -215,7 +215,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "5ed437c14268d539c9ec53a01ad1f9a686a4c1a60268bd8862a3b8c7a8e9ef63"
+hash = "d3fef41a6ee2c03cbd9a8116c78db0c38869cc6b37e2114737cc89ce5de598d1"
 metafile = true
 
 [[files]]
@@ -225,7 +225,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "2e84ccfb19ba6e255f7fb32366a7fb1921f84d364e146f1605b9f6016af5b0aa"
+hash = "4e2e4014bc2fd65512ea067da78d83a3f2935f47acc019c2e40adc3d2569af22"
 metafile = true
 
 [[files]]
@@ -250,7 +250,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "61d4f489d43922fb32e1868ddce2129ecfaddb40e42029908d41142057a28f89"
+hash = "9884c9af4ba83cbdf8bc6b102a257068566641a17d2c6dde63dcf41d0dd0603e"
 metafile = true
 
 [[files]]
@@ -305,7 +305,7 @@ metafile = true
 
 [[files]]
 file = "mods/flow.pw.toml"
-hash = "d24141382a143e8c1e84d8ab7f3397ec1865e6813d71d32be11028ab68825da6"
+hash = "9cef02a7279a9f6f4946de127642c6fcc02082089585fd1a2e33210313d3f7b3"
 metafile = true
 
 [[files]]
@@ -480,7 +480,7 @@ metafile = true
 
 [[files]]
 file = "mods/rsls.pw.toml"
-hash = "c88a2f7d74117f46baff4961fbbdfda64ec34c21097c148f4e711e7331826b00"
+hash = "3521a2a19031d94429fbae9b17fda816e7bf024600a19af40efeec9aeeec32d4"
 metafile = true
 
 [[files]]
@@ -520,7 +520,7 @@ metafile = true
 
 [[files]]
 file = "mods/sonance.pw.toml"
-hash = "05ea6743364724e8ad786de3dc21ef8faa5534d15bec51286bc900392c1e8de9"
+hash = "ce387b103b215be0407fb5fb996b89c3a4628df51a4a5d059bd89a3de758cbb7"
 metafile = true
 
 [[files]]
@@ -535,7 +535,7 @@ metafile = true
 
 [[files]]
 file = "mods/stendhal.pw.toml"
-hash = "83646326afae6c338ed6c1f686387269e8a239aa81034e58d157bd374eec8570"
+hash = "f891cc32728a13dec5d8763f86b926498eb745b3bd80676120292bacd03e51ab"
 metafile = true
 
 [[files]]
