@@ -1,7 +1,6 @@
 # Release 3.6.0
 
 Updated fabric and quilt loaders
-Recursive Resources has been moved to fabric-only
 
 Join my Discord:
 
@@ -10,6 +9,7 @@ https://inv.wtf/Multiplicative
 Updated:
 - Additive (Fabric/Quilt)
 - Architectury API (1.20.2)
+- Better Clouds (1.20.1, 1.20.2)
 - Caxton (1.20.1, 1.20.2)
 - Chat Heads (1.20.1, 1.20.2)
 - Cherished Worlds (1.20.1, 1.20.2)
@@ -29,7 +29,7 @@ Updated:
 
 Added:
 - AppleSkin (1.20.1, 1.20.2)
-- C2ME (1.20.1, 1.20.2)
+- C2ME (1.20.1, 1.20.2 fabric/quilt)
 - Chunky (1.20.1, 1.20.2)
 - DeathLog (1.20.1, 1.20.2)
 - Flow (1.20.1, 1.20.2)
@@ -41,7 +41,11 @@ Added:
 - Stendhal (1.20.1, 1.20.2)
 
 Removed:
+- Better Clouds (1.20.1 forge)
 - Raised (1.20.1, 1.20.2)
+- Recursive Resources (1.20.1 forge/quilt)
+- SkinShuffle (1.20.1 forge)
+- Smooth Swapping (1.20.1 forge)
 
 Disabled temporarily in 1.20.2:
 - ReplayMod

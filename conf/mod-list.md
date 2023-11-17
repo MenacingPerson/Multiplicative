@@ -113,8 +113,12 @@
 
 ### Forge:
 - amecs
+- better-clouds
+- c2me-fabric
 - carpet
 - cosmetica
+- skinshuffle
+- smooth-swapping
 
 
 # Version 1.20.2:
@@ -220,7 +224,7 @@
 ## Removed from Additive
 
 ### All:
-- (Nothing)
+- capes
 
 ### Fabric:
 - replaymod

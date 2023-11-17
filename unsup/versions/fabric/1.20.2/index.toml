@@ -144,7 +144,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "3e8315499cccae2636ff5ea386882ed71deeeab35e70aba5deb987aa7f6f4c25"
+hash = "8c1dd55cfe2b56e32e3b2690a242688c9b1641e3bc3cdb57b11d0294e3a07380"
 metafile = true
 
 [[files]]
@@ -165,11 +165,6 @@ metafile = true
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "9ab9f1ada10bc693019cdfea96fa09bcbaa3f27c8350e2e23fc45927f838cd9b"
-metafile = true
-
-[[files]]
-file = "mods/capes.pw.toml"
-hash = "617563db0d44229fb65eb660130d02d1a4d2f29233eda03b68d3273e700326f8"
 metafile = true
 
 [[files]]

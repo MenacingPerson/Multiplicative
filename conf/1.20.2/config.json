@@ -8,7 +8,9 @@
     "mods_optional_fabric": [],
     "mods_optional_quilt": [],
     "mods_optional_forge": [],
-    "mods_removed": [],
+    "mods_removed": [
+        "capes"
+    ],
     "mods_removed_fabric": [
         "replaymod",
         "rrls",

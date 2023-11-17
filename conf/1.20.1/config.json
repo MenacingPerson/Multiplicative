@@ -19,7 +19,12 @@
     ],
     "mods_removed_forge": [
         "amecs",
+        "better-clouds",
+        "c2me-fabric",
         "carpet",
-        "cosmetica"
+        "cosmetica",
+        "oculus",
+        "skinshuffle",
+        "smooth-swapping"
     ]
 }

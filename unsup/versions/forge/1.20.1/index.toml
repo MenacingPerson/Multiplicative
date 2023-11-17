@@ -146,11 +146,6 @@ hash = "e954c2f9ea9195ef558f0cb7dbc7057f2086348fc4a78186bc399145c18b4bb9"
 metafile = true
 
 [[files]]
-file = "mods/better-clouds.pw.toml"
-hash = "86550f2ea052d6a90a665747f1983674d1c0207d243e4eac4702573589c4a0a3"
-metafile = true
-
-[[files]]
 file = "mods/better-trim-tooltips.pw.toml"
 hash = "c0b4399adb48c2b8d9304d01d621c836b3c0a0faecab519108f62d40a5ee8bef"
 metafile = true
@@ -163,11 +158,6 @@ metafile = true
 [[files]]
 file = "mods/borderless-mining.pw.toml"
 hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
-metafile = true
-
-[[files]]
-file = "mods/c2me-fabric.pw.toml"
-hash = "7721e78d990cc15c02f1a03cd6d7652ea995b271a3d19a6ae44829b4c69acbf0"
 metafile = true
 
 [[files]]
@@ -207,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "9a828921bd3198d1825ac128565e574f7b5cc42483951a1dde8c8ef52a585f77"
+hash = "6061aa113cf0a8eaa5844613960799f10d2bfc12801789fa50171bf5984c5cb9"
 metafile = true
 
 [[files]]
@@ -222,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "3c3c54a5455e74af9b194ece54602dd71b94eb4436398207eaba263abded4a80"
+hash = "b01b6ab415989da371428682d9f3b7e056f8c365b4dd8102a323b47a5595d1da"
 metafile = true
 
 [[files]]
@@ -257,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "7df65dc51b6f723fe2c3bcb060510f89da8dbca4bb13292d48c9254b69972c96"
+hash = "8f092eb1e79c0cba82a38996191ae92406db4e120325b4838deba6b231cd0d90"
 metafile = true
 
 [[files]]
@@ -327,7 +317,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "5952e3c01bb5e84fcfe8b5f2721d77687ce90493f29ea017b58ef7a8c0e00516"
+hash = "30b4357201f670c9904b7dd301bcaf28046d57f02cbc4d6d72ec789e75ae1572"
 metafile = true
 
 [[files]]
@@ -397,7 +387,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "bfbf0702a94ffb84a45158abccc21177e9ab4c094bad66b995bd7a7263425c84"
+hash = "ed810d6126283df7ca919ecdfaae8e78589230cfc7d6feed5ea7e7ab68138ae3"
 metafile = true
 
 [[files]]
@@ -462,7 +452,7 @@ metafile = true
 
 [[files]]
 file = "mods/rubidium-extra.pw.toml"
-hash = "4784b541326dacd7cd2875896cf0b3d6cf79fb0194dbca21d691b0f5083a8030"
+hash = "a4b1aca5e959bc7ecad268c61de62704c92ffa16087194f6f74eab868fd0bcd7"
 metafile = true
 
 [[files]]
@@ -478,16 +468,6 @@ metafile = true
 [[files]]
 file = "mods/server-pack-unlocker.pw.toml"
 hash = "e053efc45b146cc3d66ec1a723cd1ab03a1de3d1029d550e750f84329e6899c9"
-metafile = true
-
-[[files]]
-file = "mods/skinshuffle.pw.toml"
-hash = "bcc86c010aa0fc0175369f3a50f184c805d749fc6233b9f38f6624ccd3d93c69"
-metafile = true
-
-[[files]]
-file = "mods/smooth-swapping.pw.toml"
-hash = "f7078957bab04a8b8e86e759c21d8e05d0c9c9fa353514f16d400b76a1edde84"
 metafile = true
 
 [[files]]
@@ -517,7 +497,7 @@ metafile = true
 
 [[files]]
 file = "mods/textrues-embeddium-options.pw.toml"
-hash = "f76a3b5b2df7cc7707b1b0de586af8175072ecb757a96c5b5aac2b4046b7335a"
+hash = "6d6f38ed97a83a65a42cedacef640faa54f00f04f3384a604911235c97d53020"
 metafile = true
 
 [[files]]
