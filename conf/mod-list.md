@@ -46,7 +46,6 @@
 - Not Enough Animations
 - oωo (owo-lib)
 - Presence Footsteps
-- Recursive Resources
 - ReplayMod
 - Remove Reloading Screen
 - Raise Sound Limit Simplified
@@ -68,6 +67,7 @@
 
 ### Fabric:
 - LibJF
+- Recursive Resources
 - Respackopts
 
 ### Forge:
@@ -160,7 +160,6 @@
 - Not Enough Animations
 - oωo (owo-lib)
 - Presence Footsteps
-- Recursive Resources
 - ReplayMod
 - Remove Reloading Screen
 - Raise Sound Limit Simplified
@@ -182,6 +181,7 @@
 
 ### Fabric:
 - LibJF
+- Recursive Resources
 - Respackopts
 
 ### Forge:

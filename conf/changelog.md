@@ -1,6 +1,7 @@
 # Release 3.6.0
 
 Updated fabric and quilt loaders
+Recursive Resources has been moved to fabric-only
 
 Join my Discord:
 

@@ -207,11 +207,6 @@ hash = "7a6c27fcdf9d6e4c25ad433a676357353b8d6125433e7a883de4ddb889767f88"
 metafile = true
 
 [[files]]
-file = "mods/recursiveresources.pw.toml"
-hash = "a31bc2e0d4721a7d48388c7e2c2bac5f66fa775aee6d4f2e4b4b4c4b340ca2dd"
-metafile = true
-
-[[files]]
 file = "mods/replaymod.pw.toml"
 hash = "86d17a50f7c7ebf452dd61b77678ae9239e86be268aad72c170c86533ad5e45d"
 metafile = true
@@ -304,6 +299,11 @@ metafile = true
 [[files]]
 file = "mods_fabric/libjf.pw.toml"
 hash = "fd1b685219022148a51b5834f9c424a148025ef673ce50c935c2388e08d0040a"
+metafile = true
+
+[[files]]
+file = "mods_fabric/recursiveresources.pw.toml"
+hash = "a31bc2e0d4721a7d48388c7e2c2bac5f66fa775aee6d4f2e4b4b4c4b340ca2dd"
 metafile = true
 
 [[files]]
