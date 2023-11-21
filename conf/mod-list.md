@@ -117,6 +117,7 @@
 - c2me-fabric
 - carpet
 - cosmetica
+- oculus
 - skinshuffle
 - smooth-swapping
 
@@ -228,8 +229,6 @@
 
 ### Fabric:
 - replaymod
-- rrls
-- skinshuffle
 - sound-physics-remastered
 
 ### Forge:

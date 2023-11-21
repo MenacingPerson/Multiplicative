@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "24055f2f76ec2fc4f58236fd80d203cdaca3a2cbf6a01d449fb1231bb3c921a5"
+hash = "a452520d8c0e1adbe18dd9fd46627df7e7d28dd9a6766d0c00f0035a5862c988"
 metafile = true
 
 [[files]]
@@ -413,11 +413,6 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "dae4dd79e8db2daea3ec318b456fc0e30f529b9acca0a444b4ce7d1debfca143"
-metafile = true
-
-[[files]]
-file = "mods/oculus.pw.toml"
-hash = "2ea000cf1f9f75edc2d1c0862d77d08fc0bbc72182b9fb2b89aa210daeba6431"
 metafile = true
 
 [[files]]
