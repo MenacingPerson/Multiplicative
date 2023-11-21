@@ -19,9 +19,13 @@ Updated:
 - Drill (Forge)
 - EMI (1.20.1, 1.20.2)
 - Jade (1.20.2)
+- LibJF (1.20.2 fabric)
 - Model Gap Fix (1.20.2)
 - Presence Footsteps (1.20.1, 1.20.2)
+- Remove Reloading Screen (1.20.2)
+- Respackopts (1.20.2 fabric)
 - Seamless Loading Screen (1.20.2)
+- SkinShuffle (1.20.2)
 - Smooth Swapping (1.20.1, 1.20.2)
 - Vectorientation (1.20.2)
 - Wakes (1.20.2)
@@ -49,6 +53,4 @@ Removed:
 
 Disabled temporarily in 1.20.2:
 - ReplayMod
-- Remove Reloading Screen
-- SkinShuffle
 - Sound Physics Remastered

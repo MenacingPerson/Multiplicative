@@ -33,7 +33,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "3ad3b51c673d4839d7c8cadb9172bfdb9b44e69cb645c3d8aec2704f3410baf5"
+hash = "eef03feff50e59b521c09d9c456d5cd5d799b8e7e3f8cc62a17f5e64cb230f44"
 metafile = true
 
 [[files]]
@@ -73,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "7fa5f4a03897949cc7452d9861be5dcb7d938eadb44b3c2c802832d30d7026be"
+hash = "420d3fa25e812aae18e3379c980be9925a8e7285fa99b95f4cf53fb1d4c3181f"
 metafile = true
 
 [[files]]
@@ -93,7 +93,7 @@ metafile = true
 
 [[files]]
 file = "mods/cosmetica.pw.toml"
-hash = "470c8d89da49735ddeebfe85c25bf6503073650db862815d0e04713ef58ecde9"
+hash = "39e9c0113d6fc8419671305ef8d1e4eb1b4d45739ac483722c541e4dc8d00f4b"
 metafile = true
 
 [[files]]
@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/rrls.pw.toml"
-hash = "e96bb13c530a62100ad228f1c59f0fc37ceb91ec3e622a0a5d0e32cbe5d95424"
+hash = "f0df88464f6600beaa7454e686f40aa69e4d916672cd9bfb15f8aa8614848fb1"
 metafile = true
 
 [[files]]
@@ -238,7 +238,7 @@ metafile = true
 
 [[files]]
 file = "mods/skinshuffle.pw.toml"
-hash = "bcc86c010aa0fc0175369f3a50f184c805d749fc6233b9f38f6624ccd3d93c69"
+hash = "ab4921e6b76728f012e3cf566f0bbc9418961104b8ec616d7cb602b1b597b39c"
 metafile = true
 
 [[files]]
@@ -298,7 +298,7 @@ metafile = true
 
 [[files]]
 file = "mods_fabric/libjf.pw.toml"
-hash = "497a0ebb0287f2a2d813a59e706f5e472b501c2b5a66508d195e3d3fbea10794"
+hash = "114baf519e01bed544675e15cc4abd11a5dd7837769d2bcdc77a3a639f6dee30"
 metafile = true
 
 [[files]]
@@ -308,7 +308,7 @@ metafile = true
 
 [[files]]
 file = "mods_fabric/respackopts.pw.toml"
-hash = "d1933e5bae58b915ad72da111370cc94a353bcee2a0e19afcf7013dba22bd23c"
+hash = "d8feef9f570f3ee7ede6fc6ef956cce15183d58edbaa89054d42cb5520d052df"
 metafile = true
 
 [[files]]
@@ -323,7 +323,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/architectury-api.pw.toml"
-hash = "accff9e416acd75e7ad60f77cff7ed9617d18a652c55eb8a05e6da17bb01924c"
+hash = "34519fc71bf18bdf6c11be7d91aaa4012b14678d4d08b2aede3f93bf5b93610b"
 metafile = true
 
 [[files]]
@@ -333,7 +333,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/chat-heads.pw.toml"
-hash = "f3f08867a7861bd4dcb8233301589e52fe33fc5e8e76255111c16b2a6e8c3480"
+hash = "ae9bc8a4a14e7ff40aea21af8f5ad0bde399694af73bb273d46d20ff747c9ecf"
 metafile = true
 
 [[files]]

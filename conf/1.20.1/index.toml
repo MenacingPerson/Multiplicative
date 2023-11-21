@@ -73,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "4c47dc1b5aa64bf99ea79086f02fc4d1bc79922098fc2c0e3d84a68e3c36dd10"
+hash = "cf7630fc7cb67645d9721797b28b300ac24506ae7d21c2b615edec015a181536"
 metafile = true
 
 [[files]]
@@ -93,12 +93,12 @@ metafile = true
 
 [[files]]
 file = "mods/cosmetica.pw.toml"
-hash = "98d9d3c387e65c41a6a1d9daa432a10e70df0ac6a20482cbf2751378e5d5f8d4"
+hash = "7947b685261f82a074e1f8794650b1bcd066e79a2624c42147a6d15478df6aea"
 metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "d3fef41a6ee2c03cbd9a8116c78db0c38869cc6b37e2114737cc89ce5de598d1"
+hash = "03ef689c3c008fdc1215f1cfa4f78783d390adfde90176a2b580a2363f2ec4e1"
 metafile = true
 
 [[files]]
@@ -333,7 +333,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/chat-heads.pw.toml"
-hash = "24055f2f76ec2fc4f58236fd80d203cdaca3a2cbf6a01d449fb1231bb3c921a5"
+hash = "a452520d8c0e1adbe18dd9fd46627df7e7d28dd9a6766d0c00f0035a5862c988"
 metafile = true
 
 [[files]]
