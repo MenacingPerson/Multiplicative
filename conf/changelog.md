@@ -52,5 +52,6 @@ Removed:
 - Smooth Swapping (1.20.1 forge)
 
 Disabled temporarily in 1.20.2:
+- Better Trim Tooltips
 - ReplayMod
 - Sound Physics Remastered

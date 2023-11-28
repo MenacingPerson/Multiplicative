@@ -148,11 +148,6 @@ hash = "8c1dd55cfe2b56e32e3b2690a242688c9b1641e3bc3cdb57b11d0294e3a07380"
 metafile = true
 
 [[files]]
-file = "mods/better-trim-tooltips.pw.toml"
-hash = "c0b4399adb48c2b8d9304d01d621c836b3c0a0faecab519108f62d40a5ee8bef"
-metafile = true
-
-[[files]]
 file = "mods/blur-fabric.pw.toml"
 hash = "68a120db2b2c4db5fbfde501a6ee0504c692f3b1e777cc4dd85f1cb90c84dcd0"
 metafile = true

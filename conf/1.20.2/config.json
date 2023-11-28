@@ -12,6 +12,7 @@
         "capes"
     ],
     "mods_removed_fabric": [
+        "better-trim-tooltips",
         "replaymod",
         "sound-physics-remastered"
     ],

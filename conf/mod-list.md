@@ -228,6 +228,7 @@
 - capes
 
 ### Fabric:
+- better-trim-tooltips
 - replaymod
 - sound-physics-remastered
 

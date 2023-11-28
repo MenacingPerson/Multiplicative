@@ -15,7 +15,8 @@
     ],
     "mods_removed_fabric": [],
     "mods_removed_quilt": [
-        "lambdabettergrass"
+        "lambdabettergrass",
+        "replaymod"
     ],
     "mods_removed_forge": [
         "amecs",
