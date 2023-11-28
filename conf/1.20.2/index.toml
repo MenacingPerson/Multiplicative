@@ -68,7 +68,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "8e211923a36440a09c3599fcf45d91b31ac36635fb3906d3fda43522f23abdbc"
+hash = "79b1b013d5372a47da134e8ddc2f0ccd1441073548425de864ee5854106fce05"
 metafile = true
 
 [[files]]
@@ -328,7 +328,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/caxton.pw.toml"
-hash = "d65b0305dfbf61ac6cdfc3038139da9a82f8338231f72ce08d4af4f9d4fb2cef"
+hash = "04b65c69ca7af5dc90b40d11fd171009157fbcfdc0eb0cf53cf707145341e00b"
 metafile = true
 
 [[files]]
