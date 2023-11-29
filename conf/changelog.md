@@ -3,6 +3,7 @@
 Updated fabric and quilt loaders
 Replay Mod broke on quilt and forge, it was removed
 Better Trim Tooltips is also broken with EMI on 1.20.2
+Flow may crash your game, if that occurs try deleting that mod
 
 Join my Discord:
 
