@@ -112,12 +112,13 @@
 - (Nothing)
 
 ### Forge:
+- auth-me
 - amecs
 - better-clouds
 - c2me-fabric
 - carpet
-- cosmetica
 - oculus
+- replaymod
 - skinshuffle
 - smooth-swapping
 
@@ -233,6 +234,12 @@
 - sound-physics-remastered
 
 ### Forge:
+- auth-me
 - amecs
+- better-clouds
+- c2me-fabric
 - carpet
-- cosmetica
+- oculus
+- replaymod
+- skinshuffle
+- smooth-swapping

@@ -1,6 +1,8 @@
 # Release 3.6.0
 
 Updated fabric and quilt loaders
+Replay Mod broke on quilt and forge, it was removed
+Better Trim Tooltips is also broken with EMI on 1.20.2
 
 Join my Discord:
 
@@ -33,8 +35,9 @@ Updated:
 
 Added:
 - AppleSkin (1.20.1, 1.20.2)
-- C2ME (1.20.1, 1.20.2 fabric/quilt)
+- C2ME (1.20.1 fabric/quilt, 1.20.2)
 - Chunky (1.20.1, 1.20.2)
+- Cosmetica (1.20.1 forge)
 - DeathLog (1.20.1, 1.20.2)
 - Flow (1.20.1, 1.20.2)
 - Isometric Renders (1.20.1, 1.20.2)
@@ -45,9 +48,11 @@ Added:
 - Stendhal (1.20.1, 1.20.2)
 
 Removed:
+- Auth Me (1.20.1 forge)
 - Better Clouds (1.20.1 forge)
 - Raised (1.20.1, 1.20.2)
 - Recursive Resources (1.20.1 forge/quilt)
+- Replay Mod (1.20.1 forge/quilt)
 - SkinShuffle (1.20.1 forge)
 - Smooth Swapping (1.20.1 forge)
 

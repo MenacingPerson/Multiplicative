@@ -141,11 +141,6 @@ hash = "b7321e670cc58aa8062f7cae470c9806c2ed83680ca598df5fe6e75ab40df452"
 metafile = true
 
 [[files]]
-file = "mods/auth-me.pw.toml"
-hash = "e954c2f9ea9195ef558f0cb7dbc7057f2086348fc4a78186bc399145c18b4bb9"
-metafile = true
-
-[[files]]
 file = "mods/better-trim-tooltips.pw.toml"
 hash = "c0b4399adb48c2b8d9304d01d621c836b3c0a0faecab519108f62d40a5ee8bef"
 metafile = true
@@ -192,12 +187,12 @@ metafile = true
 
 [[files]]
 file = "mods/connector-extras.pw.toml"
-hash = "926f7679c5861126e80d4606e79a303aac88e82a7be95eb1a265499ce9bf9ef5"
+hash = "eb6e048c2c950ece0d7cdec9f4d9d40f21eae84040120e11a2bec44e3df73c0e"
 metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "6061aa113cf0a8eaa5844613960799f10d2bfc12801789fa50171bf5984c5cb9"
+hash = "cad8b79ef4002ed5e5cb5d9f51fbb76d09dcaf99205a0dfd26ed9b1b2649f4c3"
 metafile = true
 
 [[files]]
@@ -208,6 +203,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "bb7b31de1f5c7941aff59030d59168a5971e8c47884bcd8905637836ff97ce46"
+metafile = true
+
+[[files]]
+file = "mods/cosmetica.pw.toml"
+hash = "7947b685261f82a074e1f8794650b1bcd066e79a2624c42147a6d15478df6aea"
 metafile = true
 
 [[files]]
@@ -247,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "8f092eb1e79c0cba82a38996191ae92406db4e120325b4838deba6b231cd0d90"
+hash = "a5175fe822a78dc54365b2e01dcf435cac158c3c6ab2ff3bedff823722f1cdb5"
 metafile = true
 
 [[files]]
@@ -317,7 +317,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "30b4357201f670c9904b7dd301bcaf28046d57f02cbc4d6d72ec789e75ae1572"
+hash = "2521455fe93051e30fe39b142477894373de36b2ace4eeb4a41d300aa11b27a0"
 metafile = true
 
 [[files]]
@@ -428,11 +428,6 @@ metafile = true
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "7a6c27fcdf9d6e4c25ad433a676357353b8d6125433e7a883de4ddb889767f88"
-metafile = true
-
-[[files]]
-file = "mods/replaymod.pw.toml"
-hash = "86d17a50f7c7ebf452dd61b77678ae9239e86be268aad72c170c86533ad5e45d"
 metafile = true
 
 [[files]]

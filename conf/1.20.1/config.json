@@ -19,12 +19,13 @@
         "replaymod"
     ],
     "mods_removed_forge": [
+        "auth-me",
         "amecs",
         "better-clouds",
         "c2me-fabric",
         "carpet",
-        "cosmetica",
         "oculus",
+        "replaymod",
         "skinshuffle",
         "smooth-swapping"
     ]
