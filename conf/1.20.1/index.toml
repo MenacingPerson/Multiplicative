@@ -118,7 +118,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "9884c9af4ba83cbdf8bc6b102a257068566641a17d2c6dde63dcf41d0dd0603e"
+hash = "f6d72dfe331d7f06e5b3471e4dba2675d59b8e15950a41268897f26230fdf795"
 metafile = true
 
 [[files]]
@@ -199,6 +199,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "28b3e0806647eb166e942cf6552993bb6d666949c53f0d51927bdfb063cb6cc4"
+metafile = true
+
+[[files]]
+file = "mods/polymer.pw.toml"
+hash = "647550bcd4fa3dfe89fcefc92d385671109d8e4ed45c79babaac101201ff9159"
 metafile = true
 
 [[files]]
@@ -358,7 +363,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/emi.pw.toml"
-hash = "84a6e8164651e25938442ebb8d313e22d13f56be527641782ac9d42fdb2baf25"
+hash = "7acbbaa3b6660888eeab6fa8b0219f5ff8a421d55ec5494c2446df4820f17e7e"
 metafile = true
 
 [[files]]
@@ -453,5 +458,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/geometric-font-edge.pw.toml"
-hash = "e87fbe0fb690cb9e9c95052b928e7ce0ec5649d113dd61e4c3fdd639c42e5cd9"
+hash = "8100034f02621837dcc721f4d59260c9728860012b28b012b62f71eb30e7520e"
 metafile = true

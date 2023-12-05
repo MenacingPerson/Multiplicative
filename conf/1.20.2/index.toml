@@ -118,7 +118,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "f84192fd379617a845a048e57291a0eea8973f24aae2d2be6923196f2784a26c"
+hash = "1e392e97e7047cf4cadd174b105225ab80bfe77f90f7b6e5e66e3ab57f18fae8"
 metafile = true
 
 [[files]]
@@ -148,7 +148,7 @@ metafile = true
 
 [[files]]
 file = "mods/isometric-renders.pw.toml"
-hash = "e86596ad339551eb23b24aa762b8731ac3e4891c2bcdd8b5e4a1da481f72ba8e"
+hash = "b00df9431ade5f44c81d5e55c92e9181b008103f58010bf355a8c380dc7f02c9"
 metafile = true
 
 [[files]]
@@ -202,6 +202,11 @@ hash = "a9f4f363f18b90462ca362bbe0179a3150a801a960ff81044b7ad47aa468be73"
 metafile = true
 
 [[files]]
+file = "mods/polymer.pw.toml"
+hash = "546822b0bab663002cd55ccfe45290a224bdd8ee18afec87ce09bb6eebbf223a"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "306af2f0e0af6e0a275980d50775434944d1d020098ef18b44ecd6e70b17369e"
 metafile = true
@@ -213,7 +218,7 @@ metafile = true
 
 [[files]]
 file = "mods/rrls.pw.toml"
-hash = "f0df88464f6600beaa7454e686f40aa69e4d916672cd9bfb15f8aa8614848fb1"
+hash = "be45cdd2ea730890957e66f7998ca9543a7bf252fb9aa052c859e4f03ff92ed1"
 metafile = true
 
 [[files]]
@@ -263,7 +268,7 @@ metafile = true
 
 [[files]]
 file = "mods/stendhal.pw.toml"
-hash = "8f68463f40a9dd79ffda01c54501195df86a2ba4b37e809bd52e13405342dc22"
+hash = "4a3880b8d1c41108f688db0e4c4d7cdd8d5abd27e3bcb72c4b131b5c8b63c4b8"
 metafile = true
 
 [[files]]
@@ -358,7 +363,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/emi.pw.toml"
-hash = "ff37ba66d9b9d8ec2cbf34ea064c0ae01a4456cc2dd6df200db34445a69ef6cd"
+hash = "5bd5272d416ca07fa20a65ce3f18b836ad51070e9a52bbd398a9530a78d117b6"
 metafile = true
 
 [[files]]
@@ -453,5 +458,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/geometric-font-edge.pw.toml"
-hash = "e87fbe0fb690cb9e9c95052b928e7ce0ec5649d113dd61e4c3fdd639c42e5cd9"
+hash = "8100034f02621837dcc721f4d59260c9728860012b28b012b62f71eb30e7520e"
 metafile = true

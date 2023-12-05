@@ -45,6 +45,7 @@
 - No Chat Reports
 - Not Enough Animations
 - oωo (owo-lib)
+- Polymer
 - Presence Footsteps
 - ReplayMod
 - Remove Reloading Screen
@@ -165,6 +166,7 @@
 - No Chat Reports
 - Not Enough Animations
 - oωo (owo-lib)
+- Polymer
 - Presence Footsteps
 - ReplayMod
 - Remove Reloading Screen
