@@ -68,12 +68,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "79b1b013d5372a47da134e8ddc2f0ccd1441073548425de864ee5854106fce05"
+hash = "b95383fdb024ce574a8a3e69b77d1266eb3fab112b121f28919e744b6837e081"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "420d3fa25e812aae18e3379c980be9925a8e7285fa99b95f4cf53fb1d4c3181f"
+hash = "636184db087fad8984212bfe1fc8b05b91ab83af1d5333f8d0c22f048638c3e9"
 metafile = true
 
 [[files]]
@@ -143,7 +143,7 @@ metafile = true
 
 [[files]]
 file = "mods/halohud.pw.toml"
-hash = "c7d3f7fb5a6b5e18f149c4ae909798e2f42862229d01c23717087e29730e471d"
+hash = "7a25c34b76a00ad8ffb3091d6b15bf479fe54d4f686b348980ac7d306327509c"
 metafile = true
 
 [[files]]
@@ -158,7 +158,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "ad13fd19645969d61b132e7921520b630617f20f2e39dcd21c3e51ff8e24547c"
+hash = "5afb10756b351448c853f54d94551e8596699dc19c21353b50957ff4ca6991ab"
 metafile = true
 
 [[files]]
@@ -252,13 +252,13 @@ hash = "9f38461b4e2c233243c2149dd495f9992672cba45088557a29f93dc3b8cd12f4"
 metafile = true
 
 [[files]]
-file = "mods/sonance.pw.toml"
-hash = "ede7651846f1bddad82db71ec09a411e3ec48712eb5d6c728cd65260efe238c7"
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "95286e3a92eb373d298278ae97615f0bba6a74c496b9fdb3be8c5a1d35dc4cf2"
 metafile = true
 
 [[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "3decc297ef37c1ecb820b095d076dfa04e5c2d16a29e165f27c911a80d2e4afd"
+file = "mods/sound.pw.toml"
+hash = "31fee48e51ea43555c0ecd1dca8a9483efe2658aeaa977056fac70c83e7da47f"
 metafile = true
 
 [[files]]
@@ -333,12 +333,12 @@ metafile = true
 
 [[files]]
 file = "mods_forge/caxton.pw.toml"
-hash = "04b65c69ca7af5dc90b40d11fd171009157fbcfdc0eb0cf53cf707145341e00b"
+hash = "0560e4e2aa871ab94b76c2b23d788a98de1fe1918c8cd595eb8b6c3702d9b7fc"
 metafile = true
 
 [[files]]
 file = "mods_forge/chat-heads.pw.toml"
-hash = "ae9bc8a4a14e7ff40aea21af8f5ad0bde399694af73bb273d46d20ff747c9ecf"
+hash = "2fe7e048c0623be67da5104716c2778c8dca6f4787becac0f9c95984f0ef64eb"
 metafile = true
 
 [[files]]
@@ -373,7 +373,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/halohud.pw.toml"
-hash = "91c1ec4d6ac520a0ad369c4de3caf2fb4ca66b2652d8b08f18237122b9f59148"
+hash = "0e3eaedf1ab47545ee9119b9f38e579b24f35358789b48e183b48945da10e235"
 metafile = true
 
 [[files]]
@@ -428,7 +428,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/sound-physics-remastered.pw.toml"
-hash = "028e66cf8b1275e215eadbdffc5ddf203fd8e2e26859549358cda31437429227"
+hash = "577caf2fb78610b04e16210718986e88fa61198bf5b5c6bfed217b68295f4536"
 metafile = true
 
 [[files]]

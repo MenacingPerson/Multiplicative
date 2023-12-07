@@ -173,12 +173,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "79b1b013d5372a47da134e8ddc2f0ccd1441073548425de864ee5854106fce05"
+hash = "b95383fdb024ce574a8a3e69b77d1266eb3fab112b121f28919e744b6837e081"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "420d3fa25e812aae18e3379c980be9925a8e7285fa99b95f4cf53fb1d4c3181f"
+hash = "636184db087fad8984212bfe1fc8b05b91ab83af1d5333f8d0c22f048638c3e9"
 metafile = true
 
 [[files]]
@@ -253,7 +253,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "f84192fd379617a845a048e57291a0eea8973f24aae2d2be6923196f2784a26c"
+hash = "1e392e97e7047cf4cadd174b105225ab80bfe77f90f7b6e5e66e3ab57f18fae8"
 metafile = true
 
 [[files]]
@@ -333,7 +333,7 @@ metafile = true
 
 [[files]]
 file = "mods/halohud.pw.toml"
-hash = "c7d3f7fb5a6b5e18f149c4ae909798e2f42862229d01c23717087e29730e471d"
+hash = "7a25c34b76a00ad8ffb3091d6b15bf479fe54d4f686b348980ac7d306327509c"
 metafile = true
 
 [[files]]
@@ -353,7 +353,7 @@ metafile = true
 
 [[files]]
 file = "mods/isometric-renders.pw.toml"
-hash = "e86596ad339551eb23b24aa762b8731ac3e4891c2bcdd8b5e4a1da481f72ba8e"
+hash = "b00df9431ade5f44c81d5e55c92e9181b008103f58010bf355a8c380dc7f02c9"
 metafile = true
 
 [[files]]
@@ -363,7 +363,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "ad13fd19645969d61b132e7921520b630617f20f2e39dcd21c3e51ff8e24547c"
+hash = "5afb10756b351448c853f54d94551e8596699dc19c21353b50957ff4ca6991ab"
 metafile = true
 
 [[files]]
@@ -483,7 +483,7 @@ metafile = true
 
 [[files]]
 file = "mods/rrls.pw.toml"
-hash = "f0df88464f6600beaa7454e686f40aa69e4d916672cd9bfb15f8aa8614848fb1"
+hash = "be45cdd2ea730890957e66f7998ca9543a7bf252fb9aa052c859e4f03ff92ed1"
 metafile = true
 
 [[files]]
@@ -527,8 +527,13 @@ hash = "ff614f50beb3bc29a699dbcc0a61f65bd6c6154cd374f2763ee57cf578045a8f"
 metafile = true
 
 [[files]]
-file = "mods/sonance.pw.toml"
-hash = "ede7651846f1bddad82db71ec09a411e3ec48712eb5d6c728cd65260efe238c7"
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "95286e3a92eb373d298278ae97615f0bba6a74c496b9fdb3be8c5a1d35dc4cf2"
+metafile = true
+
+[[files]]
+file = "mods/sound.pw.toml"
+hash = "31fee48e51ea43555c0ecd1dca8a9483efe2658aeaa977056fac70c83e7da47f"
 metafile = true
 
 [[files]]
@@ -538,7 +543,7 @@ metafile = true
 
 [[files]]
 file = "mods/stendhal.pw.toml"
-hash = "8f68463f40a9dd79ffda01c54501195df86a2ba4b37e809bd52e13405342dc22"
+hash = "4a3880b8d1c41108f688db0e4c4d7cdd8d5abd27e3bcb72c4b131b5c8b63c4b8"
 metafile = true
 
 [[files]]
@@ -618,5 +623,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/geometric-font-edge.pw.toml"
-hash = "e87fbe0fb690cb9e9c95052b928e7ce0ec5649d113dd61e4c3fdd639c42e5cd9"
+hash = "8100034f02621837dcc721f4d59260c9728860012b28b012b62f71eb30e7520e"
 metafile = true

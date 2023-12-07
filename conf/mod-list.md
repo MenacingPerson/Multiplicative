@@ -55,8 +55,8 @@
 - Server Pack Unlocker
 - SkinShuffle
 - Smooth Swapping
-- Sonance
 - Sound Physics Remastered
+- Sounds
 - spark
 - Stendhal
 - SuperMartijn642's Config Lib
@@ -176,8 +176,8 @@
 - Server Pack Unlocker
 - SkinShuffle
 - Smooth Swapping
-- Sonance
 - Sound Physics Remastered
+- Sounds
 - spark
 - Stendhal
 - SuperMartijn642's Config Lib
@@ -233,7 +233,6 @@
 ### Fabric:
 - better-trim-tooltips
 - replaymod
-- sound-physics-remastered
 
 ### Forge:
 - auth-me

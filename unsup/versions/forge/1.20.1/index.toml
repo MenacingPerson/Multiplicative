@@ -161,12 +161,12 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "51d0702b359c9541732931f03bbfe70163617e59b656e29ccb815eb5c9b02b37"
+hash = "3355d2afa419f7d98c49b58ecc4f18215f69143b01de4a52113cb8622fc309cd"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "a452520d8c0e1adbe18dd9fd46627df7e7d28dd9a6766d0c00f0035a5862c988"
+hash = "dcd10eb098b243694c406ddfb32ac1493aa839db833cfeb7036fbe4bef0b618b"
 metafile = true
 
 [[files]]
@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "b01b6ab415989da371428682d9f3b7e056f8c365b4dd8102a323b47a5595d1da"
+hash = "b0c4f47a627912dc75abfb3b987de9092dcd71e499565abe8a75b43b274be382"
 metafile = true
 
 [[files]]
@@ -256,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "84a6e8164651e25938442ebb8d313e22d13f56be527641782ac9d42fdb2baf25"
+hash = "7acbbaa3b6660888eeab6fa8b0219f5ff8a421d55ec5494c2446df4820f17e7e"
 metafile = true
 
 [[files]]
@@ -470,13 +470,13 @@ hash = "e053efc45b146cc3d66ec1a723cd1ab03a1de3d1029d550e750f84329e6899c9"
 metafile = true
 
 [[files]]
-file = "mods/sonance.pw.toml"
-hash = "ce387b103b215be0407fb5fb996b89c3a4628df51a4a5d059bd89a3de758cbb7"
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "028e66cf8b1275e215eadbdffc5ddf203fd8e2e26859549358cda31437429227"
 metafile = true
 
 [[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "028e66cf8b1275e215eadbdffc5ddf203fd8e2e26859549358cda31437429227"
+file = "mods/sound.pw.toml"
+hash = "fd89baddb5f2d1c081a3b6fc178ce56ef9c7c9e09ff8120ba74ce43fc883c0d4"
 metafile = true
 
 [[files]]
@@ -571,5 +571,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/geometric-font-edge.pw.toml"
-hash = "e87fbe0fb690cb9e9c95052b928e7ce0ec5649d113dd61e4c3fdd639c42e5cd9"
+hash = "8100034f02621837dcc721f4d59260c9728860012b28b012b62f71eb30e7520e"
 metafile = true

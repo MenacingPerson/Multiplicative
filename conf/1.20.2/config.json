@@ -13,11 +13,11 @@
     ],
     "mods_removed_fabric": [
         "better-trim-tooltips",
-        "replaymod",
-        "sound-physics-remastered"
+        "replaymod"
     ],
     "mods_removed_quilt": [
-        "lambdabettergrass"
+        "lambdabettergrass",
+        "replaymod"
     ],
     "mods_removed_forge": [
         "auth-me",

@@ -1,13 +1,13 @@
 name = "Caxton"
-filename = "caxton-0.5.0-beta.6+1.20.1-FORGE.jar"
+filename = "caxton-0.5.0+1.20.1-FORGE.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/k8iIgzXE/versions/Jr80pktp/caxton-0.5.0-beta.6%2B1.20.1-FORGE.jar"
+url = "https://cdn.modrinth.com/data/k8iIgzXE/versions/sqDYjCoo/caxton-0.5.0%2B1.20.1-FORGE.jar"
 hash-format = "sha1"
-hash = "70463acd9cb54463856332d880164f4886b6d084"
+hash = "70334242f630a726821c390ae2719040b97857a4"
 
 [update]
 [update.modrinth]
 mod-id = "k8iIgzXE"
-version = "Jr80pktp"
+version = "sqDYjCoo"
