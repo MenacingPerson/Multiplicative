@@ -1,0 +1,13 @@
+name = "Wynntils"
+filename = "wynntils-0.0.4-beta.82-fabric+MC-1.20.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/dU5Gb9Ab/versions/ZERXYJwn/wynntils-0.0.4-beta.82-fabric%2BMC-1.20.2.jar"
+hash-format = "sha1"
+hash = "8f7b6c0d8218eb0d6185aea8c9a088885b54c7ed"
+
+[update]
+[update.modrinth]
+mod-id = "dU5Gb9Ab"
+version = "ZERXYJwn"

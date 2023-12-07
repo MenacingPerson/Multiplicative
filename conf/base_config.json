@@ -11,12 +11,9 @@
     },
     "pack_name": "Multiplicative",
     "pack_author": "Menacing Person",
-    "pack_version": "3.7.0",
+    "pack_version": "wynn-1.6.0",
     "pack_url": "https://github.com/MenacingPerson/Multiplicative",
     "build": [
-        {
-            "mc": "1.20.1"
-        },
         {
             "mc": "1.20.2"
         }

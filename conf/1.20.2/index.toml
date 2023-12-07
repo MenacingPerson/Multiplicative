@@ -137,6 +137,11 @@ hash = "a95c41df961eaabeeb2fbf122fadbef2ac9d917b5b1d8f6b354be5399ddc928c"
 metafile = true
 
 [[files]]
+file = "mods/fuy_gg.pw.toml"
+hash = "6b36021fe28c1a67a7a2b49b49990a5ba3b48acf5609e5db1badac822bbb63ef"
+metafile = true
+
+[[files]]
 file = "mods/gamma-utils.pw.toml"
 hash = "38349c3fc3eafb01770be6ab5296a7e9c8de737ebb0d4b7864e574c025679fd6"
 metafile = true
@@ -242,6 +247,11 @@ hash = "e50f824096c786528a4ff6e610f48aaeec638111c27660eb3f455882bee8ef2a"
 metafile = true
 
 [[files]]
+file = "mods/showmemydps.pw.toml"
+hash = "f4d90f2e4f1cc566d5acd08415db2740e41a98818448295968618ffc171d81f4"
+metafile = true
+
+[[files]]
 file = "mods/skinshuffle.pw.toml"
 hash = "ab4921e6b76728f012e3cf566f0bbc9418961104b8ec616d7cb602b1b597b39c"
 metafile = true
@@ -299,6 +309,11 @@ metafile = true
 [[files]]
 file = "mods/whoami.pw.toml"
 hash = "8b35ac594bfad2fd2533849ad3f573cc1f036be47302123a3193c9009fbe4691"
+metafile = true
+
+[[files]]
+file = "mods/wynntils.pw.toml"
+hash = "76f169d375ce4f0cf9cdca68b60df1483a846a748baa542151c45421de3e5a5d"
 metafile = true
 
 [[files]]
@@ -444,6 +459,11 @@ metafile = true
 [[files]]
 file = "mods_forge/wavey-capes.pw.toml"
 hash = "481341017eca1dc704855452a36010cb6dc011bce318ea4336e8f7ff3be8a8c0"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cbt.pw.toml"
+hash = "2c878dd3313932c7fcd818493432e8910ff0dc5c3014ffe6758749534bdc07cf"
 metafile = true
 
 [[files]]

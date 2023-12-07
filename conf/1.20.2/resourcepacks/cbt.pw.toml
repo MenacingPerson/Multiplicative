@@ -1,0 +1,13 @@
+name = "Cork and Balls"
+filename = "Cork and Balls 1.1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Cwlbyzh9/versions/SCEhVomM/Cork%20and%20Balls%201.1.1.zip"
+hash-format = "sha1"
+hash = "e132514766ddd0d0aa1b6f8cbb7b64474f633d38"
+
+[update]
+[update.modrinth]
+mod-id = "Cwlbyzh9"
+version = "SCEhVomM"

@@ -45,5 +45,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
+          prerelease: true
           files: "packs/*"
           body_path: ./conf/changelog.md
