@@ -33,7 +33,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "eef03feff50e59b521c09d9c456d5cd5d799b8e7e3f8cc62a17f5e64cb230f44"
+hash = "24261d7e999118b4895f8de6312151a6fa83cadfcab99ca305af96b7a5e9cc5a"
 metafile = true
 
 [[files]]
@@ -253,7 +253,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "95286e3a92eb373d298278ae97615f0bba6a74c496b9fdb3be8c5a1d35dc4cf2"
+hash = "18cf1979ce4a8a232954f4a16eb99c92e8b08696cf8a6481c4a80ad37510c1fa"
 metafile = true
 
 [[files]]
@@ -328,7 +328,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/architectury-api.pw.toml"
-hash = "34519fc71bf18bdf6c11be7d91aaa4012b14678d4d08b2aede3f93bf5b93610b"
+hash = "ca06b6b1791fcb7f3a823c712cf6a67b90dd1ed9b7234e9f5ece1adba9481850"
 metafile = true
 
 [[files]]
@@ -383,7 +383,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/jade.pw.toml"
-hash = "8fcbadb93852192f786f6fd54a410b97a18d4d2b3d402bd3441987a179213e0c"
+hash = "9d22919691ed5c3ea126110831f57932eba8d4b8024948f16aa7c6518addf038"
 metafile = true
 
 [[files]]
@@ -428,7 +428,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/sound-physics-remastered.pw.toml"
-hash = "577caf2fb78610b04e16210718986e88fa61198bf5b5c6bfed217b68295f4536"
+hash = "fc06b9a86753d61d7bf0c9e6e73b62203205b91c81c581399e5478181676b670"
 metafile = true
 
 [[files]]

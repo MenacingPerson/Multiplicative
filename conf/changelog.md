@@ -10,6 +10,7 @@ https://inv.wtf/Multiplicative
 
 Updated:
 - Additive (Fabric/Quilt)
+- Architectury API (1.20.2)
 - Caxton (1.20.1, 1.20.2)
 - Chat Heads (1.20.1, 1.20.2)
 - CreativeCore (1.20.1 forge)
@@ -20,7 +21,7 @@ Updated:
 - Isometric Renders (1.20.2)
 - Jade (1.20.2)
 - Remove Reloading Screen (1.20.2)
-- Sound Physics Remastered (1.20.2)
+- Sound Physics Remastered (1.20.1, 1.20.2)
 - Sounds (1.20.1, 1.20.2)
 - Stendhal (1.20.2)
 

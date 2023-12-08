@@ -138,7 +138,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "eef03feff50e59b521c09d9c456d5cd5d799b8e7e3f8cc62a17f5e64cb230f44"
+hash = "24261d7e999118b4895f8de6312151a6fa83cadfcab99ca305af96b7a5e9cc5a"
 metafile = true
 
 [[files]]
@@ -528,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "95286e3a92eb373d298278ae97615f0bba6a74c496b9fdb3be8c5a1d35dc4cf2"
+hash = "18cf1979ce4a8a232954f4a16eb99c92e8b08696cf8a6481c4a80ad37510c1fa"
 metafile = true
 
 [[files]]
