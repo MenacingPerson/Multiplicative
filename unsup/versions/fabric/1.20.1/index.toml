@@ -479,7 +479,7 @@ metafile = true
 
 [[files]]
 file = "mods/replaymod.pw.toml"
-hash = "86d17a50f7c7ebf452dd61b77678ae9239e86be268aad72c170c86533ad5e45d"
+hash = "c3c1849c942e35f08dffc74f1c09bb5bee8546ae221f541b895d96bd26b18a23"
 metafile = true
 
 [[files]]
@@ -539,7 +539,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound.pw.toml"
-hash = "fd89baddb5f2d1c081a3b6fc178ce56ef9c7c9e09ff8120ba74ce43fc883c0d4"
+hash = "414eff19b2da898333132fc8ae23074eca36590f7ee8879f242f28ecd36e945e"
 metafile = true
 
 [[files]]

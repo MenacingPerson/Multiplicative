@@ -43,7 +43,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "8c1dd55cfe2b56e32e3b2690a242688c9b1641e3bc3cdb57b11d0294e3a07380"
+hash = "e7fd995717de5563137617252f77ed1ee175c12177cd186f6c64d3f66f1aea72"
 metafile = true
 
 [[files]]
@@ -198,7 +198,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "a9f4f363f18b90462ca362bbe0179a3150a801a960ff81044b7ad47aa468be73"
+hash = "20b537c055853e57f065c4a73fcae7ac62a7b4cb20cf0befe0850a0bfc99408a"
 metafile = true
 
 [[files]]
@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/replaymod.pw.toml"
-hash = "86d17a50f7c7ebf452dd61b77678ae9239e86be268aad72c170c86533ad5e45d"
+hash = "a475d3870afc952403e4da75c2d0aa19f80f9ebfdce8c4103fc24fca5ab51533"
 metafile = true
 
 [[files]]
@@ -258,7 +258,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound.pw.toml"
-hash = "31fee48e51ea43555c0ecd1dca8a9483efe2658aeaa977056fac70c83e7da47f"
+hash = "6913dcf0af58669f4d6cc63b997a7185e8b56d49fa1e6cdfb76e0fa68a9b3df1"
 metafile = true
 
 [[files]]
@@ -293,12 +293,17 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "1e7b4efab2e9cea7ae5b4646a5fa9fdf90e964d8d5823397a0985ff93ae54093"
+hash = "3488f14d05d8bdb3678c576821c509193228d583cfa71ca7cc289b7f1b7bee22"
 metafile = true
 
 [[files]]
 file = "mods/whoami.pw.toml"
 hash = "8b35ac594bfad2fd2533849ad3f573cc1f036be47302123a3193c9009fbe4691"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "5d742c94cff6ba3f7133895254ecffe3cf90c62fd8eae6b9a4764c0569983203"
 metafile = true
 
 [[files]]
@@ -443,7 +448,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/wavey-capes.pw.toml"
-hash = "481341017eca1dc704855452a36010cb6dc011bce318ea4336e8f7ff3be8a8c0"
+hash = "c79878c83794a1eec567f129df5ed2b8cfd1c004d56413e909f32b5823ecdeff"
 metafile = true
 
 [[files]]

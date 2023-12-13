@@ -186,6 +186,7 @@
 - Wakes
 - Wavey Capes
 - Who am I?
+- WorldEdit
 
 ### Fabric:
 - LibJF
@@ -232,7 +233,6 @@
 
 ### Fabric:
 - better-trim-tooltips
-- replaymod
 
 ### Forge:
 - auth-me
