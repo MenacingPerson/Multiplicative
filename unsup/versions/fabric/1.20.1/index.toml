@@ -153,6 +153,11 @@ hash = "c0b4399adb48c2b8d9304d01d621c836b3c0a0faecab519108f62d40a5ee8bef"
 metafile = true
 
 [[files]]
+file = "mods/blame-log.pw.toml"
+hash = "003f64df0a3cfd815b9172c126b9731f6b1c2154e0ede1499453f24f64c80cbd"
+metafile = true
+
+[[files]]
 file = "mods/blur-fabric.pw.toml"
 hash = "5f53eb8d272bfec2c6f58d6d744397b8152d7561a370f1d6e7e1e495fc4a1e7a"
 metafile = true

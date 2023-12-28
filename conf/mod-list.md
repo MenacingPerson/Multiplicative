@@ -15,6 +15,7 @@
 - Auth Me
 - Better Clouds
 - Better Trim Tooltips
+- BlameLog
 - Blur (Fabric)
 - Concurrent Chunk Management Engine (Fabric)
 - Carpet
@@ -136,6 +137,7 @@
 - Auth Me
 - Better Clouds
 - Better Trim Tooltips
+- BlameLog
 - Blur (Fabric)
 - Concurrent Chunk Management Engine (Fabric)
 - Carpet

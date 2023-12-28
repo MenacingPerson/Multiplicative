@@ -34,6 +34,7 @@ Updated:
 - Wavey Capes (1.20.2)
 
 Added:
+- BlameLog (1.20.1, 1.20.2)
 - Polymer (1.20.1, 1.20.2)
 - WorldEdit (1.20.2)
 
