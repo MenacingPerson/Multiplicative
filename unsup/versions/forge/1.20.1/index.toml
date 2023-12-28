@@ -161,7 +161,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "3355d2afa419f7d98c49b58ecc4f18215f69143b01de4a52113cb8622fc309cd"
+hash = "01cab751b158c3ce6a8d757cfb2f382c1b76e0d3ff1bfed589d951f1272f11c3"
 metafile = true
 
 [[files]]
@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "f211a4259ddee62b8cb19fce5ce3b731de7a21ad1cc26b623711121513a1e909"
+hash = "80cd69fa5ed669ac67b9a729e1aa7937265d0f70ce89f3f0205b360406b1dee1"
 metafile = true
 
 [[files]]
@@ -256,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "7acbbaa3b6660888eeab6fa8b0219f5ff8a421d55ec5494c2446df4820f17e7e"
+hash = "61512dd4f965d4b8fd0db788a60c71255dbd970900c5856fa2e88b238379fa02"
 metafile = true
 
 [[files]]
@@ -356,7 +356,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "aa68fe924a2d5ee955018c961bbd91a23485a15643d6de10d8d31562ee3702fd"
+hash = "4edeebef1800ce4ee0a390cdaef0dad3c164155c2d015591368688e9093a066c"
 metafile = true
 
 [[files]]
@@ -431,7 +431,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymer.pw.toml"
-hash = "647550bcd4fa3dfe89fcefc92d385671109d8e4ed45c79babaac101201ff9159"
+hash = "50a484d5e0b69d91c50a6e71e973879f58b209c0a47a20588b736b8712f68201"
 metafile = true
 
 [[files]]
@@ -471,7 +471,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "12f69870b129b5af1662bab266fa96644d3d3ce2441aec26f4bf5f27cfdfa9b2"
+hash = "9d5935fd4df78e0300c574ea6e48931783edf54916a8befccee23073931928d7"
 metafile = true
 
 [[files]]
@@ -516,7 +516,7 @@ metafile = true
 
 [[files]]
 file = "mods/wakes.pw.toml"
-hash = "c55ddaf36164636c197215a3aff813fc53199efe8001fd87d6cfd1194e6265b4"
+hash = "2cf67aa9e98992b421307028521683f244e5d0662fbb36818d21403e46a7da13"
 metafile = true
 
 [[files]]
@@ -556,7 +556,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32x.pw.toml"
-hash = "b4018788362b48e316412a3a84a0f73f0b898acad1ef70ad8af10f5d5137bf39"
+hash = "e8b4296e8c6c12620447741fc54e46dd042f9835d5b46e77b111c2ef8cdb3285"
 metafile = true
 
 [[files]]

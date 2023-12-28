@@ -43,7 +43,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "e7fd995717de5563137617252f77ed1ee175c12177cd186f6c64d3f66f1aea72"
+hash = "f901f858e6a3a7794bb7632f3ea6543680ee271f6bb0370ff39ef0374de3e568"
 metafile = true
 
 [[files]]
@@ -68,7 +68,7 @@ metafile = true
 
 [[files]]
 file = "mods/caxton.pw.toml"
-hash = "b95383fdb024ce574a8a3e69b77d1266eb3fab112b121f28919e744b6837e081"
+hash = "031fc0339993328c8d2f85e6db5b8565d181833d95b076d12a1e06313646ec0a"
 metafile = true
 
 [[files]]
@@ -118,7 +118,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "1e392e97e7047cf4cadd174b105225ab80bfe77f90f7b6e5e66e3ab57f18fae8"
+hash = "a335e5d64da4a5b634275b00663e8dd219f4f72ad4002c362b1c9312d3deb49d"
 metafile = true
 
 [[files]]
@@ -208,7 +208,7 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "306af2f0e0af6e0a275980d50775434944d1d020098ef18b44ecd6e70b17369e"
+hash = "531406fd3333f760a00294865c4da4ec27385ee838ccffbb42c4e7e0a924adfb"
 metafile = true
 
 [[files]]
@@ -253,7 +253,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "18cf1979ce4a8a232954f4a16eb99c92e8b08696cf8a6481c4a80ad37510c1fa"
+hash = "f6fb2ea2e064234f466768b563d051f271ca3283b8dda4a27d9eddd6455a2eb2"
 metafile = true
 
 [[files]]
@@ -288,7 +288,7 @@ metafile = true
 
 [[files]]
 file = "mods/wakes.pw.toml"
-hash = "c55ddaf36164636c197215a3aff813fc53199efe8001fd87d6cfd1194e6265b4"
+hash = "2cf67aa9e98992b421307028521683f244e5d0662fbb36818d21403e46a7da13"
 metafile = true
 
 [[files]]
@@ -338,7 +338,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/caxton.pw.toml"
-hash = "0560e4e2aa871ab94b76c2b23d788a98de1fe1918c8cd595eb8b6c3702d9b7fc"
+hash = "9b25cca974739d36a591f2e0ef0ef53c0cb6cc74341569c261192b16a91faec7"
 metafile = true
 
 [[files]]
@@ -368,7 +368,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/emi.pw.toml"
-hash = "5bd5272d416ca07fa20a65ce3f18b836ad51070e9a52bbd398a9530a78d117b6"
+hash = "a3780888bdabb1ad6894d4156d97192cad532e5dc91c053ec86457c9b18bb173"
 metafile = true
 
 [[files]]
@@ -433,7 +433,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/sound-physics-remastered.pw.toml"
-hash = "fc06b9a86753d61d7bf0c9e6e73b62203205b91c81c581399e5478181676b670"
+hash = "53a6d56101f5d3fc517b2d3b1ea6ec95476dec5e26a434b1f5f69859e56fc51e"
 metafile = true
 
 [[files]]
@@ -453,7 +453,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32x.pw.toml"
-hash = "bf0343986d34c27a6779264ebb25131c619472f81de4b98c36080ff33a8c39bf"
+hash = "4b2c0cb8fd170ebff7ee62116c1889b136fb0084fcde6180c143f33d312efd0c"
 metafile = true
 
 [[files]]
