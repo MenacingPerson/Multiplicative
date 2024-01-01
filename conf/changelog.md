@@ -1,15 +1,24 @@
 # Release 3.7.0
 
 Updated fabric loader
+
 "Sonance" has been renamed to "Sounds".
+
 Flow may crash your game, if that occurs try deleting that mod
+
+Quilt is probably dead. It has been dropped to reduce overhead.
+
+1.20.1 is **deprecated** now. This means that:
+- The quilt version is gone.
+- Forge and fabric 1.20.1 are considered deprecated and not recommended for use (support will still be provided)
+- Forge 1.20.2 awaits connnector in order to update
 
 Join my Discord:
 
 https://inv.wtf/Multiplicative
 
 Updated:
-- Additive (Fabric/Quilt)
+- Additive (Fabric)
 - Architectury API (1.20.2)
 - Better Clouds (1.20.1, 1.20.2)
 - Caxton (1.20.1, 1.20.2)

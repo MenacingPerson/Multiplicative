@@ -23,11 +23,7 @@
     ],
     "modloaders": {
         "fabric": {
-            "version": "0.15.0",
-            "additive_version": "additive"
-        },
-        "quilt": {
-            "version": "0.22.0",
+            "version": "0.15.3",
             "additive_version": "additive"
         },
         "forge": {
