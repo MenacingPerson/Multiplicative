@@ -41,7 +41,7 @@ def copy_over(_pack: dict, src_name: str, dest_name: str):
 
 
 def mark_mods_optional(pack: dict, optional_mods_key: str):
-    """Mark mods as optional in pack edition"""
+    """Mark upstream mods as optional in pack edition"""
     echo(f'Marking optional mods using {optional_mods_key} for {pack["edition"]}')
     for mod in config[optional_mods_key]:
         print(f'Marked {mod} as optional')
@@ -99,24 +99,26 @@ def forge_additive_fixer(pack: dict) -> None:
         shutil.rmtree(folder)
 
 
+# ---------------------------------------------------------------------------
+
+
 # Reset to certain hash to avoid unwanted changes
 echo('Updating Additive to specified hash')
+
 runcmd('git submodule update --recursive --init --remote')
-for i in base_conf['additive']:
-    os.chdir(f'{ODIR}/{i}')
+for i in base_conf['upstream_editions']:
+    os.chdir(f'{ODIR}/{base_conf["upstream_editions"][i]["path"]}')
     runcmd('git pull origin main')
-    runcmd('git reset --hard', base_conf['additive'][i]['hash'])
-    core.base.if_exists_rm(f'{ODIR}/{i}/Modified')
-    core.base.if_exists_rm(f'{ODIR}/{i}/packs')
+    runcmd('git reset --hard', base_conf["upstream_editions"][i]['hash'])
+    core.base.if_exists_rm(f'{ODIR}/{base_conf["upstream_editions"][i]["path"]}/Modified')
+    core.base.if_exists_rm(f'{ODIR}/{base_conf["upstream_editions"][i]["path"]}/packs')
     os.chdir(ODIR)
-os.chdir(ODIR)
-runcmd(f'git add {" ".join(base_conf["additive"])}')
+    runcmd(f'git add {base_conf["upstream_editions"][i]["path"]}')
 
 # Recreate modified pack
 echo("Removing previous modified packs")
 core.base.if_exists_rm(f'{ODIR}/Modified')
 core.base.if_not_exists_create_dir(f'{ODIR}/packs')
-
 
 for modloader in config['modloaders']:
     if modloader not in base_conf['modloaders']:
@@ -124,8 +126,13 @@ for modloader in config['modloaders']:
         exit(1)
     os.makedirs(f'{ODIR}/Modified/versions/{modloader}')
     chodir()
-    if os.path.isdir(f'{ODIR}/{base_conf["modloaders"][modloader]["additive_version"]}/versions/{modloader}/{config["game_version"]}'):
-        shutil.copytree(f'{ODIR}/{base_conf["modloaders"][modloader]["additive_version"]}/versions/{modloader}/{config["game_version"]}', f'{modloader}/{config["game_version"]}')
+    preferred_upstream_edition = base_conf["modloaders"][modloader]["preferred_upstream_edition"]
+    if os.path.isdir(f'{ODIR}/{preferred_upstream_edition}/versions/{modloader}/{config["game_version"]}'):
+        shutil.copytree(f'{ODIR}/{preferred_upstream_edition}/versions/{modloader}/{config["game_version"]}',
+                        f'{modloader}/{config["game_version"]}')
+    else:
+        print(f'{modloader} is not a valid modloader for {config["game_version"]}! Exiting...')
+        exit(1)
 
 run_in('all', cp_pwignore)
 

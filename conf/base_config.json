@@ -1,5 +1,5 @@
 {
-    "additive": {
+    "upstream_editions": {
         "additive": {
             "hash": "600b579fce4e76768b3bf97c195cf0d2d0e40201",
             "path": "additive"
@@ -24,11 +24,11 @@
     "modloaders": {
         "fabric": {
             "version": "0.15.3",
-            "additive_version": "additive"
+            "preferred_upstream_edition": "additive"
         },
         "forge": {
             "version": "47.1.3",
-            "additive_version": "drill"
+            "preferred_upstream_edition": "drill"
         }
     }
 }
