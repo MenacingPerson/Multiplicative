@@ -18,7 +18,7 @@ hash = "4b40806b3db14bae2ce476bb0a3d85916d445476e915c02bd31bdae3d8e004b8"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "a7c95abc830068cdbd3adf8ec2ee8135b2eb2685f88fa90adda305f2d01205bc"
+hash = "839d9c670b90adc76e29b0e57eab87c2cc7aa6109c4adb0e119ec60b164a833b"
 metafile = true
 
 [[files]]
@@ -43,7 +43,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "1560423a5e83def5838e192f801e6d0b06dafa63cbf2c6590a061e3f77f5fe2a"
+hash = "a150b7bb5c7307affaae3c54f613ec22c3bacfdeee8d68ad9953d2481b26a371"
 metafile = true
 
 [[files]]
@@ -228,7 +228,7 @@ metafile = true
 
 [[files]]
 file = "mods/rsls.pw.toml"
-hash = "3521a2a19031d94429fbae9b17fda816e7bf024600a19af40efeec9aeeec32d4"
+hash = "1d1eb71a866624cea052d15c87b4d82816bf59d9ead30bfc96819a46964aeb3c"
 metafile = true
 
 [[files]]
@@ -293,7 +293,7 @@ metafile = true
 
 [[files]]
 file = "mods/wakes.pw.toml"
-hash = "2cf67aa9e98992b421307028521683f244e5d0662fbb36818d21403e46a7da13"
+hash = "00ecd73ec7acb98e6ca81b1edbb13ce04d6379174a52a89562333f49fab6572f"
 metafile = true
 
 [[files]]
@@ -323,7 +323,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/3dskinlayers.pw.toml"
-hash = "96f9983d86fa756ca973306fca579288302f26482e2de6b69d4845e24f03ffb6"
+hash = "7d6487b7eaba34b66faba21be1ff46da20fdb598a7a45fec7c4d9036a86170c0"
 metafile = true
 
 [[files]]
@@ -358,7 +358,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/creativecore.pw.toml"
-hash = "80cd69fa5ed669ac67b9a729e1aa7937265d0f70ce89f3f0205b360406b1dee1"
+hash = "b1ab90b1b955dbc4dfffc3479c77c8e5dce7aa35d514e0faef4658f9162d729e"
 metafile = true
 
 [[files]]

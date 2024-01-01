@@ -18,6 +18,7 @@ Join my Discord:
 https://inv.wtf/Multiplicative
 
 Updated:
+- 3D Skin Layers (1.20.1, 1.20.2)
 - Additive (Fabric)
 - Architectury API (1.20.2)
 - Better Clouds (1.20.1, 1.20.2)
@@ -34,6 +35,7 @@ Updated:
 - Jade (1.20.1, 1.20.2)
 - owo lib (1.20.2)
 - Presence Footsteps (1.20.2)
+- Raise Sound Limit Simplified (1.20.1, 1.20.2)
 - Remove Reloading Screen (1.20.2)
 - ReplayMod (1.20.1, 1.20.2)
 - Sound Physics Remastered (1.20.1, 1.20.2)
