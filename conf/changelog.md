@@ -21,18 +21,23 @@ Updated:
 - 3D Skin Layers (1.20.1, 1.20.2)
 - Additive (Fabric)
 - Architectury API (1.20.2)
+- BadOptimizations (1.20.1, 1.20.2)
 - Better Clouds (1.20.1, 1.20.2)
 - Caxton (1.20.1, 1.20.2)
 - Chat Heads (1.20.1, 1.20.2)
 - Cherished Worlds (1.20.1)
 - CreativeCore (1.20.1)
+- Do a Barrel Roll (1.20.1, 1.20.2)
 - Drill (Forge)
 - EMI (1.20.1, 1.20.2)
+- Entity Model Features (1.20.1, 1.20.2)
+- Entity Texture Features (1.20.1, 1.20.2)
 - Faithful 32x (1.20.1, 1.20.2)
 - GeoFont Edge (1.20.1, 1.20.2)
 - Halo HUD (1.20.2)
 - Isometric Renders (1.20.2)
 - Jade (1.20.1, 1.20.2)
+- Not Enough Animations (1.20.1, 1.20.2)
 - owo lib (1.20.2)
 - Presence Footsteps (1.20.2)
 - Raise Sound Limit Simplified (1.20.1, 1.20.2)
@@ -46,11 +51,12 @@ Updated:
 
 Added:
 - BlameLog (1.20.1, 1.20.2)
+- No Prying Eyes (1.20.1, 1.20.2)
 - Polymer (1.20.1, 1.20.2)
 - WorldEdit (1.20.2)
 
 Removed:
-None
+- No Chat Reports (1.20.1, 1.20.2)
 
 Disabled temporarily in 1.20.2:
 - Better Trim Tooltips

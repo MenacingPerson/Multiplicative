@@ -118,7 +118,7 @@ hash = "93c4b423cf982419932b7085a1233ae956061f262fb732fd7f132a6c56817c9a"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "2a907cc49361dd4b0bf36777f1372bb47010659b3979051a0d02508e132d139c"
+hash = "0943cdeaa011b27f21a6ca2e3d36724e671d2a4a9df03b44ae56326cc6329568"
 metafile = true
 
 [[files]]
@@ -144,6 +144,11 @@ metafile = true
 [[files]]
 file = "mods/auth-me.pw.toml"
 hash = "9eead48eb4fdeadb6a4a078b3136818c82af8089133cec4fa1c90799d535028b"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "ab8e15bae18c52bd222c30bc952c5d017bc7b9e1f81a4bd1f2610c7821ce7289"
 metafile = true
 
 [[files]]
@@ -183,7 +188,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "636184db087fad8984212bfe1fc8b05b91ab83af1d5333f8d0c22f048638c3e9"
+hash = "fad878ab2796c4ec567933e1bcdb682ce2e124818daa3f2170a262346832f0de"
 metafile = true
 
 [[files]]
@@ -233,7 +238,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "1d785b49b32811ff3c9d734aafcabe4fa6f6d56f2f7a2053d1181524c1d33379"
+hash = "91ec5d940bc534633423a90e334c44cb07efc331369a719cd758a6d92462f0a5"
 metafile = true
 
 [[files]]
@@ -258,7 +263,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "a335e5d64da4a5b634275b00663e8dd219f4f72ad4002c362b1c9312d3deb49d"
+hash = "eee72235f0b30433bbb3d2a0024178786b44e3632f2d499b547803c6be941839"
 metafile = true
 
 [[files]]
@@ -268,7 +273,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "15b69c4293b34c50df1c1ca5f18de8b6f4c0cb96261cfcf19460b0afd5148f29"
+hash = "b1dd9fca21e7fc6d763fe499b05c4b88b516899a474c8f9b9661bef6ee4771ad"
 metafile = true
 
 [[files]]
@@ -278,7 +283,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "ed372944e547b3f112a7d3ccc5a84fc4cf38a2f2da7f17a4bac4e2d2d3ae8235"
+hash = "8aedc7b003b47487c5c2a7e39caedd558cf715c35458956a1a4a18004ca0acbd"
 metafile = true
 
 [[files]]
@@ -437,13 +442,13 @@ hash = "740561bdea8bc9be18c80f740b05e51a8ff890b1e2ba7edb6d04ba936faaceed"
 metafile = true
 
 [[files]]
-file = "mods/no-chat-reports.pw.toml"
-hash = "293f06651cc903947ae422f5e612c73d66154453ad1390bda63920370671b968"
+file = "mods/no-prying-eyes.pw.toml"
+hash = "f164dedc8b735ba6e6084632c2fc81e3024db0e0ad46a46d295c3c136dc70331"
 metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "fbab079e97ad9d05574071f0586494ded680553d460533bdb99d85d2cdb57bdf"
+hash = "45aa6827e1cf2b1b941dbe69ea83dfe68f031aa96d9a16c886c9c1224306717a"
 metafile = true
 
 [[files]]
@@ -493,7 +498,7 @@ metafile = true
 
 [[files]]
 file = "mods/rrls.pw.toml"
-hash = "be45cdd2ea730890957e66f7998ca9543a7bf252fb9aa052c859e4f03ff92ed1"
+hash = "5aeea8a1729dd21ed571f619f0b5e74a55a395bc044b2d2e827fdf192ef2c444"
 metafile = true
 
 [[files]]

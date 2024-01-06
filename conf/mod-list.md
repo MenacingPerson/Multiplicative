@@ -13,6 +13,7 @@
 - AppleSkin
 - Architectury API
 - Auth Me
+- BadOptimizations
 - Better Clouds
 - Better Trim Tooltips
 - BlameLog
@@ -30,6 +31,8 @@
 - Do a Barrel Roll
 - Durability Tooltip
 - EMI
+- [EMF] Entity Model Features
+- [ETF] Entity Texture Features
 - Falling Leaves
 - Flow
 - Freecam (Modrinth Edition)
@@ -43,7 +46,7 @@
 - MoreChatHistory
 - M.R.U
 - Nicer Skies
-- No Chat Reports
+- No Prying Eyes
 - Not Enough Animations
 - oωo (owo-lib)
 - Polymer
@@ -83,13 +86,14 @@
 - CreativeCore
 - Durability Tooltip
 - EMI
+- [EMF] Entity Model Features
+- [ETF] Entity Texture Features
 - Freecam (Modrinth Edition)
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
 - Make Bubbles Pop
 - Model Gap Fix
-- No Chat Reports
 - Not Enough Animations
 - Remove Reloading Screen
 - Screenshot to Clipboard
@@ -135,6 +139,7 @@
 - AppleSkin
 - Architectury API
 - Auth Me
+- BadOptimizations
 - Better Clouds
 - Better Trim Tooltips
 - BlameLog
@@ -152,6 +157,8 @@
 - Do a Barrel Roll
 - Durability Tooltip
 - EMI
+- [EMF] Entity Model Features
+- [ETF] Entity Texture Features
 - Falling Leaves
 - Flow
 - Freecam (Modrinth Edition)
@@ -165,7 +172,7 @@
 - MoreChatHistory
 - M.R.U
 - Nicer Skies
-- No Chat Reports
+- No Prying Eyes
 - Not Enough Animations
 - oωo (owo-lib)
 - Polymer
@@ -206,13 +213,14 @@
 - CreativeCore
 - Durability Tooltip
 - EMI
+- [EMF] Entity Model Features
+- [ETF] Entity Texture Features
 - Freecam (Modrinth Edition)
 - Halo HUD
 - ItemPhysic Lite
 - Jade 🔍
 - Make Bubbles Pop
 - Model Gap Fix
-- No Chat Reports
 - Not Enough Animations
 - Remove Reloading Screen
 - Screenshot to Clipboard

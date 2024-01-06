@@ -18,7 +18,7 @@ hash = "4b40806b3db14bae2ce476bb0a3d85916d445476e915c02bd31bdae3d8e004b8"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "839d9c670b90adc76e29b0e57eab87c2cc7aa6109c4adb0e119ec60b164a833b"
+hash = "b4678dbaba3e9e963abb6926458ea36d6967df0eebebeee3f901ef67c0ee7927"
 metafile = true
 
 [[files]]
@@ -39,6 +39,11 @@ metafile = true
 [[files]]
 file = "mods/auth-me.pw.toml"
 hash = "e954c2f9ea9195ef558f0cb7dbc7057f2086348fc4a78186bc399145c18b4bb9"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "087f06bdfbb7c576accfe2f54cba32077889159fe0ed30d554b461f03e488751"
 metafile = true
 
 [[files]]
@@ -78,7 +83,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "31fdd1e2499f295c5806bac01987129f54c0960fdee8dfba5123ac6432bc8f9b"
+hash = "5c77827ed3d6f0553faeae1aa8fb42bdcd30ffdc8db9768c291448ed01d6a702"
 metafile = true
 
 [[files]]
@@ -113,7 +118,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "4e2e4014bc2fd65512ea067da78d83a3f2935f47acc019c2e40adc3d2569af22"
+hash = "963099225c0452ef9446bb2c4c65df417283f165f899cd751e018592963c18be"
 metafile = true
 
 [[files]]
@@ -123,7 +128,17 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "bc8ad6b422fead0c5798e670db44992fc8646e0bb2eba9861c28a72c6d6940c3"
+hash = "7342afdb096b81d2b0790860965757fd634b1d3257c376d8f2000b84cb5348ae"
+metafile = true
+
+[[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "18367cc70788ea339b4cb15a1f1437642467dfcf547235a982d821c2c273926e"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "a4fc7e1049b3b97b3232262bbccf6e21d9247881e50664fee416ed069f0626ff"
 metafile = true
 
 [[files]]
@@ -192,13 +207,13 @@ hash = "ddbcdf60f634287b6df241a873fc07b4ce56facfb358a0a74cb1df9acff97725"
 metafile = true
 
 [[files]]
-file = "mods/no-chat-reports.pw.toml"
-hash = "7ca62a9da5c2ec9f0a8bed5394021c959e90077db16b313be44f4c8736f7fbf5"
+file = "mods/no-prying-eyes.pw.toml"
+hash = "da18f5926cc7748d61ef72a355f351bcc5739582fd10130af5d420f74b3af956"
 metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
+hash = "6e8f54238b405650aea8f045b138b86d13311fabe8bc0bbebd35f3844c9148e4"
 metafile = true
 
 [[files]]
@@ -323,7 +338,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/3dskinlayers.pw.toml"
-hash = "7d6487b7eaba34b66faba21be1ff46da20fdb598a7a45fec7c4d9036a86170c0"
+hash = "b540c31badf9f148500758512a15858840d2ce09062df9c27351d2b026e89630"
 metafile = true
 
 [[files]]
@@ -343,7 +358,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/chat-heads.pw.toml"
-hash = "dcd10eb098b243694c406ddfb32ac1493aa839db833cfeb7036fbe4bef0b618b"
+hash = "897f1247fd595e1bf90a2dde57a8ee35aeffca6fac1475dce794d7a4576dc011"
 metafile = true
 
 [[files]]
@@ -358,7 +373,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/creativecore.pw.toml"
-hash = "b1ab90b1b955dbc4dfffc3479c77c8e5dce7aa35d514e0faef4658f9162d729e"
+hash = "6c1fa726380fb25c20fc55794be4b8799e3e4e0a19291803137b7f301d7ce7c7"
 metafile = true
 
 [[files]]
@@ -368,7 +383,17 @@ metafile = true
 
 [[files]]
 file = "mods_forge/emi.pw.toml"
-hash = "61512dd4f965d4b8fd0db788a60c71255dbd970900c5856fa2e88b238379fa02"
+hash = "3e1e66847151e8d482dd57c4e1f09e49f2dbd6ff2357c5a34c9ab58845a17e10"
+metafile = true
+
+[[files]]
+file = "mods_forge/entity-model-features.pw.toml"
+hash = "91d315684e98d19f91a2610720a6971614bb453717a5e322abae955b2a1bb8f2"
+metafile = true
+
+[[files]]
+file = "mods_forge/entitytexturefeatures.pw.toml"
+hash = "35ca4ad449c8d272750ee81a24ebae0e9f8599d2ab4f4c49633861b8ad72f150"
 metafile = true
 
 [[files]]
@@ -402,13 +427,8 @@ hash = "8370d3602ecb1545b052f81035ff92e3e2cab7dc549fde5a4effb24542bccbc0"
 metafile = true
 
 [[files]]
-file = "mods_forge/no-chat-reports.pw.toml"
-hash = "9a3c80bf6eee8234001d2a1602b3e123ac5706af051902e40f24abe317b86e50"
-metafile = true
-
-[[files]]
 file = "mods_forge/not-enough-animations.pw.toml"
-hash = "dae4dd79e8db2daea3ec318b456fc0e30f529b9acca0a444b4ce7d1debfca143"
+hash = "5e23307c99dc10a01346aeb54802a52bd49cf32043cccd1ed0e9a40617ee4ba4"
 metafile = true
 
 [[files]]
