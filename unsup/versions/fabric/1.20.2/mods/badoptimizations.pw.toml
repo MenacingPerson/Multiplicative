@@ -1,13 +1,13 @@
 name = "BadOptimizations"
-filename = "BadOptimizations-1.5.0.jar"
+filename = "BadOptimizations-1.6.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/g96Z4WVZ/versions/py5wZc1k/BadOptimizations-1.5.0.jar"
+url = "https://cdn.modrinth.com/data/g96Z4WVZ/versions/PY8WFC19/BadOptimizations-1.6.1.jar"
 hash-format = "sha1"
-hash = "3b43a78d9cb2cb5788cf67feab4360ef9d3943a9"
+hash = "0468a66daaa604ee9d160b21670e40af80029179"
 
 [update]
 [update.modrinth]
 mod-id = "g96Z4WVZ"
-version = "py5wZc1k"
+version = "PY8WFC19"

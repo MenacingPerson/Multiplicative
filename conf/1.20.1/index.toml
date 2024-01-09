@@ -43,7 +43,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "087f06bdfbb7c576accfe2f54cba32077889159fe0ed30d554b461f03e488751"
+hash = "d76c913069b9ecd5091ffe2d736db084ba07a7f3a9a8b3fe63ecf86827710b8e"
 metafile = true
 
 [[files]]
@@ -148,7 +148,7 @@ metafile = true
 
 [[files]]
 file = "mods/flow.pw.toml"
-hash = "9cef02a7279a9f6f4946de127642c6fcc02082089585fd1a2e33210313d3f7b3"
+hash = "29bdf2af906e1f10357a548ca2bcd5d7846d9d0728cfeaa07731d34e0d7ff532"
 metafile = true
 
 [[files]]
@@ -308,7 +308,7 @@ metafile = true
 
 [[files]]
 file = "mods/wakes.pw.toml"
-hash = "00ecd73ec7acb98e6ca81b1edbb13ce04d6379174a52a89562333f49fab6572f"
+hash = "76b20c4a8f3b359691380f30eb2778b2dbba74592e396f99228084bd9dc8032d"
 metafile = true
 
 [[files]]

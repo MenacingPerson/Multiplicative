@@ -2,16 +2,17 @@
 
 Updated fabric loader
 
+Quilt is probably dead. It has been dropped to reduce overhead.
+
 "Sonance" has been renamed to "Sounds".
 
 Flow may crash your game, if that occurs try deleting that mod
 
-Quilt is probably dead. It has been dropped to reduce overhead.
-
 1.20.1 is **deprecated** now. This means that:
 - The quilt version is gone.
-- Forge and fabric 1.20.1 are considered deprecated and not recommended for use (support will still be provided)
+- Forge and fabric 1.20.1 are considered "deprecated" (support will still be provided)
 - Forge 1.20.2 awaits connnector in order to update
+- 1.20.1 will be removed when Connector updates
 
 Join my Discord:
 
@@ -21,7 +22,6 @@ Updated:
 - 3D Skin Layers (1.20.1, 1.20.2)
 - Additive (Fabric)
 - Architectury API (1.20.2)
-- BadOptimizations (1.20.1, 1.20.2)
 - Better Clouds (1.20.1, 1.20.2)
 - Caxton (1.20.1, 1.20.2)
 - Chat Heads (1.20.1, 1.20.2)
@@ -33,6 +33,7 @@ Updated:
 - Entity Model Features (1.20.1, 1.20.2)
 - Entity Texture Features (1.20.1, 1.20.2)
 - Faithful 32x (1.20.1, 1.20.2)
+- Flow (1.20.1, 1.20.2)
 - GeoFont Edge (1.20.1, 1.20.2)
 - Halo HUD (1.20.2)
 - Isometric Renders (1.20.2)
@@ -50,6 +51,7 @@ Updated:
 - Wavey Capes (1.20.2)
 
 Added:
+- BadOptimizations (1.20.1, 1.20.2)
 - BlameLog (1.20.1, 1.20.2)
 - No Prying Eyes (1.20.1, 1.20.2)
 - Polymer (1.20.1, 1.20.2)
