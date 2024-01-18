@@ -55,6 +55,7 @@ Added:
 - BlameLog (1.20.1, 1.20.2)
 - No Prying Eyes (1.20.1, 1.20.2)
 - Polymer (1.20.1, 1.20.2)
+- Resource Explorer (1.20.1, 1.20.2)
 - WorldEdit (1.20.2)
 
 Removed:

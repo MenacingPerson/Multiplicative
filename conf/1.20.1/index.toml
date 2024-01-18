@@ -237,6 +237,11 @@ hash = "c3c1849c942e35f08dffc74f1c09bb5bee8546ae221f541b895d96bd26b18a23"
 metafile = true
 
 [[files]]
+file = "mods/resource_explorer.pw.toml"
+hash = "e0f345d6c07ea873a45b428396afaf67d4238a7b7c3d4ee30400ffd00c115e38"
+metafile = true
+
+[[files]]
 file = "mods/rrls.pw.toml"
 hash = "e96bb13c530a62100ad228f1c59f0fc37ceb91ec3e622a0a5d0e32cbe5d95424"
 metafile = true
