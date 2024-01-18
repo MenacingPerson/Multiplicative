@@ -18,7 +18,7 @@ hash = "4b40806b3db14bae2ce476bb0a3d85916d445476e915c02bd31bdae3d8e004b8"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "b4678dbaba3e9e963abb6926458ea36d6967df0eebebeee3f901ef67c0ee7927"
+hash = "65c47c1758d604d53506af223b6d1a07fbeedc5852175d4cfaabe60ce6d1fd45"
 metafile = true
 
 [[files]]
@@ -43,7 +43,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "d76c913069b9ecd5091ffe2d736db084ba07a7f3a9a8b3fe63ecf86827710b8e"
+hash = "4531db2542b54aeea35ae6ab95da5a50667c0d53644ae5c43fb5a94b1237e9dd"
 metafile = true
 
 [[files]]
@@ -128,17 +128,17 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "7342afdb096b81d2b0790860965757fd634b1d3257c376d8f2000b84cb5348ae"
+hash = "8e50562a893127e2fae33a6d4c2add54aab7b92af0108f5a26824360a416601a"
 metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "18367cc70788ea339b4cb15a1f1437642467dfcf547235a982d821c2c273926e"
+hash = "ace5c16356f83d83a41ba828d3657324f5bcdc0dfc75ff950d371f9feef742f2"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "a4fc7e1049b3b97b3232262bbccf6e21d9247881e50664fee416ed069f0626ff"
+hash = "1797cad0d2021eec46358a1e8ff565058d6ea72d4ba9740f8d5fed715d251b9f"
 metafile = true
 
 [[files]]
@@ -343,7 +343,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/3dskinlayers.pw.toml"
-hash = "b540c31badf9f148500758512a15858840d2ce09062df9c27351d2b026e89630"
+hash = "7318b31316fd07d9389d03e0cf62bfeff8ec92c869ab5bea0a7a3aa4508790bc"
 metafile = true
 
 [[files]]
@@ -378,7 +378,7 @@ metafile = true
 
 [[files]]
 file = "mods_forge/creativecore.pw.toml"
-hash = "6c1fa726380fb25c20fc55794be4b8799e3e4e0a19291803137b7f301d7ce7c7"
+hash = "3c214179d325f7667fc26932b8f4100ccbe00817a774c7ebfecd889542e9e3e1"
 metafile = true
 
 [[files]]
@@ -388,17 +388,17 @@ metafile = true
 
 [[files]]
 file = "mods_forge/emi.pw.toml"
-hash = "3e1e66847151e8d482dd57c4e1f09e49f2dbd6ff2357c5a34c9ab58845a17e10"
+hash = "e9e3d53a70169bf04580ae4f979ba13b99595aec2e932212912b28a750eab1a4"
 metafile = true
 
 [[files]]
 file = "mods_forge/entity-model-features.pw.toml"
-hash = "91d315684e98d19f91a2610720a6971614bb453717a5e322abae955b2a1bb8f2"
+hash = "4619f53301d923210f5523d287952a4a6eefb47a21d70a503b67df0fb70069fc"
 metafile = true
 
 [[files]]
 file = "mods_forge/entitytexturefeatures.pw.toml"
-hash = "35ca4ad449c8d272750ee81a24ebae0e9f8599d2ab4f4c49633861b8ad72f150"
+hash = "4154f44ca76db156f1a6c4b3e3b4b2dce9af0e630cdc757e7bd7f730686477d4"
 metafile = true
 
 [[files]]
@@ -434,6 +434,11 @@ metafile = true
 [[files]]
 file = "mods_forge/not-enough-animations.pw.toml"
 hash = "5e23307c99dc10a01346aeb54802a52bd49cf32043cccd1ed0e9a40617ee4ba4"
+metafile = true
+
+[[files]]
+file = "mods_forge/resource_explorer.pw.toml"
+hash = "5b2a8358403c501ed6d37c595392db1436ae41f6d810b134eb0955a80c3a5271"
 metafile = true
 
 [[files]]

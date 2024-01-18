@@ -126,7 +126,7 @@ hash = "93c4b423cf982419932b7085a1233ae956061f262fb732fd7f132a6c56817c9a"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "b540c31badf9f148500758512a15858840d2ce09062df9c27351d2b026e89630"
+hash = "7318b31316fd07d9389d03e0cf62bfeff8ec92c869ab5bea0a7a3aa4508790bc"
 metafile = true
 
 [[files]]
@@ -146,7 +146,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "d76c913069b9ecd5091ffe2d736db084ba07a7f3a9a8b3fe63ecf86827710b8e"
+hash = "4531db2542b54aeea35ae6ab95da5a50667c0d53644ae5c43fb5a94b1237e9dd"
 metafile = true
 
 [[files]]
@@ -226,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "6c1fa726380fb25c20fc55794be4b8799e3e4e0a19291803137b7f301d7ce7c7"
+hash = "3c214179d325f7667fc26932b8f4100ccbe00817a774c7ebfecd889542e9e3e1"
 metafile = true
 
 [[files]]
@@ -266,7 +266,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "3e1e66847151e8d482dd57c4e1f09e49f2dbd6ff2357c5a34c9ab58845a17e10"
+hash = "e9e3d53a70169bf04580ae4f979ba13b99595aec2e932212912b28a750eab1a4"
 metafile = true
 
 [[files]]
@@ -276,7 +276,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "91d315684e98d19f91a2610720a6971614bb453717a5e322abae955b2a1bb8f2"
+hash = "4619f53301d923210f5523d287952a4a6eefb47a21d70a503b67df0fb70069fc"
 metafile = true
 
 [[files]]
@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "35ca4ad449c8d272750ee81a24ebae0e9f8599d2ab4f4c49633861b8ad72f150"
+hash = "4154f44ca76db156f1a6c4b3e3b4b2dce9af0e630cdc757e7bd7f730686477d4"
 metafile = true
 
 [[files]]
@@ -442,6 +442,11 @@ metafile = true
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "7a6c27fcdf9d6e4c25ad433a676357353b8d6125433e7a883de4ddb889767f88"
+metafile = true
+
+[[files]]
+file = "mods/resource_explorer.pw.toml"
+hash = "5b2a8358403c501ed6d37c595392db1436ae41f6d810b134eb0955a80c3a5271"
 metafile = true
 
 [[files]]

@@ -52,6 +52,7 @@
 - Polymer
 - Presence Footsteps
 - ReplayMod
+- Resource Explorer
 - Remove Reloading Screen
 - Raise Sound Limit Simplified
 - Screenshot to Clipboard
@@ -95,6 +96,7 @@
 - Make Bubbles Pop
 - Model Gap Fix
 - Not Enough Animations
+- Resource Explorer
 - Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen 
@@ -178,6 +180,7 @@
 - Polymer
 - Presence Footsteps
 - ReplayMod
+- Resource Explorer
 - Remove Reloading Screen
 - Raise Sound Limit Simplified
 - Screenshot to Clipboard
@@ -222,6 +225,7 @@
 - Make Bubbles Pop
 - Model Gap Fix
 - Not Enough Animations
+- Resource Explorer
 - Remove Reloading Screen
 - Screenshot to Clipboard
 - Seamless Loading Screen 

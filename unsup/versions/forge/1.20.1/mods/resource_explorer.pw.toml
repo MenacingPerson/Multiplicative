@@ -1,0 +1,13 @@
+name = "Resource Explorer"
+filename = "resource_explorer_forge_1.20.1-1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/O9EQyLyn/versions/KGLK7s8M/resource_explorer_forge_1.20.1-1.0.jar"
+hash-format = "sha1"
+hash = "cdc568f317c911979a83667a6dd469f1267255e9"
+
+[update]
+[update.modrinth]
+mod-id = "O9EQyLyn"
+version = "KGLK7s8M"

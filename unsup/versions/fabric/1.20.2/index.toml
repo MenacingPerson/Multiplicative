@@ -118,7 +118,7 @@ hash = "93c4b423cf982419932b7085a1233ae956061f262fb732fd7f132a6c56817c9a"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "0943cdeaa011b27f21a6ca2e3d36724e671d2a4a9df03b44ae56326cc6329568"
+hash = "2f8e590465a03517595deb5d1fa8624c8baf8f01ada448c60cd6a51fb38a064e"
 metafile = true
 
 [[files]]
@@ -148,7 +148,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "bf3ed98dfabf5a5869a345a4512dcd241aa69974dfae1e5b62de7d22af62b9b4"
+hash = "22912bd5332d75227a2eb6aba10a176e5d471c12b01e42fbe5219fac37fab19d"
 metafile = true
 
 [[files]]
@@ -263,7 +263,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "eee72235f0b30433bbb3d2a0024178786b44e3632f2d499b547803c6be941839"
+hash = "c1211138cf94b3ec823f88fd3de88d697bc3b617550ac0d4fc681380cc7bb9ca"
 metafile = true
 
 [[files]]
@@ -273,7 +273,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "b1dd9fca21e7fc6d763fe499b05c4b88b516899a474c8f9b9661bef6ee4771ad"
+hash = "6f162ccaaa0a0d9368c5f9f29de193101dbf1b2775f6d9bbf6e9e28c5abf4126"
 metafile = true
 
 [[files]]
@@ -283,7 +283,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "8aedc7b003b47487c5c2a7e39caedd558cf715c35458956a1a4a18004ca0acbd"
+hash = "175b853e7471f981ca6995829aae94b6a9df640619d5dba9b2a5008251f8866a"
 metafile = true
 
 [[files]]
@@ -489,6 +489,11 @@ metafile = true
 [[files]]
 file = "mods/replaymod.pw.toml"
 hash = "a475d3870afc952403e4da75c2d0aa19f80f9ebfdce8c4103fc24fca5ab51533"
+metafile = true
+
+[[files]]
+file = "mods/resource_explorer.pw.toml"
+hash = "117164b09f2341991ed38d1fff113c5c8b87098d5c60700bcaa84a25d9c956fd"
 metafile = true
 
 [[files]]
