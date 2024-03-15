@@ -1,13 +1,13 @@
 name = "Resource Explorer"
-filename = "resource_explorer_fabric_1.20.1-1.0.jar"
+filename = "resource_explorer_fabric_1.20.1-1.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/O9EQyLyn/versions/SqRl8iud/resource_explorer_fabric_1.20.1-1.0.jar"
+url = "https://cdn.modrinth.com/data/O9EQyLyn/versions/tTMOSCg6/resource_explorer_fabric_1.20.1-1.1.jar"
 hash-format = "sha1"
-hash = "d4dd73a7007735dc9c4c7b1a9f383e509e7abf3d"
+hash = "fd16fcebe557d0f345cc358c3bd1d9a339bf39c4"
 
 [update]
 [update.modrinth]
 mod-id = "O9EQyLyn"
-version = "SqRl8iud"
+version = "tTMOSCg6"

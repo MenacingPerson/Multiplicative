@@ -85,6 +85,7 @@
 - Cherished Worlds
 - Chunky
 - CreativeCore
+- Do a Barrel Roll
 - Durability Tooltip
 - EMI
 - [EMF] Entity Model Features

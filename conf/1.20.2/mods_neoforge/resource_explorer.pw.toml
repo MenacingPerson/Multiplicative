@@ -1,13 +1,13 @@
 name = "Resource Explorer"
-filename = "resource_explorer-forge-1.0.jar"
+filename = "resource_explorer_neoforge_1.20.2-1.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/O9EQyLyn/versions/gxjZNCz2/resource_explorer-forge-1.0.jar"
+url = "https://cdn.modrinth.com/data/O9EQyLyn/versions/CFx3BwPd/resource_explorer_neoforge_1.20.2-1.1.jar"
 hash-format = "sha1"
-hash = "08072520b30ec1f151adf80b44cc53061eeb43d5"
+hash = "9bb05d988eaa1ae6b13064e0d301d74a842a2eb4"
 
 [update]
 [update.modrinth]
 mod-id = "O9EQyLyn"
-version = "gxjZNCz2"
+version = "CFx3BwPd"
