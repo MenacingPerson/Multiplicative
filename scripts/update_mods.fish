@@ -12,7 +12,7 @@ git stash
 for i in $argv
     cd ./conf/"$i"
     packwiz update --all --yes
-    git restore mods_forge
+    git restore mods_neoforge
     packwiz refresh
     git add .
     cd ../..
@@ -23,9 +23,9 @@ git commit -m "Update fabric mods"
 
 for i in $argv
     cd ./conf/"$i"
-    sed 's/fabric/forge/g' pack.toml -i
+    sed 's/fabric/neoforge/g' pack.toml -i
     packwiz update --all --yes
-    cp (git status | grep modified: | grep ' mods/' | awk '{print $2}') mods_forge
+    cp (git status | grep modified: | grep ' mods/' | awk '{print $2}') mods_neoforge
     git restore mods pack.toml
     packwiz refresh
     git add .

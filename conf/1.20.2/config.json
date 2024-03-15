@@ -6,14 +6,14 @@
     ],
     "mods_optional": [],
     "mods_optional_fabric": [],
-    "mods_optional_forge": [],
+    "mods_optional_neoforge": [],
     "mods_removed": [
         "capes"
     ],
     "mods_removed_fabric": [
         "better-trim-tooltips"
     ],
-    "mods_removed_forge": [
+    "mods_removed_neoforge": [
         "auth-me",
         "amecs",
         "better-clouds",

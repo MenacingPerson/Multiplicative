@@ -38,8 +38,8 @@ do
         dump_toml "conf/$i/mods_fabric/*" | markdownify
 #        echo -e "\n### Quilt:"
 #        dump_toml "conf/$i/mods_quilt/*" | markdownify
-        echo -e "\n### Forge:"
-        dump_toml "conf/$i/mods_forge/*" | markdownify
+        echo -e "\n### NeoForge:"
+        dump_toml "conf/$i/mods_neoforge/*" | markdownify
 
         echo -e "\n## Resource packs:"
         dump_toml "conf/$i/resourcepacks/*" | markdownify
@@ -51,7 +51,7 @@ do
         get_json_or_nothing '.mods_removed_fabric[]' < conf/$i/config.json | markdownify
 #        echo -e "\n### Quilt:"
 #        get_json_or_nothing '.mods_removed_quilt[]' < conf/$i/config.json | markdownify
-        echo -e "\n### Forge:"
-        get_json_or_nothing '.mods_removed_forge[]' < conf/$i/config.json | markdownify
+        echo -e "\n### NeoForge:"
+        get_json_or_nothing '.mods_removed_neoforge[]' < conf/$i/config.json | markdownify
     fi
 done

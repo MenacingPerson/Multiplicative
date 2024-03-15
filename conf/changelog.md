@@ -10,8 +10,7 @@ Flow may crash your game, if that occurs try deleting that mod
 
 1.20.1 is **deprecated** now. This means that:
 - The quilt version is gone.
-- Forge and fabric 1.20.1 are considered "deprecated" (support will still be provided)
-- Forge 1.20.2 awaits connnector in order to update
+- NeoForge 1.20.2 awaits connector in order to update
 - 1.20.1 will be removed when Connector updates
 
 Join my Discord:
@@ -28,7 +27,7 @@ Updated:
 - Cherished Worlds (1.20.1)
 - CreativeCore (1.20.1)
 - Do a Barrel Roll (1.20.1, 1.20.2)
-- Drill (Forge)
+- Drill (NeoForge)
 - EMI (1.20.1, 1.20.2)
 - Entity Model Features (1.20.1, 1.20.2)
 - Entity Texture Features (1.20.1, 1.20.2)

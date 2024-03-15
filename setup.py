@@ -65,7 +65,7 @@ def fix_mmc_config(pack: dict):
     mmc_conf_json = json_read('./config/isxander-main-menu-credits.json')
     mmc_conf_json = {
         'main_menu': {
-            ('bottom_left' if pack['modloader'] != 'forge' else 'top_left'): [
+            ('bottom_left' if pack['modloader'] != 'neoforge' else 'top_left'): [
                 {
                     'text': f'{base_conf["pack_name"]} {base_conf["pack_version"]}',
                     'clickEvent': {
@@ -92,8 +92,8 @@ def change_modloader_ver(pack: dict) -> None:
         exit(1)
 
 
-def forge_additive_fixer(pack: dict) -> None:
-    """Clean up forge edition"""
+def neoforge_additive_fixer(pack: dict) -> None:
+    """Clean up neoforge edition"""
     echo(f'Cleaning up extra files for {pack["edition"]}')
     for folder in glob.glob('mods_*'):
         shutil.rmtree(folder)
@@ -157,7 +157,7 @@ run_in('all', fix_mmc_config)
 for i in base_conf['modloaders']:
     run_in(i, change_modloader_ver)
 
-run_in('forge', forge_additive_fixer)
+run_in('neoforge', neoforge_additive_fixer)
 
 run_in('all', core.packwiz.pw_refresh)
 

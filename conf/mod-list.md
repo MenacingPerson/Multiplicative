@@ -76,7 +76,7 @@
 - Recursive Resources
 - Respackopts
 
-### Forge:
+### NeoForge:
 - 3D Skin Layers
 - AppleSkin
 - Architectury API
@@ -119,7 +119,7 @@
 ### Fabric:
 - (Nothing)
 
-### Forge:
+### NeoForge:
 - auth-me
 - amecs
 - better-clouds
@@ -205,7 +205,7 @@
 - Recursive Resources
 - Respackopts
 
-### Forge:
+### NeoForge:
 - 3D Skin Layers
 - AppleSkin
 - Architectury API
@@ -248,7 +248,7 @@
 ### Fabric:
 - better-trim-tooltips
 
-### Forge:
+### NeoForge:
 - auth-me
 - amecs
 - better-clouds

@@ -13,7 +13,7 @@ file = "config/yosbr/config/flow.config.json"
 hash = "1a2b335b5c1236b29749b49fef186344a995d502ce005ed43d510fc48fdeb9b0"
 
 [[files]]
-file = "config_forge/fabric_loader_dependencies.json"
+file = "config_neoforge/fabric_loader_dependencies.json"
 hash = "6f5bbb588fc23d8c873dc5f3cec789b6e96fe46e530e45646dd546dbb1e12e1b"
 
 [[files]]
@@ -347,142 +347,142 @@ hash = "d8feef9f570f3ee7ede6fc6ef956cce15183d58edbaa89054d42cb5520d052df"
 metafile = true
 
 [[files]]
-file = "mods_forge/3dskinlayers.pw.toml"
+file = "mods_neoforge/3dskinlayers.pw.toml"
 hash = "3bba06ce95e5a4e7101b2c07daf110eabbd053e9ab495feaadc8dd0e74b57f02"
 metafile = true
 
 [[files]]
-file = "mods_forge/appleskin.pw.toml"
+file = "mods_neoforge/appleskin.pw.toml"
 hash = "22f9639a231514563837d4a950d05829166b634b66f4f8b15515b1cf17348ac9"
 metafile = true
 
 [[files]]
-file = "mods_forge/architectury-api.pw.toml"
+file = "mods_neoforge/architectury-api.pw.toml"
 hash = "ca06b6b1791fcb7f3a823c712cf6a67b90dd1ed9b7234e9f5ece1adba9481850"
 metafile = true
 
 [[files]]
-file = "mods_forge/caxton.pw.toml"
+file = "mods_neoforge/caxton.pw.toml"
 hash = "9b25cca974739d36a591f2e0ef0ef53c0cb6cc74341569c261192b16a91faec7"
 metafile = true
 
 [[files]]
-file = "mods_forge/chat-heads.pw.toml"
+file = "mods_neoforge/chat-heads.pw.toml"
 hash = "6be9862dac64e799083d69daf7a547ddf1e861ae13900b9b1eb6f4cd4e763a2a"
 metafile = true
 
 [[files]]
-file = "mods_forge/cherished-worlds.pw.toml"
+file = "mods_neoforge/cherished-worlds.pw.toml"
 hash = "b36a3b0f3a0caa550966e461269385a9d62ba2d164e647df029e4f4e35d65bab"
 metafile = true
 
 [[files]]
-file = "mods_forge/chunky.pw.toml"
+file = "mods_neoforge/chunky.pw.toml"
 hash = "0e82cf003a7ae18edfad6964fb76d7a7230e546f45e56fccae7eca7bd84eee90"
 metafile = true
 
 [[files]]
-file = "mods_forge/creativecore.pw.toml"
+file = "mods_neoforge/creativecore.pw.toml"
 hash = "c5d155fbbdcf44b13a6120c89260cd71f7b8c806fe2eceeed87f4410edae4da9"
 metafile = true
 
 [[files]]
-file = "mods_forge/durability-tooltip.pw.toml"
+file = "mods_neoforge/durability-tooltip.pw.toml"
 hash = "e13845627cfb1c5a84fe0e012db743bd0c2e3fba5c0fa5d4033c737a9051ff9a"
 metafile = true
 
 [[files]]
-file = "mods_forge/emi.pw.toml"
+file = "mods_neoforge/emi.pw.toml"
 hash = "b0e64b47508aaa45cacc507d68faf11730df676999d2bdaf77c6f612d7ba0b07"
 metafile = true
 
 [[files]]
-file = "mods_forge/entity-model-features.pw.toml"
+file = "mods_neoforge/entity-model-features.pw.toml"
 hash = "cbee6a6828b1a55a3dc2c42e829ee3e4f80fc145fac80a2a382b4d2b9a08be53"
 metafile = true
 
 [[files]]
-file = "mods_forge/entitytexturefeatures.pw.toml"
+file = "mods_neoforge/entitytexturefeatures.pw.toml"
 hash = "ed3aedddf541948a7b1a967f146757f4bdc6cdd545e2949b049c3f7f122502e4"
 metafile = true
 
 [[files]]
-file = "mods_forge/freecam.pw.toml"
+file = "mods_neoforge/freecam.pw.toml"
 hash = "38b2a10e2b231fe8a50461627ca60b981d221f0cc92b8508080336dde5a3d434"
 metafile = true
 
 [[files]]
-file = "mods_forge/halohud.pw.toml"
+file = "mods_neoforge/halohud.pw.toml"
 hash = "0e3eaedf1ab47545ee9119b9f38e579b24f35358789b48e183b48945da10e235"
 metafile = true
 
 [[files]]
-file = "mods_forge/itemphysic-lite.pw.toml"
+file = "mods_neoforge/itemphysic-lite.pw.toml"
 hash = "66147b9c339ab8f753681a5b631af12009400650f3a66771583bf61e955b74d5"
 metafile = true
 
 [[files]]
-file = "mods_forge/jade.pw.toml"
+file = "mods_neoforge/jade.pw.toml"
 hash = "9d22919691ed5c3ea126110831f57932eba8d4b8024948f16aa7c6518addf038"
 metafile = true
 
 [[files]]
-file = "mods_forge/make_bubbles_pop.pw.toml"
+file = "mods_neoforge/make_bubbles_pop.pw.toml"
 hash = "6838240b825c5b2f362ed03da14e93f4449b29bc016370fba46bbf3312b79d10"
 metafile = true
 
 [[files]]
-file = "mods_forge/modelfix.pw.toml"
+file = "mods_neoforge/modelfix.pw.toml"
 hash = "8370d3602ecb1545b052f81035ff92e3e2cab7dc549fde5a4effb24542bccbc0"
 metafile = true
 
 [[files]]
-file = "mods_forge/not-enough-animations.pw.toml"
+file = "mods_neoforge/not-enough-animations.pw.toml"
 hash = "a432117de9d4101dc396fcafdbed9621aec9694036299e9b14f64be12b0ab27c"
 metafile = true
 
 [[files]]
-file = "mods_forge/resource_explorer.pw.toml"
+file = "mods_neoforge/resource_explorer.pw.toml"
 hash = "5debe38ab3657fe93d93bb0aac5e53ae1dc758ea2884807f2f09b1181096e48f"
 metafile = true
 
 [[files]]
-file = "mods_forge/rrls.pw.toml"
+file = "mods_neoforge/rrls.pw.toml"
 hash = "5a70811f11bccd6a9b7e52682de06faae2ee5fcc1777ae5e466b1a6a87052f69"
 metafile = true
 
 [[files]]
-file = "mods_forge/screenshot-to-clipboard.pw.toml"
+file = "mods_neoforge/screenshot-to-clipboard.pw.toml"
 hash = "520259c531d1308f821d648e71ff88872fa0cd8d3d7f6e1c78b9a1649420deea"
 metafile = true
 
 [[files]]
-file = "mods_forge/seamless-loading-screen.pw.toml"
+file = "mods_neoforge/seamless-loading-screen.pw.toml"
 hash = "4a007a6f3c9cf3bcdafe27250a96072baec5213ad94e9b9d7b1f44cf4e7fa8f1"
 metafile = true
 
 [[files]]
-file = "mods_forge/smooth-swapping.pw.toml"
+file = "mods_neoforge/smooth-swapping.pw.toml"
 hash = "f7078957bab04a8b8e86e759c21d8e05d0c9c9fa353514f16d400b76a1edde84"
 metafile = true
 
 [[files]]
-file = "mods_forge/sound-physics-remastered.pw.toml"
+file = "mods_neoforge/sound-physics-remastered.pw.toml"
 hash = "53a6d56101f5d3fc517b2d3b1ea6ec95476dec5e26a434b1f5f69859e56fc51e"
 metafile = true
 
 [[files]]
-file = "mods_forge/spark.pw.toml"
+file = "mods_neoforge/spark.pw.toml"
 hash = "ec76d352ae9edb5449b1e63229d4275b66d11065d1ac1d5308076b0e420085b6"
 metafile = true
 
 [[files]]
-file = "mods_forge/supermartijn642s-config-lib.pw.toml"
+file = "mods_neoforge/supermartijn642s-config-lib.pw.toml"
 hash = "bbfed281be243d734ced2ef413afcaff4536ca0850f5c85199d6c3817d32c959"
 metafile = true
 
 [[files]]
-file = "mods_forge/wavey-capes.pw.toml"
+file = "mods_neoforge/wavey-capes.pw.toml"
 hash = "c79878c83794a1eec567f129df5ed2b8cfd1c004d56413e909f32b5823ecdeff"
 metafile = true
 
