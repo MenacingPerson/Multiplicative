@@ -1,0 +1,13 @@
+name = "Resource Explorer"
+filename = "resource_explorer_neoforge_1.20.4-1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/O9EQyLyn/versions/jg44PYYZ/resource_explorer_neoforge_1.20.4-1.1.jar"
+hash-format = "sha1"
+hash = "9ba47b49bff272778b218de34078a204d4c43a0c"
+
+[update]
+[update.modrinth]
+mod-id = "O9EQyLyn"
+version = "jg44PYYZ"

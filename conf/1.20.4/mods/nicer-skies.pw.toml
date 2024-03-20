@@ -1,0 +1,13 @@
+name = "Nicer Skies"
+filename = "nicer-skies-1.3.1+1.20.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gsJ6q45e/versions/t3LWdUoC/nicer-skies-1.3.1%2B1.20.4.jar"
+hash-format = "sha1"
+hash = "467ea74aa01b905ab5ba6ddf911b5e889c747450"
+
+[update]
+[update.modrinth]
+mod-id = "gsJ6q45e"
+version = "t3LWdUoC"

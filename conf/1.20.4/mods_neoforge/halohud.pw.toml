@@ -1,0 +1,13 @@
+name = "Halo HUD"
+filename = "halohud-4.2+1.20.2-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rbMt0AmF/versions/Zm3E5Ylg/halohud-4.2%2B1.20.2-neoforge.jar"
+hash-format = "sha1"
+hash = "dfd6f90e387e4030bcacbbc1316bdc17d9631c6c"
+
+[update]
+[update.modrinth]
+mod-id = "rbMt0AmF"
+version = "Zm3E5Ylg"

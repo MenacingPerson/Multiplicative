@@ -1,0 +1,30 @@
+    {
+    "game_version": "1.20.4",
+    "game_version_compat": ["1.20.4"],
+    "modloaders": [
+        "fabric"
+    ],
+    "archived": false,
+    "mods_optional": [],
+    "mods_optional_fabric": [],
+    "mods_optional_neoforge": [],
+    "mods_removed": [
+        "capes"
+    ],
+    "mods_removed_fabric": [
+        "better-trim-tooltips",
+        "server-pack-unlocker",
+        "smooth-swapping"
+    ],
+    "mods_removed_neoforge": [
+        "auth-me",
+        "amecs",
+        "better-clouds",
+        "c2me-fabric",
+        "carpet",
+        "oculus",
+        "replaymod",
+        "skinshuffle",
+        "smooth-swapping"
+    ]
+}

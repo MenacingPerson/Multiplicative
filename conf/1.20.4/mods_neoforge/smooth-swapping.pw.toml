@@ -1,0 +1,13 @@
+name = "Smooth Swapping"
+filename = "smoothswapping-0.9.2-1.20-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ydZic5r4/versions/cqPaTtap/smoothswapping-0.9.2-1.20-forge.jar"
+hash-format = "sha1"
+hash = "455e8d946b8b00eb6aa35069f3144add453afdd0"
+
+[update]
+[update.modrinth]
+mod-id = "ydZic5r4"
+version = "cqPaTtap"

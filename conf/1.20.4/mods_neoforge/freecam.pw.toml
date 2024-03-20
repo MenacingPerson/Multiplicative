@@ -1,0 +1,17 @@
+name = "Freecam (Modrinth Edition)"
+filename = "freecam-neoforge-modrinth-1.2.3+1.20.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XeEZ3fK2/versions/zI7rEF4y/freecam-neoforge-modrinth-1.2.3%2B1.20.4.jar"
+hash-format = "sha1"
+hash = "2b0c3521c5c89728aa8d6b2e69c1de240e93e25f"
+
+[update]
+[update.modrinth]
+mod-id = "XeEZ3fK2"
+version = "zI7rEF4y"
+
+[option]
+optional = true
+description = "Freecam may be bannable in some servers. Use carefully."

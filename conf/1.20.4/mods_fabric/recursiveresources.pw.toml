@@ -1,0 +1,13 @@
+name = "Recursive Resources"
+filename = "recursive-resources-2.5.2+1.20.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CcL3MXyI/versions/IpALOkuR/recursive-resources-2.5.2%2B1.20.4.jar"
+hash-format = "sha1"
+hash = "57964a35cc2b23b5108cd169d1c3cef741e93d91"
+
+[update]
+[update.modrinth]
+mod-id = "CcL3MXyI"
+version = "IpALOkuR"

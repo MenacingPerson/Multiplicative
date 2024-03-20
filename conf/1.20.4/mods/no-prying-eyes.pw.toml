@@ -1,0 +1,13 @@
+name = "No Prying Eyes"
+filename = "NoPryingEyes-1.20.4- v1.5.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LoXPgYhm/versions/Is2u0NnU/NoPryingEyes-1.20.4-%20v1.5.5.jar"
+hash-format = "sha1"
+hash = "43b115cc4b5c0411fa0259460f8c1c28fcd47b7b"
+
+[update]
+[update.modrinth]
+mod-id = "LoXPgYhm"
+version = "Is2u0NnU"
