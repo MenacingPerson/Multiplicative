@@ -138,7 +138,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "db5ed377971524f04c90a8fdd72cbf7c5e7bb358d038bcc2a26e04e05f280fdb"
+hash = "9954945365c005d4aed52a73c5dce9d4b6db531f11f99afa24b8bdefbfc98837"
 metafile = true
 
 [[files]]
@@ -188,7 +188,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "3a6d1289a43c5ceade496b363cf4b6ea970e20dec11850bbc776d76eb86081a1"
+hash = "88612d286ff994781731109320900a297c5b66611e60367fc3bb96e40f13d8d7"
 metafile = true
 
 [[files]]
@@ -273,7 +273,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "47f3f4d0510127d8955e87fc8a7d9f7ccfebf18af6be6fdeebc8a5691e76d9f3"
+hash = "15b69c4293b34c50df1c1ca5f18de8b6f4c0cb96261cfcf19460b0afd5148f29"
 metafile = true
 
 [[files]]
@@ -283,7 +283,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "852b786866079a89a434193cb0c9bee3111ea3e9b9dae63b7a9077cd625969ca"
+hash = "ed372944e547b3f112a7d3ccc5a84fc4cf38a2f2da7f17a4bac4e2d2d3ae8235"
 metafile = true
 
 [[files]]

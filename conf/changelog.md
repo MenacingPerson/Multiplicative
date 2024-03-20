@@ -31,8 +31,6 @@ Updated:
 - Do a Barrel Roll (1.20.1, 1.20.2)
 - Drill (NeoForge)
 - EMI (1.20.1, 1.20.2)
-- Entity Model Features (1.20.1, 1.20.2)
-- Entity Texture Features (1.20.1, 1.20.2)
 - Faithful 32x (1.20.1, 1.20.2)
 - Flow (1.20.1, 1.20.2)
 - Fresh Animations (1.20.1, 1.20.2)

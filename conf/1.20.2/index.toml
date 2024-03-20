@@ -33,7 +33,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "db5ed377971524f04c90a8fdd72cbf7c5e7bb358d038bcc2a26e04e05f280fdb"
+hash = "9954945365c005d4aed52a73c5dce9d4b6db531f11f99afa24b8bdefbfc98837"
 metafile = true
 
 [[files]]
@@ -83,7 +83,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "3a6d1289a43c5ceade496b363cf4b6ea970e20dec11850bbc776d76eb86081a1"
+hash = "88612d286ff994781731109320900a297c5b66611e60367fc3bb96e40f13d8d7"
 metafile = true
 
 [[files]]
@@ -129,16 +129,6 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "ff786a4fa6357ade9a34de619a9c427c1cd8da2d856b870a6c8dde568b761723"
-metafile = true
-
-[[files]]
-file = "mods/entity-model-features.pw.toml"
-hash = "47f3f4d0510127d8955e87fc8a7d9f7ccfebf18af6be6fdeebc8a5691e76d9f3"
-metafile = true
-
-[[files]]
-file = "mods/entitytexturefeatures.pw.toml"
-hash = "852b786866079a89a434193cb0c9bee3111ea3e9b9dae63b7a9077cd625969ca"
 metafile = true
 
 [[files]]
@@ -358,7 +348,7 @@ metafile = true
 
 [[files]]
 file = "mods_neoforge/architectury-api.pw.toml"
-hash = "83b2992b0d2fc19b67dc7ac30d638ce6b159b37003fb5dec6f9e2c8800da9ab8"
+hash = "5e65e672ffc124c0ce91f6f087e718e7ccefdc0e4a2a8fb788ba7ee65a020d15"
 metafile = true
 
 [[files]]
@@ -368,7 +358,7 @@ metafile = true
 
 [[files]]
 file = "mods_neoforge/chat-heads.pw.toml"
-hash = "04729fb0c4876341a7b561b60d1c34f83da3f4f4e9043b5b75e24b10f4eec16c"
+hash = "64eb28af9be3111fa183a121f64a9e68f817750982722751ffaa6838dfdc44b3"
 metafile = true
 
 [[files]]
@@ -394,16 +384,6 @@ metafile = true
 [[files]]
 file = "mods_neoforge/emi.pw.toml"
 hash = "79c1443f591bd8ef5391dbec47b1e91b0755ada5f4e9029a2025aa4c9670c615"
-metafile = true
-
-[[files]]
-file = "mods_neoforge/entity-model-features.pw.toml"
-hash = "621b35bbe1bf7027676a6698a2c1035ca5d5e0048d83676fec6c48a15507923e"
-metafile = true
-
-[[files]]
-file = "mods_neoforge/entitytexturefeatures.pw.toml"
-hash = "d0ef24da9b0d3f781aff32eb73bfd4cd8b1683839a4f6cefaa58293beee636b0"
 metafile = true
 
 [[files]]

@@ -83,7 +83,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "56a4d9f9b47a65b3508192e519163ff73c712354d3ff907938f2593d18ea166e"
+hash = "8a069d8b237eb6807fb27f7b19867055293190f25b03e83dad183dfcdad9efd7"
 metafile = true
 
 [[files]]
@@ -129,16 +129,6 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "b4d08a3dddc2daf3771527f7ce940bf04f0dd96389d55e2194861d0b258fd373"
-metafile = true
-
-[[files]]
-file = "mods/entity-model-features.pw.toml"
-hash = "8a25b9833ad536b08c6c3bd0f2eab8d5d680b0bd18fb9bd3206d47c6f464e5ba"
-metafile = true
-
-[[files]]
-file = "mods/entitytexturefeatures.pw.toml"
-hash = "d42acbade20a83ebd7faac05fbe979730a40a170e7ea6e31e126d2517bbb33dd"
 metafile = true
 
 [[files]]
@@ -363,7 +353,7 @@ metafile = true
 
 [[files]]
 file = "mods_neoforge/chat-heads.pw.toml"
-hash = "f247815ac9b059c160bc3d7fc8881cc379dcfceeb409eea951eb21154f72e838"
+hash = "d36f49cad940db9f2b494c77a0b918529227127e91a0986da6ea11bcc1bceda4"
 metafile = true
 
 [[files]]
@@ -394,16 +384,6 @@ metafile = true
 [[files]]
 file = "mods_neoforge/emi.pw.toml"
 hash = "6fa03643f11beea4082e303bb19f49b0d7956f5e8176356861ce28f35d8f7b25"
-metafile = true
-
-[[files]]
-file = "mods_neoforge/entity-model-features.pw.toml"
-hash = "f01df0e97d136b72ca54b9eaacbdb9adcdadc9bb6cc6d6b80a045e5a99bf5f95"
-metafile = true
-
-[[files]]
-file = "mods_neoforge/entitytexturefeatures.pw.toml"
-hash = "6aa429945fb3ea2a28187e1fcf0523ebde2adf2c81edcf069d5a2edf21f9273b"
 metafile = true
 
 [[files]]

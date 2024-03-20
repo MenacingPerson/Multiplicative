@@ -31,8 +31,6 @@
 - Do a Barrel Roll
 - Durability Tooltip
 - EMI
-- [EMF] Entity Model Features
-- [ETF] Entity Texture Features
 - Falling Leaves
 - Flow
 - Freecam (Modrinth Edition)
@@ -88,8 +86,6 @@
 - Do a Barrel Roll
 - Durability Tooltip
 - EMI
-- [EMF] Entity Model Features
-- [ETF] Entity Texture Features
 - Freecam (Modrinth Edition)
 - Halo HUD
 - ItemPhysic Lite
@@ -160,8 +156,6 @@
 - Do a Barrel Roll
 - Durability Tooltip
 - EMI
-- [EMF] Entity Model Features
-- [ETF] Entity Texture Features
 - Falling Leaves
 - Flow
 - Freecam (Modrinth Edition)
@@ -217,8 +211,6 @@
 - CreativeCore
 - Durability Tooltip
 - EMI
-- [EMF] Entity Model Features
-- [ETF] Entity Texture Features
 - Freecam (Modrinth Edition)
 - Halo HUD
 - ItemPhysic Lite
