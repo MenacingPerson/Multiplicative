@@ -5,6 +5,7 @@
         "fabric",
         "neoforge"
     ],
+    "archived": false,
     "mods_optional": [],
     "mods_optional_fabric": [],
     "mods_optional_neoforge": [],

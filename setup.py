@@ -127,8 +127,9 @@ for modloader in config['modloaders']:
     os.makedirs(f'{ODIR}/Modified/versions/{modloader}')
     chodir()
     preferred_upstream_edition = base_conf["modloaders"][modloader]["preferred_upstream_edition"]
-    if os.path.isdir(f'{ODIR}/{preferred_upstream_edition}/versions/{modloader}/{config["game_version"]}'):
-        shutil.copytree(f'{ODIR}/{preferred_upstream_edition}/versions/{modloader}/{config["game_version"]}',
+    p = 'archived' if config['archived'] else 'versions'
+    if os.path.isdir(f'{ODIR}/{preferred_upstream_edition}/{p}/{modloader}/{config["game_version"]}'):
+        shutil.copytree(f'{ODIR}/{preferred_upstream_edition}/{p}/{modloader}/{config["game_version"]}',
                         f'{modloader}/{config["game_version"]}')
     else:
         print(f'{modloader} is not a valid modloader for {config["game_version"]}! Exiting...')

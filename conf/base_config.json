@@ -1,11 +1,11 @@
 {
     "upstream_editions": {
         "additive": {
-            "hash": "600b579fce4e76768b3bf97c195cf0d2d0e40201",
+            "hash": "18913bd94fada0d518ca187b46b82e9d39d14247",
             "path": "additive"
         },
         "drill": {
-            "hash": "fcd32657cd014314966f7587832a0efb59f1bebf",
+            "hash": "c27190ffe240481b8b71e0ec93c678730040fe68",
             "path": "drill"
         }
     },
